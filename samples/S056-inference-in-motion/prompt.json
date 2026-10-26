@@ -1,0 +1,68 @@
+{
+  "no": "S056",
+  "prompt": {
+    "zh-CN": "给一家做推理（inference）的新创公司做一支现代、利落、有冲击力的横版（16:9）广告片，约 26 秒，公司不具名。六拍：一个想法出现、实时信号变成聪明的回应、一个问题打开无数可能、下一步在动态中成形、为持续前进而打造，最后片尾卡写“Inference, in motion.”。每一幕都自己写动画，配沉稳自信的英文旁白和一段极简电子乐，不写任何性能或产品承诺。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a modern, slick, punchy 16:9 landscape ad for an unnamed startup that works on inference, about 26 seconds long. Six beats: an idea arrives, live signals become smart responses, one question opens a thousand possibilities, the next step takes shape in motion, build for momentum, and an end card that reads “Inference, in motion.” Write every scene as custom animation, with a calm, confident English voiceover over a minimal electronic track, and make no performance or product claims. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "幫一家做推論（inference）的新創公司做一支現代、俐落、有衝擊力的橫版（16:9）廣告片，約 26 秒，不提公司名稱。六個節拍：一個想法出現、即時訊號變成聰明的回應、一個問題打開無數可能、下一步在動態中成形、為持續的動能而打造，最後片尾卡寫「Inference, in motion.」。每一幕都自己寫動畫，配沉穩自信的英文旁白和一段極簡電子樂，不寫任何效能或產品承諾。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "推論（inference）を手がけるスタートアップのために、モダンで洗練された、インパクトのある横長（16:9）の広告動画を約26秒で作ってください。社名は出しません。構成は6ビートで、アイデアが生まれる、リアルタイムの信号が賢い応答に変わる、一つの問いが無数の可能性を開く、次の一歩が動きの中で形になる、勢いを保ち続けるために作られている、そして最後のエンドカードに「Inference, in motion.」と表示します。すべてのシーンを独自のアニメーションで作り、落ち着いて自信のある英語のナレーションとミニマルな電子音楽を合わせ、性能や製品についての約束は一切書かないでください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "추론(inference) 분야의 스타트업을 위해, 회사 이름은 밝히지 않고 현대적이고 세련되며 임팩트 있는 가로형(16:9) 광고 영상을 약 26초 길이로 만들어 주세요. 여섯 비트로 구성해요: 아이디어가 떠오르고, 실시간 신호가 똑똑한 응답이 되고, 질문 하나가 수많은 가능성을 열고, 다음 단계가 움직임 속에서 모양을 갖추고, 지속되는 추진력을 위해 만들어지고, 마지막 엔딩 카드에는 “Inference, in motion.”이라고 적어요. 모든 장면은 직접 애니메이션으로 만들고, 미니멀한 전자음악 위에 차분하고 자신감 있는 영어 내레이션을 깔아 주세요. 성능이나 제품에 대한 약속은 하나도 넣지 마세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un anuncio moderno, ágil y contundente, de unos 26 segundos y en formato horizontal 16:9, para una startup de inferencia cuyo nombre no se menciona. Seis momentos: llega una idea, las señales en tiempo real se convierten en respuestas inteligentes, una pregunta abre mil posibilidades, el siguiente paso toma forma en movimiento, pensado para un impulso sostenido, y una tarjeta final que dice «Inference, in motion.». Crea cada escena con animación propia, con una narración en inglés tranquila y segura sobre una pista electrónica minimalista, y no hagas ninguna promesa de rendimiento ni de producto. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach einen modernen, eleganten und packenden Werbespot im Querformat (16:9) für ein ungenanntes Start-up, das an Inferenz arbeitet, etwa 26 Sekunden lang. Sechs Beats: Eine Idee taucht auf, Live-Signale werden zu klugen Antworten, eine Frage öffnet tausend Möglichkeiten, der nächste Schritt nimmt in Bewegung Gestalt an, gebaut für Momentum, und eine Schlusstafel mit „Inference, in motion.“ Schreib jede Szene als eigene Animation, mit einer ruhigen, selbstbewussten englischen Sprecherstimme und minimalistischer elektronischer Musik, und mach keine Leistungs- oder Produktversprechen. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Créez une publicité moderne, élégante et percutante au format paysage (16:9) pour une start-up anonyme spécialisée dans l'inférence, d'environ 26 secondes. Six temps : une idée surgit, des signaux en temps réel deviennent des réponses intelligentes, une question ouvre mille possibilités, l'étape suivante prend forme en mouvement, construire pour garder l'élan, et un carton de fin qui affiche « Inference, in motion. ». Écrivez chaque scène en animation sur mesure, avec une voix off anglaise calme et assurée sur une piste électronique minimaliste, et sans aucune promesse de performance ni de produit. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um anúncio moderno, elegante e impactante na horizontal (16:9), com cerca de 26 segundos, para uma startup sem nome que trabalha com inferência. Seis momentos: uma ideia surge, sinais ao vivo viram respostas inteligentes, uma pergunta abre mil possibilidades, o próximo passo ganha forma em movimento, construir para manter o embalo e uma cartela final com “Inference, in motion.”. Faça todas as cenas com animação própria, com narração em inglês calma e confiante sobre uma faixa eletrônica minimalista, e não faça nenhuma promessa de desempenho ou de produto. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Codex",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Codex",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "macOS say",
+      "model": "Samantha",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Minimal Electronic 100",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Codex",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "参考帖子里的这支视频是用 Opus 5.5 生成的，我们用 GPT-6 Sol 试试同样的提示词，看看生成了什么。",
+      "en": "The video in that post was made with Opus 5.5. Let's try the same prompt with GPT-6 Sol and see what it produces."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "原片英文旁白是 macOS 系统声音 Samantha（语速 235）；样片库播放的是随包预先生成的本机旁白。系统语音许可仅限个人非商业使用，只作草稿试听，不用于交付，Agent 不默认选用。原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。",
+    "en": "The original English narration is the macOS system voice Samantha (rate 235); the gallery plays a narration pregenerated on this Mac. System voices allow personal non-commercial use only: draft auditions, never delivery or Agent defaults. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback.",
+    "zh-Hant": "原片英文旁白是 macOS 系統聲音 Samantha（語速 235）；樣片庫播放的是隨包預先生成的本機旁白。系統語音僅限個人非商業使用，只作草稿試聽，不用於交付，Agent 不預設選用。原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。",
+    "ja": "元の英語ナレーションは macOS のシステム音声 Samantha（速度 235）です。サンプルライブラリでは同梱の事前生成ナレーションが再生されます。システム音声は個人的・非商用利用の草稿試聴のみで、納品や Agent の既定には使いません。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。",
+    "ko": "원본 영어 내레이션은 macOS 시스템 음성 Samantha(속도 235)입니다. 샘플 라이브러리에서는 함께 제공되는 미리 생성된 내레이션이 재생됩니다. 시스템 음성은 개인 비상업 초안 시청 전용이며 납품이나 Agent 기본값으로 쓰지 않습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다.",
+    "es": "La narración original en inglés usa la voz del sistema de macOS Samantha (velocidad 235); la galería reproduce una narración generada de antemano. Las voces del sistema solo permiten uso personal no comercial: borradores, nunca entrega ni opción predeterminada del Agent. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema.",
+    "de": "Die englische Originalstimme ist die macOS-Systemstimme Samantha (Tempo 235); die Galerie spielt eine vorab erzeugte Sprachspur. Systemstimmen sind nur privat und nichtkommerziell für Entwurfsproben nutzbar, nicht für Auslieferung oder Agent-Voreinstellungen. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen.",
+    "fr": "La narration anglaise d'origine utilise la voix système macOS Samantha (débit 235) ; la galerie lit une narration générée à l'avance. Les voix système sont réservées aux essais personnels non commerciaux, jamais à la livraison ni au choix par défaut de l’Agent. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système.",
+    "pt-BR": "A narração original em inglês usa a voz do sistema macOS Samantha (velocidade 235); a galeria toca uma narração gerada de antemão. Vozes do sistema só permitem testes pessoais não comerciais, nunca entrega nem padrão do Agent. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema."
+  }
+}

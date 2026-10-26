@@ -1,0 +1,37 @@
+{
+  "contractVersion": 3,
+  "title": "Inference, in motion",
+  "sourceTitle": "Original creative interpretation of the supplied one-sentence brief; no factual product claims",
+  "scenes": [
+    {
+      "id": "s1", "title": "The moment", "narration": "An idea arrives, and the world doesn't wait.",
+      "sourceQuote": "An idea arrives, and the world doesn't wait.", "hold": 1.2,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "now"}}}
+    },
+    {
+      "id": "s2", "title": "Live signals", "narration": "Live signals become smart responses.",
+      "sourceQuote": "Live signals become smart responses.", "hold": 1.2,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "signals"}}}
+    },
+    {
+      "id": "s3", "title": "Possibilities", "narration": "One question opens a thousand possibilities.",
+      "sourceQuote": "One question opens a thousand possibilities.", "hold": 1.5,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "question"}}}
+    },
+    {
+      "id": "s4", "title": "Next step", "narration": "The next step takes shape in motion.",
+      "sourceQuote": "The next step takes shape in motion.", "hold": 1.2,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "next"}}}
+    },
+    {
+      "id": "s5", "title": "Momentum", "narration": "Build for momentum and keep people in flow.",
+      "sourceQuote": "Build for momentum and keep people in flow.", "hold": 1.4,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "flow"}}}
+    },
+    {
+      "id": "s6", "title": "End card", "narration": "Inference, in motion.",
+      "sourceQuote": "Inference, in motion.", "hold": 2.0,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "inference-film", "props": {"phase": "end"}}}
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "contractVersion": 3,
+  "title": "山径晨声",
+  "sourceTitle": "原创虚构样片原文",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "山径与远钟",
+      "narration": "这是一首为本片新写的五言小诗。薄雾开山径。疏钟过远汀。读到钟声时，稍停一息，让山路在晨雾里慢慢显出来。",
+      "sourceQuote": "这是一首为本片新写的五言小诗。薄雾开山径。疏钟过远汀。读到钟声时，稍停一息，让山路在晨雾里慢慢显出来。",
+      "hold": 2.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "morning-verse",
+          "props": {
+            "kicker": "原创五言小诗",
+            "title": "山径晨声",
+            "lines": [
+              "薄雾开山径",
+              "疏钟过远汀"
+            ],
+            "lineSentenceIndices": [
+              1,
+              2
+            ],
+            "art": "mountain"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "溪光与归鸟",
+      "narration": "溪光摇竹影。归鸟入云青。视线由水边抬向天空。溪面轻动，竹影跟着晃，归鸟远去，青色却留在云里。",
+      "sourceQuote": "溪光摇竹影。归鸟入云青。视线由水边抬向天空。溪面轻动，竹影跟着晃，归鸟远去，青色却留在云里。",
+      "hold": 2.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "morning-verse",
+          "props": {
+            "kicker": "原创五言小诗",
+            "title": "山径晨声",
+            "lines": [
+              "溪光摇竹影",
+              "归鸟入云青"
+            ],
+            "lineSentenceIndices": [
+              0,
+              1
+            ],
+            "art": "stream"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "跟着感官移动",
+      "narration": "四句不写人物，只顺着清晨的感官移动：先看见山径，再听见远钟；低头看溪水，最后抬头望飞鸟。",
+      "sourceQuote": "四句不写人物，只顺着清晨的感官移动：先看见山径，再听见远钟；低头看溪水，最后抬头望飞鸟。",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "verse-journey",
+          "props": {
+            "heading": "从山径到远空",
+            "stages": [
+              "山径",
+              "钟声",
+              "溪光",
+              "归鸟"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "留一息空白",
+      "narration": "末句之后留一段静默，再回望山路。诗没有给出答案，只把清晨从近处送向远方。",
+      "sourceQuote": "末句之后留一段静默，再回望山路。诗没有给出答案，只把清晨从近处送向远方。",
+      "hold": 2.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "读完，稍停",
+            "title": "把清晨送向远方",
+            "subtitle": "留白，让诗意停一会儿"
+          }
+        }
+      }
+    }
+  ]
+}

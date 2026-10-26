@@ -1,0 +1,168 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S047",
+  "title": "小纸船的回程",
+  "titles": {
+    "zh": "小纸船的回程",
+    "en": "The Paper Boat's Trip Home"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [
+    "T08"
+  ],
+  "modules": [
+    "story-illustration"
+  ],
+  "page": "https://galanty.cn/samples/#S047",
+  "version": {
+    "commit": "269b89dd2c9786934cecd296fe5fd17d6133bb4a",
+    "contentDigest": "cd18e9ef760b821f919e4f0bbd19a51022f2395cacc97dc8c91163d7b1f89d9e",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": null,
+  "narration": [
+    {
+      "seedId": "S047",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 8,
+      "durationSeconds": 27.978544,
+      "files": 9
+    },
+    {
+      "seedId": "S047-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 225,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 14,
+      "durationSeconds": 29.432832,
+      "files": 15
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6279,
+      "sha256": "7dde168935d935c85d04275d0c7655b0a2e011c16e8bdccad091d53d17398701",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2326,
+      "sha256": "5376542ba521ac2a831901aa02878c1ec4a0f843a3b4c182d17b2714467874b3",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2358,
+      "sha256": "eaca5aed6d4146578f91306d0e86ff2f6625d0b2a60620420c9cb38dbcb1304b",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 486,
+      "sha256": "fac48285bc5ef59df58ffc8c4378d8541a0b70c97a2d8ef2ff57a7b41a0164e9",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 417,
+      "sha256": "73bf070b3cb29e72e425fbbda84fee5b37a83ecb68ceff4ecb6b632406577825",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 2710,
+      "sha256": "98ee4c4a87c23e3e79b75159a609fb91ddc06c822e14fce3fa72b6a9f0b5e8dc",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 823,
+      "sha256": "4eaa7e2b157901a12e0399de0da4b2238101ffb4a12a25b3eba25ea07ea96414",
+      "license": "sample-content"
+    },
+    {
+      "path": "story-illustration.tsx",
+      "bytes": 6339,
+      "sha256": "cb60a31b533fad05031a9aa15c542ef7d44708c79a672f6dbff6bbc937f0f910",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6376,
+      "sha256": "cd5c26cf8ac87d9bdbc9c9e0f02c55cbe53e15d2b06af093324ff612fb02eb08",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 460,
+      "sha256": "7a34951909fa7d4f704ac010a8bbe3b9a25665aa46287a47d646ef34c10d7356",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7464,
+      "sha256": "755db19a5c78423e49a8faeb143eaa6d579d93a603394772faef404c22331db0",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1938,
+      "sha256": "51a3f2fab8c214a80d82f5f9fd4865321fbeb046bc480b016a5f1ba0a27ffcb9",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S047.zip",
+    "bytes": 317231,
+    "sha256": "0cc71a3bfd1a6e2cd9e0498b96fec918bde50836a895b5430ce61a90f3cad011",
+    "format": "galanty-source-pack",
+    "contentDigest": "cd18e9ef760b821f919e4f0bbd19a51022f2395cacc97dc8c91163d7b1f89d9e"
+  },
+  "inlineMedia": []
+}

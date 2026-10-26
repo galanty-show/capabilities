@@ -1,0 +1,43 @@
+{
+  "no": "S118",
+  "title": "为什么天空是蓝的，夕阳是红的",
+  "titles": {
+    "zh": "为什么天空是蓝的，夕阳是红的",
+    "en": "Why the Sky Is Blue and Sunsets Are Red"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "sky-open",
+    "sky-light",
+    "sky-photons",
+    "sky-sunset"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创科普讲解：旁白为自写讲解（出处见 source.md）；画面全部由代码计算，配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-sky-blue",
+    "selection": "library:original-sky-blue",
+    "title": "Why the Sky Is Blue",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Why the Sky Is Blue — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S118/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (measured about 103.4 BPM); edited by tools/production/code-sky-20261013/music_build.py (advanced 0.2 s, two beats cut at 90.3 s, 300 Hz dip, 223 NumPy-synthesized sound effects with a 6 kHz shelf, no third-party samples), then encoded to 32 kbps MP3, 48 kHz stereo (library size budget, under 512 KB). Timed to sample S118; other films will not hit its accents.",
+    "file": "music/sky-blue.mp3",
+    "bundled": true
+  },
+  "note": "画面没有任何图片素材：天空、日面、海面倒影、光谱、光子与云的颜色全部由幕代码按物理模型逐帧计算（CIE 1931 色匹配、5778 K 黑体、瑞利 + 薄霾 + 臭氧单次散射、Kasten–Young 光程），简化与放大之处见目录 README。旁白为预先生成的 Gemini 云端配音（随包旁白种子，播放不联网）；改旁白文字后新句需要自备 Gemini key 用同一命令重配，或本机配音整片重配。配乐 Why the Sky Is Blue（CC0，随包曲库 library:original-sky-blue）按本片逐字时间轴卡点：改节奏或换曲后重击与音效不再对齐。每帧要算几千个方向的光谱积分，渲染较慢。正文约 120 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S118"
+}

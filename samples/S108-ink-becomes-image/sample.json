@@ -1,0 +1,45 @@
+{
+  "no": "S108",
+  "title": "落笔成影",
+  "titles": {
+    "zh": "落笔成影",
+    "en": "Ink Becomes Image"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "文影介绍",
+  "templates": [
+    "T23"
+  ],
+  "modules": [
+    "ink-open",
+    "ink-poem-painting",
+    "ink-edit",
+    "ink-finale"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创；诗句公有领域（李白、柳宗元、杜甫、王维）",
+    "verified": true
+  },
+  "music": {
+    "id": "original-luobi",
+    "selection": "library:original-luobi",
+    "title": "Luobi",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Luobi — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S108/music/synth.py",
+    "modifications": "Synthesized by templates/samples/ink-promo/music/synth.py (numpy/scipy additive and subtractive synthesis: guzheng, pipa, dizi, xiao, taiko, tanggu, gong, woodblock, bells, water drop, brush swish; 48 kHz WAV), instrumental version without the narration mix, then encoded to 48 kbps MP3, 48 kHz stereo (library size budget); no samples, no third-party audio, no AI-generated audio. Timed to sample S108 (96 BPM grid of its narration); other films will not hit its accents.",
+    "file": "music/luobi.mp3",
+    "bundled": true
+  },
+  "note": "无配乐歌曲模式的旁白版：旁白为原片已生成的本机 Qwen3-TTS 诗词朗读（随包旁白种子，播放不联网、不需要配音模型），改旁白文字后新句需要本机配音整片重配。配乐《落笔》为本片原创代码合成（96 BPM，随包曲库 library:original-luobi，CC0），按原片时间表合成；样片靠 settings.sentencePauses 与各幕 hold 把旁白放回原片时刻：改字、改停顿或换曲后拍点不再对齐。四首诗是模板 T23 诗句化画（字随朗读逐字落纸、念完化画），开篇与尾声的“文影”有手写笔顺，其他字按字形逐笔近似。宿主会给诗句也配字幕。毛笔字用 macOS 行楷，其他系统回退楷体。正文约 68.5 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S108"
+}

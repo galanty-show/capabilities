@@ -1,0 +1,112 @@
+{
+  "contractVersion": 3,
+  "title": "Bridgeside Bookhouse: A Mock Weekly Report",
+  "sourceTitle": "A fully simulated weekly data report; the bookhouse, the stats and the numbers are all fictional and reflect no real business.",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 100
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Headline and Scope",
+      "narration": "The mock bookhouse lent 84 books this week. It counts loans logged Monday through Sunday.",
+      "sourceQuote": "The mock bookhouse lent 84 books this week. It counts loans logged Monday through Sunday.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "84 books lent this week",
+            "metrics": [
+              {
+                "label": "Logged loans",
+                "value": 84,
+                "unit": "books"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Three Measures",
+      "narration": "The same sheet tracks three measures. It logged 60 visitors and 42 borrowers. And 79 books were returned.",
+      "sourceQuote": "The same sheet tracks three measures. It logged 60 visitors and 42 borrowers. And 79 books were returned.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "Three mock metrics",
+            "metrics": [
+              {
+                "label": "Visitors",
+                "value": 60,
+                "unit": "people"
+              },
+              {
+                "label": "Borrowers",
+                "value": 42,
+                "unit": "people"
+              },
+              {
+                "label": "Returned",
+                "value": 79,
+                "unit": "books"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "The Spike",
+      "narration": "Wednesday saw 22 loans, the week's high. This sheet can't say if an event caused it.",
+      "sourceQuote": "Wednesday saw 22 loans, the week's high. This sheet can't say if an event caused it.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "Wednesday was the peak",
+            "metrics": [
+              {
+                "label": "Lent on Wednesday",
+                "value": 22,
+                "unit": "books"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Limits and Next Steps",
+      "narration": "This is only one week of mock data. Keep the same scope next week. Then see if the peak comes back.",
+      "sourceQuote": "This is only one week of mock data. Keep the same scope next week. Then see if the peak comes back.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "What to watch next week",
+            "points": [
+              "Keep rules",
+              "Add weeks",
+              "Peak again"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

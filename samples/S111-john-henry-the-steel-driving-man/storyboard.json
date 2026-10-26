@@ -1,0 +1,304 @@
+{
+  "contractVersion": 3,
+  "title": "John Henry, the Steel-Driving Man",
+  "sourceTitle": "John Henry (American folk legend), an original retelling",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "A Hammer Rings",
+      "narration": "Deep inside a mountain, a hammer rings. Steel on steel, again and again.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-hook",
+          "props": {
+            "beats": [
+              0.12,
+              3.767,
+              5.033,
+              6.067,
+              7.1,
+              8.067
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "John Henry",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.6
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-title",
+          "props": {
+            "beats": [
+              0.03
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "born",
+      "title": "Born with a Hammer",
+      "narration": "The way they tell it, John Henry was born with a hammer in hand. By the time he could walk, he could swing it.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-born",
+          "props": {
+            "beats": [
+              7.367
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "west",
+      "title": "Rails West",
+      "narration": "After the Civil War, the rails pushed west. Much of that track was laid by Black workers.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-west",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "crew",
+      "title": "Driving Steel",
+      "narration": "One man held the steel. One swung the hammer. And nobody swung it like John Henry.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-crew",
+          "props": {
+            "beats": [
+              4.48,
+              5.784,
+              7.088
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "mountain",
+      "title": "The Mountain",
+      "narration": "Then a mountain stood in the way. A mile and more of solid rock. Drill it, blast it, haul it out.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-mountain",
+          "props": {
+            "beats": [
+              5.733,
+              6.533,
+              7.5
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "drill",
+      "title": "The Steam Drill",
+      "narration": "One day a salesman rolled in a steam drill. He said it could outwork any man alive.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-drill",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "reply",
+      "title": "A Man Ain't Nothing but a Man",
+      "narration": "John Henry looked at that machine and said, “A man ain't nothing but a man. Before that drill beats me down, I'll die with this hammer in my hand.”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-reply",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "race",
+      "title": "Man Against Machine",
+      "narration": "So they raced, man against machine. The drill hissed and pounded. John Henry swung, and swung, and swung. Faster, and faster still. The mountain shook.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "race",
+            "beats": [
+              0.0,
+              0.652,
+              1.304,
+              1.957,
+              2.609,
+              3.23,
+              3.852,
+              4.474,
+              5.096,
+              5.689,
+              6.282,
+              6.874,
+              7.467,
+              8.033,
+              8.598,
+              9.163,
+              9.728,
+              10.267,
+              10.806,
+              11.345,
+              11.884,
+              12.398,
+              12.912,
+              13.425,
+              13.939,
+              14.429,
+              14.919,
+              15.409,
+              15.899,
+              16.366,
+              16.833,
+              17.3
+            ]
+          }
+        }
+      },
+      "hold": 2.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "win",
+      "title": "Fourteen Feet",
+      "narration": "The dust cleared: the drill had nine feet. John Henry had fourteen. He had won.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "win",
+            "beats": [
+              6.833
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "still",
+      "title": "Stillness",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "still",
+            "beats": [
+              0.3,
+              1.1,
+              1.95,
+              2.85
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "fall",
+      "title": "Hammer in Hand",
+      "narration": "Then his great heart gave out. He fell with the hammer still in his hand.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-fall",
+          "props": {}
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "legacy",
+      "title": "Every Swing",
+      "narration": "Machines grew stronger, and they still do. But people kept singing about John Henry, not for the race he won, but for the heart he put in every swing.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-legacy",
+          "props": {}
+        }
+      },
+      "hold": 3.0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    }
+  ]
+}

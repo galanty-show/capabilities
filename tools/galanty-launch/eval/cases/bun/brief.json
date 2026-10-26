@@ -1,0 +1,65 @@
+{
+  "productName": "Bun",
+  "tagline": "Build. Test. Ship.",
+  "installCommand": "npm install -g bun",
+  "sellingPoints": [
+    {
+      "text": "All in one",
+      "source": "https://bun.sh/docs",
+      "detail": "Runtime / packages / tests / bundler",
+      "metric": {
+        "value": 4,
+        "label": "TOOLS. ONE BINARY.",
+        "source": "https://bun.sh/docs",
+        "items": [
+          "RUN",
+          "INSTALL",
+          "TEST",
+          "BUILD"
+        ]
+      }
+    },
+    {
+      "text": "Test together",
+      "source": "https://bun.sh/docs/test",
+      "detail": "Concurrent tests",
+      "command": "bun test --concurrent",
+      "scale": {
+        "count": 16,
+        "label": "CONCURRENCY STUDY / 16 ILLUSTRATIVE TESTS"
+      }
+    },
+    {
+      "text": "Ship standalone",
+      "source": "https://bun.sh/docs/bundler/executables",
+      "detail": "A single executable",
+      "command": "bun build --compile ./app.ts"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2023.09",
+      "label": "Bun 1.0",
+      "source": "https://bun.sh/blog/bun-v1.0"
+    },
+    {
+      "date": "2024.04",
+      "label": "Bun 1.1",
+      "source": "https://bun.sh/blog/bun-v1.1"
+    },
+    {
+      "date": "2025.01",
+      "label": "Bun 1.2",
+      "source": "https://bun.sh/blog/bun-v1.2"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#ffb6cf"
+  },
+  "musicStyle": "electronic",
+  "seed": 105,
+  "durationSeconds": 30,
+  "demoLabel": "EVAL / INDEPENDENT STUDY"
+}

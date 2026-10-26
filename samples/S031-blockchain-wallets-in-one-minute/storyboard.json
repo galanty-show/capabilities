@@ -1,0 +1,121 @@
+{
+  "contractVersion": 3,
+  "title": "一分钟认识区块链钱包",
+  "sourceTitle": "原创钱包概念解说",
+  "scenes": [
+    {
+      "id": "w1",
+      "title": "钱包，打开链上的一扇窗",
+      "narration": "钱包看起来像装钱的口袋。自托管钱包实际管理密钥。资产记录留在区块链上。",
+      "sourceQuote": "钱包看起来像装钱的口袋。自托管钱包实际管理密钥。资产记录留在区块链上。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "wallet",
+            "title": "钱包，打开链上的一扇窗",
+            "kicker": "入口",
+            "index": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "w2",
+      "title": "地址与密钥，各有分工",
+      "narration": "地址像收件口，可以分享。密钥像签字笔，需要自己保管。知道地址，不等于拿到控制权。",
+      "sourceQuote": "地址像收件口，可以分享。密钥像签字笔，需要自己保管。知道地址，不等于拿到控制权。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "roles",
+            "title": "地址与密钥，各有分工",
+            "kicker": "角色",
+            "index": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "w3",
+      "title": "先确认，你在哪条路上",
+      "narration": "把不同网络想成两条道路。接收方和发送方，需要选同一条。画面中的甲乙，只是示意。",
+      "sourceQuote": "把不同网络想成两条道路。接收方和发送方，需要选同一条。画面中的甲乙，只是示意。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "networks",
+            "title": "先确认，你在哪条路上",
+            "kicker": "网络",
+            "index": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "w4",
+      "title": "一次转账，经过三道门",
+      "narration": "先核对网络、地址和内容。再用密钥签名，表达授权。送到网络确认之后，记录才会更新。",
+      "sourceQuote": "先核对网络、地址和内容。再用密钥签名，表达授权。送到网络确认之后，记录才会更新。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "process",
+            "title": "一次转账，经过三道门",
+            "kicker": "过程",
+            "index": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "w5",
+      "title": "换个设备，也要找回控制权",
+      "narration": "备份帮助你恢复账户控制权。助记词不能当普通截图随手发送。保管备份，也是保管钥匙。",
+      "sourceQuote": "备份帮助你恢复账户控制权。助记词不能当普通截图随手发送。保管备份，也是保管钥匙。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "backup",
+            "title": "换个设备，也要找回控制权",
+            "kicker": "备份",
+            "index": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "w6",
+      "title": "记住这三个位置",
+      "narration": "地址负责接收，密钥用于签名。钱包帮助操作，记录留在链上。分清它们，才算认识了钱包。",
+      "sourceQuote": "地址负责接收，密钥用于签名。钱包帮助操作，记录留在链上。分清它们，才算认识了钱包。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "summary",
+            "title": "记住这三个位置",
+            "kicker": "回扣",
+            "index": 6
+          }
+        }
+      }
+    }
+  ]
+}

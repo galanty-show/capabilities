@@ -1,0 +1,266 @@
+{
+  "contractVersion": 3,
+  "title": "后羿射日 · 讲给小朋友",
+  "sourceTitle": "中国神话《后羿射日》（《淮南子》《山海经》《楚辞》）儿童复述",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "十个太阳",
+      "narration": "很久很久以前，天上有十个太阳！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "hook"
+          }
+        }
+      },
+      "hold": 0.1,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "后羿射日",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.0
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "title"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "fusang",
+      "title": "扶桑树上的金乌",
+      "narration": "这十个太阳，是天帝的孩子：十只太阳鸟，叫金乌。它们住在东海的扶桑树上，每天只派一只飞上天。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-fusang",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "play",
+      "title": "一起出去玩",
+      "narration": "有一天，金乌们想出一个好主意。我们一起出去玩吧！呼啦啦，十个太阳一起跳上了天空。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "play"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "drought",
+      "title": "大火炉",
+      "narration": "这一下可糟啦，天空像个大火炉！大地裂开了口子，庄稼枯了，小河干了。人们热得受不了，小狗也直吐舌头。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "drought"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "hero",
+      "title": "神箭手后羿",
+      "narration": "这时，神箭手后羿站了出来。天帝送给他一张红色的神弓，和一袋白色的神箭。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "hero"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "call",
+      "title": "快回家吧",
+      "narration": "金乌，快回家吧！可金乌们玩疯了，谁也没听见。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "call"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "draw",
+      "title": "拉满神弓",
+      "narration": "后羿只好拉开神弓。弓弦拉得满满的，像一轮圆圆的月亮。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "draw"
+          }
+        }
+      },
+      "hold": 0.1,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "first",
+      "title": "第一箭",
+      "narration": "只听嗖的一声，正中一只金乌！它变成一把金色的羽毛，飘呀飘，落进了大海。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "first"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "volley",
+      "title": "一箭接一箭",
+      "narration": "后羿一箭接一箭！八个，七个，六个，五个，四个，三个，两个，一个！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "volley"
+          }
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "last",
+      "title": "留下一个",
+      "narration": "天上只剩最后一个太阳了。后羿又搭上一支箭，人们急忙拦住他。留下它吧！我们还需要阳光呀！后羿笑了笑，放下了神弓。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "last"
+          }
+        }
+      },
+      "hold": 0.1,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "calm",
+      "title": "一个太阳",
+      "narration": "从此，天上只有一个太阳。白天暖洋洋，晚上凉丝丝。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "calm"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "spring",
+      "title": "下雨啦",
+      "narration": "哗啦啦，下雨啦！大地的裂缝合上了，小苗钻出了土，庄稼又绿了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "spring"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ending",
+      "title": "保护大家",
+      "narration": "后羿的力气很大很大，可他的力气，是用来保护大家的。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-end",
+          "props": {}
+        }
+      },
+      "hold": 2.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    }
+  ]
+}

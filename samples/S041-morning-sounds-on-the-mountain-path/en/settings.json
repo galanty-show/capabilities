@@ -1,0 +1,41 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "narration": true,
+  "presenter": false,
+  "voice": "Sulafat",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S041-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 220,
+  "concurrency": 3,
+  "brandOutro": "made-with",
+  "musicVolume": 0.1,
+  "musicDuckDb": -12,
+  "visualStyle": "motion",
+  "targetSeconds": 54,
+  "maxDurationSeconds": 75,
+  "musicFile": "library:generated-calm-current-64",
+  "theme": {
+    "background": "#182B31",
+    "accent": "#E7CB91",
+    "text": "#F7F0DE",
+    "muted": "#A8BAC0"
+  }
+}

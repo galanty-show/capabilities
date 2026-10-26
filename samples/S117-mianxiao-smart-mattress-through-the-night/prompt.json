@@ -1,0 +1,90 @@
+{
+  "no": "S117",
+  "prompt": {
+    "zh-CN": "做一支 50 秒左右的横版（16:9）智能床垫宣传片，品牌和型号自己虚构，不出现任何真实商标。开头用凌晨三点睁眼和一条忽高忽低的睡眠曲线做钩子；再用代码画的数据图讲清四个卖点：睡眠分期带状图实时画出来、翻身时压力热力图跟着变、打鼾时床头微微抬起声波平息、左右分区控温；清晨醒来，手机里的睡眠报告分数一路跳动后落定；最后是产品英雄镜头、口号和结尾标版。调性安静、高级、可信，色彩从深夜蓝暖到清晨金。卧室、产品剖面和材质特写可以生成，产品外观每张图一致；数据和界面都用代码画，卡在旁白念到的词上。配音用沉稳偏低的云端声音，健康说法要克制；配乐原创，从安静的夜抬升到“醒来”那一刻的高点，再加呼吸般的底噪、提示音和轻柔的电机声。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a ~50-second 16:9 promo for a smart mattress with an invented brand and model and no real trademarks. Hook: someone awake at 3 a.m. and a jagged sleep curve. Then four features as code-drawn data visuals: a sleep-stage chart drawn live, a pressure heat map that changes when the sleeper turns over, the head of the bed rising slightly as snoring waves calm down, and separate left/right temperature zones. At sunrise, a phone sleep report whose score ticks up and lands; then a product hero shot, the slogan and an end card. Quiet, premium and credible, with colors warming from midnight blue to morning gold. Generate the bedroom, a product cutaway and fabric close-ups, with the product identical in every image; draw all data and UI in code, timed to the narration. Use a calm, low cloud voice and modest health claims; compose original music that rises from the night to a high point at waking, with breathing-like ambience, chimes and a soft motor sound. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支約 50 秒的橫版（16:9）智慧床墊宣傳片，品牌和型號自己虛構，不出現任何真實商標。開頭用凌晨三點睜眼和一條忽高忽低的睡眠曲線做鉤子；再用程式碼畫的資料圖講清四個賣點：睡眠分期帶狀圖即時畫出來、翻身時壓力熱力圖跟著變、打鼾時床頭微微抬起、聲波平息、左右分區控溫；清晨醒來，手機裡的睡眠報告分數一路跳動後落定；最後是產品英雄鏡頭、口號和結尾標版。調性安靜、高級、可信，色彩從深夜藍暖到清晨金。臥室、產品剖面和材質特寫可以生成，產品外觀每張圖一致；資料和介面都用程式碼畫，對準旁白念到的詞。配音用沉穩偏低的雲端聲音，健康說法要克制；配樂原創，從安靜的夜抬升到「醒來」那一刻的高點，再加呼吸般的底噪、提示音和輕柔的電機聲。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約50秒の横長（16:9）のスマートマットレス宣伝動画を作ってください。ブランドと型番は架空にし、実在の商標は出さないでください。冒頭は午前3時に目が覚める場面と上下に揺れる睡眠曲線でつかみ、次にコードで描くデータ表現で4つの特長を見せます：睡眠ステージの帯グラフがリアルタイムに描かれる、寝返りで体圧ヒートマップが変わる、いびきに合わせてベッドの頭側がわずかに上がり音の波が静まる、左右で温度を分けて調整する。夜明けにはスマホの睡眠レポートのスコアが跳ねながら確定し、最後に製品のヒーローショット、キャッチコピー、エンドカード。静かで上質、信頼できるトーンで、色は深夜の青から朝の金色へ。寝室、製品の断面、素材のアップは生成してよく、製品の見た目はどの画像でも同じに。データと画面はすべてコードで描き、ナレーションの言葉に合わせてください。声は落ち着いた低めのクラウド音声、健康の表現は控えめに。BGM はオリジナルで、静かな夜から目覚めの瞬間の頂点へ高まり、呼吸のような環境音、通知音、静かなモーター音も加えてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 50초 분량의 가로형(16:9) 스마트 매트리스 홍보 영상을 만들어 주세요. 브랜드와 모델명은 지어내고 실제 상표는 쓰지 마세요. 시작은 새벽 3시에 눈뜬 장면과 들쭉날쭉한 수면 곡선으로 잡고, 이어서 코드로 그린 데이터 시각화로 네 가지 장점을 보여 줍니다. 수면 단계 띠 그래프가 실시간으로 그려지고, 뒤척이면 체압 히트맵이 바뀌고, 코를 골면 침대 머리 쪽이 살짝 올라가며 소리 파형이 잦아들고, 좌우 온도를 따로 조절합니다. 아침에는 휴대폰 수면 리포트 점수가 오르내리다 확정되고, 마지막은 제품 히어로 컷, 슬로건, 엔딩 카드입니다. 조용하고 고급스럽고 믿음직하게, 색은 한밤의 파랑에서 아침의 금빛으로 따뜻해지게 해 주세요. 침실, 제품 단면, 소재 클로즈업은 생성해도 되지만 제품 외관은 모든 이미지에서 같아야 합니다. 데이터와 화면은 모두 코드로 그리고 내레이션 단어에 맞춰 주세요. 목소리는 차분하고 낮은 클라우드 음성, 건강 관련 표현은 절제하고, 음악은 오리지널로 밤에서 깨어나는 순간의 절정까지 올라가게, 숨소리 같은 배경음과 알림음, 부드러운 모터 소리를 넣어 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo promocional horizontal (16:9) de unos 50 segundos para un colchón inteligente, con marca y modelo inventados y sin marcas reales. Gancho: alguien despierto a las 3 de la madrugada y una curva de sueño irregular. Luego, cuatro ventajas con datos dibujados en código: un gráfico de fases del sueño que se traza en directo, un mapa de calor de presión que cambia al darse la vuelta, la cabecera que sube un poco mientras se calman las ondas del ronquido, y zonas de temperatura separadas a izquierda y derecha. Al amanecer, el informe de sueño en el móvil con una puntuación que sube a saltos hasta fijarse; al final, plano del producto, eslogan y cierre. Tranquilo, elegante y creíble, del azul de medianoche al dorado de la mañana. Genera el dormitorio, un corte del producto y primeros planos del tejido, con el producto igual en todas las imágenes; dibuja datos e interfaces en código, sincronizados con la narración. Voz en la nube serena y grave, prudencia con la salud, y música original que suba de la noche al clímax del despertar, con fondo de respiración, avisos y un suave motor. Muéstramelo primero en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Erstelle ein etwa 50 Sekunden langes Querformat-Video (16:9) für eine smarte Matratze mit erfundener Marke und Modell, ohne echte Markenzeichen. Einstieg: jemand liegt um 3 Uhr nachts wach, dazu eine zackige Schlafkurve. Dann vier Vorteile als per Code gezeichnete Datengrafiken: ein Schlafphasen-Diagramm, das live entsteht, eine Druck-Heatmap, die sich beim Umdrehen ändert, ein Kopfteil, das sich beim Schnarchen leicht hebt, während die Schallwellen abklingen, und getrennte Temperaturzonen links und rechts. Bei Sonnenaufgang ein Schlafbericht auf dem Handy, dessen Punktzahl hochspringt und stehen bleibt; zum Schluss Produkt-Hero-Shot, Slogan und Abschlusstafel. Ruhig, hochwertig, glaubwürdig, Farben von Mitternachtsblau zu Morgengold. Schlafzimmer, Produktschnitt und Stoffdetails dürfen generiert sein, das Produkt überall gleich; Daten und Oberflächen per Code, getimt auf die Sprecherstimme. Ruhige, tiefe Cloud-Stimme, zurückhaltende Gesundheitsaussagen, eigene Musik, die von der Nacht bis zum Höhepunkt beim Aufwachen ansteigt, mit atemähnlichem Grundrauschen, Hinweistönen und leisem Motor. Zeig mir zuerst die Live-Vorschau und exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez un spot horizontal (16:9) d'environ 50 secondes pour un matelas connecté, avec une marque et un modèle inventés, sans aucune marque réelle. Accroche : quelqu'un éveillé à 3 h du matin et une courbe de sommeil en dents de scie. Puis quatre atouts en données dessinées en code : un graphique des phases de sommeil tracé en direct, une carte de pression qui change quand on se retourne, la tête du lit qui se relève un peu tandis que les ondes du ronflement s'apaisent, et des zones de température séparées à gauche et à droite. Au lever du soleil, le rapport de sommeil sur le téléphone, dont le score grimpe puis se fixe ; enfin plan du produit, slogan et carton de fin. Calme, haut de gamme et crédible, du bleu nuit à l'or du matin. Générez la chambre, une vue en coupe et des gros plans du tissu, avec le même produit sur chaque image ; dessinez données et interfaces en code, calées sur la narration. Voix cloud posée et grave, prudence sur la santé, musique originale qui monte de la nuit jusqu'au réveil, avec un fond de respiration, des signaux et un léger moteur. Montrez-moi d'abord l'aperçu en direct ; n'exportez le MP4 que lorsqu'il me convient.",
+    "pt-BR": "Faça um vídeo promocional horizontal (16:9) de uns 50 segundos para um colchão inteligente, com marca e modelo inventados e sem marcas reais. Abertura: alguém acordado às 3 da manhã e uma curva de sono irregular. Depois, quatro diferenciais em dados desenhados em código: um gráfico das fases do sono desenhado ao vivo, um mapa de calor de pressão que muda quando a pessoa se vira, a cabeceira subindo um pouco enquanto as ondas do ronco se acalmam, e zonas de temperatura separadas à esquerda e à direita. Ao amanhecer, o relatório de sono no celular com a nota subindo aos saltos até parar; por fim, destaque do produto, slogan e encerramento. Calmo, sofisticado e confiável, do azul da meia-noite ao dourado da manhã. Gere o quarto, um corte do produto e closes do tecido, com o produto igual em todas as imagens; desenhe dados e interfaces em código, sincronizados com a narração. Voz na nuvem serena e grave, cautela com a saúde, e trilha original que sobe da noite até o ápice ao acordar, com fundo de respiração, sinais sonoros e um motor suave. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Iapetus",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Mianxiao Dawn",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Following the standard of The Lychees of Chang'an, could you make a few popular American stories for me? You're in charge of planning and directing all the music and narration. I've sent you the Gemini key; use it for the voices and make a few high-quality American story templates. For the China region, make a few stories best suited to children under 10. Also make a few product promo videos, for example some products that became popular in China in 2026. Then make 3 videos of the kind Opus 5.5 is best at on today's market. And find the 5 most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "中文旁白是云端 Gemini 3.8 Flash TTS（音色 Iapetus）生成，随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。配乐按本片时间轴剪辑卡点，改节奏后重击不再对齐。原片云端费用约 US$1.3。",
+    "en": "The Chinese narration was generated in the cloud with Gemini 3.8 Flash TTS (voice Iapetus) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The score is cut to this film's timeline, so its accents drift if you change the pacing. The original cost about US$1.3 in cloud fees.",
+    "zh-Hant": "中文旁白是雲端 Gemini 3.8 Flash TTS（音色 Iapetus）生成，隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。配樂依本片時間軸剪輯對拍，改了節奏後重拍不再對齊。原片雲端費用約 US$1.3。",
+    "ja": "中国語ナレーションはクラウドの Gemini 3.8 Flash TTS（音声 Iapetus）で生成し、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。BGM はこの動画のタイムラインに合わせて編集しているため、テンポを変えるとアクセントがずれます。元の動画のクラウド費用は約 US$1.3 でした。",
+    "ko": "중국어 내레이션은 클라우드 Gemini 3.8 Flash TTS(음성 Iapetus)로 만들었고 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 음악은 이 영상의 타임라인에 맞춰 편집했기 때문에 템포를 바꾸면 강조점이 어긋납니다. 원본 제작의 클라우드 비용은 약 US$1.3였습니다.",
+    "es": "La narración en chino se generó en la nube con Gemini 3.8 Flash TTS (voz Iapetus) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. La música está montada sobre la línea de tiempo de este vídeo, así que sus acentos se desplazan si cambias el ritmo. El original costó unos US$1,3 en la nube.",
+    "de": "Die chinesische Sprachspur entstand in der Cloud mit Gemini 3.8 Flash TTS (Stimme Iapetus) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Die Musik ist auf die Zeitleiste dieses Films geschnitten; wenn du das Tempo änderst, sitzen die Akzente nicht mehr. Das Original kostete rund US$1,3 an Cloud-Gebühren.",
+    "fr": "La narration chinoise a été générée dans le cloud avec Gemini 3.8 Flash TTS (voix Iapetus) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. La musique est montée sur la timeline de ce film : si vous changez le rythme, ses accents se décalent. L'original a coûté environ 1,3 US$ de cloud.",
+    "pt-BR": "A narração em chinês foi gerada na nuvem com o Gemini 3.8 Flash TTS (voz Iapetus) e vem pré-gerada, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. A trilha foi editada na linha do tempo deste vídeo, então os acentos saem do lugar se você mudar o ritmo. O original custou cerca de US$1,3 em nuvem."
+  }
+}

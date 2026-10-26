@@ -1,0 +1,41 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "targetSeconds": 45,
+  "maxDurationSeconds": 60,
+  "narration": true,
+  "voice": "Vindemiatrix",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S048-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 250,
+  "concurrency": 2,
+  "musicFile": "",
+  "musicVolume": 0.18,
+  "brandOutro": "off",
+  "presenter": false,
+  "visualStyle": "typography",
+  "theme": {
+    "background": "#182824",
+    "accent": "#D8CA92",
+    "text": "#F6F0DC",
+    "muted": "#A8BAAC"
+  },
+  "typographyPreset": "poetry"
+}

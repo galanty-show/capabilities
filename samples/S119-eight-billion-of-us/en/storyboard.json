@@ -1,0 +1,417 @@
+{
+  "contractVersion": 3,
+  "title": "Eight Billion of Us",
+  "sourceTitle": "UN World Population Prospects 2024 and other public data (data-journalism short)",
+  "scenes": [
+    {
+      "id": "dot",
+      "title": "One Dot",
+      "narration": "This dot is one person. Zoom out: 100 people, 10,000, a million. On to 8 billion and more: humanity today.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-zoom",
+          "props": {
+            "mode": "out",
+            "stepCues": [
+              "100",
+              "10,000",
+              "million"
+            ],
+            "finalCue": "8 billion",
+            "countLabel": "People on screen",
+            "unit": "people",
+            "todayLabel": "Humanity today",
+            "todayNote": "Disc drawn for 8 billion; ≈8.2 billion in 2024 (UN, World Population Prospects 2024)",
+            "zoomCue": "one person",
+            "you": "You",
+            "youCue": "you",
+            "fraction": "1 in 8 billion-plus",
+            "credit": "Data: UN Population Division, World Population Prospects 2024 and more · Visuals: all drawn live in code",
+            "unitOne": "person"
+          }
+        }
+      },
+      "hold": 0.1,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "Eight Billion of Us",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-title",
+          "props": {
+            "kicker": "Data film",
+            "title": "Eight Billion of Us",
+            "subtitle": "From one dot to eight billion dots",
+            "source": "Data: UN Population Division, World Population Prospects 2024 and more; sources itemized in the notes"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "flat",
+      "title": "An Almost Flat Line",
+      "narration": "In AD 1, Earth had about 300 million people. By 1500, still only about 500 million. Then the line shot straight up.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-flat",
+          "props": {
+            "kicker": "World population",
+            "title": "1,800 years of an almost flat line",
+            "note": "Billions of people; y-axis drawn to true scale",
+            "yUnit": "{b} bn",
+            "firstYear": "AD 1",
+            "marks": [
+              {
+                "title": "≈300 million",
+                "sub": "AD 1",
+                "cue": "AD 1"
+              },
+              {
+                "title": "≈500 million",
+                "sub": "1500",
+                "cue": "1500"
+              },
+              {
+                "title": "≈8.2 billion",
+                "sub": "2024",
+                "cue": "Then"
+              }
+            ],
+            "yearUnit": "",
+            "recent": "The last 200 years",
+            "source": "Source: UN Population Division, The World at Six Billion (1999), table 1; from 1950, World Population Prospects 2024 mid-year estimates"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "billion",
+      "title": "The First Billion",
+      "narration": "Another view: each dot is a million people. Around 1804, we first reached 1 billion.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-field",
+          "props": {
+            "legend": "Each dot = 1 million people",
+            "legendCue": "each dot",
+            "yearLabel": "Year",
+            "yearUnit": "",
+            "popLabel": "World population",
+            "popUnit": "million",
+            "popScale": 1,
+            "ring": "First billion · around 1804",
+            "yearCue": "1804",
+            "ringCue": "1 billion",
+            "source": "Source: UN Population Division, The World at Six Billion (1999), table 1 and box 3; dot counts interpolated by year"
+          }
+        }
+      },
+      "hold": 1.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "bars",
+      "title": "Years per Billion",
+      "narration": "The second billion took 123 years. The third, 33 years. The fourth, just 14 years. Then 13 years, 12, and 12 again. The UN marked 8 billion on November 15, 2022. This time, it took just 11 years.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-bars",
+          "props": {
+            "kicker": "Each extra billion",
+            "title": "How many years it took",
+            "note": "Each bar stands at the year that billion was reached; height = years since the previous billion",
+            "bars": [
+              {
+                "cue": "123 years",
+                "n": 0
+              },
+              {
+                "cue": "33 years",
+                "n": 0
+              },
+              {
+                "cue": "14 years",
+                "n": 0
+              },
+              {
+                "cue": "13 years",
+                "n": 0
+              },
+              {
+                "cue": "12,",
+                "n": 0
+              },
+              {
+                "cue": "12 again",
+                "n": 0
+              },
+              {
+                "cue": "11 years",
+                "n": 0
+              }
+            ],
+            "firstFmt": "{n} years",
+            "yearsFmt": "{n}",
+            "firstMark": "1 billion",
+            "total": "{b} billion people",
+            "dateCue": "November",
+            "date": "2022-11-15",
+            "dateNote": "UN: 8 billion people",
+            "source": "Sources: UN Population Division, The World at Six Billion (1999), box 3; UNFPA (2011, 7 billion); UN (2022, 8 billion)"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "why",
+      "title": "Deaths Fell First",
+      "narration": "It's mainly fewer deaths, not more births. Vaccines and antibiotics saved more children. Clean water helped them grow up, too. Fertilizer and better seeds fed the growth.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-why",
+          "props": {
+            "kicker": "Why it sped up",
+            "title": "Deaths fell first, births later",
+            "note": "Demographic transition, schematic (shape only, not measured data)",
+            "birth": "Birth rate",
+            "death": "Death rate",
+            "gap": "Gap = population growth",
+            "dropCue": "fewer deaths",
+            "chips": [
+              {
+                "label": "Vaccines",
+                "cue": "Vaccines"
+              },
+              {
+                "label": "Antibiotics",
+                "cue": "antibiotics"
+              },
+              {
+                "label": "Clean water",
+                "cue": "Clean water"
+              },
+              {
+                "label": "Fertilizer",
+                "cue": "Fertilizer"
+              },
+              {
+                "label": "Better seeds",
+                "cue": "better seeds"
+              }
+            ],
+            "axisY": "Per 1,000 per year",
+            "axisX": "Time →",
+            "source": "Basis: UN World Population Prospects 2024 summary, box I.2 “Why do populations peak?” (demographic transition schematic)"
+          }
+        }
+      },
+      "hold": 1.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "rate",
+      "title": "The Growth Rate Peaked",
+      "narration": "But the turn came long ago. Global growth peaked in 1963, at about 2.3%. It has fallen since, to under 1% today.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-rate",
+          "props": {
+            "kicker": "The turn",
+            "title": "Global population growth rate",
+            "note": "1950–2023 estimates; UN median projection after",
+            "peakCue": "1963",
+            "peak": "≈2.3%",
+            "peakNote": "1963 · fastest growth (2.28%)",
+            "nowCue": "under 1%",
+            "now": "0.87%",
+            "nowNote": "2023",
+            "proj": "UN median projection",
+            "zero": "Below 0 by the mid-2080s",
+            "source": "Source: UN World Population Prospects 2024 annual growth rate (via Our World in Data)"
+          }
+        }
+      },
+      "hold": 2.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "aging",
+      "title": "An Aging World",
+      "narration": "Fewer kids, longer lives: the world is aging. By the late 2070s, the balance tips. People 65+ will outnumber those under 18.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-aging",
+          "props": {
+            "kicker": "An aging world",
+            "title": "Soon, more elders than children",
+            "note": "Billions of people; UN median projection after 2024",
+            "yUnit": "{b} bn",
+            "kids": "Under 18 (est.)",
+            "old": "65 and older",
+            "cards": [
+              {
+                "title": "3.3 → 2.3",
+                "sub": "Births per woman, 1990 → 2024",
+                "cue": "Fewer kids"
+              },
+              {
+                "title": "73.3 yrs",
+                "sub": "Global life expectancy at birth, 2024",
+                "cue": "longer lives"
+              }
+            ],
+            "crossCue": "outnumber",
+            "cross": "Late 2070s",
+            "crossNote": "65+: about 2.2 billion, more than under-18s",
+            "source": "Source: UN World Population Prospects 2024, key messages 3, 5, 8; age groups via Our World in Data; under-18s estimated by splitting the 15–24 group evenly"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "giants",
+      "title": "India Overtakes China",
+      "narration": "India overtook China around 2023, per the UN. China's population is already shrinking.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-giants",
+          "props": {
+            "kicker": "Most populous country",
+            "title": "India overtakes China",
+            "note": "Billions of people; UN median projection after 2024",
+            "yUnit": "{b} bn",
+            "china": "China",
+            "india": "India",
+            "crossCue": "overtook",
+            "cross": "Lines cross in 2022–2023",
+            "crossNote": "Each about 1.43 billion; the exact date is an estimate",
+            "projCue": "shrinking",
+            "chinaEnd": "≈630 million in 2100",
+            "indiaEnd": "≈1.51 billion in 2100",
+            "source": "Source: UN World Population Prospects 2024 mid-year population; UN DESA Policy Brief No. 153 (2023); the crossover date varies slightly by revision"
+          }
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "peak",
+      "title": "Peak and Uncertainty",
+      "narration": "The UN's median projection points to a peak. About 10.3 billion, in the mid-2080s. Then a slow decline. But the future is uncertain. The 95% range for 2100 is wide. It runs from 9 to 11.4 billion.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-peak",
+          "props": {
+            "kicker": "The peak",
+            "title": "Will it keep rising?",
+            "note": "Billions of people; UN median projection and 95% interval",
+            "yUnit": "{b} bn",
+            "peakCue": "peak",
+            "peak": "≈10.3 bn",
+            "peakNote": "Peak in the mid-2080s (median)",
+            "fanCue": "uncertain",
+            "fan": "95% prediction interval",
+            "rangeCue": "from 9",
+            "range": "9.0–11.4 bn",
+            "rangeNote": "2100 · 95% likely",
+            "odds": "Chance of peaking this century: about 80%",
+            "fanNote": "Mid-years of the fan are schematic; the 2100 ends are UN values",
+            "source": "Source: UN World Population Prospects 2024: Summary of Results, pp. 8 and 41; 1950–2023 are estimates"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "you",
+      "title": "One in Eight Billion",
+      "narration": "Over 8 billion, one person at a time. And you are one of them.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-zoom",
+          "props": {
+            "mode": "in",
+            "stepCues": [
+              "100",
+              "10,000",
+              "million"
+            ],
+            "finalCue": "8 billion",
+            "countLabel": "People on screen",
+            "unit": "people",
+            "todayLabel": "Humanity today",
+            "todayNote": "Disc drawn for 8 billion; ≈8.2 billion in 2024 (UN, World Population Prospects 2024)",
+            "zoomCue": "one person",
+            "you": "You",
+            "youCue": "you",
+            "fraction": "1 in 8 billion-plus",
+            "credit": "Data: UN Population Division, World Population Prospects 2024 and more · Visuals: all drawn live in code",
+            "unitOne": "person"
+          }
+        }
+      },
+      "hold": 3.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "contractVersion": 3,
+  "title": "曹冲称象",
+  "sourceTitle": "《三国志·魏书》曹冲称象（儿童故事）",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "大象有多重",
+      "narration": "小朋友，一头大象有多重？那时候，可没有这么大的秤！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "hook"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "曹冲称象",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.4
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "title"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "gift",
+      "title": "送来一头大象",
+      "narration": "很久以前，有人送给曹操一头大象。哇，好大呀！耳朵像扇子，腿像柱子。曹操想知道：它到底有多重呢？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "gift"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "officials",
+      "title": "谁也提不动",
+      "narration": "官员们围着大象，想啊想。做一杆大秤？太大啦，谁也提不动！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "officials"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "caochong",
+      "title": "我有办法",
+      "narration": "这时，小曹冲跑了过来，他才五六岁。“我有办法！”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "caochong"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "think",
+      "title": "你来想一想",
+      "narration": "小朋友，你有什么好办法？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "think"
+          }
+        }
+      },
+      "hold": 1.0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "load",
+      "title": "第一步",
+      "narration": "第一步，把大象牵到大船上。你看，船往下一沉！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "load"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "mark",
+      "title": "第二步",
+      "narration": "第二步，沿着水面，在船边画一条线。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "mark"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "unload",
+      "title": "第三步",
+      "narration": "第三步，把大象牵下船，船又浮起来了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "unload"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "stones",
+      "title": "第四步",
+      "narration": "第四步，往船上搬石头，一筐，又一筐。船慢慢往下沉，离那条线越来越近。到线了！停！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "stones"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "weigh",
+      "title": "称一称",
+      "narration": "最后，把石头一筐一筐称一称，再加起来。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "weigh"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "equal",
+      "title": "一样重",
+      "narration": "石头有多重，大象就有多重！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "equal"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "praise",
+      "title": "真聪明",
+      "narration": "曹操高兴极了，大家都夸曹冲聪明。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-end",
+          "props": {
+            "stage": "praise"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "moral",
+      "title": "换个办法想一想",
+      "narration": "遇到难题别着急，换个办法，想一想。说不定，答案就在身边呢！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-end",
+          "props": {
+            "stage": "moral"
+          }
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "productName": "Atlas Table",
+  "tagline": "DEMO / Find the signal",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Load a file",
+      "detail": "Open a local CSV file",
+      "command": "Open CSV",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Shape columns",
+      "detail": "Rename selected columns",
+      "command": "Rename column",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Export a view",
+      "detail": "Save the filtered result",
+      "command": "Export CSV",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#e8c67c"
+  },
+  "musicStyle": "epic",
+  "seed": 2105,
+  "durationSeconds": 36,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

@@ -1,0 +1,45 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 50,
+  "maxDurationSeconds": 70,
+  "narration": true,
+  "voice": "Leda",
+  "speechRate": 236,
+  "sentenceGapSeconds": 0.12,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/promo-aitoy-20261013/tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "presenter": false,
+  "brandOutro": "made-with",
+  "musicFile": "library:original-huhu",
+  "musicVolume": 0.5,
+  "musicDuckDb": -8,
+  "captionStyle": "box",
+  "concurrency": 3,
+  "language": "zh",
+  "theme": {
+    "background": "#141a2e",
+    "text": "#fbf3e4",
+    "accent": "#ffc86e",
+    "muted": "#b8ab98"
+  },
+  "sentencePauses": {
+    "s-1c9710f913b7daa7-1": 0.15,
+    "s-7ac9c5e4d48bcbf5-1": 0.25
+  }
+}

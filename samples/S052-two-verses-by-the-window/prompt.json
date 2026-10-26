@@ -1,0 +1,47 @@
+{
+  "no": "S052",
+  "prompt": {
+    "zh-CN": "做一支约 14 秒的横版（16:9）诗词短片：原创两章五言短诗，一章写晚窗前的山色和风中的叶子，一章写归途的灯光和月色。文字竖排，逐句缓慢出现，留足留白，女声慢读，不加配乐。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a 14-second 16:9 landscape poetry short: two original short poems with short, even lines (five characters per line if written in Chinese), one about mountains seen from an evening window and a leaf in the wind, one about lamplight and moonlight on the road home. Set the text vertically, reveal it slowly line by line with plenty of empty space, a slow female reading and no music. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支約 14 秒的橫版（16:9）詩詞短片：原創兩章五言短詩，一章寫晚窗前的山色和風中的葉子，一章寫歸途的燈光和月色。文字直排，逐句緩慢出現，留足留白，女聲慢讀，不加配樂。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約14秒の横長（16:9）の詩のショート動画を作ってください。各行を同じ短さに揃えたオリジナルの短い詩（中国語で書くなら1行5字）を2編書き、1編は夕暮れの窓から見える山の景色と風に揺れる葉を、もう1編は帰り道の明かりと月の光を詠んでください。文字は縦書きにして1行ずつゆっくり表示し、余白をたっぷり取り、女性の声でゆっくり朗読、BGMはなしにしてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 14초 길이의 가로형(16:9) 시 영상을 만들어 주세요. 각 행을 같은 길이로 짧게 맞춘 창작시 두 편(중국어로 쓴다면 한 행에 다섯 글자)으로, 한 편은 저녁 창가에서 바라본 산빛과 바람에 흔들리는 잎을, 다른 한 편은 귀갓길의 불빛과 달빛을 담아요. 글자는 세로쓰기로 한 줄씩 천천히 나타나게 하고 여백은 넉넉히 두며, 여성 목소리로 천천히 읽고 배경 음악은 넣지 마세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo corto de poesía de unos 14 segundos en formato horizontal 16:9: dos poemas breves originales de versos cortos y regulares (cinco caracteres por verso si los escribes en chino), uno sobre las montañas vistas desde una ventana al anochecer y una hoja al viento, y otro sobre la luz de los faroles y de la luna en el camino a casa. Coloca el texto en vertical y revélalo despacio verso a verso con mucho espacio vacío, con una lectura lenta en voz femenina y sin música. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach ein etwa 14 Sekunden langes Poesievideo im Querformat (16:9): zwei eigene kurze Gedichte mit kurzen, gleich langen Zeilen (fünf Schriftzeichen pro Zeile, wenn du sie auf Chinesisch schreibst), eins über Berge vor einem Abendfenster und ein Blatt im Wind, eins über Lampenlicht und Mondschein auf dem Heimweg. Setz den Text senkrecht und lass ihn Zeile für Zeile langsam erscheinen, mit viel Leerraum, einer Sprecherin, die langsam liest, und ohne Musik. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Créez une courte vidéo poétique d'environ 14 secondes au format paysage (16:9) : deux courts poèmes originaux aux vers brefs et réguliers (cinq caractères par vers s'ils sont écrits en chinois), l'un sur les montagnes vues d'une fenêtre au soir et une feuille dans le vent, l'autre sur la lumière des lampes et le clair de lune sur le chemin du retour. Composez le texte à la verticale et révélez-le lentement vers par vers, avec beaucoup d'espace vide, une lecture lente par une voix féminine, et sans musique. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um vídeo curto de poesia de cerca de 14 segundos na horizontal (16:9): dois poemas curtos e originais, de versos curtos e regulares (cinco caracteres por verso, se forem escritos em chinês), um sobre as montanhas vistas da janela ao entardecer e uma folha ao vento, outro sobre a luz das lâmpadas e o luar no caminho de casa. Coloque o texto na vertical e revele-o devagar, verso a verso, com bastante espaço vazio, leitura lenta em voz feminina e sem música. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Codex CLI",
+      "model": "gpt-6-astra (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Codex CLI",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "macOS say",
+      "model": "Tingting",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit · Dylan",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Codex CLI",
+      "model": "gpt-6-astra (high)",
+      "where": "cloud"
+    }
+  ],
+  "rounds": []
+}

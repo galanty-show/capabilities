@@ -1,0 +1,42 @@
+{
+  "no": "S120",
+  "title": "How Your Map Finds the Fastest Way Home",
+  "titles": {
+    "en": "How Your Map Finds the Fastest Way Home",
+    "zh": "导航怎么找到回家最快的路"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "route-city",
+    "route-scale",
+    "route-steps"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创科普讲解：英文旁白自写，事实出处见 source.md；画面全部代码绘制，城市为程序生成的虚构地图；配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-fastest-way-home",
+    "selection": "library:original-fastest-way-home",
+    "title": "Fastest Way Home",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Fastest Way Home — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S120/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (take c of three, measured about 110 BPM); edited by tools/production/code-route-20261013/music_build.py (aligned 0.2 s so the title impact lands on the title card, dips at 250 Hz and 2.6 kHz for the narration, 158 NumPy-synthesized sound effects placed by the same cue() timing as the scene code: batched visit ticks, chimes, crash, reroute chime; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S120; other films will not hit its accents.",
+    "file": "music/fastest-way-home.mp3",
+    "bundled": true
+  },
+  "note": "英文样片。画面 100% 代码绘制、没有图片：Dijkstra 与 A* 在幕代码里真实运行，按帧取前 k 步，屏上计数是实际计数（Dijkstra 280、A* 83、同一路线 4:55）。旁白为预先生成的 Gemini 云端配音（音色 Puck，随包旁白种子，播放不联网）；改旁白文字后新句需要自备 key 或本机英文配音整片重配，改城市参数后旁白里念的数字要手动同步。配乐 Fastest Way Home（CC0，随包曲库 library:original-fastest-way-home）与音效按本片时间轴放好：改节奏或换曲后不再对齐。捷径弧线与“鹿特丹 → 格罗宁根”小图为示意。正文约 120 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S120"
+}

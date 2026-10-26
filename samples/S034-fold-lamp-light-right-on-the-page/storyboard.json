@@ -1,0 +1,39 @@
+{
+  "contractVersion": 3,
+  "title": "折页桌灯，让书页亮起来",
+  "sourceTitle": "折页桌灯：虚构产品说明",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "先看一张拥挤的桌面",
+      "narration": "桌上只剩一小块阅读位置。普通灯具占着角落，书页却常落在阴影里。把光移近一点，桌面反而更拥挤。",
+      "sourceQuote": "桌上只剩一小块阅读位置。普通灯具占着角落，书页却常落在阴影里。把光移近一点，桌面反而更拥挤。",
+      "hold": 2.5,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "fold-lamp", "props": {"phase": "before", "eyebrow": "01 / 使用前", "headline": "光不在书上", "detail": "灯占角落 · 书页有阴影"}}}
+    },
+    {
+      "id": "s2",
+      "title": "一盏能折起的桌灯",
+      "narration": "折页桌灯把灯臂收进薄底座。打开时，灯面向前展开；合上时，整盏灯靠在桌边，不挡住正在看的那一页。",
+      "sourceQuote": "折页桌灯把灯臂收进薄底座。打开时，灯面向前展开；合上时，整盏灯靠在桌边，不挡住正在看的那一页。",
+      "hold": 2.5,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "fold-lamp", "props": {"phase": "form", "eyebrow": "02 / 产品形态", "headline": "展开照亮，合上收起", "detail": "薄底座 · 可转灯臂 · 暖色灯面"}}}
+    },
+    {
+      "id": "s3",
+      "title": "把光移到需要的位置",
+      "narration": "先把底座推到书旁。再抬起灯臂，转动橙色旋钮，让暖光只落在书页和笔记本上。坐姿变化时，还能轻推灯面。",
+      "sourceQuote": "先把底座推到书旁。再抬起灯臂，转动橙色旋钮，让暖光只落在书页和笔记本上。坐姿变化时，还能轻推灯面。",
+      "hold": 3.0,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "fold-lamp", "props": {"phase": "use", "eyebrow": "03 / 两步使用", "headline": "推近、抬起、轻转", "detail": "光区落在阅读与笔记处"}}}
+    },
+    {
+      "id": "s4",
+      "title": "读完，桌面仍然从容",
+      "narration": "读完后，把灯面折回。桌面重新留出放杯子的位置。下次打开，书、笔与光区仍能各在其位。",
+      "sourceQuote": "读完后，把灯面折回。桌面重新留出放杯子的位置。下次打开，书、笔与光区仍能各在其位。",
+      "hold": 2.5,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "fold-lamp", "props": {"phase": "after", "eyebrow": "04 / 使用之后", "headline": "桌面，留给正在做的事", "detail": "书 · 笔 · 杯子，各有位置"}}}
+    }
+  ]
+}

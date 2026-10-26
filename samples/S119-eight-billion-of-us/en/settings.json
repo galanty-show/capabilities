@@ -1,0 +1,39 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 115,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "Charon",
+  "speechRate": 245,
+  "sentenceGapSeconds": 0.15,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicFile": "library:original-eight-billion",
+  "musicVolume": 0.5,
+  "musicDuckDb": -8,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#0b0d10",
+    "text": "#ece7de",
+    "accent": "#f2a93b",
+    "muted": "#8b939d"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "contractVersion": 3,
+  "title": "The Boy Who Cried Wolf: The Third Cry",
+  "sourceTitle": "Aesop's fable The Boy Who Cried Wolf, an original retelling",
+  "scenes": [
+    {
+      "id": "cold",
+      "title": "The Third Cry",
+      "narration": "This time, the wolf was real. Wolf, Wolf, somebody help me! But in the village, not one light came on.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "cold",
+            "lampCue": "light"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "The Boy Who Cried Wolf",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "title",
+            "title": "The Boy Who Cried Wolf",
+            "subtitle": "A story about echoes"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "morning",
+      "title": "Three Days Earlier",
+      "narration": "It all began three days earlier. Each dawn, a shepherd boy led his sheep up.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "morning",
+            "when": "Three days earlier",
+            "whenCue": "three days",
+            "flockCue": "led"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1
+      }
+    },
+    {
+      "id": "bored",
+      "title": "So Bored",
+      "narration": "Up on the hill, it was lovely, but so quiet. I'm so bored!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "bored",
+            "sighCue": "bored"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "idea",
+      "title": "A Naughty Idea",
+      "narration": "Watching the farmers below, he grinned. A naughty idea popped into his head.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "idea",
+            "glanceCue": "grinned",
+            "ideaCue": "naughty"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry1",
+      "title": "The First Cry",
+      "narration": "Wolf, Wolf, come quick, help! Everyone dropped their hoes and raced uphill.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry1",
+          "props": {
+            "mode": "first",
+            "shoutCue": "Wolf",
+            "helpCue": "help",
+            "chargeCue": "dropped"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "arrive",
+      "title": "Fooled You",
+      "narration": "Where's the wolf, where is it? Ha ha ha, I fooled you all! Furious, they stamped and marched back down.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-hill",
+          "props": {
+            "mode": "arrive",
+            "laughCue": "Ha",
+            "stompCue": "stamped"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry2",
+      "title": "The Second Cry",
+      "narration": "The next day, he did it again. Wolf, Wolf, it's real this time! This time, only a few people came. Lie again, and nobody will believe you!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry2",
+          "props": {
+            "mode": "second",
+            "when": "The next day",
+            "shoutCue": "Wolf",
+            "fewCue": "only a few",
+            "warnCue": "Lie"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "dusk",
+      "title": "Two Green Lights",
+      "narration": "On the third evening, the sun slowly sank. In the grass, two green lights blinked on.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dusk",
+          "props": {
+            "mode": "dusk",
+            "when": "The third day",
+            "eyesCue": "green"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "wolf",
+      "title": "The Wolf",
+      "narration": "It was a wolf, a real and hungry wolf.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dusk",
+          "props": {
+            "mode": "wolf",
+            "hungryCue": "hungry"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry3",
+      "title": "The Third Cry",
+      "narration": "Wolf, a real wolf, please save my sheep! His cries rolled down into the village.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry3",
+          "props": {
+            "mode": "third",
+            "shoutCue": "Wolf",
+            "helpCue": "please"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "doors",
+      "title": "The Doors Close",
+      "narration": "Lying again, just ignore him. And one by one, the doors closed.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-village",
+          "props": {
+            "mode": "doors"
+          }
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    },
+    {
+      "id": "lamb",
+      "title": "That Night",
+      "narration": "That night, the flock was scattered. Holding a shaking lamb, he cried for hours.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "lamb",
+            "cryCue": "cried"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    },
+    {
+      "id": "grandpa",
+      "title": "Grandpa",
+      "narration": "At dawn, an old man came up with a lantern. Lie often, child, and no one hears the truth.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dawn",
+          "props": {
+            "mode": "grandpa"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "echo",
+      "title": "The Echo",
+      "narration": "Trust is like an echo in the valley. Lie once, and it answers more softly; lie too often, and it never answers at all.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dawn",
+          "props": {
+            "mode": "echo",
+            "title": "The Boy Who Cried Wolf",
+            "echoCue": "echo",
+            "onceCue": "once",
+            "smallerCue": "softly",
+            "manyCue": "too often"
+          }
+        }
+      },
+      "hold": 3,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    }
+  ]
+}

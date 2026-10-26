@@ -1,0 +1,47 @@
+{
+  "contractVersion": 3,
+  "title": "让 agent 写画面",
+  "sourceTitle": "原创宣传片：让 agent 写画面",
+  "scenes": [
+    {
+      "id": "idea",
+      "title": "脑海里的那一幕",
+      "narration": "想让一句话落进水里，从涟漪中浮出来。模板里没有这一幕，画面只能停在想象里吗？",
+      "sourceQuote": "想让一句话落进水里，从涟漪中浮出来。模板里没有这一幕，画面只能停在想象里吗？",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "talkframe-ripple", "props": {"mode": "idea"}}}
+    },
+    {
+      "id": "handoff",
+      "title": "把画面写下来",
+      "narration": "在文影，写下画面，交给你的 agent。它把描述写成动画，让文字、波纹和出场时机按你的意思组合。",
+      "sourceQuote": "在文影，写下画面，交给你的 agent。它把描述写成动画，让文字、波纹和出场时机按你的意思组合。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "talkframe-ripple", "props": {"mode": "handoff"}}}
+    },
+    {
+      "id": "ripple",
+      "title": "从一句话到一幕动画",
+      "narration": "看，文字先落下。圆环从字心推开，光点沿波纹散去。一句话，变成看得见的画面。",
+      "sourceQuote": "看，文字先落下。圆环从字心推开，光点沿波纹散去。一句话，变成看得见的画面。",
+      "hold": 1.2,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "talkframe-ripple", "props": {"mode": "ripple"}}}
+    },
+    {
+      "id": "revise",
+      "title": "把感觉调到对",
+      "narration": "想改？换成暖金，节奏再放慢。agent 改写这一幕，新版本从原来的想法生长。",
+      "sourceQuote": "想改？换成暖金，节奏再放慢。agent 改写这一幕，新版本从原来的想法生长。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "talkframe-ripple", "props": {"mode": "revise"}}}
+    },
+    {
+      "id": "finish",
+      "title": "让想法进入作品",
+      "narration": "把它放进分镜，配上旁白字幕，在本机渲染成片。下次有新想法，打开文影，让 agent 写出来。",
+      "sourceQuote": "把它放进分镜，配上旁白字幕，在本机渲染成片。下次有新想法，打开文影，让 agent 写出来。",
+      "hold": 1,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "talkframe-ripple", "props": {"mode": "finish"}}}
+    }
+  ]
+}

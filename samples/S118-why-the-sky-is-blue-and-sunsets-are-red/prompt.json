@@ -1,0 +1,89 @@
+{
+  "no": "S118",
+  "prompt": {
+    "zh-CN": "做一支约两分钟的横版（16:9）中文科普短片《为什么天空是蓝的，夕阳是红的》，画面全部用代码画，不用任何生成图片：白光穿过棱镜拆成光谱；光子穿过大气时按 1/λ⁴ 的概率被弹开，用被弹开光子的统计实时“染”出天色；公式 1/λ⁴ 逐项出现，并算清蓝光 450 nm 比红光 700 nm 多散射约 5.86 倍；把太阳从头顶拖到地平线，光程从 1 倍涨到约 38 倍，天空按同一个模型实时变成橙红；再讲天为什么不是紫色、云为什么是白的，最后的彩蛋是火星的蓝色日落。颜色尽量由物理模型算出来，简化了什么要写清楚。内容要准确，列出出处。旁白用清楚、好奇、有温度的云端配音，原创配乐在夕阳处有一个抬升，音效用代码合成、克制一点。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a roughly two-minute landscape (16:9) Chinese popular-science film, “Why the Sky Is Blue and Sunsets Are Red”, with every visual drawn in code and no generated images: white light splits into a spectrum through a prism; photons crossing the atmosphere get bounced with a probability of 1/λ⁴, and the statistics of the bounced photons dye the sky live; the formula 1/λ⁴ appears term by term and works out that 450 nm blue scatters about 5.86 times more than 700 nm red; drag the sun from overhead to the horizon so the light path grows from 1× to about 38× and the same model turns the sky orange-red in real time; then explain why the sky isn't violet and why clouds are white, and end with a bonus: the blue sunset on Mars. Compute colors from a physical model wherever you can and say what you simplified. Keep the facts accurate and cite sources. Use a clear, curious, warm cloud voice, an original score that lifts at the sunset, and restrained code-synthesized sound effects. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支大約兩分鐘的橫版（16:9）中文科普短片《為什麼天空是藍的，夕陽是紅的》，畫面全部用程式碼繪製，不用任何生成圖片：白光穿過稜鏡拆成光譜；光子穿過大氣時按 1/λ⁴ 的機率被彈開，用被彈開光子的統計即時「染」出天色；公式 1/λ⁴ 逐項出現，並算清楚藍光 450 nm 比紅光 700 nm 多散射約 5.86 倍；把太陽從頭頂拖到地平線，光程從 1 倍增加到約 38 倍，天空依同一個模型即時變成橙紅；再講天空為什麼不是紫色、雲為什麼是白的，最後的彩蛋是火星的藍色日落。顏色盡量由物理模型算出來，簡化了什麼要寫清楚。內容要準確，列出出處。旁白用清楚、好奇、有溫度的雲端配音，原創配樂在夕陽處有一個抬升，音效用程式碼合成、克制一點。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約2分の横長（16:9）の中国語科学解説動画『なぜ空は青く、夕日は赤いのか』を作ってください。映像はすべてコードで描き、生成画像は使いません。白色光がプリズムでスペクトルに分かれる様子、光子が大気を通るときに 1/λ⁴ の確率ではじかれ、はじかれた光子の統計で空の色がリアルタイムに「染まって」いく様子、1/λ⁴ の式が項ごとに現れ、450 nm の青い光が 700 nm の赤い光より約 5.86 倍多く散乱することを計算で示す場面、太陽を真上から地平線までドラッグすると光路が 1 倍から約 38 倍に伸び、同じモデルで空がリアルタイムに橙赤色に変わる場面を入れてください。続けて、なぜ空は紫ではないのか、なぜ雲は白いのかを説明し、最後のおまけとして火星の青い夕焼けを見せてください。色はできるだけ物理モデルから計算し、何を簡略化したかを明記してください。内容は正確に、出典も挙げてください。ナレーションは明瞭で好奇心と温かみのあるクラウド音声、BGM はオリジナルで夕焼けの場面で盛り上がりを作り、効果音はコードで合成して控えめに。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 2분짜리 가로형(16:9) 중국어 과학 해설 영상 『하늘은 왜 파랗고, 노을은 왜 붉을까』를 만들어 주세요. 화면은 전부 코드로 그리고 생성 이미지는 쓰지 않아요. 흰빛이 프리즘을 지나 스펙트럼으로 갈라지고, 광자가 대기를 지날 때 1/λ⁴의 확률로 튕겨 나가며, 튕겨 나간 광자의 통계로 하늘색이 실시간으로 ‘물들어’ 가는 모습, 1/λ⁴ 공식이 항 하나씩 나타나고 450 nm 파란빛이 700 nm 붉은빛보다 약 5.86배 더 산란된다는 계산, 태양을 머리 위에서 지평선까지 끌어내리면 빛의 경로가 1배에서 약 38배로 늘고 같은 모델로 하늘이 실시간으로 주황빛 붉은색이 되는 장면을 넣어 주세요. 이어서 하늘이 왜 보라색이 아닌지, 구름은 왜 흰지 설명하고, 마지막 보너스로 화성의 푸른 노을을 보여 주세요. 색은 되도록 물리 모델로 계산하고 무엇을 단순화했는지 밝혀 주세요. 내용은 정확하게, 출처도 적어 주세요. 내레이션은 또렷하고 호기심과 따뜻함이 있는 클라우드 음성으로, 음악은 노을 장면에서 고조되는 오리지널 곡으로, 효과음은 코드로 합성해 절제해서 넣어 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo de divulgación científica en chino de unos dos minutos, en horizontal (16:9), titulado «Por qué el cielo es azul y los atardeceres son rojos», con todas las imágenes dibujadas en código y sin ninguna imagen generada: la luz blanca se descompone en un espectro al pasar por un prisma; los fotones que cruzan la atmósfera rebotan con una probabilidad de 1/λ⁴ y su estadística tiñe el cielo en tiempo real; la fórmula 1/λ⁴ aparece término a término y calcula que el azul de 450 nm se dispersa unas 5,86 veces más que el rojo de 700 nm; arrastra el sol desde lo alto hasta el horizonte para que el camino de la luz pase de 1× a unas 38× y el mismo modelo vuelva el cielo rojo anaranjado en tiempo real; luego explica por qué el cielo no es violeta y por qué las nubes son blancas, y termina con una sorpresa: el atardecer azul de Marte. Calcula los colores con un modelo físico siempre que puedas y explica qué simplificaste. Que los datos sean exactos y cita las fuentes. Usa una voz en la nube clara y cálida, música original que suba en el atardecer y efectos discretos sintetizados en código. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Erstelle einen etwa zweiminütigen chinesischen Wissenschaftsfilm im Querformat (16:9) mit dem Titel „Warum der Himmel blau ist und der Sonnenuntergang rot“, komplett per Code gezeichnet, ohne generierte Bilder: Weißes Licht zerfällt im Prisma in ein Spektrum; Photonen werden beim Durchqueren der Atmosphäre mit der Wahrscheinlichkeit 1/λ⁴ abgelenkt, und ihre Statistik färbt den Himmel live ein; die Formel 1/λ⁴ erscheint Term für Term und rechnet vor, dass blaues Licht mit 450 nm etwa 5,86-mal stärker gestreut wird als rotes mit 700 nm; zieh die Sonne vom Zenit bis zum Horizont, sodass der Lichtweg von 1× auf etwa 38× wächst und dasselbe Modell den Himmel in Echtzeit orangerot färbt; erkläre dann, warum der Himmel nicht violett und Wolken weiß sind; als Bonus zum Schluss der blaue Sonnenuntergang auf dem Mars. Berechne Farben möglichst aus einem physikalischen Modell und schreib auf, was du vereinfacht hast. Fakten korrekt, mit Quellen. Nimm eine klare, warme Cloud-Stimme, eigene Musik, die beim Sonnenuntergang ansteigt, und dezente, per Code synthetisierte Effekte. Zeig mir zuerst die Live-Vorschau; exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez un film de vulgarisation scientifique en chinois d'environ deux minutes, au format paysage (16:9), intitulé « Pourquoi le ciel est bleu et le coucher de soleil rouge », entièrement dessiné en code, sans image générée : la lumière blanche se décompose en spectre à travers un prisme ; les photons qui traversent l'atmosphère sont déviés avec une probabilité de 1/λ⁴, et leur statistique teinte le ciel en direct ; la formule 1/λ⁴ apparaît terme par terme et calcule que le bleu à 450 nm est diffusé environ 5,86 fois plus que le rouge à 700 nm ; faites glisser le soleil du zénith à l'horizon : le trajet de la lumière passe de 1× à environ 38× et le même modèle rend le ciel rouge orangé en temps réel ; expliquez ensuite pourquoi le ciel n'est pas violet et les nuages blancs ; en bonus final, le coucher de soleil bleu sur Mars. Calculez les couleurs avec un modèle physique et dites ce que vous simplifiez. Faits exacts, sources citées. Utilisez une voix cloud claire et chaleureuse, une musique originale qui monte au coucher du soleil et des effets discrets synthétisés en code. Montrez-moi d'abord l'aperçu en direct ; n'exportez le MP4 que s'il me convient.",
+    "pt-BR": "Faça um vídeo de divulgação científica em chinês de cerca de dois minutos, na horizontal (16:9), chamado “Por que o céu é azul e o pôr do sol é vermelho”, todo desenhado em código, sem imagens geradas: a luz branca se divide em um espectro ao passar por um prisma; os fótons que atravessam a atmosfera são desviados com probabilidade 1/λ⁴, e a estatística deles tinge o céu ao vivo; a fórmula 1/λ⁴ aparece termo a termo e calcula que o azul de 450 nm se espalha cerca de 5,86 vezes mais que o vermelho de 700 nm; arraste o sol do alto até o horizonte para que o caminho da luz cresça de 1× para cerca de 38× e o mesmo modelo deixe o céu vermelho-alaranjado em tempo real; depois explique por que o céu não é violeta e por que as nuvens são brancas, e termine com um bônus: o pôr do sol azul em Marte. Calcule as cores a partir de um modelo físico sempre que possível e diga o que foi simplificado. Os fatos precisam estar corretos, com as fontes. Use uma voz na nuvem clara, curiosa e calorosa, uma trilha original que cresce no pôr do sol e efeitos sonoros sintetizados em código, discretos. Primeiro me mostre a prévia ao vivo; só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Kore",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Why the Sky Is Blue",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the bar, could you make a few stories that are popular in the US? You're in charge of planning and directing all the music and narration; I've sent you the Gemini key, so use it for the voices and make a few American story templates, and keep the quality high. For the China region, make a few stories best suited to children under 10; also make a few promo films for product introductions, such as products that became popular in China in 2026; and make three more of the kinds of videos Opus 5.5 is best at on today's market; then find the five most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "旁白是云端 Gemini 3.8 Flash TTS（音色 Kore，语速 270）预先生成的，随包提供，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。画面不需要任何素材，但每帧要算几千个方向的光谱积分，渲染比普通幕慢。原片云端费用约 US$0.42。",
+    "en": "The narration was pregenerated in the cloud with Gemini 3.8 Flash TTS (voice Kore, rate 270) and ships with the sample, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The visuals need no assets, but every frame integrates the spectrum over thousands of sky directions, so rendering is slower than usual. The original cost about US$0.42 in cloud fees.",
+    "zh-Hant": "旁白是雲端 Gemini 3.8 Flash TTS（音色 Kore，語速 270）預先生成的，隨包提供，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。畫面不需要任何素材，但每一格要算幾千個方向的光譜積分，算圖比一般場景慢。原片雲端費用約 US$0.42。",
+    "ja": "ナレーションはクラウドの Gemini 3.8 Flash TTS（音声 Kore、話速 270）で事前生成して同梱しているため、再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。映像に素材は不要ですが、各フレームで数千方向のスペクトル積分を計算するため、通常よりレンダリングに時間がかかります。元の動画のクラウド費用は約 US$0.42 でした。",
+    "ko": "내레이션은 클라우드 Gemini 3.8 Flash TTS(음성 Kore, 속도 270)로 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 화면에는 소재가 필요 없지만 프레임마다 수천 개 방향의 스펙트럼 적분을 계산하므로 렌더링이 평소보다 느립니다. 원본 제작의 클라우드 비용은 약 US$0.42였습니다.",
+    "es": "La narración se pregeneró en la nube con Gemini 3.8 Flash TTS (voz Kore, velocidad 270) y viene con la muestra, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. Las imágenes no necesitan recursos, pero cada fotograma integra el espectro en miles de direcciones del cielo, así que el renderizado es más lento de lo habitual. El original costó unos US$0,42 en la nube.",
+    "de": "Die Sprachspur wurde vorab in der Cloud mit Gemini 3.8 Flash TTS (Stimme Kore, Tempo 270) erzeugt und liegt dem Beispiel bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Die Bilder brauchen keine Assets, aber jedes Bild integriert das Spektrum über Tausende Himmelsrichtungen, deshalb rendert es langsamer als üblich. Das Original kostete rund US$0,42 an Cloud-Gebühren.",
+    "fr": "La narration a été pré-générée dans le cloud avec Gemini 3.8 Flash TTS (voix Kore, débit 270) et est fournie avec l'exemple : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. Les images ne demandent aucune ressource, mais chaque image intègre le spectre sur des milliers de directions du ciel : le rendu est plus lent que d'habitude. L'original a coûté environ 0,42 US$ de cloud.",
+    "pt-BR": "A narração foi pré-gerada na nuvem com o Gemini 3.8 Flash TTS (voz Kore, velocidade 270) e vem com a amostra, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. As imagens não precisam de recursos, mas cada quadro integra o espectro em milhares de direções do céu, por isso a renderização é mais lenta que o normal. O original custou cerca de US$0,42 em nuvem."
+  }
+}

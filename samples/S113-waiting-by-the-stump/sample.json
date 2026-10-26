@@ -1,0 +1,40 @@
+{
+  "no": "S113",
+  "title": "守株待兔",
+  "titles": {
+    "zh": "守株待兔",
+    "en": "Waiting by the Stump"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "sz-tale"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创儿童复述：旁白为自写（原文《韩非子·五蠹》公有领域）；底图、贴纸、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-waiting-stump",
+    "selection": "library:original-waiting-stump",
+    "title": "Waiting by the Stump",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Waiting by the Stump — Galanty, original score generated with Google Lyria and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S113/README.md",
+    "modifications": "Generated with Google Lyria (lyria-3.5) from an original timeline prompt; edited by tools/production/shouzhu-20261013/music_build.py (re-timed to the film, 230 Hz dip, NumPy-synthesized SFX: bonk, star twinkles, rooster, wind and rain beds, page flips, pops, woodblock steps, snores, chimes; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S113; other films will not hit its accents.",
+    "file": "music/waiting-stump.mp3",
+    "bundled": true
+  },
+  "note": "给 4～9 岁小朋友的寓言动画。旁白为预先生成的 Gemini 云端配音（旁白 Leda、农夫台词 Achird，随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。13 幕共用一个幕代码模块 sz-tale（props.shot 选镜头），底图与角色贴纸（AI 生成、绿幕抠图）以 data URI 只内联一份。配乐 Waiting by the Stump（CC0，随包曲库 library:original-waiting-stump）按本片逐字时间轴卡点并合成音效：改节奏或换曲后音效不再对齐。天气参数在 weather 幕的 weathers，天数在 monthDay、lastDay。正文约 100 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S113"
+}

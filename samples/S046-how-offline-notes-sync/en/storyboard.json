@@ -1,0 +1,109 @@
+{
+  "contractVersion": 3,
+  "title": "How Offline Notes Sync",
+  "sourceTitle": "An original tech explainer; it describes a demo design and claims no shipping product.",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 80
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "The Problem",
+      "narration": "Your phone and laptop went offline. Then both edited the same note. Back online, which version should stay?",
+      "sourceQuote": "Your phone and laptop went offline. Then both edited the same note. Back online, which version should stay?",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "title": "Two edits: how do they merge?",
+            "kicker": "Original tech explainer",
+            "subtitle": "Offline editing and sync"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Log the Edits First",
+      "narration": "This demo design saves edits locally first. Each edit is marked with its order. Back online, devices swap missing records.",
+      "sourceQuote": "This demo design saves edits locally first. Each edit is marked with its order. Back online, devices swap missing records.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "From offline edits to resync",
+            "mode": "sequence",
+            "nodes": [
+              {
+                "label": "Save locally"
+              },
+              {
+                "label": "Mark the order"
+              },
+              {
+                "label": "Swap records"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Handling Conflicts",
+      "narration": "Edits to different paragraphs can be merged. If both changed the same sentence, keep both and ask someone to confirm.",
+      "sourceQuote": "Edits to different paragraphs can be merged. If both changed the same sentence, keep both and ask someone to confirm.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "compare-two",
+          "props": {
+            "heading": "Two kinds of edits",
+            "left": {
+              "label": "Different paragraphs",
+              "title": "Try to merge",
+              "items": [
+                "Keep both sides' text"
+              ]
+            },
+            "right": {
+              "label": "Same sentence",
+              "title": "Ask first",
+              "items": [
+                "Keep both versions"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Limits",
+      "narration": "Order marks can spot a conflict, but they can't tell which edit is right. Then test that nothing is lost or duplicated.",
+      "sourceQuote": "Order marks can spot a conflict, but they can't tell which edit is right. Then test that nothing is lost or duplicated.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "Get the basics right first",
+            "points": [
+              "Conflicts",
+              "No losses",
+              "No repeats"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

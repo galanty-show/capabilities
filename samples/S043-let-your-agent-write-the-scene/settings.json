@@ -1,0 +1,17 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 55,
+  "maxDurationSeconds": 75,
+  "narration": true,
+  "voice": "Tingting",
+  "tts": {"engine": "system"},
+  "speechRate": 250,
+  "concurrency": 3,
+  "musicFile": "library:generated-calm-current-78",
+  "musicVolume": 0.14,
+  "musicDuckDb": -12,
+  "brandOutro": "made-with",
+  "theme": {"background": "#0B1523", "accent": "#86E5CF", "text": "#F5F2EA", "muted": "#9AAFC0"}
+}

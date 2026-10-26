@@ -1,0 +1,50 @@
+{
+  "no": "S126",
+  "title": "四渡赤水 · 一堂军事课",
+  "titles": {
+    "en": "Four Crossings of the Chishui: A Military Lesson"
+  },
+  "language": "zh",
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "hook1",
+    "hook2",
+    "xiangjiang",
+    "zunyi",
+    "siege",
+    "tucheng",
+    "cross1",
+    "cross2",
+    "gouba",
+    "cross3",
+    "cross4",
+    "guiyang",
+    "jinsha",
+    "radio",
+    "lesson",
+    "ending"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创脚本（史实依据 research.md 所列公开来源）；画作 AI 原创生成、配乐 AI 原创生成（CC0）；地形为公共领域高程，河流 © OpenStreetMap contributors (ODbL)，省界 Natural Earth",
+    "verified": true
+  },
+  "music": {
+    "id": "original-sidu-chishui",
+    "selection": "library:original-sidu-chishui",
+    "title": "Four Crossings of the Chishui",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Four Crossings of the Chishui — Galanty, Lyria 3 Pro original score with NumPy sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S126/README.md",
+    "modifications": "Lyria 3 Pro 生成；由 tools/production/sidu-chishui-20261016/music/music_build.py 按本片时间表剪辑与合成 NumPy 音效，无第三方采样；64 kbps MP3、48 kHz 立体声。Lyria 段落未卡拍，92 BPM 为生成指示；未人耳试听。",
+    "file": "music/sidu-chishui.mp3",
+    "bundled": true
+  },
+  "note": "旁白为预生成 Gemini 云端配音种子（含修正“教员”读音的缓存，播放不联网，改旁白新句需本机重配）；3D 幕用 three.js 真实高程，兵棋位置与路线为示意。配乐按本片原时间表剪辑（Lyria 段落未卡拍），最新配音修正后节奏需人工复核。正文约 370 秒（最终任务实测 372.033 秒）+ 片尾 4.9 秒；未人耳试听。",
+  "page": "https://galanty.cn/samples/#S126"
+}

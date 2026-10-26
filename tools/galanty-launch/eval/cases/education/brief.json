@@ -1,0 +1,34 @@
+{
+  "productName": "Tempo Learn",
+  "tagline": "DEMO / Practice daily",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Pick a lesson",
+      "detail": "Open a demo lesson",
+      "command": "Open lesson",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Try a card",
+      "detail": "Answer a practice card",
+      "command": "Try card",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Review notes",
+      "detail": "Read saved lesson notes",
+      "command": "Review notes",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#8fe1d0"
+  },
+  "musicStyle": "lofi",
+  "seed": 2107,
+  "durationSeconds": 30,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

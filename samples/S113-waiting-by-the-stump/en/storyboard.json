@@ -1,0 +1,346 @@
+{
+  "contractVersion": 3,
+  "title": "Waiting by the Stump",
+  "sourceTitle": "Waiting by the Stump, a fable from the Han Feizi (retold for kids)",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "Can a Stump Bring a Rabbit?",
+      "narration": "Can you catch a rabbit by waiting at a stump? This story is called Waiting by the Stump.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "open",
+            "title": "Waiting by the Stump",
+            "titleCue": "Waiting by the Stump",
+            "source": "A fable from the Han Feizi",
+            "openCue": "rabbit"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "farmer",
+      "title": "A Farmer of Song",
+      "narration": "Long ago, a farmer lived in the land of Song. Every day he hoed, and his crops grew green.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "farmer",
+            "farmerTag": "A farmer of Song",
+            "farmerCue": "Song",
+            "greenCue": "green"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "stump",
+      "title": "The Old Stump",
+      "narration": "By the field sat an old stump, short and fat. Just like a little stool!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "stump",
+            "stumpTag": "Old stump",
+            "stumpCue": "old stump",
+            "squashCues": [
+              "short",
+              "fat"
+            ],
+            "stoolTag": "Little stool",
+            "stoolCue": "stool"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "run",
+      "title": "In a Panic",
+      "narration": "One day, a rabbit rushed by in a panic. It ran and ran and didn't look—",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "run",
+            "runCues": [
+              "panic",
+              "ran and ran",
+              "didn't look"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "bonk",
+      "title": "Bonk!",
+      "narration": "Bonk—it ran smack into the stump! The rabbit felt dizzy and saw little stars.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "bonk",
+            "bonkWord": "BONK!",
+            "bonkCue": "Bonk",
+            "starCue": "stars"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "lucky",
+      "title": "A Free Rabbit",
+      "narration": "The farmer ran over, and oh, was he happy! Ha-ha, a free rabbit, and no work at all! Grinning, he carried it home.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "lucky",
+            "luckyCues": [
+              "ran over",
+              "happy",
+              "Grinning",
+              "home"
+            ],
+            "laughText": "Ha-ha!",
+            "laughCue": "Ha-ha"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "dream",
+      "title": "A Sweet Dream",
+      "narration": "He dreamed of rabbits: bonk, bonk, bonk!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "dream",
+            "dreamCue": "dream",
+            "dreamBonk": "bonk",
+            "dreamWord": "Bonk!"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "throw",
+      "title": "Down Goes the Hoe",
+      "narration": "Next day, he threw his hoe away. He sat by the stump to wait!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "throw",
+            "throwCues": [
+              "threw",
+              "sat",
+              "wait"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "days",
+      "title": "Day After Day",
+      "narration": "The sun came up, but no rabbit came. The moon came up, and still no rabbit. One day, two days, three… a month went by.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "days",
+            "calTitle": "Waiting",
+            "dayFormat": "Day {n}",
+            "dayCues": [
+              "no rabbit",
+              "moon",
+              "two days",
+              "three",
+              "month"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "weather",
+      "title": "Wind, Rain and Snow",
+      "narration": "In the wind, he waited. In the rain, he waited. In the snow, he still waited!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "weather",
+            "calTitle": "Waiting",
+            "dayFormat": "Day {n}",
+            "weatherCues": [
+              "wind",
+              "rain",
+              "snow"
+            ],
+            "weatherNames": [
+              {
+                "kind": "sun",
+                "label": "Sunny"
+              },
+              {
+                "kind": "wind",
+                "label": "Windy"
+              },
+              {
+                "kind": "rain",
+                "label": "Rainy"
+              },
+              {
+                "kind": "snow",
+                "label": "Snowy"
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "doze",
+      "title": "Fast Asleep",
+      "narration": "Soon he was snoring, a butterfly on his nose. The weeds grew taller and nearly buried him!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "doze",
+            "dozeCues": [
+              "snoring",
+              "butterfly",
+              "nose"
+            ],
+            "grassCues": [
+              "taller",
+              "nearly",
+              "buried"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "aha",
+      "title": "At Last He Knows",
+      "narration": "No rabbit ever came again. He crept out, scratched his head, and knew. Good luck won't come every day. For a harvest, you must do the work!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "aha",
+            "ahaCues": [
+              "ever came",
+              "crept",
+              "scratched",
+              "knew"
+            ],
+            "moral": [
+              {
+                "text": "Good luck won't come every day",
+                "cue": "Good luck"
+              },
+              {
+                "text": "Want a harvest? Do the work!",
+                "cue": "harvest"
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "back",
+      "title": "Back to the Field",
+      "narration": "He grabbed his hoe and went back to work.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "back",
+            "title": "Waiting by the Stump",
+            "source": "A fable from the Han Feizi",
+            "backCue": "grabbed his hoe"
+          }
+        }
+      },
+      "hold": 2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

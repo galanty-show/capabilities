@@ -1,0 +1,39 @@
+{
+  "no": "S032",
+  "title": "小马过河：衣服尺码要自己试",
+  "titles": {
+    "zh": "小马过河：衣服尺码要自己试",
+    "en": "The Little Horse Crosses the River: Try It On"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "生活通知",
+  "templates": [],
+  "modules": [
+    "size-story"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-bright-horizon-96",
+    "selection": "library:generated-bright-horizon-96",
+    "title": "Bright Horizon 96",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Bright Horizon 96 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120403",
+    "modifications": null,
+    "file": "music/generated-bright-horizon-96.mp3",
+    "bundled": true
+  },
+  "page": "https://galanty.cn/samples/#S032"
+}

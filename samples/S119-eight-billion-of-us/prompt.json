@@ -1,0 +1,84 @@
+{
+  "no": "S119",
+  "prompt": {
+    "zh-CN": "用约两分钟做一支横版数据新闻短片《人类走到 80 亿》：画面全部用代码绘制（点阵人口场、滚动计数器、每多十亿越来越短的柱子、增长率峰值、预测区间扇形），数据取自联合国《世界人口展望 2024》并写清出处，从一个点讲到八十亿再回到“你”。配沉稳的云端配音和极简电子配乐，在增长率下降处转折；先即时播放，满意再导出 MP4。",
+    "en": "Make a two-minute 16:9 data-journalism short, “Humanity Reaches 8 Billion”, drawn entirely in code (a dot field of people, rolling counters, ever-shorter bars for each new billion, the growth-rate peak and a projection fan), with sourced UN World Population Prospects 2024 figures, going from one dot to eight billion and back to “you”. Use a calm cloud voice and minimal electronic music that turns where growth slows; show a live preview first and export the MP4 once I'm happy.",
+    "zh-Hant": "用約兩分鐘做一支橫版數據新聞短片《人類走到 80 億》：畫面全部用程式碼繪製（點陣人口場、滾動計數器、每多十億越來越短的柱子、成長率峰值、預測區間扇形），數據取自聯合國《世界人口展望 2024》並寫清出處，從一個點講到八十億再回到「你」。配沉穩的雲端配音與極簡電子配樂，在成長率下降處轉折；先即時播放，滿意再匯出 MP4。",
+    "ja": "約2分の横長データジャーナリズム短編『人類は80億人へ』を、映像はすべてコードで描き（人口の点の場、回るカウンター、10億ごとに短くなる棒、増加率のピーク、予測幅の扇形）、国連『世界人口推計2024』の数字に出典を付けて、1つの点から80億、そして「あなた」へ戻る構成で作ってください。落ち着いたクラウド音声と、増加率が下がるところで転じるミニマルな電子音楽を使い、まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 2분짜리 가로형 데이터 저널리즘 숏폼 「인류, 80억에 이르다」를 화면 전부 코드로 그려 만들어 주세요(인구 점 필드, 굴러가는 카운터, 10억마다 짧아지는 막대, 증가율 정점, 예측 범위 부채꼴). 유엔 「세계 인구 전망 2024」 수치를 출처와 함께 쓰고, 점 하나에서 80억, 다시 ‘당신’으로 돌아오게 해 주세요. 차분한 클라우드 음성과 증가율이 꺾이는 곳에서 전환되는 미니멀 전자음악을 쓰고, 먼저 실시간 미리보기로 보여 준 뒤 마음에 들면 MP4로 내보내 주세요.",
+    "es": "Haz un corto horizontal de periodismo de datos de unos dos minutos, «La humanidad llega a 8000 millones», dibujado todo en código (campo de puntos de población, contadores que ruedan, barras cada vez más cortas por cada mil millones, el pico del crecimiento y un abanico de proyección), con cifras de las Perspectivas de la Población Mundial 2024 de la ONU y sus fuentes, de un punto a ocho mil millones y de vuelta a «ti». Usa una voz en la nube serena y música electrónica mínima que gire donde cae el crecimiento; muéstramelo primero en vista previa y exporta el MP4 cuando me guste.",
+    "de": "Mach einen etwa zweiminütigen Datenjournalismus-Kurzfilm im Querformat, „Die Menschheit erreicht 8 Milliarden“, komplett in Code gezeichnet (Punktfeld der Bevölkerung, rollende Zähler, immer kürzere Balken pro Milliarde, der Gipfel der Wachstumsrate und ein Prognosefächer), mit belegten Zahlen aus den UN World Population Prospects 2024, vom einzelnen Punkt zu acht Milliarden und zurück zu „dir“. Nutze eine ruhige Cloud-Stimme und minimalistische Elektronik, die dort umschlägt, wo das Wachstum sinkt; zeig mir zuerst die Live-Vorschau und exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez un court métrage de journalisme de données d'environ deux minutes au format paysage, « L'humanité atteint 8 milliards », entièrement dessiné en code (champ de points de population, compteurs défilants, barres de plus en plus courtes pour chaque milliard, pic du taux de croissance, éventail de projection), avec des chiffres sourcés des Perspectives de la population mondiale 2024 de l'ONU, d'un point à huit milliards puis retour à « vous ». Utilisez une voix cloud posée et une musique électronique minimale qui bascule quand la croissance ralentit ; montrez-moi d'abord l'aperçu en direct, puis exportez le MP4.",
+    "pt-BR": "Faça um curta horizontal de jornalismo de dados de cerca de dois minutos, “A humanidade chega a 8 bilhões”, todo desenhado em código (campo de pontos da população, contadores rolando, barras cada vez mais curtas a cada bilhão, o pico do crescimento e um leque de projeção), com números das Perspectivas da População Mundial 2024 da ONU e suas fontes, de um ponto a oito bilhões e de volta a “você”. Use uma voz na nuvem calma e trilha eletrônica mínima que vira quando o crescimento cai; mostre uma prévia ao vivo e exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Charon",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Eight Billion",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the quality bar, can you make a few popular American stories? You're in charge of planning and directing all the music and narration; I've sent you the Gemini key, so you can use it for narration and make several American story templates — keep the quality high. For the China region, make a few stories best suited to children under 10; then a few product promos, for example some products that took off in China in 2026; also make 3 videos that Opus 5.5 is best suited to make on the market today; and find the 5 most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "中文旁白是云端 Gemini 3.8 Flash TTS（音色 Charon）生成，随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。配乐按本片旁白时长剪辑卡点，改节奏后重击不再对齐。原片云端费用约 US$0.43。",
+    "en": "The Chinese narration was generated in the cloud with Gemini 3.8 Flash TTS (voice Charon) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The score is cut to this narration's timing, so its accents drift if you change the pacing. The original cost about US$0.43 in cloud fees.",
+    "zh-Hant": "中文旁白是雲端 Gemini 3.8 Flash TTS（音色 Charon）生成，隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。配樂依本片旁白時長剪輯卡點，改了節奏後重擊不再對齊。原片雲端費用約 US$0.43。",
+    "ja": "中国語ナレーションはクラウドの Gemini 3.8 Flash TTS（音声 Charon）で生成し、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。BGM はこのナレーションの尺に合わせて編集しているため、テンポを変えるとアクセントがずれます。元の動画のクラウド費用は約 US$0.43 でした。",
+    "ko": "중국어 내레이션은 클라우드 Gemini 3.8 Flash TTS(음성 Charon)로 만들었고 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 음악은 이 내레이션 길이에 맞춰 편집했기 때문에 템포를 바꾸면 강세가 어긋납니다. 원본 제작의 클라우드 비용은 약 US$0.43였습니다.",
+    "es": "La narración en chino se generó en la nube con Gemini 3.8 Flash TTS (voz Charon) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. La música está montada sobre los tiempos de esta narración, así que sus acentos se desfasan si cambias el ritmo. El original costó unos US$0,43 en la nube.",
+    "de": "Die chinesische Sprachspur entstand in der Cloud mit Gemini 3.8 Flash TTS (Stimme Charon) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Die Musik ist auf das Timing dieser Sprachspur geschnitten; änderst du das Tempo, sitzen die Akzente nicht mehr. Das Original kostete rund US$0,43 an Cloud-Gebühren.",
+    "fr": "La narration chinoise a été générée dans le cloud avec Gemini 3.8 Flash TTS (voix Charon) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. La musique est montée sur le minutage de cette narration : si vous changez le rythme, ses accents se décalent. L'original a coûté environ 0,43 US$ de cloud.",
+    "pt-BR": "A narração em chinês foi gerada na nuvem com o Gemini 3.8 Flash TTS (voz Charon) e vem pré-gerada, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. A trilha foi editada no tempo desta narração, então os acentos se desalinham se você mudar o ritmo. O original custou cerca de US$0,43 em nuvem."
+  }
+}

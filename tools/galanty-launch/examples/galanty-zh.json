@@ -1,0 +1,56 @@
+{
+  "productName": "文影",
+  "tagline": "改一处，回到那一秒",
+  "language": "zh",
+  "durationSeconds": 30,
+  "musicStyle": "electronic",
+  "seed": 105,
+  "palette": {
+    "background": "#0b1110",
+    "foreground": "#f2f3ef",
+    "accent": "#c9f65a"
+  },
+  "sellingPoints": [
+    {
+      "text": "用 Agent 做视频？",
+      "source": "examples/galanty-sources.md#own-agent"
+    },
+    {
+      "text": "预览优先",
+      "source": "examples/galanty-sources.md#preview-first"
+    },
+    {
+      "text": "用你自己的 Agent",
+      "source": "examples/galanty-sources.md#own-agent"
+    },
+    {
+      "text": "Agent 改代码",
+      "source": "examples/galanty-sources.md#preview-loop"
+    },
+    {
+      "text": "文影回到那一秒",
+      "source": "examples/galanty-sources.md#preview-loop"
+    },
+    {
+      "text": "改完，立即看",
+      "source": "examples/galanty-sources.md#preview-first"
+    },
+    {
+      "text": "打开你的工程",
+      "source": "examples/galanty-sources.md#open-projects"
+    },
+    {
+      "text": "满意，再导出 MP4",
+      "source": "examples/galanty-sources.md#export-mp4"
+    },
+    {
+      "text": "改一处，回到那一秒",
+      "source": "examples/galanty-sources.md#tagline"
+    }
+  ],
+  "onScreenCopy": [
+    "GALANTY / 文影 GALANTY LAUNCH Claude Code · Codex · Gemini CLI 01 02 03 OPEN EXPORT WHEN READY MP4 Remotion HyperFrames React / TSX HTML animation MP4 / MOV / WebM scenes/title.tsx Title color F2F3EF C9F65A galanty.cn/en/ Made with Galanty Launch",
+    "代码在变。画面，也该跟上。 每次改完，先看那一秒。 你的 Agent · 对话 你 · 00:12.5 把 12.5 秒的标题换成荧光绿。 Agent › 修改标题颜色，保留其他内容。 只改需要改的那一处 已保存 · 等待预览 让想法发光 文影 · 发布片 代码绘制的播放器示意 正在回到改动位置 从改动处接着播 一条回路，反复打磨 你说一句 Agent 改代码 文影接着播 修改意见直接说，先预览，再导出。 视频文件 原地打开、播放；保留你的工程。 满意，再导出 Remotion 工程 · 本机导出 流程示意 · 非实机性能测量",
+    "$ + - < > = # / . : ; , 0 1 2 3 4 5 6 7 8 9"
+  ]
+}

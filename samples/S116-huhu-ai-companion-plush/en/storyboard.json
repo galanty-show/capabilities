@@ -1,0 +1,274 @@
+{
+  "contractVersion": 3,
+  "title": "Huhu · AI Companion Plush",
+  "sourceTitle": "Huhu, an AI companion plush by Xuguang (fictional brand) · promo film",
+  "scenes": [
+    {
+      "id": "whisper",
+      "title": "A bedtime whisper",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.6
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-night",
+          "props": {
+            "mode": "whisper",
+            "whisper": "Huhu, are you asleep?"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "hello",
+      "title": "Eyes light up",
+      "narration": "I'm here — which story tonight?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-night",
+          "props": {
+            "mode": "hello",
+            "clock": 1.6,
+            "choiceCue": "story",
+            "choices": [
+              {
+                "icon": "rabbit",
+                "label": "Bunny Goes Home"
+              },
+              {
+                "icon": "moon",
+                "label": "The Moon Boat"
+              },
+              {
+                "icon": "whale",
+                "label": "The Whale's Dream"
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "story",
+      "title": "Bedtime stories",
+      "narration": "Huhu tells a new story every night. Bunny opens the door — what's outside?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-story",
+          "props": {
+            "name": "Huhu",
+            "brandLine": "AI companion plush by Xuguang",
+            "nameCue": "Huhu",
+            "flipCue": "night",
+            "doorCue": "opens",
+            "starsCue": "outside",
+            "toyLine": "bunny"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "english",
+      "title": "New words, no pressure",
+      "narration": "Learn new words — mistakes are no big deal. Apple — you said it perfectly!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-english",
+          "props": {
+            "wrongTry": "A…pu?",
+            "wrongCue": "mistakes",
+            "kindWord": "That's okay, try again!",
+            "kindCue": "deal",
+            "word": "APPLE",
+            "wordCue": "Apple",
+            "rightTry": "Apple!",
+            "praiseCue": "perfectly",
+            "badge": "+1"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "memory",
+      "title": "It remembers",
+      "narration": "It remembers your birthday, your first tooth.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-memory",
+          "props": {
+            "sparkleCue": "tooth",
+            "cards": [
+              {
+                "icon": "cake",
+                "title": "Birthday",
+                "text": "June 18",
+                "cue": "birthday"
+              },
+              {
+                "icon": "tooth",
+                "title": "Last week",
+                "text": "First lost tooth",
+                "cue": "first"
+              },
+              {
+                "icon": "berry",
+                "title": "Favorite",
+                "text": "Strawberry cake",
+                "cue": ""
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "comfort",
+      "title": "On sad days",
+      "narration": "When you're feeling down, it simply listens. Want to go give Mommy a hug?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-comfort",
+          "props": {
+            "listenCue": "listens",
+            "toyLine": "hug"
+          }
+        }
+      },
+      "hold": 1.66,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "parent",
+      "title": "Parents in the loop",
+      "narration": "From the app, parents set limits, read chats. And at bedtime, it says good night.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-parent",
+          "props": {
+            "app": "Xuguang Parent",
+            "status": "Huhu · Online",
+            "limitCue": "limits",
+            "chatCue": "chats",
+            "nightCue": "night",
+            "chats": [
+              {
+                "time": "20:31",
+                "who": "Xiaoman",
+                "text": "Will the moon follow me home?"
+              },
+              {
+                "time": "20:31",
+                "who": "Huhu",
+                "text": "It's so far away, you can always see it."
+              },
+              {
+                "time": "20:40",
+                "who": "Xiaoman",
+                "text": "The bunny again tomorrow!"
+              }
+            ],
+            "lock": "Encrypted, stored on device",
+            "night": "Good night at 21:00",
+            "note": "Interface is illustrative; product and features are fictional",
+            "unit": "min",
+            "usedLabel": "Today",
+            "capLabel": "Daily limit",
+            "sliderLabel": "Daily time",
+            "chatTitle": "Chat history",
+            "chatDay": "Today",
+            "toyName": "Huhu"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      },
+      "hold": 0.16
+    },
+    {
+      "id": "hero",
+      "title": "Just right to hug",
+      "narration": "Soft plush that's just right to hug. One charge lasts six hours of chat. The coat comes off to wash.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-hero",
+          "props": {
+            "fabric": "Soft plush",
+            "fabricSub": "Just right to hug",
+            "fabricCue": "Soft",
+            "height": "About 28 cm",
+            "sizeCue": "right",
+            "battery": "Up to 6 hours of chat",
+            "batterySub": "Wake word heard on-device",
+            "batteryCue": "charge",
+            "coat": "Washable coat",
+            "coatCue": "coat",
+            "note": "Product and specs are fictional"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      },
+      "hold": 0.87
+    },
+    {
+      "id": "end",
+      "title": "Here to listen",
+      "narration": "Huhu listens, and grows up with you.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-end",
+          "props": {
+            "brand": "Huhu",
+            "category": "AI Companion Plush",
+            "slogan": "Listens, and grows up with you.",
+            "sloganCue": "listens",
+            "note": "Fictional brand · Galanty demo sample"
+          }
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

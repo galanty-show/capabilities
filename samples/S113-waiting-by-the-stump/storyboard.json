@@ -1,0 +1,244 @@
+{
+  "contractVersion": 3,
+  "title": "守株待兔",
+  "sourceTitle": "《韩非子·五蠹》寓言 · 给小朋友的复述",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "猜一猜",
+      "narration": "小朋友，坐在树桩边，能等来兔子吗？这个故事，叫守株待兔。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "open"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "farmer",
+      "title": "宋国农夫",
+      "narration": "很久以前，宋国有个农夫。他天天扛着锄头下地，禾苗绿油油的。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "farmer"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "stump",
+      "title": "老树桩",
+      "narration": "田边有个老树桩，又矮又粗，像个小板凳。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "stump"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "run",
+      "title": "慌慌张张",
+      "narration": "一天，一只兔子慌慌张张跑过来。跑呀跑呀，一不留神——",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "run"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "bonk",
+      "title": "咚",
+      "narration": "咚——一头撞在了树桩上！兔子晕乎乎的，眼前直冒小星星。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "bonk"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "lucky",
+      "title": "白捡一只兔子",
+      "narration": "农夫跑来一看，乐坏了。哈哈，不用干活，白捡一只兔子！他笑开了花，抱着兔子回了家。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "lucky"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "dream",
+      "title": "美梦",
+      "narration": "晚上，他做了个美梦：兔子们排着队，咚、咚、咚！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "dream"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "throw",
+      "title": "锄头一扔",
+      "narration": "第二天，他把锄头一扔，往树桩边一坐：等兔子！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "throw"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "days",
+      "title": "一天又一天",
+      "narration": "太阳出来了，兔子没来。月亮出来了，兔子还是没来。一天，两天，三天……一个月过去了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "days"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "weather",
+      "title": "刮风下雨下雪",
+      "narration": "刮风了，他在等；下雨了，他在等；下雪了，他还在等！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "weather"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "doze",
+      "title": "打呼噜",
+      "narration": "等着等着，他打起了呼噜，蝴蝶落在他鼻子上。野草越长越高，差点把他也埋起来！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "doze"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "aha",
+      "title": "想明白了",
+      "narration": "兔子呢？再也没来过。农夫钻出草丛，挠挠头，想明白了。好运气不会天天来，想要收获，还得自己动手！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "aha"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "back",
+      "title": "回到田里",
+      "narration": "他扛起锄头，又回到了田里。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sz-tale",
+          "props": {
+            "shot": "back"
+          }
+        }
+      },
+      "hold": 2.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "no": "S109",
+  "title": "The Legend of Sleepy Hollow",
+  "titles": {
+    "en": "The Legend of Sleepy Hollow",
+    "zh": "沉睡谷传奇"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "sh-road",
+    "sh-title",
+    "sh-hollow",
+    "sh-ichabod",
+    "sh-katrina",
+    "sh-brom",
+    "sh-party",
+    "sh-ride",
+    "sh-shadow",
+    "sh-chase",
+    "sh-morning",
+    "sh-wedding",
+    "sh-credit"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创英文复述：旁白为自写（原著 Washington Irving 1820 年公版小说，引原文一句）；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-sleepy-hollow",
+    "selection": "library:original-sleepy-hollow",
+    "title": "Sleepy Hollow",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Sleepy Hollow — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S109/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/sleepy-hollow-20261013/music_build.py (cut into 7 segments on the S109 timeline: title hit, folk waltz, heartbeat pulse, 6/8 chase that stops dead on the pumpkin, music-box morning, waltz reprise, final chord; NumPy-synthesized wind, fire, thunder, cannon, flame whoosh, pumpkin crash and bells; no third-party samples), then trimmed to the film body and encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S109; other films will not hit its accents.",
+    "file": "music/sleepy-hollow.mp3",
+    "bundled": true
+  },
+  "note": "英文旁白为预先生成的 Gemini 2.5 Pro TTS 云端配音（音色 Charon，随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成）以 1600 宽 WebP data URI 内联在幕代码里，共用底图的幕共用一个模块（open/hook、chase/throw）；剪影是矢量路径。配乐 Sleepy Hollow（CC0，随包曲库 library:original-sleepy-hollow）按本片逐字时间轴剪辑：改节奏或换曲后重击与骤停不再对齐。夜色参数在 credit 幕的 nights，追逐越切越快在 chase 幕的 cutFactor。画面文字用系统衬线字体（macOS 为 Baskerville），其他系统回退 Georgia。南瓜爆裂有一下接近全白的闪光。正文约 128 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S109"
+}

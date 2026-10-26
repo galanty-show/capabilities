@@ -1,0 +1,56 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 120,
+  "maxDurationSeconds": 200,
+  "narration": true,
+  "voice": "Algieba",
+  "speechRate": 259,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "narr-en"
+      ],
+      "input": "arg",
+      "timeoutMs": 300000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -7,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "sentenceGapSeconds": 0.25,
+  "theme": {
+    "background": "#0b1020",
+    "text": "#fff4e0",
+    "accent": "#ffc56b",
+    "muted": "#a9b4c8"
+  },
+  "sentencePauses": {
+    "s-1543299a14dbc511-1": 0.93,
+    "s-27620ec212150947-1": 0.73,
+    "s-9587a1d809b61394-1": 0.33,
+    "s-65d38c2e98436cc4-1": 1.6,
+    "s-950ed3a8e956b011-1": 2.3
+  },
+  "musicFile": "library:original-wolf-third-cry",
+  "sceneHolds": {
+    "cold": 2.06,
+    "morning": 1.43,
+    "bored": 0.53,
+    "cry1": 0.83,
+    "dusk": 0.53,
+    "wolf": 1.16,
+    "lamb": 1.87,
+    "grandpa": 3.07
+  }
+}

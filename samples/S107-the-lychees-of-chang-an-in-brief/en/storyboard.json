@@ -1,0 +1,489 @@
+{
+  "contractVersion": 3,
+  "title": "The Lychees of Chang'an, in Brief",
+  "sourceTitle": "A story guide to Ma Boyong's The Lychees of Chang'an",
+  "scenes": [
+    {
+      "id": "poem",
+      "title": "A Rider in Red Dust",
+      "narration": "A rider in red dust, and the Consort smiles. No one knows the lychees are coming.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-poem",
+          "props": {
+            "translation": [
+              "A rider in red dust — the Consort smiles;",
+              "no one knows the lychees are coming."
+            ],
+            "credit": "Du Mu, “Passing Huaqing Palace” · Tang dynasty"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "The Lychees of Chang'an",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-title",
+          "props": {
+            "title": "The Lychees of Chang'an",
+            "seal": "",
+            "subtitle": "One lychee · fifteen hundred miles"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "changan",
+      "title": "A Ninth-Rank Clerk",
+      "narration": "Chang'an, the year seven fifty-five. Meet Li Shande, a palace clerk. Ninth rank, honest, and good with numbers. He has just borrowed to buy a house.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-changan",
+          "props": {
+            "year": "755 AD",
+            "city": "Chang'an",
+            "era": "Year 14 of Tianbao · the Tang at its height",
+            "name": "Li Shande",
+            "nameCue": "Li Shande",
+            "post": "Imperial Orchards Office · clerk, ninth rank",
+            "tags": [
+              {
+                "label": "Ninth rank",
+                "cue": "Ninth"
+              },
+              {
+                "label": "Honest",
+                "cue": "honest"
+              },
+              {
+                "label": "Good with numbers",
+                "cue": "numbers"
+              },
+              {
+                "label": "In debt for a house",
+                "cue": "borrowed"
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "edict",
+      "title": "Lychee Envoy",
+      "narration": "An order lands on his head: Lychee Envoy. Bring fresh lychees from Lingnan to Chang'an. Before the Consort's birthday.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-edict",
+          "props": {
+            "decree": "IMPERIAL APPOINTMENT",
+            "post": "Lychee Envoy",
+            "postCue": "Lychee Envoy",
+            "seal": "URGENT",
+            "from": "Lingnan",
+            "to": "Chang'an",
+            "deadline": "Deadline: the Consort's birthday · and they must be fresh"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "decay",
+      "title": "One Day, the Color Turns",
+      "narration": "Off the branch, a lychee turns fast. One day: the color goes. Two: the scent fades. Three: the taste is gone.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-decay",
+          "props": {
+            "days": [
+              {
+                "label": "Day 1 · the color goes",
+                "cue": "One day"
+              },
+              {
+                "label": "Day 2 · the scent fades",
+                "cue": "Two"
+              },
+              {
+                "label": "Day 3 · the taste is gone",
+                "cue": "Three"
+              }
+            ],
+            "freshness": "Freshness {n}%",
+            "credit": "Bai Juyi, Preface to a Painting of Lychees · Tang dynasty"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "distance",
+      "title": "Fifteen Hundred Miles",
+      "narration": "Fifteen hundred miles: ten days at a gallop. Three days against ten. This is no job. It's a death sentence.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-map",
+          "props": {
+            "mode": "distance",
+            "from": "Lingnan",
+            "to": "Chang'an",
+            "distance": 1500,
+            "unit": "miles",
+            "speed": "At a gallop · ten days or more",
+            "short": "3 days",
+            "long": "10+ days",
+            "shortNote": "How long a lychee stays fresh",
+            "longNote": "How long the road takes",
+            "doom": "DEATH",
+            "doomCue": "death"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "south",
+      "title": "South to Lingnan",
+      "narration": "He won't accept it. He packs his counting rods and rides south.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-south",
+          "props": {
+            "place": "Lingnan",
+            "note": "Fifteen hundred miles from Chang'an · humid heat"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "trials",
+      "title": "Again and Again",
+      "narration": "Baskets by fast horse rot in three days. Packed in ice, the ice melts first. Branches cut, sealed in jars, sunk in water. Again, and again.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-trials",
+          "props": {
+            "methods": [
+              "Whole baskets, fast horses",
+              "Packed in ice",
+              "Branch · sealed jar · water"
+            ],
+            "cues": [
+              "ice",
+              "Branches",
+              "Again"
+            ],
+            "trial": "Trial no. {n}",
+            "day": "Day {n}"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "plan",
+      "title": "Taking the Road Apart",
+      "narration": "He takes the distance apart. River to road, station to station. Change horses, change riders. Never the lychees.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-map",
+          "props": {
+            "mode": "plan",
+            "from": "Lingnan",
+            "to": "Chang'an",
+            "water": "Waterway",
+            "land": "Road",
+            "station": "Post station",
+            "stationCue": "station",
+            "relayCue": "horses",
+            "lap": "Run {n}",
+            "swaps": "Fresh horses ×{n}",
+            "keep": "Lychees · never swapped"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "relay",
+      "title": "New Horses, New Riders",
+      "narration": "Blazing sun bakes the post road. Rain washes out the mountain paths. Fog swallows the way. At night, only torches. When a horse drops, change the horse. When a man falls, change the man.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-relay",
+          "props": {
+            "weathers": [
+              "sun",
+              "rain",
+              "fog",
+              "night"
+            ],
+            "cues": [
+              "sun",
+              "Rain",
+              "Fog",
+              "night"
+            ],
+            "names": [
+              {
+                "kind": "sun",
+                "label": "Blazing sun"
+              },
+              {
+                "kind": "rain",
+                "label": "Downpour"
+              },
+              {
+                "kind": "fog",
+                "label": "Mountain fog"
+              },
+              {
+                "kind": "night",
+                "label": "Night"
+              },
+              {
+                "kind": "snow",
+                "label": "Snowstorm"
+              },
+              {
+                "kind": "dusk",
+                "label": "Dusk"
+              },
+              {
+                "kind": "clear",
+                "label": "Clear"
+              }
+            ],
+            "horse": "New horse",
+            "horseCue": "change the horse",
+            "people": "New rider",
+            "peopleCue": "change the man",
+            "dayLabel": "Heading north · day",
+            "dayUnit": "",
+            "status": "Lychees · still fresh"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "arrive",
+      "title": "The Consort Smiles",
+      "narration": "The lychees ride into Chang'an. Peeled open, still fresh. And the Consort smiles.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-arrive",
+          "props": {
+            "city": "Chang'an",
+            "smile": "The Consort smiles",
+            "peelCue": "Peeled",
+            "smileCue": "Consort",
+            "note": "Color, scent, taste · unchanged"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cost",
+      "title": "No One Knows",
+      "narration": "But what is that smile worth? Horses ridden to death. Couriers who collapsed. Lychee trees cut down. Harvests lost.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-cost",
+          "props": {
+            "smile": "One smile",
+            "worthCue": "worth",
+            "items": [
+              {
+                "label": "Horses ridden to death",
+                "cue": "Horses"
+              },
+              {
+                "label": "Couriers who collapsed",
+                "cue": "Couriers"
+              },
+              {
+                "label": "Lychee trees cut down",
+                "cue": "trees"
+              },
+              {
+                "label": "Harvests lost",
+                "cue": "Harvests"
+              }
+            ],
+            "translation": "No one knows the lychees are coming."
+          }
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "truth",
+      "title": "Telling the Truth",
+      "narration": "Li Shande settles every account. He sees who is really paying. He tells the truth. No promotion: he is exiled to Lingnan.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-truth",
+          "props": {
+            "account": "Every account settled",
+            "seal": "Truth",
+            "truthCue": "truth",
+            "exile": "Exiled",
+            "exileCue": "exiled",
+            "note": "No promotion · exiled to Lingnan"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "war",
+      "title": "War Drums",
+      "narration": "That winter, war drums shook the earth. One lychee ran fifteen hundred miles. It showed the crack in a golden age.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-war",
+          "props": {
+            "translation": "War drums from Yuyang shake the earth",
+            "credit": "Bai Juyi, “Song of Everlasting Sorrow” · winter 755: the An Lushan Rebellion begins",
+            "crack": "A golden age, cracked"
+          }
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "credit",
+      "title": "One Word, New Weather",
+      "narration": "This film was made with Galanty. Every frame is drawn live by code. Change one word, and the weather changes.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-credit",
+          "props": {
+            "weathers": [
+              "sun",
+              "rain",
+              "fog",
+              "night"
+            ],
+            "names": [
+              {
+                "kind": "sun",
+                "label": "sun"
+              },
+              {
+                "kind": "rain",
+                "label": "rain"
+              },
+              {
+                "kind": "fog",
+                "label": "fog"
+              },
+              {
+                "kind": "night",
+                "label": "night"
+              },
+              {
+                "kind": "snow",
+                "label": "snow"
+              },
+              {
+                "kind": "dusk",
+                "label": "dusk"
+              },
+              {
+                "kind": "clear",
+                "label": "clear"
+              }
+            ],
+            "changeCue": "one word",
+            "title": "The Lychees of Chang'an",
+            "seal": "Galanty",
+            "line1": "A story guide · from the novel by Ma Boyong",
+            "line2": "Visuals rendered live from code · Qwen3-TTS narration · AI-composed score"
+          }
+        }
+      },
+      "hold": 1,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "contractVersion": 3,
+  "title": "拾页 · 团队研究台",
+  "subtitle": "改编自 video-shotcraft「Ink Press」（Apache-2.0）· 无旁白 36 秒宣传片",
+  "sourceTitle": "video-shotcraft Ink Press 改编说明",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "开场：墨线字标 → 主角卡浮起",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-open",
+          "props": {
+            "f0": 0
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card1",
+      "title": "字卡一：一处就能找到",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 220,
+            "text": "全队的研究， *一处* 就能找到。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "deck",
+      "title": "发牌：牌堆特写 → 飞入网格 → 搜索筛选",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-deck",
+          "props": {
+            "f0": 275
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 6.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "detail",
+      "title": "详情：实验行逐条嵌入",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-detail",
+          "props": {
+            "f0": 465
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card2",
+      "title": "字卡二：论文雷达",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 565,
+            "text": "论文 *雷达，* 为你的晨读挑好。",
+            "sub": "篇入选 · 今日抓取 31 篇",
+            "subDigits": "5"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "radar",
+      "title": "论文雷达：列表压入、计数落定",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-radar",
+          "props": {
+            "f0": 620
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.4997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cardWbr",
+      "title": "字卡三：连着周报",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 725,
+            "text": "每个项目，都 *连着* 周报。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.6663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brief",
+      "title": "周报：自己写自己",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-brief",
+          "props": {
+            "f0": 775
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.6663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card3",
+      "title": "字卡四：同一页",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 885,
+            "text": "整个团队，在 *同一页* 上。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "outro",
+      "title": "落版：合影组装 → 铅印字标",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-outro",
+          "props": {
+            "f0": 940
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

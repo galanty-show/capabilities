@@ -1,0 +1,109 @@
+{
+  "contractVersion": 3,
+  "title": "虚构清单接口演示",
+  "sourceTitle": "原创虚构样片原文",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "清单接口的数据流",
+      "narration": "这是一个完全虚构的清单接口演示。画面从本地表单出发，经请求和回执，最后更新列表；箭头只表示数据流。",
+      "sourceQuote": "这是一个完全虚构的清单接口演示。画面从本地表单出发，经请求和回执，最后更新列表；箭头只表示数据流。",
+      "hold": 1.1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "从表单到画面",
+            "mode": "sequence",
+            "nodes": [
+              {
+                "label": "本地表单",
+                "glyph": "record"
+              },
+              {
+                "label": "演示接口",
+                "glyph": "network"
+              },
+              {
+                "label": "清单画面",
+                "glyph": "play"
+              }
+            ],
+            "halo": false
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "四步接入",
+      "narration": "先填名称和数量，再发送新增请求。收到回执后，检查状态与编号；都符合约定，才把条目加入画面。",
+      "sourceQuote": "先填名称和数量，再发送新增请求。收到回执后，检查状态与编号；都符合约定，才把条目加入画面。",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "process-steps",
+          "props": {
+            "heading": "收到回执后再更新",
+            "steps": [
+              "填写字段",
+              "发送请求",
+              "检查回执",
+              "更新画面"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "请求与回执",
+      "narration": "示例请求是“纸灯，数量二”。示例回执给出成功状态和编号七。两边字段相互对应，这里没有访问网络。",
+      "sourceQuote": "示例请求是“纸灯，数量二”。示例回执给出成功状态和编号七。两边字段相互对应，这里没有访问网络。",
+      "hold": 1.6,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "api-packets",
+          "props": {
+            "mode": "exchange",
+            "heading": "字段怎样来回",
+            "request": {
+              "name": "纸灯",
+              "quantity": 2
+            },
+            "response": {
+              "status": "success",
+              "id": 7
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "成功与超时",
+      "narration": "若请求超时，界面保持未完成状态，提示稍后重试。这个样片只解释流程，不证明线上接口可用。",
+      "sourceQuote": "若请求超时，界面保持未完成状态，提示稍后重试。这个样片只解释流程，不证明线上接口可用。",
+      "hold": 2.0,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "api-packets",
+          "props": {
+            "mode": "outcome",
+            "heading": "有结果，才更新",
+            "success": "成功＋编号：加入列表",
+            "timeout": "超时：保持未完成"
+          }
+        }
+      }
+    }
+  ]
+}

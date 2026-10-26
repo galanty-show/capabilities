@@ -1,0 +1,95 @@
+{
+  "no": "S110",
+  "prompt": {
+    "zh-CN": "用两分钟左右讲 O. Henry 的公版短篇《麦琪的礼物》（The Gift of the Magi），做成横版（16:9）英文故事短片：圣诞前夜，Della 只有一块八毛七，她卖掉及膝的长发给 Jim 买白金表链，Jim 却卖掉祖传金表给她买了一套梳子。旁白用现代英文自己复述，结尾可以短引原文 “They are the magi.”。调性温暖、克制、带点幽默，反转处静一拍。画面签名用代码做：硬币一枚枚数到 $1.87 的计数器、窗外的雪和煤气灯、长发上的流光、怀表和挂钟的秒针、橱窗里发光的表链、反转时和前面呼应的左右分屏。人物前后一致，插画统一成 1905 年纽约的暖色油画质感，需要的底图可以生成。用温暖的云端英文配音，配乐原创（钢琴 + 弦乐 + 一点音乐盒）并按时间轴卡点，硬币、剪刀、开门风铃这些音效用代码合成。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Tell O. Henry's public-domain story “The Gift of the Magi” in about two minutes as a 16:9 landscape short in English: on Christmas Eve Della has one dollar and eighty-seven cents, so she sells her knee-length hair to buy Jim a platinum watch chain, while Jim sells his family gold watch to buy her a set of combs. Write a modern English retelling for the narration and end with a short quote from the original, “They are the magi.” Keep it warm, restrained and a little funny, with a beat of silence at the twist. Build the signature shots in code: a counter that counts coins up to $1.87, snow and gas lamps outside the window, light flowing down her long hair, the second hands of a pocket watch and a wall clock, a glowing chain in a shop window, and a split screen at the twist that mirrors an earlier one. Keep the characters consistent in one warm 1905 New York oil-painting style, and generate any background art you need. Use a warm cloud English voice and an original score (piano, strings and a little music box) cut to the timeline, with coins, scissors and a door bell synthesized in code. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "用大約兩分鐘講 O. Henry 的公版短篇《麥琪的禮物》（The Gift of the Magi），做成橫版（16:9）英文故事短片：聖誕前夕，Della 只有一塊八毛七，她賣掉及膝的長髮給 Jim 買白金錶鏈，Jim 卻賣掉祖傳金錶給她買了一套梳子。旁白用現代英文自己重述，結尾可以短引原文 “They are the magi.”。調性溫暖、克制、帶點幽默，反轉處靜一拍。畫面招牌鏡頭用程式碼做：硬幣一枚枚數到 $1.87 的計數器、窗外的雪和煤氣燈、長髮上的流光、懷錶和掛鐘的秒針、櫥窗裡發光的錶鏈、反轉時和前面呼應的左右分割畫面。人物前後一致，插畫統一成 1905 年紐約的暖色油畫質感，需要的底圖可以生成。用溫暖的雲端英文配音，配樂原創（鋼琴 + 弦樂 + 一點音樂盒）並依時間軸卡點，硬幣、剪刀、開門風鈴這些音效用程式碼合成。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "O. ヘンリーのパブリックドメインの短編『賢者の贈り物』（The Gift of the Magi）を、約2分の横長（16:9）英語ショートにしてください。クリスマスイブ、デラの手元には1ドル87セントしかなく、彼女は膝まである髪を売ってジムにプラチナの時計鎖を買いますが、ジムは祖父譲りの金時計を売って彼女に櫛のセットを買っていました。ナレーションは現代英語で自分で語り直し、最後に原文の “They are the magi.” を短く引用してかまいません。トーンは温かく、抑えめで、少しユーモアを。どんでん返しの瞬間には一拍の静けさを。見せ場はコードで作ってください。硬貨を1枚ずつ数えて $1.87 になるカウンター、窓の外の雪とガス灯、長い髪を流れる光、懐中時計と掛け時計の秒針、ショーウィンドウで輝く時計鎖、そして前半と呼応する左右分割画面のどんでん返し。人物は最初から最後まで一貫させ、1905年ニューヨークの温かい油彩画のタッチで統一し、必要な背景画は生成してかまいません。温かみのあるクラウドの英語音声を使い、BGM はオリジナル（ピアノ＋弦楽＋少しオルゴール）でタイムラインに合わせ、硬貨・ハサミ・ドアベルの効果音はコードで合成してください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "O. 헨리의 퍼블릭 도메인 단편 『크리스마스 선물』(The Gift of the Magi)을 약 2분짜리 가로형(16:9) 영어 단편으로 만들어 주세요. 크리스마스이브, 델라에게는 1달러 87센트뿐이라 무릎까지 오는 머리카락을 팔아 짐에게 백금 시곗줄을 사 주지만, 짐은 할아버지 때부터 내려온 금시계를 팔아 그녀에게 빗 세트를 사 왔습니다. 내레이션은 현대 영어로 직접 다시 쓰고, 마지막에 원문 “They are the magi.”를 짧게 인용해도 좋아요. 톤은 따뜻하고 절제되게, 약간의 유머와 함께, 반전 순간에는 한 박자 정적을 두세요. 대표 장면은 코드로 만들어 주세요. 동전을 하나씩 세어 $1.87이 되는 카운터, 창밖의 눈과 가스등, 긴 머리카락을 타고 흐르는 빛, 회중시계와 벽시계의 초침, 진열창 속에서 빛나는 시곗줄, 그리고 앞부분과 짝을 이루는 좌우 분할 화면의 반전이요. 인물은 처음부터 끝까지 일관되게, 그림은 1905년 뉴욕의 따뜻한 유화 느낌으로 통일하고, 필요한 배경 그림은 생성해도 됩니다. 따뜻한 클라우드 영어 음성을 쓰고, 음악은 오리지널(피아노 + 현악 + 약간의 오르골)로 타임라인에 맞추며, 동전·가위·문 종소리 효과음은 코드로 합성해 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Cuenta en unos dos minutos «El regalo de los Reyes Magos» (The Gift of the Magi), el relato de dominio público de O. Henry, como un corto horizontal 16:9 en inglés: en Nochebuena Della solo tiene un dólar con ochenta y siete; vende su melena para comprarle a Jim una cadena de platino para el reloj, y Jim vende su reloj de oro para regalarle unas peinetas. Escribe tú la narración en inglés moderno y cierra con la cita breve “They are the magi.” Tono cálido, contenido y con algo de humor, con un silencio en el giro final. Haz en código los planos clave: un contador de monedas hasta $1.87, nieve y farolas de gas, luz que recorre su melena, los segunderos de un reloj de bolsillo y de uno de pared, una cadena que brilla en un escaparate y una pantalla dividida en el giro que refleja otra anterior. Personajes coherentes en un único estilo de óleo cálido del Nueva York de 1905; genera los fondos que hagan falta. Voz cálida en inglés en la nube y música original (piano, cuerdas y algo de caja de música) ajustada a la línea de tiempo, con monedas, tijeras y campanilla sintetizadas en código. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Erzähl O. Henrys gemeinfreie Geschichte „Das Geschenk der Weisen“ (The Gift of the Magi) in etwa zwei Minuten als englischen Kurzfilm im Querformat (16:9): An Heiligabend hat Della nur einen Dollar siebenundachtzig; sie verkauft ihr knielanges Haar für eine Uhrkette aus Platin, während Jim seine goldene Familienuhr verkauft, um ihr Kämme zu schenken. Schreib den Sprechertext als eigene Nacherzählung in modernem Englisch und schließe mit dem kurzen Zitat „They are the magi.“ Warm, zurückhaltend, ein wenig humorvoll, mit einem Moment Stille bei der Wendung. Bau die Schlüsselbilder in Code: einen Münzzähler bis $1.87, Schnee und Gaslaternen, Licht, das am langen Haar herabfließt, Sekundenzeiger von Taschen- und Wanduhr, eine leuchtende Kette im Schaufenster und bei der Wendung einen geteilten Bildschirm, der einen früheren spiegelt. Figuren durchgehend gleich, im warmen Ölgemälde-Stil des New York von 1905; Hintergründe darfst du erzeugen. Warme englische Cloud-Stimme, eigene Musik (Klavier, Streicher, etwas Spieluhr) auf die Zeitleiste geschnitten, Münzen, Schere und Türglocke in Code synthetisiert. Zeig mir zuerst die Live-Vorschau, exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Racontez en deux minutes environ « Le Cadeau des Mages » (The Gift of the Magi), nouvelle d'O. Henry du domaine public, en court métrage anglais au format paysage (16:9) : la veille de Noël, Della n'a qu'un dollar quatre-vingt-sept ; elle vend sa longue chevelure pour offrir à Jim une chaîne de montre en platine, et Jim vend sa montre en or pour lui acheter des peignes. Écrivez vous-même la narration en anglais moderne et terminez par la courte citation « They are the magi. » Ton chaleureux, retenu, avec une pointe d'humour et un temps de silence au retournement. Faites en code les plans clés : un compteur de pièces jusqu'à $1.87, la neige et les becs de gaz, la lumière qui coule le long de ses cheveux, les trotteuses d'une montre de poche et d'une horloge, une chaîne qui brille en vitrine, et un écran partagé au retournement qui fait écho à un plan précédent. Personnages cohérents, style d'huile chaleureuse du New York de 1905 ; générez les fonds utiles. Voix anglaise chaleureuse (cloud), musique originale (piano, cordes, boîte à musique) calée sur la timeline, bruitages synthétisés en code. Montrez-moi d'abord l'aperçu en direct, puis exportez le MP4 quand il me plaît.",
+    "pt-BR": "Conte em cerca de dois minutos “O Presente dos Magos” (The Gift of the Magi), o conto de domínio público de O. Henry, como um curta em inglês na horizontal (16:9): na véspera de Natal, Della tem só um dólar e oitenta e sete; vende o cabelo comprido para comprar a Jim uma corrente de platina para o relógio, e Jim vende o relógio de ouro da família para dar a ela uns pentes. Escreva você a narração em inglês moderno e termine com a citação curta “They are the magi.” Tom caloroso, contido e com um pouco de humor, com um instante de silêncio na virada. Faça em código as cenas-chave: um contador de moedas até $1.87, neve e lampiões a gás, luz escorrendo pelo cabelo, os ponteiros de segundos de um relógio de bolso e de parede, uma corrente brilhando na vitrine e uma tela dividida na virada que espelha outra anterior. Personagens consistentes num único estilo de óleo caloroso da Nova York de 1905; gere os fundos que precisar. Voz calorosa em inglês na nuvem e trilha original (piano, cordas e um pouco de caixinha de música) ajustada à linha do tempo, com moedas, tesoura e sininho sintetizados em código. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "STIX Two Text (SIL OFL 1.1)",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Sulafat",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · The Gift of the Magi",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the bar, can you make a few popular American stories? You plan and direct all the music and narration; I've sent you the Gemini key, so use it for the voices and make a few American story templates, and keep the quality high. For the China region, make a few stories best suited to children under 10; also make a few product promos, for example products that became popular in China in 2026; then make three videos that Opus 5.5 is best at making right now; and find the five most popular videos of this kind on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "英文旁白是云端 Gemini 3.8 Flash TTS（音色 Sulafat）预先生成、随包提供，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。配乐与 138 处音效按本片逐字时间轴排好，改停顿、语速或换曲后不再对齐。导出成片用 1920 宽高清底图，随包样片为控制体积内联的是 1280～1440 宽的压缩图。原片云端费用约 US$3.5。",
+    "en": "The English narration was generated in the cloud with Gemini 3.8 Flash TTS (voice Sulafat) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The score and its 138 sound effects are timed to this film's word timings; changing pauses, speed or the track breaks the sync. The exported film used 1920-wide plates; the bundled sample inlines compressed 1280–1440-wide copies to stay small. The original cost about US$3.5 in cloud fees.",
+    "zh-Hant": "英文旁白是雲端 Gemini 3.8 Flash TTS（音色 Sulafat）預先生成、隨包提供，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。配樂與 138 處音效依本片逐字時間軸排好，改停頓、語速或換曲後就不再對齊。匯出成片用 1920 寬的高清底圖，隨包樣片為控制體積內嵌的是 1280～1440 寬的壓縮圖。原片雲端費用約 US$3.5。",
+    "ja": "英語ナレーションはクラウドの Gemini 3.8 Flash TTS（音声 Sulafat）で生成し、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。BGM と 138 個の効果音はこの動画の単語単位のタイミングに合わせてあり、間・話速・曲を変えるとずれます。書き出した動画は 1920 幅の高解像度背景を使い、同梱サンプルはサイズを抑えるため 1280〜1440 幅の圧縮画像を埋め込んでいます。元の動画のクラウド費用は約 US$3.5 でした。",
+    "ko": "영어 내레이션은 클라우드 Gemini 3.8 Flash TTS(음성 Sulafat)로 만들었고 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 음악과 효과음 138개는 이 영상의 단어 단위 타이밍에 맞춰져 있어 쉼·속도·곡을 바꾸면 어긋납니다. 내보낸 영상은 1920 폭 고해상도 배경을 썼고, 함께 제공하는 샘플은 용량을 줄이려고 1280~1440 폭 압축 이미지를 내장했습니다. 원본 제작의 클라우드 비용은 약 US$3.5였습니다.",
+    "es": "La narración en inglés se generó en la nube con Gemini 3.8 Flash TTS (voz Sulafat) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. La música y sus 138 efectos están sincronizados con los tiempos por palabra de este vídeo; cambiar pausas, velocidad o pista rompe la sincronía. El vídeo exportado usó fondos de 1920 de ancho; la muestra incluida lleva copias comprimidas de 1280–1440 para ocupar poco. El original costó unos US$3,5 en la nube.",
+    "de": "Die englische Sprachspur entstand in der Cloud mit Gemini 3.8 Flash TTS (Stimme Sulafat) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Musik und ihre 138 Geräusche sitzen auf den Wortzeiten dieses Films; geänderte Pausen, Tempo oder ein anderes Stück heben die Synchronität auf. Der exportierte Film nutzte 1920 Pixel breite Hintergründe; das mitgelieferte Beispiel enthält komprimierte Kopien mit 1280–1440 Pixel Breite, um klein zu bleiben. Das Original kostete rund US$3,5 an Cloud-Gebühren.",
+    "fr": "La narration anglaise a été générée dans le cloud avec Gemini 3.8 Flash TTS (voix Sulafat) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. La musique et ses 138 effets sont calés sur le minutage mot à mot de ce film ; changer les pauses, le débit ou le morceau casse la synchronisation. Le film exporté utilisait des fonds de 1920 px de large ; l'exemple fourni intègre des copies compressées de 1280 à 1440 px pour rester léger. L'original a coûté environ 3,5 US$ de cloud.",
+    "pt-BR": "A narração em inglês foi gerada na nuvem com Gemini 3.8 Flash TTS (voz Sulafat) e vem pré-gerada, então a reprodução não precisa de chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. A trilha e seus 138 efeitos estão sincronizados com os tempos palavra a palavra deste filme; mudar pausas, velocidade ou a música quebra a sincronia. O vídeo exportado usou fundos de 1920 de largura; a amostra incluída traz cópias comprimidas de 1280–1440 para ficar leve. O original custou cerca de US$3,5 em nuvem."
+  }
+}

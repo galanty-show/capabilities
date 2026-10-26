@@ -1,0 +1,51 @@
+{
+  "no": "S110",
+  "title": "The Gift of the Magi",
+  "titles": {
+    "en": "The Gift of the Magi",
+    "zh": "麦琪的礼物"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "gm-coins",
+    "gm-title",
+    "gm-flat",
+    "gm-treasures",
+    "gm-sale",
+    "gm-search",
+    "gm-wait",
+    "gm-door",
+    "gm-combs",
+    "gm-reveal",
+    "gm-embrace",
+    "gm-magi"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创复述：旁白为自写英文复述（原著 O. Henry《The Gift of the Magi》1905，公有领域，短引原句亦为公版）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-gift-of-the-magi",
+    "selection": "library:original-gift-of-the-magi",
+    "title": "The Gift of the Magi",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "The Gift of the Magi — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S110/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (piano, strings, music box); re-arranged into six sections by tools/production/gift-magi-20261013/music_build.py (0.8 s equal-power crossfades, a full rest before the twist, 4.5 dB pre-duck under narration, 240 Hz dip, 138 NumPy-synthesized SFX: coins, scissors, door bells, clock strike, ticks, footsteps, paper, sparkles, snow-night air; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S110; other films will not hit its accents.",
+    "file": "music/gift-of-the-magi.mp3",
+    "bundled": true
+  },
+  "note": "英文样片。旁白为预先生成的 Gemini 云端配音（音色 Sulafat，随包旁白种子，播放不联网）；改旁白文字后新句需要自备 Gemini key 用同一条自定义命令，或本机配音整片重配。底图（AI 生成）以 data URI 内联在幕代码里，导出成片用的是 1920 宽高清图。配乐 The Gift of the Magi（CC0，随包曲库 library:original-gift-of-the-magi）按本片逐字时间轴重排并合成音效，反转处整段静音一拍：改停顿、语速或换曲后音效与静音不再对齐。画面卡点词都在各幕 meta.params。正文约 121 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S110"
+}

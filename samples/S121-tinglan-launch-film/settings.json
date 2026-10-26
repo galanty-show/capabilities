@@ -1,0 +1,20 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 50,
+  "maxDurationSeconds": 70,
+  "narration": false,
+  "language": "zh",
+  "musicFile": "library:original-play-on",
+  "musicVolume": 0.5,
+  "brandOutro": "made-with",
+  "captionStyle": "clean",
+  "concurrency": 4,
+  "theme": {
+    "background": "#070A14",
+    "accent": "#18D9E8",
+    "text": "#F8FAFC",
+    "muted": "#94A3B8"
+  }
+}

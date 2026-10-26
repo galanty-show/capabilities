@@ -1,0 +1,56 @@
+{
+  "productName": "Galanty",
+  "tagline": "Change one thing. Back to that second.",
+  "language": "en",
+  "durationSeconds": 30,
+  "musicStyle": "electronic",
+  "seed": 105,
+  "palette": {
+    "background": "#0b1110",
+    "foreground": "#f2f3ef",
+    "accent": "#c9f65a"
+  },
+  "sellingPoints": [
+    {
+      "text": "Making video with an Agent?",
+      "source": "examples/galanty-sources.md#own-agent"
+    },
+    {
+      "text": "Preview first.",
+      "source": "examples/galanty-sources.md#preview-first"
+    },
+    {
+      "text": "Use your own Agent.",
+      "source": "examples/galanty-sources.md#own-agent"
+    },
+    {
+      "text": "Your Agent edits the code.",
+      "source": "examples/galanty-sources.md#preview-loop"
+    },
+    {
+      "text": "Back to that second.",
+      "source": "examples/galanty-sources.md#preview-loop"
+    },
+    {
+      "text": "Edit. Preview. Repeat.",
+      "source": "examples/galanty-sources.md#preview-first"
+    },
+    {
+      "text": "Bring your project.",
+      "source": "examples/galanty-sources.md#open-projects"
+    },
+    {
+      "text": "Export MP4.",
+      "source": "examples/galanty-sources.md#export-mp4"
+    },
+    {
+      "text": "Change one thing. Back to that second.",
+      "source": "examples/galanty-sources.md#tagline"
+    }
+  ],
+  "onScreenCopy": [
+    "GALANTY / 文影 GALANTY LAUNCH Claude Code · Codex · Gemini CLI 01 02 03 OPEN EXPORT WHEN READY MP4 Remotion HyperFrames React / TSX HTML animation MP4 / MOV / WebM scenes/title.tsx Title color F2F3EF C9F65A galanty.cn/en/ Made with Galanty Launch",
+    "Code changes. Your preview should keep up. Every edit. Back to its moment. Your Agent · chat YOU · 00:12.5 Make the title at 12.5s lime. AGENT › Change the title color. Keep the rest. A focused edit in your project SAVED · preview next Let ideas glow Galanty · launch-film Code-drawn player illustration Seeking to the edit Playing from the edit ONE LOOP. KEEP REFINING. You ask. Agent edits. Galanty plays. Talk to your Agent. Preview, then export. Video files Open and play. Keep your original project. Happy with it? Export. Remotion project · local export Illustrated workflow · not a performance measurement",
+    "$ + - < > = # / . : ; , 0 1 2 3 4 5 6 7 8 9"
+  ]
+}

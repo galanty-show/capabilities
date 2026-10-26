@@ -1,0 +1,196 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S040",
+  "title": "虚构阅读角周报",
+  "titles": {
+    "zh": "虚构阅读角周报",
+    "en": "Reading Corner Weekly (Fictional)"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "数据报告",
+  "templates": [
+    "T01",
+    "T07"
+  ],
+  "modules": [
+    "title-statement",
+    "metrics-cards",
+    "week-bars"
+  ],
+  "page": "https://galanty.cn/samples/#S040",
+  "version": {
+    "commit": "b1b5fc8869b1d3b301bc23906d489e8988acf74b",
+    "contentDigest": "3d06a57819928725a18bf05ba3bf90e2166e5cfa6780551b08e9f1b934d85e5e",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-calm-current-78",
+    "selection": "library:generated-calm-current-78",
+    "title": "Calm Current 78",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 78 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120402",
+    "modifications": null,
+    "file": "music/generated-calm-current-78.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S040",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 11,
+      "durationSeconds": 44.356418,
+      "files": 12
+    },
+    {
+      "seedId": "S040-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 11,
+      "durationSeconds": 33.635355,
+      "files": 12
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6490,
+      "sha256": "c22c9a672128e775b9c5b68b0e2d155e484623591f783a3e058cf4e65f96a731",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2658,
+      "sha256": "2b271fa44111fe70c9a619d692c4744f1b8e0182369fbb718a805d55d0c2bfa9",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3872,
+      "sha256": "e557da22ceef774265b5404afd907d0f7a79659540e1e68d1142f3289ff67b85",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 541,
+      "sha256": "f4410b0b97cd47965941485b1b66e643cf292d16c28198c151a9d870140e1924",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 719,
+      "sha256": "789c336a2f53871928e7949d144eff084706f796c64669cb703dac1921ec9ee3",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 4061,
+      "sha256": "e7a2b63271183f372f4a7ea3dee08c7f156285a9fea320860f0bfdcad5d38800",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 855,
+      "sha256": "9248e04aa0cd214e951e52a36c77ae5f8bb86e509345b46395ec412c3a0f2e3a",
+      "license": "sample-content"
+    },
+    {
+      "path": "title-statement.tsx",
+      "bytes": 2293,
+      "sha256": "eea577dda3044164f8b4c2f9796ae08c39041961fa51180424e1a6f88fa8e930",
+      "license": "MIT"
+    },
+    {
+      "path": "metrics-cards.tsx",
+      "bytes": 6270,
+      "sha256": "2258c62b938bb695c2c4ea45f5ef17acc0b934b9661d582b30c846a471e0dfb5",
+      "license": "MIT"
+    },
+    {
+      "path": "week-bars.tsx",
+      "bytes": 3317,
+      "sha256": "b3977c1abe41044806942527d77a38a28b71678dbe6453491f06ff0eb7009e20",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6469,
+      "sha256": "0c6354e7d6830cf6c0846aa720d2e8ead4d016a055678e1f8787bfc72bd2d114",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1080,
+      "sha256": "f7cdd36756627823863c5ae85bd5a5e6455dda88d8c72a41b9da211bd78f9ed4",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7713,
+      "sha256": "30dd622af3009c801d1f586b6571cf544be84cb731584d2600987d3ca6a1badd",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1951,
+      "sha256": "5be83b39f5b3b77792a02ab444a2b3a4b7eb8efdf44f3c2e564ed9b209f6f7b3",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S040.zip",
+    "bytes": 1138221,
+    "sha256": "02149ce52908c59828e80cb33b82ff4cff7c5a4d1fb079e54ef560c893f5c1c0",
+    "format": "galanty-source-pack",
+    "contentDigest": "3d06a57819928725a18bf05ba3bf90e2166e5cfa6780551b08e9f1b934d85e5e"
+  },
+  "inlineMedia": []
+}

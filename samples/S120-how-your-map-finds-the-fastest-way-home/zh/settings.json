@@ -1,0 +1,42 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 110,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "Puck",
+  "speechRate": 265,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/code-route-20261013/tts_zh.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 600000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -7,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#060a14",
+    "text": "#eef3ff",
+    "accent": "#ffd75e",
+    "muted": "#8d9abb"
+  },
+  "sentenceGapSeconds": 0.1,
+  "musicFile": "library:original-fastest-way-home",
+  "sentencePauses": {
+    "s-bf11a3065c7c5085-1": 0.3
+  }
+}

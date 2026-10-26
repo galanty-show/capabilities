@@ -1,0 +1,95 @@
+{
+  "no": "S114",
+  "prompt": {
+    "zh-CN": "给 4～9 岁的小朋友做一支约两分钟的中国神话动画《后羿射日》，横版 16:9。用口语短句讲，第一句就是钩子；十个太阳是天帝的孩子、圆滚滚的太阳鸟，被射中时变成金色羽毛落进大海，不写死亡、不吓人；后羿先劝它们回家，劝不回才拉弓，最后人们请他留下一个太阳。画面用中国风绘本插画，后羿前后长得一样；用代码做太阳数量从十倒数到一（每一箭有弧线、命中闪光和飘落的羽毛）、热浪与地面裂纹、下雨后裂缝合上小苗长出来的回春。旁白用亲切又有气势的云端配音，角色对白换不同音色；配乐原创，中国鼓加民族乐器，射日时鼓越来越密、最后一箭后留白，回春时转成温柔的竹笛。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a roughly two-minute Chinese myth animation, \"Hou Yi Shoots the Suns,\" for children aged 4 to 9, 16:9 landscape. Use short spoken sentences and open with a hook. The ten suns are round little sun-birds, children of the Heavenly Emperor; when an arrow hits one it turns into golden feathers that drift into the sea — no death, nothing scary. Hou Yi first asks them to go home and draws his bow only when they won't; in the end the people ask him to keep one sun. Chinese picture-book illustration style, Hou Yi looking the same throughout. In code: the suns counting down from ten to one (arc, hit flash and falling feathers for each arrow), heat shimmer and spreading cracks, and an ending where rain closes the cracks and seedlings sprout. A warm yet stirring cloud voice for the narrator, other voices for the characters; an original score with Chinese drums that speed up with the arrows, silence after the last arrow, and a gentle bamboo flute for the rain. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "給 4～9 歲的小朋友做一支約兩分鐘的中國神話動畫《后羿射日》，橫版 16:9。用口語短句講，第一句就是鉤子；十個太陽是天帝的孩子、圓滾滾的太陽鳥，被射中時變成金色羽毛落進大海，不寫死亡、不嚇人；后羿先勸牠們回家，勸不回才拉弓，最後人們請他留下一個太陽。畫面用中國風繪本插畫，后羿前後長得一樣；用程式碼做太陽數量從十倒數到一（每一箭有弧線、命中閃光和飄落的羽毛）、熱浪與地面裂紋、下雨後裂縫合上、小苗長出來的回春。旁白用親切又有氣勢的雲端配音，角色對白換不同音色；配樂原創，中國鼓加民族樂器，射日時鼓越來越密、最後一箭後留白，回春時轉成溫柔的竹笛。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "4〜9歳の子ども向けに、約2分の中国神話アニメ『后羿射日（こうげい、太陽を射る）』を横長（16:9）で作ってください。話し言葉の短い文で語り、最初の一文でつかみを入れてください。十個の太陽は天帝の子どもで、まんまるの太陽の鳥です。矢が当たると金色の羽になって海へ舞い落ちるようにし、死は描かず、怖くしないでください。后羿はまず家に帰るよう呼びかけ、聞かないときだけ弓を引き、最後は人々に頼まれて太陽を一つ残します。絵は中国風の絵本イラストで、后羿の見た目を最後までそろえてください。コードで、太陽の数が十から一へ減っていくカウント（矢ごとの弧、命中の光、舞い落ちる羽）、陽炎と地面に広がるひび割れ、雨でひびが閉じて苗が芽吹く結末を作ってください。ナレーションは親しみがありつつ力強いクラウドの声で、登場人物のせりふは別の声にしてください。音楽はオリジナルで、中国の太鼓と民族楽器を使い、矢に合わせて太鼓をだんだん速く、最後の一矢のあとに静寂を置き、雨と芽吹きの場面では優しい竹笛に変えてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "4~9세 어린이를 위한 약 2분짜리 중국 신화 애니메이션 『후예가 해를 쏘다(后羿射日)』를 가로형(16:9)으로 만들어 주세요. 짧은 구어체 문장으로 이야기하고, 첫 문장에서 바로 시선을 끌어 주세요. 열 개의 해는 천제의 아이들인 동글동글한 해 새들이고, 화살에 맞으면 금빛 깃털이 되어 바다로 떨어지게 해 주세요. 죽음은 그리지 말고 무섭지 않게요. 후예는 먼저 집에 돌아가라고 타이르고, 듣지 않을 때만 활을 당기며, 마지막에는 사람들이 해 하나는 남겨 달라고 부탁해요. 그림은 중국풍 그림책 일러스트로, 후예의 모습이 처음부터 끝까지 같아야 해요. 코드로 해의 수가 열에서 하나로 줄어드는 카운트(화살마다 포물선, 명중 섬광, 떨어지는 깃털), 아지랑이와 땅에 번지는 균열, 비가 내려 균열이 닫히고 새싹이 돋는 마무리를 만들어 주세요. 내레이션은 다정하면서도 힘 있는 클라우드 음성으로, 등장인물 대사는 다른 목소리로 해 주세요. 음악은 오리지널로 중국 북과 민족 악기를 쓰고, 화살에 맞춰 북이 점점 빨라지다가 마지막 화살 뒤에는 정적을 두고, 비와 새싹 장면에서는 부드러운 대나무 피리로 바꿔 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz una animación de unos dos minutos del mito chino «Hou Yi derriba los soles» para niños de 4 a 9 años, en horizontal 16:9. Frases cortas y orales, con un gancho al empezar. Los diez soles son pajaritos-sol redondos, hijos del Emperador del Cielo; si una flecha alcanza a uno, se convierte en plumas doradas que caen al mar: sin muertes ni sustos. Hou Yi primero les pide que vuelvan a casa y solo tensa el arco cuando no obedecen; al final la gente le pide que deje un sol. Estilo de libro ilustrado chino, con Hou Yi igual de principio a fin. Con código: la cuenta atrás de los soles de diez a uno (arco, destello y plumas en cada flecha), el aire que tiembla de calor y las grietas que se extienden, y un final en que la lluvia cierra las grietas y brotan los plantones. Voz en la nube cálida y con fuerza para el narrador y otras voces para los personajes; música original con tambores chinos que se aceleran con las flechas, un silencio tras la última y una flauta de bambú suave para la lluvia. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach eine etwa zweiminütige Animation zum chinesischen Mythos „Hou Yi schießt die Sonnen ab“ für Kinder von 4 bis 9 Jahren, Querformat 16:9. Kurze, gesprochene Sätze, mit einem Aufhänger am Anfang. Die zehn Sonnen sind kugelrunde Sonnenvögel, Kinder des Himmelskaisers; trifft sie ein Pfeil, werden sie zu goldenen Federn, die ins Meer schweben – kein Tod, nichts Gruseliges. Hou Yi bittet sie zuerst heimzufliegen und spannt den Bogen erst, als sie nicht hören; am Ende bitten ihn die Menschen, eine Sonne übrig zu lassen. Stil chinesischer Bilderbücher, Hou Yi durchgehend gleich. Im Code: der Countdown der Sonnen von zehn auf eins (Flugbogen, Lichtblitz und Federn bei jedem Pfeil), flirrende Hitze und sich ausbreitende Risse, und ein Ende, in dem Regen die Risse schließt und Setzlinge sprießen. Eine warme, kraftvolle Cloud-Stimme für die Erzählung, andere Stimmen für die Figuren; eigene Musik mit chinesischen Trommeln, die mit den Pfeilen schneller werden, Stille nach dem letzten Pfeil und einer sanften Bambusflöte im Regen. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez une animation d'environ deux minutes du mythe chinois « Hou Yi abat les soleils » pour des enfants de 4 à 9 ans, au format paysage 16:9. Phrases courtes et parlées, avec une accroche au début. Les dix soleils sont de petits oiseaux-soleils ronds, enfants de l'Empereur céleste ; quand une flèche en touche un, il devient des plumes dorées qui tombent dans la mer : pas de mort, rien d'effrayant. Hou Yi leur demande d'abord de rentrer et ne bande son arc que s'ils n'écoutent pas ; à la fin, les gens lui demandent de garder un soleil. Style livre illustré chinois, Hou Yi identique du début à la fin. En code : le compte à rebours des soleils de dix à un (trajectoire, éclair et plumes à chaque flèche), l'air qui tremble de chaleur et les fissures qui gagnent le sol, puis la pluie qui referme les fissures et les pousses qui sortent. Une voix cloud chaleureuse et entraînante pour le narrateur, d'autres voix pour les personnages ; une musique originale aux tambours chinois qui s'accélèrent avec les flèches, un silence après la dernière et une douce flûte de bambou sous la pluie. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça uma animação de cerca de dois minutos do mito chinês “Hou Yi derruba os sóis” para crianças de 4 a 9 anos, na horizontal (16:9). Frases curtas e faladas, com um gancho logo no início. Os dez sóis são passarinhos-sol redondinhos, filhos do Imperador do Céu; quando uma flecha acerta um deles, ele vira penas douradas que caem no mar — sem morte e sem sustos. Hou Yi primeiro pede que voltem para casa e só puxa o arco quando não obedecem; no fim, as pessoas pedem que ele deixe um sol. Estilo de livro ilustrado chinês, com Hou Yi igual do começo ao fim. Em código: a contagem regressiva dos sóis de dez a um (arco, clarão e penas a cada flecha), o ar tremendo de calor e rachaduras se espalhando, e um final em que a chuva fecha as rachaduras e os brotos nascem. Voz na nuvem acolhedora e vibrante para o narrador e outras vozes para os personagens; trilha original com tambores chineses que aceleram com as flechas, silêncio depois da última e uma flauta de bambu suave na chuva. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Ma Shan Zheng (SIL OFL 1.1)",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Kore, Fenrir, Leda, Iapetus, Despina",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Houyi Shoots the Suns",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "To the standard of The Lychees of Chang'an, could you make a few stories that are popular in the US? You're fully in charge of planning and directing the music and voices. I've sent you the Gemini key, so you can use it for the voices and make a few American story templates, and the quality has to be high. For the China region, make a few templates of stories best suited to children under 10; also make a few promo films, for example for products that newly took off in China in 2026; then make three videos that Opus 5.5 is best at right now; and find the five most popular videos of this kind on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "中文旁白与对白是云端 Gemini 3.8 Flash TTS 生成（旁白 Kore，后羿 Fenrir、金乌 Leda、老爷爷 Iapetus、妈妈 Despina），随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。原片云端费用约 US$3。",
+    "en": "The Chinese narration and dialogue were generated in the cloud with Gemini 3.8 Flash TTS (narrator Kore; Hou Yi Fenrir, the sun-birds Leda, the grandfather Iapetus, the mother Despina) and ship pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The original cost about US$3 in cloud fees.",
+    "zh-Hant": "中文旁白與對白是雲端 Gemini 3.8 Flash TTS 生成（旁白 Kore，后羿 Fenrir、金烏 Leda、老爺爺 Iapetus、媽媽 Despina），隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。原片雲端費用約 US$3。",
+    "ja": "中国語のナレーションとせりふはクラウドの Gemini 3.8 Flash TTS で生成し（ナレーション Kore、后羿 Fenrir、太陽の鳥 Leda、おじいさん Iapetus、お母さん Despina）、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。元の動画のクラウド費用は約 US$3 でした。",
+    "ko": "중국어 내레이션과 대사는 클라우드 Gemini 3.8 Flash TTS로 만들었고(내레이션 Kore, 후예 Fenrir, 해 새 Leda, 할아버지 Iapetus, 엄마 Despina) 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 원본 제작의 클라우드 비용은 약 US$3였습니다.",
+    "es": "La narración y los diálogos en chino se generaron en la nube con Gemini 3.8 Flash TTS (narradora Kore; Hou Yi Fenrir, los pájaros-sol Leda, el abuelo Iapetus, la madre Despina) y vienen pregenerados, así que reproducirlos no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. El original costó unos US$3 en la nube.",
+    "de": "Die chinesische Erzählung und die Dialoge entstanden in der Cloud mit Gemini 3.8 Flash TTS (Erzählerin Kore; Hou Yi Fenrir, die Sonnenvögel Leda, der Großvater Iapetus, die Mutter Despina) und liegen vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Das Original kostete rund US$3 an Cloud-Gebühren.",
+    "fr": "La narration et les dialogues en chinois ont été générés dans le cloud avec Gemini 3.8 Flash TTS (narratrice Kore ; Hou Yi Fenrir, les oiseaux-soleils Leda, le grand-père Iapetus, la mère Despina) et sont fournis pré-générés : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. L'original a coûté environ 3 US$ de cloud.",
+    "pt-BR": "A narração e os diálogos em chinês foram gerados na nuvem com o Gemini 3.8 Flash TTS (narradora Kore; Hou Yi Fenrir, os passarinhos-sol Leda, o avô Iapetus, a mãe Despina) e vêm pré-gerados, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. O original custou cerca de US$3 em nuvem."
+  }
+}

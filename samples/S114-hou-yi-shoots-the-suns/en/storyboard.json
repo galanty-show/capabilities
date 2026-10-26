@@ -1,0 +1,567 @@
+{
+  "contractVersion": 3,
+  "title": "Hou Yi Shoots the Suns",
+  "sourceTitle": "Hou Yi Shoots the Suns, a Chinese myth (Huainanzi, Shan Hai Jing, Chu Ci) retold for kids",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Ten Suns",
+      "narration": "Long, long ago, the sky had ten suns!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "hook",
+            "title": "Hou Yi Shoots the Suns",
+            "subtitle": "A Chinese myth · told for kids",
+            "hookCue": "ten suns",
+            "ideaCue": "great idea",
+            "jumpCue": "All at once"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "Hou Yi Shoots the Suns",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "title",
+            "title": "Hou Yi Shoots the Suns",
+            "subtitle": "A Chinese myth · told for kids",
+            "hookCue": "ten suns",
+            "ideaCue": "great idea",
+            "jumpCue": "All at once"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "fusang",
+      "title": "The Golden Crows",
+      "narration": "They were children of the King of Heaven. Ten sun-birds, called the Golden Crows. They lived in the Fusang tree by the sea. Each day, just one flew up into the sky.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-fusang",
+          "props": {
+            "wakeCue": "sun-birds",
+            "nameCue": "Golden Crows",
+            "name": "Golden Crows",
+            "treeCue": "Fusang",
+            "treeName": "Fusang Tree",
+            "flyCue": "flew up"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "play",
+      "title": "Let's Go Play",
+      "narration": "One day, the Golden Crows had a great idea. Let's all go out and play together! All at once, ten suns jumped into the sky!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-sky",
+          "props": {
+            "mode": "play",
+            "title": "Hou Yi Shoots the Suns",
+            "subtitle": "A Chinese myth · told for kids",
+            "hookCue": "ten suns",
+            "ideaCue": "great idea",
+            "jumpCue": "All at once"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "drought",
+      "title": "A Giant Oven",
+      "narration": "Oh no, the sky was like a giant oven! The ground cracked and the crops dried up. Even the little river ran dry. People sweated, and the dog panted too!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "drought",
+            "furnaceCue": "oven",
+            "crackCue": "cracked",
+            "riverCue": "river",
+            "peopleCue": "People",
+            "dogCue": "dog",
+            "dayCue": "Days",
+            "nightCue": "nights",
+            "rainCue": "Splish",
+            "closeCue": "closed",
+            "sproutCue": "sprouts",
+            "greenCue": "green"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.8
+    },
+    {
+      "id": "hero",
+      "title": "Hou Yi the Archer",
+      "narration": "Then the great archer Hou Yi stepped up. The King of Heaven gave him a red magic bow. And a bag of white magic arrows.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "hero",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "call",
+      "title": "Go Home!",
+      "narration": "Golden Crows, please go home! But they were having too much fun to hear.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "call",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.1
+    },
+    {
+      "id": "draw",
+      "title": "Bow Pulled Full",
+      "narration": "So Hou Yi drew his magic bow. The string stretched full, round as the moon.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "draw",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "first",
+      "title": "The First Arrow",
+      "narration": "Whoosh, the arrow hit a Golden Crow! It turned into golden feathers. Down, down they floated, into the sea.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "first",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "volley",
+      "title": "Arrow After Arrow",
+      "narration": "Hou Yi shot arrow after arrow! Eight, seven, six, five! Four, three, two, one!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "volley",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "hold": 2.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "last",
+      "title": "Leave One",
+      "narration": "Now only one sun was left in the sky. He drew one more arrow, but people rushed up. Please leave that one! We still need sunshine! Hou Yi smiled and lowered his bow.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-houyi",
+          "props": {
+            "mode": "last",
+            "name": "Hou Yi",
+            "nameCue": "Hou Yi",
+            "bowCue": "red magic bow",
+            "arrowsCue": "white magic arrows",
+            "callCue": "go home",
+            "playCue": "too much fun",
+            "drawCue": "drew",
+            "fullCue": "full",
+            "moonCue": "moon",
+            "whoosh": "Whoosh!",
+            "whooshCue": "Whoosh",
+            "hit": "Hit!",
+            "hitCue": "hit",
+            "counts": [
+              "Eight",
+              "seven",
+              "six",
+              "five",
+              "Four",
+              "three",
+              "two",
+              "one"
+            ],
+            "nockCue": "one more",
+            "peopleCue": "people",
+            "lowerCue": "smiled",
+            "counterLabel": "Suns in the sky",
+            "numerals": [
+              "",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ]
+          }
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "calm",
+      "title": "Just One Sun",
+      "narration": "From then on, there was just one sun. Days were warm and cozy, and nights were cool.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "calm",
+            "furnaceCue": "oven",
+            "crackCue": "cracked",
+            "riverCue": "river",
+            "peopleCue": "People",
+            "dogCue": "dog",
+            "dayCue": "Days",
+            "nightCue": "nights",
+            "rainCue": "Splish",
+            "closeCue": "closed",
+            "sproutCue": "sprouts",
+            "greenCue": "green"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "spring",
+      "title": "Here Comes the Rain",
+      "narration": "Splish, splash, here comes the rain! Cracks closed, and sprouts popped up. The fields turned green again.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-land",
+          "props": {
+            "mode": "spring",
+            "furnaceCue": "oven",
+            "crackCue": "cracked",
+            "riverCue": "river",
+            "peopleCue": "People",
+            "dogCue": "dog",
+            "dayCue": "Days",
+            "nightCue": "nights",
+            "rainCue": "Splish",
+            "closeCue": "closed",
+            "sproutCue": "sprouts",
+            "greenCue": "green"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ending",
+      "title": "To Protect Everyone",
+      "narration": "Hou Yi was very, very strong. But he used his strength to protect everyone.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hy-end",
+          "props": {
+            "warmCue": "protect",
+            "title": "Hou Yi Shoots the Suns",
+            "source": "From the Huainanzi, Shan Hai Jing and Chu Ci"
+          }
+        }
+      },
+      "hold": 2.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    }
+  ]
+}

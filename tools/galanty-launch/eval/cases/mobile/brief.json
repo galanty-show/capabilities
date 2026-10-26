@@ -1,0 +1,34 @@
+{
+  "productName": "Pocket Trail",
+  "tagline": "DEMO / Keep the moment",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Save a note",
+      "detail": "Write a short field note",
+      "command": "New note",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Plan a walk",
+      "detail": "Arrange saved stops",
+      "command": "Open route",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Keep it local",
+      "detail": "Browse saved notes offline",
+      "command": "Saved notes",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#e8c67c"
+  },
+  "musicStyle": "epic",
+  "seed": 2102,
+  "durationSeconds": 36,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

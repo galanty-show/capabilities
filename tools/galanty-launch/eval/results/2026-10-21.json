@@ -1,0 +1,476 @@
+{
+  "date": "2026-10-21",
+  "environment": {
+    "node": "v25.6.1",
+    "platform": "darwin",
+    "remotion": "4.0.523"
+  },
+  "matrix": {
+    "runId": "2026-10-21T03-55-07-940Z-24586",
+    "dependencies": "ci",
+    "browserSha256": "b469d05c698ccf9f4ae3dc43fb194fbdcf56f9da1fc46dcc19f2bf9fe2aa20b8",
+    "toolkitSha256": "d46849be56fc35d944562b517d4e57221a045659f5e5128a1ed4b096316e95e7",
+    "cases": [
+      {
+        "id": "cli",
+        "ok": true,
+        "category": "CLI",
+        "seconds": 62.137484042000004,
+        "measurements": {
+          "durationSeconds": 24,
+          "integratedLufs": -14.04,
+          "truePeakDbtp": -2.26,
+          "cutResidualMedianMs": 8.333333333333304,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 720,
+          "decodedRgbaFrames": 720,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 720
+        },
+        "errors": [],
+        "toolkitSha256": "ef1edc2e987baddf1ca5f7cdadbdbc4bbb1a791f689fa9a6ec222b62b2341e7d"
+      },
+      {
+        "id": "saas",
+        "ok": true,
+        "category": "SaaS",
+        "seconds": 73.22474654199999,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.04,
+          "truePeakDbtp": -2.15,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "abcc14cdf5650419ebaa45b14f46d550d1025cc009a98c4da8b162b746d7d889"
+      },
+      {
+        "id": "mobile",
+        "ok": true,
+        "category": "mobile",
+        "seconds": 88.95414933299998,
+        "measurements": {
+          "durationSeconds": 36,
+          "integratedLufs": -14.01,
+          "truePeakDbtp": -2.38,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 1080,
+          "decodedRgbaFrames": 1080,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 1080
+        },
+        "errors": [],
+        "toolkitSha256": "8df464719bdb73a2d33f0c37bb57e09655109dd4a5acea03a5da43a8b956c585"
+      },
+      {
+        "id": "hardware",
+        "ok": true,
+        "category": "hardware",
+        "seconds": 64.73117975000004,
+        "measurements": {
+          "durationSeconds": 24,
+          "integratedLufs": -14.05,
+          "truePeakDbtp": -1.84,
+          "cutResidualMedianMs": 8.333333333333304,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 720,
+          "decodedRgbaFrames": 720,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 720
+        },
+        "errors": [],
+        "toolkitSha256": "ce60c28ddf68b1288ac742af4ff707cb0e8f64b93699773dc8c570835052f68b"
+      },
+      {
+        "id": "oss",
+        "ok": true,
+        "category": "OSS",
+        "seconds": 73.63045150000002,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.03,
+          "truePeakDbtp": -2.26,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "fa49071ab82894b037d515439b6f85f8e1cc43088708c0644d8653455f396491"
+      },
+      {
+        "id": "data",
+        "ok": true,
+        "category": "data",
+        "seconds": 87.44586495899998,
+        "measurements": {
+          "durationSeconds": 36,
+          "integratedLufs": -14.01,
+          "truePeakDbtp": -2.2,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 1080,
+          "decodedRgbaFrames": 1080,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 1080
+        },
+        "errors": [],
+        "toolkitSha256": "a2b3a6fb25dbdc62a9ae3ffeac1fd3be7d9e87979bfab88ffc6db13a068dd6d0"
+      },
+      {
+        "id": "design",
+        "ok": true,
+        "category": "design",
+        "seconds": 63.973715459000026,
+        "measurements": {
+          "durationSeconds": 24,
+          "integratedLufs": -14.05,
+          "truePeakDbtp": -1.77,
+          "cutResidualMedianMs": 8.333333333333304,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 720,
+          "decodedRgbaFrames": 720,
+          "lowCoverageFrames": 3,
+          "analyzedFrames": 720
+        },
+        "errors": [],
+        "toolkitSha256": "7cb3f93dced94c9a570b3563463a58f96a1c1255ee2156625c78aad509fb8c3e"
+      },
+      {
+        "id": "education",
+        "ok": true,
+        "category": "education",
+        "seconds": 74.94105891699996,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.04,
+          "truePeakDbtp": -2.46,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "90537a72e3f4b1291a8df603234699b4394703cb7b76657f75c06d997cb778fe"
+      },
+      {
+        "id": "audio",
+        "ok": true,
+        "category": "audio",
+        "seconds": 89.02674554100004,
+        "measurements": {
+          "durationSeconds": 36,
+          "integratedLufs": -14.01,
+          "truePeakDbtp": -2.43,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 1080,
+          "decodedRgbaFrames": 1080,
+          "lowCoverageFrames": 6,
+          "analyzedFrames": 1080
+        },
+        "errors": [],
+        "toolkitSha256": "30b197160f72f5cec8a79fb868a3917e4c1196d6ad92cb061d008dfc84de9a4b"
+      },
+      {
+        "id": "security",
+        "ok": true,
+        "category": "security",
+        "seconds": 64.19559954199998,
+        "measurements": {
+          "durationSeconds": 24,
+          "integratedLufs": -14.05,
+          "truePeakDbtp": -1.88,
+          "cutResidualMedianMs": 8.333333333333304,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 720,
+          "decodedRgbaFrames": 720,
+          "lowCoverageFrames": 2,
+          "analyzedFrames": 720
+        },
+        "errors": [],
+        "toolkitSha256": "6605249959273c2a96380f4f88ccb9913169594a678af506966d685651571094"
+      },
+      {
+        "id": "automation",
+        "ok": true,
+        "category": "automation",
+        "seconds": 75.71947866700008,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.04,
+          "truePeakDbtp": -2.52,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 20,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "471a64bd76285015526464d593319bdcf0ce36e1a253452a55aa07585620186f"
+      },
+      {
+        "id": "desktop",
+        "ok": true,
+        "category": "desktop",
+        "seconds": 89.57665879200003,
+        "measurements": {
+          "durationSeconds": 36,
+          "integratedLufs": -14.01,
+          "truePeakDbtp": -2.53,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 1080,
+          "decodedRgbaFrames": 1080,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 1080
+        },
+        "errors": [],
+        "toolkitSha256": "31733f50f52fd07f5f899bba10963aba855ee666548c9698c037a712183aae7c"
+      },
+      {
+        "id": "iot",
+        "ok": true,
+        "category": "IoT",
+        "seconds": 64.71411345800001,
+        "measurements": {
+          "durationSeconds": 24,
+          "integratedLufs": -14.05,
+          "truePeakDbtp": -2.21,
+          "cutResidualMedianMs": 8.333333333333304,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 720,
+          "decodedRgbaFrames": 720,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 720
+        },
+        "errors": [],
+        "toolkitSha256": "4a47eeaea0b48f828fb4f26695669842d1ebad7d23bb5d0f1787d7683ee7299c"
+      },
+      {
+        "id": "commerce",
+        "ok": true,
+        "category": "commerce",
+        "seconds": 75.60270250000002,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.03,
+          "truePeakDbtp": -1.5,
+          "cutResidualMedianMs": 0,
+          "musicOnsetMedianMs": null,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 0,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "27d3d82f52da35969499c6990c054a156510b47673477547e92479861277e295"
+      },
+      {
+        "id": "bun",
+        "ok": true,
+        "category": "real-OSS",
+        "seconds": 75.61627391700004,
+        "measurements": {
+          "durationSeconds": 30,
+          "integratedLufs": -14.05,
+          "truePeakDbtp": -1.92,
+          "cutResidualMedianMs": 8.33333333333286,
+          "musicOnsetMedianMs": 1.2499999999988631,
+          "deterministic": true,
+          "matchedFullFrames": 900,
+          "decodedRgbaFrames": 900,
+          "lowCoverageFrames": 30,
+          "analyzedFrames": 900
+        },
+        "errors": [],
+        "toolkitSha256": "78a3d7ac504ec49850b88a1947bbec1e28f5372c010d3af49bafac20ce5d588b"
+      }
+    ]
+  },
+  "defaultDemo": {
+    "productName": "Zelqio",
+    "durationSeconds": 30,
+    "audio": {
+      "integratedLufs": -14.05,
+      "truePeakDbtp": -1.92
+    },
+    "cutResidualMedianMs": 8.33333333333286,
+    "onsetMedianMs": 1.2499999999988631,
+    "onsetMatchRatio": 1,
+    "matchedFullFrames": 900,
+    "frames": 900,
+    "lowCoverageFrames": 5,
+    "warnings": 17,
+    "renderSeconds": 32.714835958,
+    "checkSeconds": 41.882439624999996,
+    "fingerprint": "e3ab1d305099d9639d6f036c0d52037307660f642ed7d2c98c40785bc0f2d3e9",
+    "filmSha256": "8f6f4de317e162c13309671ce8a7c7f0697b8449783485567997f0039d977888",
+    "contactSheet": "build/contact-sheet.png",
+    "referenceComparison": "build/reference-comparison.png"
+  },
+  "agentTrials": [
+    {
+      "runId": "2026-10-21T03-31-38-604Z-8567-codex-cli",
+      "case": "cli",
+      "host": "codex",
+      "emptyTargetAtStart": true,
+      "resourcesUnchanged": true,
+      "summary": {
+        "firstFilmSuccess": true,
+        "firstSuccessfulAttempt": 1,
+        "recordedHumanInterventions": 0,
+        "humanInterventions": 0,
+        "interventionAuditComplete": true,
+        "totalAttempts": 1
+      },
+      "seconds": 432.87924125,
+      "measurements": {
+        "durationSeconds": 24,
+        "integratedLufs": -14.04,
+        "truePeakDbtp": -2.26,
+        "cutResidualMedianMs": 8.333333333333304,
+        "musicOnsetMedianMs": 1.2499999999988631,
+        "deterministic": true,
+        "matchedFullFrames": 720,
+        "decodedRgbaFrames": 720,
+        "lowCoverageFrames": 2,
+        "analyzedFrames": 720
+      },
+      "deliveryGuardsUnchanged": {
+        "scripts/check.mjs": true,
+        "scripts/mux.mjs": true,
+        "scripts/music.mjs": true
+      },
+      "inputSha256": "7f863d14505e00de52679db8ec1295f68cffdd0098b1dd8962d129647528be74",
+      "sourceSha256": "2b250b38dc530a3e97821b873a1ebaec1d5b89fa505b1a655f9689fc2f1e9d92",
+      "resourcesSha256": "2319a7517cde18ceac7e7eab29a2c0d2947c9525b5cdab3a1a86f51ff6e369a6",
+      "browserSha256": "b469d05c698ccf9f4ae3dc43fb194fbdcf56f9da1fc46dcc19f2bf9fe2aa20b8",
+      "modelPolicy": "Inherited CLI configuration; runner supplies no model/effort/context/compaction overrides",
+      "filmSha256": "13ef67e5e2524e84ac5f2fcd0b867a6c957906af6c6068f0ca0adb417393522a",
+      "report": ".lane-data/agent-eval/2026-10-21T03-31-38-604Z-8567-codex-cli/report.json"
+    },
+    {
+      "runId": "2026-10-21T03-38-54-067Z-46439-codex-saas",
+      "case": "saas",
+      "host": "codex",
+      "emptyTargetAtStart": true,
+      "resourcesUnchanged": true,
+      "summary": {
+        "firstFilmSuccess": true,
+        "firstSuccessfulAttempt": 1,
+        "recordedHumanInterventions": 0,
+        "humanInterventions": 0,
+        "interventionAuditComplete": true,
+        "totalAttempts": 1
+      },
+      "seconds": 413.776747417,
+      "measurements": {
+        "durationSeconds": 30,
+        "integratedLufs": -14.04,
+        "truePeakDbtp": -2.15,
+        "cutResidualMedianMs": 0,
+        "musicOnsetMedianMs": null,
+        "deterministic": true,
+        "matchedFullFrames": 900,
+        "decodedRgbaFrames": 900,
+        "lowCoverageFrames": 0,
+        "analyzedFrames": 900
+      },
+      "deliveryGuardsUnchanged": {
+        "scripts/check.mjs": true,
+        "scripts/mux.mjs": true,
+        "scripts/music.mjs": true
+      },
+      "inputSha256": "02a34d175e30585e54998f7bd04e65054ceca820766b6a3f8566984f9927fcc3",
+      "sourceSha256": "0787a19c0743efaef0cd45f4a18d9b2e426520cb84325e38134f79e5a6b9c757",
+      "resourcesSha256": "2319a7517cde18ceac7e7eab29a2c0d2947c9525b5cdab3a1a86f51ff6e369a6",
+      "browserSha256": "b469d05c698ccf9f4ae3dc43fb194fbdcf56f9da1fc46dcc19f2bf9fe2aa20b8",
+      "modelPolicy": "Inherited CLI configuration; runner supplies no model/effort/context/compaction overrides",
+      "filmSha256": "e7d8fbd93b0d0e46aea2795e2f29bb970e3a8b1766cf14694e2d7e96fa3d984e",
+      "report": ".lane-data/agent-eval/2026-10-21T03-38-54-067Z-46439-codex-saas/report.json"
+    },
+    {
+      "runId": "2026-10-21T03-45-50-995Z-1512-codex-mobile",
+      "case": "mobile",
+      "host": "codex",
+      "emptyTargetAtStart": true,
+      "resourcesUnchanged": true,
+      "summary": {
+        "firstFilmSuccess": true,
+        "firstSuccessfulAttempt": 1,
+        "recordedHumanInterventions": 0,
+        "humanInterventions": 0,
+        "interventionAuditComplete": true,
+        "totalAttempts": 1
+      },
+      "seconds": 506.287196583,
+      "measurements": {
+        "durationSeconds": 36,
+        "integratedLufs": -14.01,
+        "truePeakDbtp": -2.38,
+        "cutResidualMedianMs": 0,
+        "musicOnsetMedianMs": null,
+        "deterministic": true,
+        "matchedFullFrames": 1080,
+        "decodedRgbaFrames": 1080,
+        "lowCoverageFrames": 361,
+        "analyzedFrames": 1080
+      },
+      "deliveryGuardsUnchanged": {
+        "scripts/check.mjs": true,
+        "scripts/mux.mjs": true,
+        "scripts/music.mjs": true
+      },
+      "inputSha256": "afc0b0f5717efee973d055477b5e2d9bfa428f783f7fa4a3d6b300f2d33c414c",
+      "sourceSha256": "e0f927d55403186b456734ea63241c631608f27af3c0987b060d43ad264c62b9",
+      "resourcesSha256": "2319a7517cde18ceac7e7eab29a2c0d2947c9525b5cdab3a1a86f51ff6e369a6",
+      "browserSha256": "b469d05c698ccf9f4ae3dc43fb194fbdcf56f9da1fc46dcc19f2bf9fe2aa20b8",
+      "modelPolicy": "Inherited CLI configuration; runner supplies no model/effort/context/compaction overrides",
+      "filmSha256": "148785f0fd63351e600f4474c18276f61120477e2c863aa10222f956f005deef",
+      "report": ".lane-data/agent-eval/2026-10-21T03-45-50-995Z-1512-codex-mobile/report.json"
+    }
+  ],
+  "excludedTrial": {
+    "runId": "2026-10-21T03-22-45-800Z-85148-codex-cli",
+    "reason": "Shared-dependency harness isolation failure; excluded from clean trial rate. Agent produced a passing film, but npm ci followed the shared link and cleared the primary dependency tree. One instrumentation intervention restored dependencies; runner now rejects shared before I/O.",
+    "instrumentationInterventions": 1,
+    "caseSpecificHumanAssistance": 0
+  },
+  "unverified": [
+    "Claude Code and Gemini CLI authenticated trials",
+    "actual Galanty seek/playback",
+    "continuous human audiovisual playback/listening",
+    "cross-platform rendering",
+    "reference-film automated metrics and blind visual score"
+  ],
+  "unavailable": [
+    "desktop/ is absent in this public repository",
+    "size:assert script is absent in this public toolkit"
+  ]
+}

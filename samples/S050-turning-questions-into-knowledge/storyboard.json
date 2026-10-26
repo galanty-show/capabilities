@@ -1,0 +1,255 @@
+{
+  "contractVersion": 3,
+  "title": "把问题变成知识",
+  "sourceTitle": "原创画面回归示例",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "观察与证据",
+      "narration": "先观察，再记录。用证据修正判断。",
+      "sourceQuote": "先观察，再记录。用证据修正判断。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "让==证据==说话",
+            "points": [
+              "先记录==观察==",
+              "再提出==假设==",
+              "最后用==实验==检验"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "title": "知识的节奏",
+      "narration": "观察提出问题。实验检验假设。证据支持结论。",
+      "sourceQuote": "观察提出问题。实验检验假设。证据支持结论。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "从观察到结论",
+            "preset": "science"
+          }
+        }
+      }
+    },
+    {
+      "id": "3",
+      "title": "八个节点：sequence",
+      "narration": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "sourceQuote": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "顺序：八步相接",
+            "layout": "sequence",
+            "nodes": [
+              {
+                "label": "问题",
+                "glyph": "question"
+              },
+              {
+                "label": "观察",
+                "glyph": "globe"
+              },
+              {
+                "label": "记录",
+                "glyph": "record"
+              },
+              {
+                "label": "分类",
+                "glyph": "book"
+              },
+              {
+                "label": "假设",
+                "glyph": "key"
+              },
+              {
+                "label": "实验",
+                "glyph": "code"
+              },
+              {
+                "label": "比较",
+                "glyph": "compare"
+              },
+              {
+                "label": "结论",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "4",
+      "title": "八个节点：hub",
+      "narration": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "sourceQuote": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "中心：一个问题，七种联系",
+            "layout": "hub",
+            "nodes": [
+              {
+                "label": "问题",
+                "glyph": "question"
+              },
+              {
+                "label": "观察",
+                "glyph": "globe"
+              },
+              {
+                "label": "记录",
+                "glyph": "record"
+              },
+              {
+                "label": "分类",
+                "glyph": "book"
+              },
+              {
+                "label": "假设",
+                "glyph": "key"
+              },
+              {
+                "label": "实验",
+                "glyph": "code"
+              },
+              {
+                "label": "比较",
+                "glyph": "compare"
+              },
+              {
+                "label": "结论",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "5",
+      "title": "八个节点：grid",
+      "narration": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "sourceQuote": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "网格：八项并列",
+            "layout": "grid",
+            "nodes": [
+              {
+                "label": "问题",
+                "glyph": "question"
+              },
+              {
+                "label": "观察",
+                "glyph": "globe"
+              },
+              {
+                "label": "记录",
+                "glyph": "record"
+              },
+              {
+                "label": "分类",
+                "glyph": "book"
+              },
+              {
+                "label": "假设",
+                "glyph": "key"
+              },
+              {
+                "label": "实验",
+                "glyph": "code"
+              },
+              {
+                "label": "比较",
+                "glyph": "compare"
+              },
+              {
+                "label": "结论",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "6",
+      "title": "八个节点：tree",
+      "narration": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "sourceQuote": "八个步骤都要保留。不同关系，需要不同的排布。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "树形：逐层展开",
+            "layout": "tree",
+            "nodes": [
+              {
+                "label": "问题",
+                "glyph": "question"
+              },
+              {
+                "label": "观察",
+                "glyph": "globe"
+              },
+              {
+                "label": "记录",
+                "glyph": "record"
+              },
+              {
+                "label": "分类",
+                "glyph": "book"
+              },
+              {
+                "label": "假设",
+                "glyph": "key"
+              },
+              {
+                "label": "实验",
+                "glyph": "code"
+              },
+              {
+                "label": "比较",
+                "glyph": "compare"
+              },
+              {
+                "label": "结论",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

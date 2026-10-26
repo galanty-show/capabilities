@@ -1,0 +1,170 @@
+{
+  "contractVersion": 3,
+  "title": "Blockchain Wallets in One Minute",
+  "sourceTitle": "An original explainer on blockchain wallets",
+  "scenes": [
+    {
+      "id": "w1",
+      "title": "A window onto the chain",
+      "narration": "A wallet looks like a pocket for money. A self-custody wallet manages your keys. Your asset records stay on the blockchain.",
+      "sourceQuote": "A wallet looks like a pocket for money. A self-custody wallet manages your keys. Your asset records stay on the blockchain.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "wallet",
+            "title": "A wallet: your window onto the chain",
+            "kicker": "Gateway",
+            "index": 1,
+            "lessonLabel": "WALLET 101 / ",
+            "walletLabel": "Your wallet · manages keys",
+            "recordLabel": "On-chain records",
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    },
+    {
+      "id": "w2",
+      "title": "Address and key: separate jobs",
+      "narration": "An address is a mailbox you can share. A key is a signing pen only you should hold. Knowing an address doesn’t give control.",
+      "sourceQuote": "An address is a mailbox you can share. A key is a signing pen only you should hold. Knowing an address doesn’t give control.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "roles",
+            "title": "Address and key: separate jobs",
+            "kicker": "Roles",
+            "index": 2,
+            "lessonLabel": "WALLET 101 / ",
+            "roleLabels": [
+              {
+                "title": "Address",
+                "description": "A mailbox you can share"
+              },
+              {
+                "title": "Key",
+                "description": "A signing pen you keep"
+              }
+            ],
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    },
+    {
+      "id": "w3",
+      "title": "Which road are you on?",
+      "narration": "Think of two networks as two roads. Sender and receiver must pick the same one. Networks A and B here are just examples.",
+      "sourceQuote": "Think of two networks as two roads. Sender and receiver must pick the same one. Networks A and B here are just examples.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "networks",
+            "title": "First, check which road you’re on",
+            "kicker": "Networks",
+            "index": 3,
+            "lessonLabel": "WALLET 101 / ",
+            "networkLabels": [
+              {
+                "name": "Network A",
+                "address": "Address on A"
+              },
+              {
+                "name": "Network B",
+                "address": "Address on B"
+              }
+            ],
+            "networkNote": "Two separate roads, no shortcut between them",
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    },
+    {
+      "id": "w4",
+      "title": "One transfer, three gates",
+      "narration": "First, check network, address and details. Then sign with your key to authorize it. Records update once the network confirms.",
+      "sourceQuote": "First, check network, address and details. Then sign with your key to authorize it. Records update once the network confirms.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "process",
+            "title": "One transfer, three gates",
+            "kicker": "Process",
+            "index": 4,
+            "lessonLabel": "WALLET 101 / ",
+            "processLabels": [
+              "Check details",
+              "Sign to authorize",
+              "Network confirms"
+            ],
+            "updateLabel": "Record updated",
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    },
+    {
+      "id": "w5",
+      "title": "New device, same control",
+      "narration": "A backup helps you regain control. Never send your seed phrase as a screenshot. Guarding the backup means guarding the key.",
+      "sourceQuote": "A backup helps you regain control. Never send your seed phrase as a screenshot. Guarding the backup means guarding the key.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "backup",
+            "title": "New device? Get your control back",
+            "kicker": "Backup",
+            "index": 5,
+            "lessonLabel": "WALLET 101 / ",
+            "backupTitle": "Backup → Restore",
+            "backupNote": "Sample card · no real seed phrase",
+            "backupWarning": "Never hand your key to anyone.",
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    },
+    {
+      "id": "w6",
+      "title": "Remember these three places",
+      "narration": "Addresses receive, and keys sign. Wallets act, and records stay on-chain. Tell them apart, and you know your wallet.",
+      "sourceQuote": "Addresses receive, and keys sign. Wallets act, and records stay on-chain. Tell them apart, and you know your wallet.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wallet-stage",
+          "props": {
+            "mode": "summary",
+            "title": "Remember these three places",
+            "kicker": "Recap",
+            "index": 6,
+            "lessonLabel": "WALLET 101 / ",
+            "summaryLabels": [
+              "Wallet acts",
+              "Key signs",
+              "Chain records"
+            ],
+            "footerTitle": "Blockchain Wallets in One Minute"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "no": "S046",
+  "title": "离线备忘录怎样同步",
+  "titles": {
+    "zh": "离线备忘录怎样同步",
+    "en": "How Offline Notes Sync"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T01",
+    "T02",
+    "T03",
+    "T06"
+  ],
+  "modules": [
+    "title-statement",
+    "relation-map",
+    "compare-two",
+    "three-points"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "page": "https://galanty.cn/samples/#S046"
+}

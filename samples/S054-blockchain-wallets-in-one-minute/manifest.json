@@ -1,0 +1,168 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S054",
+  "title": "一分钟认识区块链钱包",
+  "titles": {
+    "zh": "一分钟认识区块链钱包",
+    "en": "Blockchain Wallets in One Minute"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T05"
+  ],
+  "modules": [
+    "semantic-cards"
+  ],
+  "page": "https://galanty.cn/samples/#S054",
+  "version": {
+    "commit": "20b22236bd1475fb2d8aaecf31938bb0d3f5fb92",
+    "contentDigest": "478251616f9c36785725f6ae50955ddcf040601dd2c1c3f32bd018b4e00ce96f",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": null,
+  "narration": [
+    {
+      "seedId": "S054",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 230,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 6,
+      "durationSeconds": 22.245916,
+      "files": 7
+    },
+    {
+      "seedId": "S054-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Iapetus",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Iapetus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Iapetus); playback stays offline",
+      "sentences": 8,
+      "durationSeconds": 20.902271,
+      "files": 9
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6282,
+      "sha256": "6e164cfcebe471e57d7bc8d69f2da8e3dc463378b4c6f03513f49a9935563626",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2285,
+      "sha256": "4c154f8b7645130de176a36cef2ae4bb1768cc301904279a876f7336b0a74116",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3731,
+      "sha256": "f10e801596985c1ade523a0be413d93817d9cfca8b3884920ca3d9a9e9007f84",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 393,
+      "sha256": "0348078003f71c0aafabaeba98e95b6c4b3cd2c2fa2a8ede1987abd6d95f2735",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 306,
+      "sha256": "8300ced024d162e93dbec4d5cffd070d78647fdccbaa99ee2b9a5b2554240a01",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 3906,
+      "sha256": "c30b7c5d6c6c43f1b91b393b1dd6a964c68125c592939bbcb0d08f3459a28b9d",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 733,
+      "sha256": "6de071026a2e25d05d0fa3442d0d273c975509f5c19b3b90653eee5eb51579f9",
+      "license": "sample-content"
+    },
+    {
+      "path": "semantic-cards.tsx",
+      "bytes": 12826,
+      "sha256": "1d78025d815499b7248253c18842c02ce1aa872ec44a9a3365bd9e351182719f",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 5891,
+      "sha256": "cc551aa8a089e72929e4aea2579510ccc616d1a644f390ec7b13ff144d5e9305",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 486,
+      "sha256": "9a1a591ed43bca06d3425252f9f942b8b833d31bddaa46364298ebc4d4cad35b",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7060,
+      "sha256": "22c25df224bc89338415dbd36b7caeef530711854b617d542313993319032170",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1968,
+      "sha256": "f4c630479c60e748bb1176a8b0bddcced809dcd565d89cfd38615a3e86e0b718",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S054.zip",
+    "bytes": 260297,
+    "sha256": "45cb5e9c3d4e2f04fcbe9f0cb19038f4b2d57ca5bc1fbabc50b93ef8d6d53c98",
+    "format": "galanty-source-pack",
+    "contentDigest": "478251616f9c36785725f6ae50955ddcf040601dd2c1c3f32bd018b4e00ce96f"
+  },
+  "inlineMedia": []
+}

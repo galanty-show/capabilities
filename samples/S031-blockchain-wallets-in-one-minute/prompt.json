@@ -1,0 +1,52 @@
+{
+  "no": "S031",
+  "prompt": {
+    "zh-CN": "做一支约 1 分钟的横版（16:9）概念讲解片：一分钟认识区块链钱包。讲清钱包实际管理的是密钥，地址像收件口可以分享，密钥像签字笔要自己保管，转账前先核对网络和地址，助记词备份不能随手截图发出去。画面全部自己写动画：粒子组成的钱包和钥匙、轨道光环、一次转账经过“三道门”，最后收在“记住这三个位置”。女声旁白，配一段平稳的电子底乐，只讲概念，不引用真实交易数据。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a one-minute 16:9 landscape concept explainer: get to know a crypto wallet in a minute. Make clear that a wallet really manages keys, an address is like a mailbox you can share, a key is like a signing pen you keep to yourself, you check the network and address before sending, and a recovery phrase is never something to screenshot and pass around. Write every scene as custom animation: a wallet and key made of particles, orbiting halos, a transfer passing through “three gates,” ending on “remember these three places.” Female voiceover over a steady electronic bed; concepts only, no real transaction data. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支約 1 分鐘的橫版（16:9）概念講解片：一分鐘認識區塊鏈錢包。講清楚錢包實際管理的是金鑰，地址像收件口可以分享，金鑰像簽字筆要自己保管，轉帳前先核對網路和地址，助記詞備份不能隨手截圖傳出去。畫面全部自己寫動畫：粒子組成的錢包和鑰匙、軌道光環、一次轉帳經過「三道門」，最後收在「記住這三個位置」。女聲旁白，配一段平穩的電子背景音樂，只講概念，不引用真實交易數據。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約1分の横長（16:9）のコンセプト解説動画を作ってください。テーマは「1分でわかるブロックチェーンのウォレット」です。ウォレットが実際に管理しているのは鍵であること、アドレスは郵便受けのように人に教えてよいこと、鍵は署名用のペンのように自分で保管すること、送金前にネットワークとアドレスを確認すること、シードフレーズのバックアップは気軽にスクリーンショットして送ってはいけないことを、はっきり伝えてください。映像はすべて独自のアニメーションで、粒子でできたウォレットと鍵、周回する光の輪、送金が「3つの門」を通過する様子を描き、最後は「この3つの場所を覚えておこう」で締めてください。女性のナレーションに落ち着いた電子音のBGMを合わせ、概念の説明だけにとどめて実際の取引データは引用しないでください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 1분 길이의 가로형(16:9) 개념 설명 영상을 만들어 주세요. 주제는 1분 만에 알아보는 암호화폐 지갑이에요. 지갑이 실제로 관리하는 것은 키이고, 주소는 공유해도 되는 우편함 같고, 키는 나만 간직하는 서명용 펜 같으며, 보내기 전에는 네트워크와 주소를 확인하고, 복구 문구는 절대 캡처해서 돌리면 안 된다는 점을 분명히 해 주세요. 모든 장면은 직접 애니메이션으로 만들어서, 입자로 이루어진 지갑과 열쇠, 궤도를 도는 빛의 고리, “세 개의 관문”을 지나는 송금을 보여 주고 “이 세 곳을 기억하세요”로 마무리해 주세요. 차분한 전자음 배경 음악 위에 여성 내레이션을 깔고, 개념만 다루며 실제 거래 데이터는 쓰지 마세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo explicativo de conceptos de un minuto en formato horizontal 16:9: conoce una cartera de criptomonedas en un minuto. Deja claro que una cartera en realidad gestiona claves, que una dirección es como un buzón que puedes compartir, que una clave es como el bolígrafo con el que firmas y que guardas solo para ti, que antes de enviar se comprueban la red y la dirección, y que la frase de recuperación nunca se captura en pantalla ni se pasa a nadie. Crea cada escena con animación propia: una cartera y una llave hechas de partículas, halos en órbita, una transferencia que cruza «tres puertas» y un cierre con «recuerda estos tres lugares». Narración con voz femenina sobre una base electrónica estable; solo conceptos, sin datos reales de transacciones. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach ein etwa einminütiges Konzept-Erklärvideo im Querformat (16:9): eine Krypto-Wallet in einer Minute verstehen. Mach klar, dass eine Wallet eigentlich Schlüssel verwaltet, dass eine Adresse wie ein Briefkasten ist, den man teilen kann, und ein Schlüssel wie ein Unterschriftsstift, den man für sich behält, dass man vor dem Senden Netzwerk und Adresse prüft und dass man die Wiederherstellungsphrase niemals als Screenshot herumschickt. Schreib jede Szene als eigene Animation: eine Wallet und ein Schlüssel aus Partikeln, kreisende Lichtringe, eine Überweisung, die durch „drei Tore“ geht, und zum Schluss „Merk dir diese drei Stellen“. Eine Sprecherin, dazu gleichmäßige elektronische Hintergrundmusik; nur Konzepte, keine echten Transaktionsdaten. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Créez une vidéo explicative d'environ une minute au format paysage (16:9) : comprendre un portefeuille crypto en une minute. Expliquez clairement qu'un portefeuille gère en réalité des clés, qu'une adresse est comme une boîte aux lettres que l'on peut partager, qu'une clé est comme un stylo de signature que l'on garde pour soi, qu'on vérifie le réseau et l'adresse avant d'envoyer, et qu'on ne fait jamais de capture d'écran de sa phrase de récupération pour la faire circuler. Écrivez chaque scène en animation sur mesure : un portefeuille et une clé faits de particules, des halos en orbite, un transfert qui franchit « trois portes », pour finir sur « Retenez ces trois endroits ». Voix off féminine sur un fond électronique régulier ; uniquement des concepts, aucune donnée de transaction réelle. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um vídeo explicativo de cerca de um minuto na horizontal (16:9): conheça uma carteira de criptomoedas em um minuto. Deixe claro que a carteira, na verdade, gerencia chaves; que o endereço é como uma caixa de correio que você pode compartilhar; que a chave é como uma caneta de assinatura que só você guarda; que você confere a rede e o endereço antes de enviar; e que nunca se tira print da frase de recuperação para mandar por aí. Faça todas as cenas com animação própria: uma carteira e uma chave feitas de partículas, halos em órbita, uma transferência passando por “três portões” e, no fim, “lembre-se destes três pontos”. Narração com voz feminina sobre uma base eletrônica constante; só conceitos, sem dados reais de transações. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Codex CLI",
+      "model": "gpt-6-astra (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Codex CLI",
+      "model": "gpt-6-astra (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "macOS say",
+      "model": "Tingting",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit · Dylan",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Calm Current 78",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Codex CLI",
+      "model": "gpt-6-astra (high)",
+      "where": "cloud"
+    }
+  ],
+  "rounds": []
+}

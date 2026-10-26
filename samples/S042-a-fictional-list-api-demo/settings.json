@@ -1,0 +1,27 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "narration": true,
+  "presenter": false,
+  "voice": "Tingting",
+  "tts": {
+    "engine": "system",
+    "fallback": false
+  },
+  "speechRate": 220,
+  "concurrency": 3,
+  "brandOutro": "made-with",
+  "musicVolume": 0.1,
+  "musicDuckDb": -12,
+  "visualStyle": "motion",
+  "targetSeconds": 55,
+  "maxDurationSeconds": 75,
+  "musicFile": "library:generated-tense-undertow-80",
+  "theme": {
+    "background": "#0E1A29",
+    "accent": "#6DDBDE",
+    "text": "#F1F7FB",
+    "muted": "#9CB5C4"
+  }
+}

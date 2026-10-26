@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "sample": "S127",
+  "note": "WebP q80 1920px images; existing Veo clips locally transcoded to H264 960px/24fps CRF28 without audio. Runtime media are inlined per module. No model calls.",
+  "files": [
+    {
+      "file": "boy-bored",
+      "source": "works/wolf-cry-20261016/media/plates-1920/boy-bored.png",
+      "sha256": "9c8d0bcfd7c62ad294cc559acabd586c3f6f7a3b2d4d74c1d800410a9027c723",
+      "bytes": 291344,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "boy-idea",
+      "source": "works/wolf-cry-20261016/media/plates-1920/boy-idea.png",
+      "sha256": "1d0da5f414ffa48e2165260ad7b97b1710c7e795d1c99d206af856d614f60738",
+      "bytes": 249038,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "boy-night-cry",
+      "source": "works/wolf-cry-20261016/media/plates-1920/boy-night-cry.png",
+      "sha256": "7f9cbc7c9956d15ed5760e9f457dd3f3d6ede98c322ce1e02542a063d49ad915",
+      "bytes": 264774,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "boy-shout-day",
+      "source": "works/wolf-cry-20261016/media/plates-1920/boy-shout-day.png",
+      "sha256": "bc1004c22e64f3cab290edb8c5790159a6b11d71c9d5cf8c28b7505bbcf52bdc",
+      "bytes": 314828,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "boy-terror",
+      "source": "works/wolf-cry-20261016/media/plates-1920/boy-terror.png",
+      "sha256": "4f005bfd97fb3ffafe68382e2fdac852ebb0a4ed9549d24d283ab7cc50b409a1",
+      "bytes": 190150,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "dawn-grandpa",
+      "source": "works/wolf-cry-20261016/media/plates-1920/dawn-grandpa.png",
+      "sha256": "3516b703d0576c317c06dbe5e1496c06cb49da725933207075ea3ea2a3aac926",
+      "bytes": 331090,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "dusk-grass",
+      "source": "works/wolf-cry-20261016/media/plates-1920/dusk-grass.png",
+      "sha256": "a408a842fbb69fa5b02796e0cc3722d4acc9b58bb791186608d85e296c8b8f88",
+      "bytes": 146026,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "dusk-hill",
+      "source": "works/wolf-cry-20261016/media/plates-1920/dusk-hill.png",
+      "sha256": "e44c0057ade29f042886bfe1b353631ab530cee74266e335b26ca7661e11f2ab",
+      "bytes": 332088,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "echo-valley",
+      "source": "works/wolf-cry-20261016/media/plates-1920/echo-valley.png",
+      "sha256": "1042517d03d886b6b9317a0be62318186a6d385b9e88d8e971dc44bf2ead62a7",
+      "bytes": 364790,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "hill-meadow",
+      "source": "works/wolf-cry-20261016/media/plates-1920/hill-meadow.png",
+      "sha256": "91b22fe37d890a4bd3b51ffa54546015b44cfc44ec46501c5c50c061521e37ed",
+      "bytes": 342308,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "hilltop-angry",
+      "source": "works/wolf-cry-20261016/media/plates-1920/hilltop-angry.png",
+      "sha256": "432ce5790b0c48be1cfdddbcb524fe3a74b61a16ba6861ef7fd0509b2b36b546",
+      "bytes": 373522,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "hilltop-arrival",
+      "source": "works/wolf-cry-20261016/media/plates-1920/hilltop-arrival.png",
+      "sha256": "8598e8ce75c8c420d9b6a81f725f146c427feef367e329475c2d3ee443638ee8",
+      "bytes": 399846,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "morning-valley",
+      "source": "works/wolf-cry-20261016/media/plates-1920/morning-valley.png",
+      "sha256": "db3283a4566b00a134177d0f3267c9a746e5b60a01ea038c37b7bebc258b99ae",
+      "bytes": 335770,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "night-lamb",
+      "source": "works/wolf-cry-20261016/media/plates-1920/night-lamb.png",
+      "sha256": "0dbf3fe9aa5595c3254a4d4b9ca9805d8426185a2096a5dad11e4b33f660609e",
+      "bytes": 220070,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "night-ridge",
+      "source": "works/wolf-cry-20261016/media/plates-1920/night-ridge.png",
+      "sha256": "703ecf3ea8697368432de7ace8c4d39b806860e13f913d87314deb64e8b1986c",
+      "bytes": 242178,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "second-arrival",
+      "source": "works/wolf-cry-20261016/media/plates-1920/second-arrival.png",
+      "sha256": "b34c8fc17cce25dae664a6b61e5cfc2f1373b009567a26e2c565a46687e63905",
+      "bytes": 419716,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "village-dusk",
+      "source": "works/wolf-cry-20261016/media/plates-1920/village-dusk.png",
+      "sha256": "dcfc8ac05b07c41b3b71a645cba5b4f9318ab2643b0a202d63a2fbfc3c25f352",
+      "bytes": 217424,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "village-work",
+      "source": "works/wolf-cry-20261016/media/plates-1920/village-work.png",
+      "sha256": "33cd3ee89e40cc1deaba8a56c9c37bf2c46a4bb855f043fb4ca3ead0d079a0ca",
+      "bytes": 388508,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "villagers-run",
+      "source": "works/wolf-cry-20261016/media/plates-1920/villagers-run.png",
+      "sha256": "9a0f6a00c4b2ebccff5860c423100da545e58ce7962a64fa50f1249866bb15c9",
+      "bytes": 412028,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "wolf",
+      "source": "works/wolf-cry-20261016/media/plates-1920/wolf.png",
+      "sha256": "30e14800abb1a2928d0511ae299ee1a9bd50fa362e964667e598345517f35a14",
+      "bytes": 219258,
+      "generator": "Codex image_gen",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "villagers-run-v",
+      "source": "works/wolf-cry-20261016/media/clips/villagers-run-v.mp4",
+      "sha256": "1e1f00e04b845b712fa0c399d158a2cef2eacad02da8aa6497b85a412692deb4",
+      "bytes": 2938931,
+      "generator": "Veo 3.1 Fast from original image",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "wolf-v",
+      "source": "works/wolf-cry-20261016/media/clips/wolf-v.mp4",
+      "sha256": "5aec6817e5acc7a6a9072336d5c82f5503bb590eb7019ad4fc83d59d8b59bf33",
+      "bytes": 1795428,
+      "generator": "Veo 3.1 Fast from original image",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    },
+    {
+      "file": "boy-terror-v",
+      "source": "works/wolf-cry-20261016/media/clips/boy-terror-v.mp4",
+      "sha256": "0779784d23b37b5532fa9019445e56e5a6d4ba3caff636a87ab0b766a1e5707b",
+      "bytes": 1884614,
+      "generator": "Veo 3.1 Fast from original image",
+      "license": "AI generated original; creator permits redistribution",
+      "commercialUse": true,
+      "redistribution": true
+    }
+  ]
+}

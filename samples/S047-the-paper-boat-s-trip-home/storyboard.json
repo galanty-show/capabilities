@@ -1,0 +1,80 @@
+{
+  "contractVersion": 3,
+  "title": "小纸船的回程",
+  "sourceTitle": "原创虚构故事，人物与情节均为创作。",
+  "music": {
+    "mood": "calm",
+    "energy": "rise",
+    "tempo": 76
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "出发",
+      "narration": "小纸船送信去对岸。水流把它推向石头，它不敢往前。",
+      "sourceQuote": "小纸船送信去对岸。水流把它推向石头，它不敢往前。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "小纸船出发",
+            "kicker": "原创虚构故事"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "两种建议",
+      "narration": "芦苇说顺流，水草说逆流。两个建议正好相反，纸船犹豫了。",
+      "sourceQuote": "芦苇说顺流，水草说逆流。两个建议正好相反，纸船犹豫了。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "相反的建议",
+            "kicker": "原创虚构故事"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "亲身尝试",
+      "narration": "它先看水纹，再轻转船头，从石头旁较缓的水道绕过。",
+      "sourceQuote": "它先看水纹，再轻转船头，从石头旁较缓的水道绕过。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "先观察再尝试",
+            "kicker": "原创虚构故事"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "结果",
+      "narration": "纸船靠岸，信没湿。它懂得：听建议，也要看脚下的水。你会先观察什么？",
+      "sourceQuote": "纸船靠岸，信没湿。它懂得：听建议，也要看脚下的水。你会先观察什么？",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "抵达对岸",
+            "kicker": "原创虚构故事"
+          }
+        }
+      }
+    }
+  ]
+}

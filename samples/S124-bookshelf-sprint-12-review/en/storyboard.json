@@ -1,0 +1,243 @@
+{
+  "contractVersion": 3,
+  "title": "Bookshelf · Sprint 12 Review",
+  "subtitle": "Adapted from claude-code-video-toolkit hello-world (MIT) · a sprint review with no voiceover",
+  "sourceTitle": "Notes on adapting the claude-code-video-toolkit SprintReview",
+  "scenes": [
+    {
+      "id": "title",
+      "title": "Title: Bookshelf · Week 12",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 0,
+            "f0": 0,
+            "logoChar": "B",
+            "product": "Bookshelf",
+            "sprintLabel": "Sprint Review",
+            "sprintName": "Week 12",
+            "dateRange": "Oct 6 – Oct 12",
+            "platform": "Mobile · v1.4",
+            "sprintJoin": ": "
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "overview",
+      "title": "Overview: What we shipped",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 1,
+            "f0": 142,
+            "overviewEyebrow": "SPRINT OVERVIEW",
+            "overviewTitle": "What we shipped",
+            "items": [
+              {
+                "text": "Borrowing",
+                "highlight": "in two steps"
+              },
+              {
+                "text": "Due-date reminders",
+                "highlight": "every day"
+              },
+              {
+                "text": "Screen reader",
+                "highlight": "on every page"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 9.5997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "demo",
+      "title": "Demo: Scan to borrow",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 2,
+            "f0": 430,
+            "demoLabel": "Demo: Scan to borrow",
+            "demoRef": "Issue #142",
+            "steps": [
+              "Scan the barcode",
+              "Check the details",
+              "Confirm the loan",
+              "Note the due date"
+            ],
+            "scanHint": "Fit the barcode inside the frame",
+            "bookTitle": "Summer Library",
+            "bookShelf": "Zone B · Shelf 3",
+            "bookStock": "2 available",
+            "confirmText": "Confirm Loan",
+            "loanTerm": "14-day loan · 1 renewal",
+            "successText": "Checked out",
+            "dueText": "Due back Oct 26",
+            "loanNote": "We'll remind you the day before.",
+            "detectedText": "Detected",
+            "manualText": "Enter the number instead",
+            "bookQuotes": ""
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.1997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "summary",
+      "title": "Summary: The week in numbers",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 3,
+            "f0": 646,
+            "summaryEyebrow": "SPRINT COMPLETE",
+            "summaryTitle": "The week in numbers",
+            "stats": [
+              {
+                "value": 37,
+                "unit": "",
+                "label": "tasks closed"
+              },
+              {
+                "value": 2,
+                "unit": "",
+                "label": "steps to borrow"
+              },
+              {
+                "value": 100,
+                "unit": "%",
+                "label": "screen-reader coverage"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.7997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "summary-hold",
+      "title": "Summary: Numbers settle",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 4,
+            "f0": 790,
+            "summaryEyebrow": "SPRINT COMPLETE",
+            "summaryTitle": "The week in numbers",
+            "stats": [
+              {
+                "value": 37,
+                "unit": "",
+                "label": "tasks closed"
+              },
+              {
+                "value": 2,
+                "unit": "",
+                "label": "steps to borrow"
+              },
+              {
+                "value": 100,
+                "unit": "%",
+                "label": "screen-reader coverage"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.3997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "credits",
+      "title": "Credits",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 5,
+            "f0": 862,
+            "creditsTitle": "CREDITS",
+            "product": "Bookshelf",
+            "credits": [
+              {
+                "category": "TEAM",
+                "names": "Product · Design · Frontend · QA"
+              },
+              {
+                "category": "NEXT WEEK",
+                "names": "Visit booking · Loan history"
+              },
+              {
+                "category": "MADE WITH",
+                "names": "Claude Code · Galanty"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.7997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

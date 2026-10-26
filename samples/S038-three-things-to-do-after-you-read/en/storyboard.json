@@ -1,0 +1,203 @@
+{
+  "contractVersion": 3,
+  "title": "Three Things to Do After You Read",
+  "sourceTitle": "Reading notes in three pages",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Start with a blank sticky note",
+      "narration": "Original reading notes, with no book named. Rather than highlight, I leave a blank note.",
+      "sourceQuote": "Original reading notes, with no book named. Rather than highlight, I leave a blank note.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "reading-notes",
+          "props": {
+            "phase": "intro",
+            "number": "00",
+            "heading": "Done reading? Don’t highlight yet",
+            "support": "Leave a blank sticky note",
+            "eyebrow": "Reading notes",
+            "notes": [
+              {
+                "number": "00",
+                "title": "Space",
+                "detail": "Room for your own question"
+              },
+              {
+                "number": "01",
+                "title": "Ask",
+                "detail": "Ask in your own words"
+              },
+              {
+                "number": "02",
+                "title": "Compare",
+                "detail": "Matches and clashes side by side"
+              },
+              {
+                "number": "03",
+                "title": "Try",
+                "detail": "A starting point for tomorrow"
+              }
+            ],
+            "questionLabel": "What else to ask?",
+            "clueLabels": [
+              "Clue A",
+              "Clue B"
+            ],
+            "footer": "Original notes · no real titles or quotes"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Point one: write a question",
+      "narration": "First, write down your real question. A question of your own beats copied quotes.",
+      "sourceQuote": "First, write down your real question. A question of your own beats copied quotes.",
+      "hold": 1.1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "reading-notes",
+          "props": {
+            "phase": "question",
+            "number": "01",
+            "heading": "Write down the real question",
+            "support": "Start with “What do I want to ask?”",
+            "eyebrow": "Reading notes",
+            "notes": [
+              {
+                "number": "00",
+                "title": "Space",
+                "detail": "Room for your own question"
+              },
+              {
+                "number": "01",
+                "title": "Ask",
+                "detail": "Ask in your own words"
+              },
+              {
+                "number": "02",
+                "title": "Compare",
+                "detail": "Matches and clashes side by side"
+              },
+              {
+                "number": "03",
+                "title": "Try",
+                "detail": "A starting point for tomorrow"
+              }
+            ],
+            "questionLabel": "What else to ask?",
+            "clueLabels": [
+              "Clue A",
+              "Clue B"
+            ],
+            "footer": "Original notes · no real titles or quotes"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Point two: compare clues",
+      "narration": "Second, put two clues side by side. Circle the clashes, and see why you hesitate.",
+      "sourceQuote": "Second, put two clues side by side. Circle the clashes, and see why you hesitate.",
+      "hold": 1.1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "reading-notes",
+          "props": {
+            "phase": "compare",
+            "number": "02",
+            "heading": "Compare two clues",
+            "support": "Matches side by side, clashes circled",
+            "eyebrow": "Reading notes",
+            "notes": [
+              {
+                "number": "00",
+                "title": "Space",
+                "detail": "Room for your own question"
+              },
+              {
+                "number": "01",
+                "title": "Ask",
+                "detail": "Ask in your own words"
+              },
+              {
+                "number": "02",
+                "title": "Compare",
+                "detail": "Matches and clashes side by side"
+              },
+              {
+                "number": "03",
+                "title": "Try",
+                "detail": "A starting point for tomorrow"
+              }
+            ],
+            "questionLabel": "What else to ask?",
+            "clueLabels": [
+              "Clue A",
+              "Clue B"
+            ],
+            "footer": "Original notes · no real titles or quotes"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Point three: one small step",
+      "narration": "Third, pick one small thing to try. Notes don’t have to hand me the answer. A step I can take tomorrow keeps it going.",
+      "sourceQuote": "Third, pick one small thing to try. Notes don’t have to hand me the answer. A step I can take tomorrow keeps it going.",
+      "hold": 1.3,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "reading-notes",
+          "props": {
+            "phase": "action",
+            "number": "03",
+            "heading": "Try one small thing",
+            "support": "Tomorrow, take the first step",
+            "eyebrow": "Reading notes",
+            "notes": [
+              {
+                "number": "00",
+                "title": "Space",
+                "detail": "Room for your own question"
+              },
+              {
+                "number": "01",
+                "title": "Ask",
+                "detail": "Ask in your own words"
+              },
+              {
+                "number": "02",
+                "title": "Compare",
+                "detail": "Matches and clashes side by side"
+              },
+              {
+                "number": "03",
+                "title": "Try",
+                "detail": "A starting point for tomorrow"
+              }
+            ],
+            "questionLabel": "What else to ask?",
+            "clueLabels": [
+              "Clue A",
+              "Clue B"
+            ],
+            "footer": "Original notes · no real titles or quotes"
+          }
+        }
+      }
+    }
+  ]
+}

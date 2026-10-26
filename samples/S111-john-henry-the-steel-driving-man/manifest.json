@@ -1,0 +1,346 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S111",
+  "title": "John Henry, the Steel-Driving Man",
+  "titles": {
+    "en": "John Henry, the Steel-Driving Man",
+    "zh": "约翰·亨利：打钢钎的汉子"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "jh-hook",
+    "jh-title",
+    "jh-born",
+    "jh-west",
+    "jh-crew",
+    "jh-mountain",
+    "jh-drill",
+    "jh-reply",
+    "jh-race",
+    "jh-fall",
+    "jh-legacy"
+  ],
+  "page": "https://galanty.cn/samples/#S111",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "f570a56e8c66a7d3f690590bebfcec5ca0eb84ae2baf6c90cce50db9d23eaed8",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创复述：美国民间传说 John Henry，英文旁白自写，只化用两句传统民歌说法（公有领域）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创复述：美国民间传说 John Henry，英文旁白自写，只化用两句传统民歌说法（公有领域）；底图、配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-john-henry",
+    "selection": "library:original-john-henry",
+    "title": "Steel-Driving Man",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Steel-Driving Man — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized hammer, steam-drill and heartbeat sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S111/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original timeline prompts (a 92 BPM work-song blues take and a harmonica coda take); edited by tools/production/john-henry-20261013/music_build.py (groove entrance moved onto the title hit, the reply muffled, eight race bars time-stretched bar by bar from 92 to about 128 BPM with pitch kept, a hard stop into silence, the coda placed on the end card, 230 Hz dip, NumPy-synthesized hammer, steam-drill, blast, heartbeat and whistle effects, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S111; other films will not hit its accents.",
+    "file": "music/john-henry.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S111",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Algenib",
+      "speechRate": 242,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Algenib），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Algenib); playback stays offline",
+      "sentences": 33,
+      "durationSeconds": 88.892336,
+      "files": 34
+    },
+    {
+      "seedId": "S111-zh",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Orus",
+      "speechRate": 245,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Orus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Orus); playback stays offline",
+      "sentences": 33,
+      "durationSeconds": 82.08565,
+      "files": 34
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6434,
+      "sha256": "7d72bc52bf03c362498579a68b91c267516d8c03a2b8d1b42e79734cf7bb927e",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4423,
+      "sha256": "b83231d41a291995a8be5fb42754223a84ca18149cd7275e23f9c6393ba3004e",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 7058,
+      "sha256": "6e46735153eaf022a79f17cbcdac3ed821f7c8c083dc3abb53b580baa2103a8d",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 771,
+      "sha256": "226361d4a892a9b4ec2870ad3b8fd5b12fc3d45889f98462af7ddda6505c2b21",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 3823,
+      "sha256": "0ec3f22752bbed536fa77b64c67f03f284e90a9d218fcebdff617e5249ab3e6c",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/storyboard.json",
+      "bytes": 10091,
+      "sha256": "3d0740b4bf7b3cf813911af97d219a6d0eb3a02efc5ab21f0678fa26822ede1e",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/settings.json",
+      "bytes": 768,
+      "sha256": "85ccbf08e4b5ecaa9d7059a9d20d2a92e81b4733dcdd5e92e2144fa80359dec4",
+      "license": "sample-content"
+    },
+    {
+      "path": "jh-hook.tsx",
+      "bytes": 12576,
+      "sha256": "15d46666103bb6cdbc474f3d6898a3f1f14d45a15dc0d2d7810fe2a1f3ca8225",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-title.tsx",
+      "bytes": 12553,
+      "sha256": "e22ad30f093126345e6bd08b3c183416e9c3d6f6d85d8ac0eddc6e9f1d431d15",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-born.tsx",
+      "bytes": 13250,
+      "sha256": "cd3b29adf67036ca42317efa2f74f4595194996bfdcac4782f5606d1c7adebcb",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-west.tsx",
+      "bytes": 10225,
+      "sha256": "cc9bcdcd58d9c983eb980f304869027902114b4b8223ff458db1681d1b0c3b6d",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-crew.tsx",
+      "bytes": 13087,
+      "sha256": "8e1fe789e04d7b7e3b99c29240e5d152b1928d2660ff91f4de2dfd7f91841708",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-mountain.tsx",
+      "bytes": 14478,
+      "sha256": "7e09481ebbd51641426c91a38927b5ae0e77cd84d3029838e973f89da2dfc902",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-drill.tsx",
+      "bytes": 16900,
+      "sha256": "8e60e5da44891d1b87c986f41d1b30cef2a9d912ea4406fcc4353bedd58d5108",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-reply.tsx",
+      "bytes": 12002,
+      "sha256": "ad09582e76e7b816b8556feb4cb098393d7ef5f13dbe1fdc392d505ec7424850",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-race.tsx",
+      "bytes": 38166,
+      "sha256": "659b2c2ba1b419237a7485727622a3a5e5063c0e2fa8faa197144040b438fbd3",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-fall.tsx",
+      "bytes": 8702,
+      "sha256": "a148d14493835eeb023e874185b29d9e37e8aee796a612860ed85077f3ddae51",
+      "license": "MIT"
+    },
+    {
+      "path": "jh-legacy.tsx",
+      "bytes": 12841,
+      "sha256": "7f1846ada6cab4d85a35ff6096b1eb51a33d67e0bf913ea1f56a5e6cdf356e01",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 19282,
+      "sha256": "365e58bf219f3c49682116ba45857f1b68062fbf7bcee10eaf062461172a095b",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 14166,
+      "sha256": "549b29d2a2c0c58ea852c140ddb2eee82d54cc16522209e8c857de89acecfa54",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 6716,
+      "sha256": "0ff1da8c820951c059e2f6fe7ed49d59f60523b8d6e282e6c5c539713dfa5743",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2987,
+      "sha256": "a02ef7441255b8961211159496e604bc851b09bc839c5ae7f8f4c26579fba42f",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13401,
+      "sha256": "5f5a0bccf3d4dc6551da12bb9440a03b489324cb6373feda15f7ecb028afbdac",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1975,
+      "sha256": "d2de2c795485475fbfff171513e22b72f6cb9013fc7506749a90b4ff5de51e80",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S111.zip",
+    "bytes": 2776026,
+    "sha256": "a4baaf8cd7a97b9e4a930e857cf8e7873b448284db04ec33694d706ec5f0be85",
+    "format": "galanty-source-pack",
+    "contentDigest": "f570a56e8c66a7d3f690590bebfcec5ca0eb84ae2baf6c90cce50db9d23eaed8"
+  },
+  "inlineMedia": [
+    {
+      "source": "jh-hook.tsx",
+      "reference": "release-assets/77370c40db6cbe4729b289f5e26d8686ab8e3104b5e8f6dfabc8e38f45265748.webp",
+      "mime": "image/webp",
+      "bytes": 58598,
+      "sha256": "77370c40db6cbe4729b289f5e26d8686ab8e3104b5e8f6dfabc8e38f45265748"
+    },
+    {
+      "source": "jh-title.tsx",
+      "reference": "release-assets/9deb90a64b11be4a22e9b409f004223d1871d0119c91de678527743f624c1acf.webp",
+      "mime": "image/webp",
+      "bytes": 79896,
+      "sha256": "9deb90a64b11be4a22e9b409f004223d1871d0119c91de678527743f624c1acf"
+    },
+    {
+      "source": "jh-born.tsx",
+      "reference": "release-assets/a6897f6bf9eb2cdd7aa7fb9940da1a69914f7125aea08a73dba87e4063e98507.webp",
+      "mime": "image/webp",
+      "bytes": 82242,
+      "sha256": "a6897f6bf9eb2cdd7aa7fb9940da1a69914f7125aea08a73dba87e4063e98507"
+    },
+    {
+      "source": "jh-west.tsx",
+      "reference": "release-assets/12dd4bac85942f8da7fc725900e7b2937e3b8cba820e4b307c284089e48ca176.webp",
+      "mime": "image/webp",
+      "bytes": 96868,
+      "sha256": "12dd4bac85942f8da7fc725900e7b2937e3b8cba820e4b307c284089e48ca176"
+    },
+    {
+      "source": "jh-crew.tsx",
+      "reference": "release-assets/591e56b30e78a569976afb391e0799f8750e747ca5e592a139bd1d1c40ebf386.webp",
+      "mime": "image/webp",
+      "bytes": 81966,
+      "sha256": "591e56b30e78a569976afb391e0799f8750e747ca5e592a139bd1d1c40ebf386"
+    },
+    {
+      "source": "jh-mountain.tsx",
+      "reference": "release-assets/46fb50bee6d87e9e19d75640f70e184cd3e8876e1562e2c941f47aeaa46e55e9.webp",
+      "mime": "image/webp",
+      "bytes": 79368,
+      "sha256": "46fb50bee6d87e9e19d75640f70e184cd3e8876e1562e2c941f47aeaa46e55e9"
+    },
+    {
+      "source": "jh-drill.tsx",
+      "reference": "release-assets/df6946c5b54f42aa13beb684c108b94d018539d0c06549fb24be2edf62951820.webp",
+      "mime": "image/webp",
+      "bytes": 93776,
+      "sha256": "df6946c5b54f42aa13beb684c108b94d018539d0c06549fb24be2edf62951820"
+    },
+    {
+      "source": "jh-reply.tsx",
+      "reference": "release-assets/6ff5321b2d02d6627bd3029014d2268096a718f3ff9bf749c7f5e65c84864f29.webp",
+      "mime": "image/webp",
+      "bytes": 85966,
+      "sha256": "6ff5321b2d02d6627bd3029014d2268096a718f3ff9bf749c7f5e65c84864f29"
+    },
+    {
+      "source": "jh-race.tsx",
+      "reference": "release-assets/8dd0d2c71229613809591af8b5e7daa22c1dda4a74a6882fae66d98d158323aa.webp",
+      "mime": "image/webp",
+      "bytes": 63266,
+      "sha256": "8dd0d2c71229613809591af8b5e7daa22c1dda4a74a6882fae66d98d158323aa"
+    },
+    {
+      "source": "jh-race.tsx",
+      "reference": "release-assets/676eaf9dd2c8b6af0704856320b6199e4b8ce0bf094216d9709bf4f171ad5ad6.webp",
+      "mime": "image/webp",
+      "bytes": 91614,
+      "sha256": "676eaf9dd2c8b6af0704856320b6199e4b8ce0bf094216d9709bf4f171ad5ad6"
+    },
+    {
+      "source": "jh-fall.tsx",
+      "reference": "release-assets/9b92720253a2494f2589e2f61baf044aa640e14032e861f8130040da67c481fb.webp",
+      "mime": "image/webp",
+      "bytes": 86238,
+      "sha256": "9b92720253a2494f2589e2f61baf044aa640e14032e861f8130040da67c481fb"
+    },
+    {
+      "source": "jh-legacy.tsx",
+      "reference": "release-assets/063a77cb74a7470375614ef0fca410c6d11954e7126a9ead9ef486d0ca31a77c.webp",
+      "mime": "image/webp",
+      "bytes": 96780,
+      "sha256": "063a77cb74a7470375614ef0fca410c6d11954e7126a9ead9ef486d0ca31a77c"
+    }
+  ]
+}

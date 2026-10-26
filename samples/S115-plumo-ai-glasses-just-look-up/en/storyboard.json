@@ -1,0 +1,294 @@
+{
+  "contractVersion": 3,
+  "title": "PLUMO AI Glasses · Just Look Up",
+  "subtitle": "A vertical, beat-cut promo for fictional AI glasses",
+  "sourceTitle": "Background for the PLUMO AI glasses promo (fictional brand)",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Eyes up",
+      "narration": "Eyes up — the answer's right in front of you.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hook",
+          "props": {
+            "bpm": 126,
+            "beatOffset": 0,
+            "liftCue": "answer",
+            "notices": [
+              "Group chat · 99+ new",
+              "Flash sale · 3 min left",
+              "A creator you follow posted",
+              "Your order has arrived",
+              "Meeting moved to 3 PM",
+              "12 unread emails"
+            ],
+            "hudTitle": "PLUMO · Ready",
+            "hudWeather": "Rain stopped · 19°",
+            "target": "Green light ahead · {n}s left"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "translate",
+      "title": "Live translation",
+      "narration": "Now see live captions in any language.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.833
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-translate",
+          "props": {
+            "bpm": 126,
+            "beatOffset": 0.0095,
+            "cue": "captions",
+            "mode": "Live translation · Japanese → English",
+            "listening": "Listening",
+            "target": "Welcome! Hot off the grill!",
+            "done": "Translated · 0.3 s"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "navigate",
+      "title": "Arrows on the road",
+      "narration": "New streets, with arrows laid at your feet.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-navigate",
+          "props": {
+            "bpm": 126,
+            "beatOffset": -0.0143,
+            "cue": "arrows",
+            "turn": "turn right",
+            "road": "Stay on the greenway · onto Wutong Rd",
+            "etaLabel": "Arrive",
+            "eta": "8 min"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "capture",
+      "title": "Hands-free shots",
+      "narration": "Just say shoot and the privacy light glows.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-capture",
+          "props": {
+            "bpm": 126,
+            "beatOffset": -0.0048,
+            "shotCue": "shoot",
+            "shotOccurrence": 0,
+            "lightCue": "privacy",
+            "mode": "First-person · 12 MP",
+            "saved": "Saved to Photos",
+            "privacy": "Privacy light on",
+            "privacyNote": "Cover it to stop"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "prompter",
+      "title": "Teleprompter",
+      "narration": "When you're up on stage, your script follows.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-prompter",
+          "props": {
+            "bpm": 126,
+            "beatOffset": 0.0048,
+            "cue": "script",
+            "label": "Teleprompter · follows your pace",
+            "pace": "150 wpm",
+            "lines": [
+              "Hi everyone, I'm Lin.",
+              "Just three things today:",
+              "One, keep it simple.",
+              "Two, no one gets lost.",
+              "Three, time for Q&A."
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "notify",
+      "title": "Gentle alerts",
+      "narration": "Messages glow — no reaching for your phone.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.833
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-notify",
+          "props": {
+            "bpm": 126,
+            "beatOffset": 0.0143,
+            "cue": "Messages",
+            "callCue": "phone",
+            "from": "Mom",
+            "message": "Home for dinner?",
+            "reply": "Voice reply: Yes, home by 7",
+            "call": "Call · Lin",
+            "callHint": "Tap the temple to answer"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "build",
+      "title": "Just 42 grams",
+      "narration": "All of this in just 42 grams.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "build",
+            "bpm": 126,
+            "beatOffset": -0.0095,
+            "weightCue": "42",
+            "weightLabel": "TOTAL WEIGHT"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "drop",
+      "title": "Product reveal",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.633
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "drop",
+            "bpm": 126,
+            "beatOffset": 0,
+            "stats": [
+              {
+                "value": "42",
+                "unit": "g",
+                "label": "total weight"
+              },
+              {
+                "value": "6",
+                "unit": "h",
+                "label": "battery · +3 from case"
+              },
+              {
+                "value": "12",
+                "unit": "MP",
+                "label": "first-person camera"
+              },
+              {
+                "value": "38",
+                "unit": "",
+                "label": "languages translated"
+              }
+            ],
+            "disclaimer": "Fictional brand · specs are for demo only"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "end",
+      "title": "Just look up",
+      "narration": "PLUMO AI glasses. Just look up — there's your answer.",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 9.0997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "end",
+            "bpm": 126,
+            "beatOffset": -0.0143,
+            "brand": "PLUMO",
+            "brandLatin": "",
+            "product": "AI GLASSES",
+            "slogan": "Just look up.",
+            "disclaimer": "Fictional brand · specs are for demo only"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

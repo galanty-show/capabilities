@@ -1,0 +1,90 @@
+{
+  "no": "S113",
+  "prompt": {
+    "zh-CN": "给 4～9 岁的小朋友做一支约 90 秒的中文寓言动画《守株待兔》，横版（16:9）：农夫捡到一只撞上树桩、晕乎乎直冒星星的兔子，从此扔下锄头天天坐在树桩边等，日历越翻越快，刮风下雨下雪，野草长得快把他埋起来，最后他想明白了，扛起锄头回到田里。要好笑、适龄：不出现死亡和血，短句口语。画面用明亮的剪纸绘本风，农夫和兔子前后一致；用代码做日夜交替、天数越数越快、天气按参数切换、撞树时画面震动和转圈的星星、问号和省略号气泡。旁白用活泼幽默的云端配音，农夫的台词换一个声音；配乐原创，俏皮的笛子、琵琶和木鱼，等待时慵懒、结尾明亮，音效用代码合成。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a funny Chinese fable cartoon for children aged 4 to 9, about 90 seconds, 16:9 landscape: “Waiting by the Stump” (守株待兔). A farmer finds a rabbit that has bumped into a tree stump and sits there dizzy, seeing stars; from then on he throws away his hoe and waits by the stump every day while a tear-off calendar flips faster and faster, wind, rain and snow come and go, and the weeds almost bury him — until he gets it, shoulders his hoe and goes back to his field. Keep it age-appropriate (no death or blood) with short, spoken sentences. Use a bright paper-cut picture-book look with the same farmer and rabbit throughout, and build in code the day–night cycle, a day count that speeds up, weather switched by a parameter, a screen shake with circling stars for the bump, and “?” and “…” bubbles. Use a lively cloud voice for the narration and another voice for the farmer's line; compose playful original music with flute, pipa and woodblock, lazy while he waits and bright at the end, plus code-made sound effects. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "給 4～9 歲的小朋友做一支約 90 秒的中文寓言動畫《守株待兔》，橫版（16:9）：農夫撿到一隻撞上樹樁、暈乎乎直冒星星的兔子，從此扔下鋤頭天天坐在樹樁邊等，日曆越翻越快，颳風下雨下雪，野草長得快把他埋起來，最後他想明白了，扛起鋤頭回到田裡。要好笑、適齡：不出現死亡和血，短句口語。畫面用明亮的剪紙繪本風，農夫和兔子前後一致；用程式碼做日夜交替、天數越數越快、天氣依參數切換、撞樹時畫面震動和轉圈的星星、問號和省略號氣泡。旁白用活潑幽默的雲端配音，農夫的台詞換一個聲音；配樂原創，俏皮的笛子、琵琶和木魚，等待時慵懶、結尾明亮，音效用程式碼合成。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "4〜9歳の子ども向けに、約90秒の中国語の寓話アニメ『守株待兎（しゅしゅたいと）』を横長（16:9）で作ってください。農夫は切り株にぶつかって目を回し、星がぐるぐる回っているウサギを拾い、それからはくわを放り出して毎日切り株のそばで待ち続けます。日めくりカレンダーはどんどん速くめくれ、風が吹き、雨が降り、雪が降り、雑草は彼が埋もれそうなほど伸びていきます。最後に彼はやっと気づき、くわを担いで畑に戻ります。笑えて年齢にふさわしい内容にし、死や血は出さず、短い話し言葉の文にしてください。画面は明るい切り絵の絵本風で、農夫とウサギの見た目は最後まで統一してください。昼と夜の移り変わり、どんどん速くなる日数のカウント、パラメーターで切り替わる天気、ぶつかった瞬間の画面の揺れと回る星、「?」と「…」の吹き出しはコードで作ってください。ナレーションは明るくユーモアのあるクラウド音声にし、農夫のセリフだけ別の声にしてください。BGMはオリジナルで、笛・琵琶・木魚を使った遊び心のある曲にし、待っている場面はのんびり、結末は明るくして、効果音はコードで合成してください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "4~9세 어린이를 위한 90초 정도의 중국어 우화 애니메이션 『수주대토(守株待兔)』를 가로형(16:9)으로 만들어 주세요. 농부가 나무 그루터기에 부딪혀 어질어질 별을 보는 토끼를 줍고, 그 뒤로는 괭이를 내던지고 날마다 그루터기 옆에 앉아 기다려요. 달력은 점점 빨리 넘어가고, 바람이 불고 비가 오고 눈이 내리고, 잡초는 농부를 거의 덮을 만큼 자라요. 마지막에 농부는 깨닫고 괭이를 메고 밭으로 돌아가요. 웃기면서도 나이에 맞게 해 주세요. 죽음이나 피는 나오지 않게 하고, 짧은 구어체 문장으로 써 주세요. 화면은 밝은 종이 오리기 그림책 풍으로, 농부와 토끼의 모습은 처음부터 끝까지 똑같이 유지해 주세요. 낮과 밤이 바뀌는 장면, 점점 빨라지는 날짜 세기, 파라미터로 바꾸는 날씨, 부딪힐 때의 화면 흔들림과 빙글빙글 도는 별, '?'와 '…' 말풍선은 코드로 만들어 주세요. 내레이션은 발랄하고 유머러스한 클라우드 음성으로, 농부의 대사는 다른 목소리로 해 주세요. 음악은 피리, 비파, 목탁을 쓴 장난스러운 오리지널 곡으로 만들고, 기다리는 장면은 나른하게, 결말은 밝게 해 주세요. 효과음은 코드로 합성해 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un dibujo animado divertido de una fábula china para niños de 4 a 9 años, de unos 90 segundos, en horizontal 16:9: «Esperando junto al tocón» (守株待兔). Un campesino encuentra un conejo que se chocó contra un tocón y quedó mareado, viendo estrellitas; desde entonces tira la azada y espera junto al tocón cada día, mientras un calendario pasa cada vez más rápido, llegan el viento, la lluvia y la nieve, y la maleza casi lo tapa, hasta que lo entiende, se echa la azada al hombro y vuelve a su campo. Que sea apropiado para su edad (sin muerte ni sangre), con frases cortas y habladas. Usa un estilo alegre de libro ilustrado de papel recortado, con el mismo campesino y conejo todo el tiempo, y haz con código el ciclo de día y noche, la cuenta de días que se acelera, el clima cambiado por un parámetro, la sacudida con estrellas girando en el choque y los bocadillos «?» y «…». Narra con una voz en la nube alegre y da otra voz a la frase del campesino; compón música original juguetona con flauta, pipa y bloque de madera, perezosa mientras espera y luminosa al final, con efectos hechos por código. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach einen lustigen chinesischen Fabel-Zeichentrickfilm für Kinder von 4 bis 9 Jahren, etwa 90 Sekunden, Querformat 16:9: „Warten am Baumstumpf“ (守株待兔). Ein Bauer findet einen Hasen, der gegen einen Baumstumpf gerannt ist und benommen Sterne sieht; von da an wirft er die Hacke weg und wartet jeden Tag am Stumpf, während ein Abreißkalender immer schneller blättert, Wind, Regen und Schnee kommen und das Unkraut ihn fast verschluckt – bis er es begreift, die Hacke schultert und zurück aufs Feld geht. Altersgerecht (ohne Tod und Blut), mit kurzen, gesprochenen Sätzen. Nutze einen hellen Scherenschnitt-Bilderbuchlook mit durchgehend demselben Bauern und Hasen und baue im Code: Tag-und-Nacht-Wechsel, eine immer schneller zählende Tageszahl, Wetter per Parameter, Wackeln und kreisende Sterne beim Zusammenstoß sowie „?“- und „…“-Sprechblasen. Lass eine lebhafte Cloud-Stimme erzählen, mit einer anderen Stimme für den Satz des Bauern; komponiere verspielte eigene Musik mit Flöte, Pipa und Holzblock, träge beim Warten und hell am Ende, dazu Soundeffekte aus Code. Zeig mir zuerst die Live-Vorschau und exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez un dessin animé drôle tiré d'une fable chinoise pour les 4-9 ans, d'environ 90 secondes, en paysage 16:9 : « Attendre près de la souche » (守株待兔). Un paysan trouve un lapin qui s'est cogné contre une souche et reste étourdi à voir des étoiles ; dès lors, il jette sa houe et attend chaque jour près de la souche, tandis qu'un éphéméride s'effeuille de plus en plus vite, que vent, pluie et neige passent et que les herbes l'ensevelissent presque – jusqu'à ce qu'il comprenne et retourne à son champ, la houe sur l'épaule. Contenu adapté à leur âge (ni mort ni sang), phrases courtes et parlées. Style lumineux d'album en papier découpé, même paysan et même lapin partout ; en code : alternance jour-nuit, compte des jours qui s'accélère, météo changée par un paramètre, secousse et étoiles qui tournent au choc, bulles « ? » et « … ». Une voix cloud vive pour la narration, une autre pour la réplique du paysan ; musique originale espiègle (flûte, pipa, wood-block), nonchalante pendant l'attente et lumineuse à la fin, effets sonores faits par code. Montrez-moi d'abord l'aperçu en direct ; n'exportez le MP4 que lorsqu'il me convient.",
+    "pt-BR": "Faça um desenho animado engraçado de uma fábula chinesa para crianças de 4 a 9 anos, com cerca de 90 segundos, na horizontal 16:9: “Esperando junto ao toco” (守株待兔). Um camponês encontra um coelho que bateu num toco e ficou tonto, vendo estrelinhas; daí em diante ele joga a enxada fora e espera junto ao toco todo dia, enquanto um calendário vira cada vez mais rápido, vêm vento, chuva e neve, e o mato quase o cobre — até que ele entende, põe a enxada no ombro e volta para a roça. Mantenha adequado à idade (sem morte nem sangue), com frases curtas e faladas. Use um visual alegre de livro ilustrado em papel recortado, com o mesmo camponês e coelho do começo ao fim, e faça em código a troca de dia e noite, a contagem de dias que acelera, o clima trocado por parâmetro, o tremor com estrelas girando na batida e os balões “?” e “…”. Narre com uma voz na nuvem animada e dê outra voz à fala do camponês; componha trilha original brincalhona com flauta, pipa e bloco de madeira, preguiçosa na espera e luminosa no fim, com efeitos feitos por código. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Pillow + numpy (chroma key)",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 2.5 Pro Preview TTS · Leda, Achird",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria",
+      "model": "lyria-3.5",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Waiting by the Stump",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the quality bar, could you make a few stories that are popular in the US? You're in charge of planning and directing all the music and narration; I've sent you the Gemini key, so you can use it for narration and make a few American story templates — keep the quality high. For the China region, make a few templates with the stories best suited to children under 10. Also make a few promo films introducing products, such as some products that became popular in China in 2026; then make 3 videos of the kind Opus 5.5 is best at making on the market right now; and find the 5 most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "旁白是云端 Gemini 2.5 Pro Preview TTS（旁白 Leda、农夫台词 Achird）生成，随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。原片云端费用约 US$2.7。",
+    "en": "The narration was generated in the cloud with Gemini 2.5 Pro Preview TTS (narrator Leda, farmer's line Achird) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The original cost about US$2.7 in cloud fees.",
+    "zh-Hant": "旁白是雲端 Gemini 2.5 Pro Preview TTS（旁白 Leda、農夫台詞 Achird）生成，隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。原片雲端費用約 US$2.7。",
+    "ja": "ナレーションはクラウドの Gemini 2.5 Pro Preview TTS（語り Leda、農夫のセリフ Achird）で生成し、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。元の動画のクラウド費用は約 US$2.7 でした。",
+    "ko": "내레이션은 클라우드 Gemini 2.5 Pro Preview TTS(내레이터 Leda, 농부 대사 Achird)로 만들었고 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 원본 제작의 클라우드 비용은 약 US$2.7였습니다.",
+    "es": "La narración se generó en la nube con Gemini 2.5 Pro Preview TTS (narradora Leda, frase del campesino Achird) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. El original costó unos US$2.7 en la nube.",
+    "de": "Die Sprachspur entstand in der Cloud mit Gemini 2.5 Pro Preview TTS (Erzählerin Leda, Satz des Bauern Achird) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Das Original kostete rund US$2.7 an Cloud-Gebühren.",
+    "fr": "La narration a été générée dans le cloud avec Gemini 2.5 Pro Preview TTS (narratrice Leda, réplique du paysan Achird) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. L'original a coûté environ 2,7 US$ de cloud.",
+    "pt-BR": "A narração foi gerada na nuvem com o Gemini 2.5 Pro Preview TTS (narradora Leda, fala do camponês Achird) e vem pré-gerada, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. O original custou cerca de US$2.7 em nuvem."
+  }
+}

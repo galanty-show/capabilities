@@ -1,0 +1,276 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S113",
+  "title": "守株待兔",
+  "titles": {
+    "zh": "守株待兔",
+    "en": "Waiting by the Stump"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "sz-tale"
+  ],
+  "page": "https://galanty.cn/samples/#S113",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "7d31aba68a609296e2f7b37aa6d262a00b66217ff388a3c0fedde743ed7aca44",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创儿童复述：旁白为自写（原文《韩非子·五蠹》公有领域）；底图、贴纸、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创儿童复述：旁白为自写（原文《韩非子·五蠹》公有领域）；底图、贴纸、配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-waiting-stump",
+    "selection": "library:original-waiting-stump",
+    "title": "Waiting by the Stump",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Waiting by the Stump — Galanty, original score generated with Google Lyria and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S113/README.md",
+    "modifications": "Generated with Google Lyria (lyria-3.5) from an original timeline prompt; edited by tools/production/shouzhu-20261013/music_build.py (re-timed to the film, 230 Hz dip, NumPy-synthesized SFX: bonk, star twinkles, rooster, wind and rain beds, page flips, pops, woodblock steps, snores, chimes; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S113; other films will not hit its accents.",
+    "file": "music/waiting-stump.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S113",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 265,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 27,
+      "durationSeconds": 78.345023,
+      "files": 28
+    },
+    {
+      "seedId": "S113-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Aoede",
+      "speechRate": 265,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Aoede），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Aoede); playback stays offline",
+      "sentences": 29,
+      "durationSeconds": 79.666065,
+      "files": 30
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6446,
+      "sha256": "f64cb8452a4d37889ceabed467e648ef5e7bb4a4763c9451639d4055b8685178",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 3862,
+      "sha256": "3c2c2ea1216139bc864c69ea1eb02c0d463555339c9b1c7d3ac0d51583e083b0",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5773,
+      "sha256": "85f0756118cd6bdfa91d9e2d645f36c8017fe6800e844639f754b1398362b461",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 966,
+      "sha256": "fd5aab63fa358b982a89f72c3de48b63722caca715df6aba88de926a0e6efd8b",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1602,
+      "sha256": "2140db0354ee9d6b9c8a049af49c690e6556b345ee41877595f973318dd5f0f0",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 8572,
+      "sha256": "aa1fe47147d2d87891a44354db8a35f9665c7dec9243f16e6a71b747d0846a6a",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 975,
+      "sha256": "86397a03296a397d7833e787aaaa599c57440028f9b62d253fb801a6d95ff097",
+      "license": "sample-content"
+    },
+    {
+      "path": "sz-tale.tsx",
+      "bytes": 72213,
+      "sha256": "8952ae3debb2400bdc1250229e87c5aa9b6e5e8dea80bfe7cfd64f397683169b",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 17404,
+      "sha256": "fdd650f3a238ce9bb35968b279d70b0c9030b9dcc6e77d5d2122148374015b74",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 14894,
+      "sha256": "91c3eba87a3c343108b51f03ade1453c85986933c1a8ef525338059e6b0cbf5a",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5863,
+      "sha256": "a4defe53e2d88c0ba7635e78ac5509ed4545ce24dd2d9d9d19203ee74b388eab",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2264,
+      "sha256": "f954943dcf38c7d6dc4ec67e97975ce8a514c2f245e60a200b5a97b55ee0eaf2",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13517,
+      "sha256": "d9dabdd4746894ef0f76572bfa2cea0bbe84deb322386f9592d2b05d8b73ea5b",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1920,
+      "sha256": "ef02189a3da3991d512b119b28ae9b8de127eda0d5731e967c1b07179c923ee5",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S113.zip",
+    "bytes": 2095547,
+    "sha256": "976136e96c1de73c0f82fc4c737a29a2665fcd7e31fae2c93ef2314aa9d76e1b",
+    "format": "galanty-source-pack",
+    "contentDigest": "7d31aba68a609296e2f7b37aa6d262a00b66217ff388a3c0fedde743ed7aca44"
+  },
+  "inlineMedia": [
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/091bfe9b2952162b4d20beeca8c81e23b5a2c47dbcc745a2bbe52b85994e55b4.webp",
+      "mime": "image/webp",
+      "bytes": 52092,
+      "sha256": "091bfe9b2952162b4d20beeca8c81e23b5a2c47dbcc745a2bbe52b85994e55b4"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/e0f52efc368f1fe452446a8c7326676efdaf36560d5c3abac5ddd42076df3284.webp",
+      "mime": "image/webp",
+      "bytes": 60974,
+      "sha256": "e0f52efc368f1fe452446a8c7326676efdaf36560d5c3abac5ddd42076df3284"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/1f41bc5ed5071e396ab057559be83de659d216fe41d42541b83a6fad2f3c5b41.webp",
+      "mime": "image/webp",
+      "bytes": 48510,
+      "sha256": "1f41bc5ed5071e396ab057559be83de659d216fe41d42541b83a6fad2f3c5b41"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/273263feedb780ccd50636c8f6e3469610f0ba66702579e587c46c40e4e45f8b.webp",
+      "mime": "image/webp",
+      "bytes": 50930,
+      "sha256": "273263feedb780ccd50636c8f6e3469610f0ba66702579e587c46c40e4e45f8b"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/eaf97e0a93d7274ccbbfc95ef3b1b571bda12d5be85993faf5e46d0b0184532b.webp",
+      "mime": "image/webp",
+      "bytes": 43094,
+      "sha256": "eaf97e0a93d7274ccbbfc95ef3b1b571bda12d5be85993faf5e46d0b0184532b"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/5847451aff6b03d37ec43959e807e4dae1bc150ea8b794a6518b1fa84dc7fa86.webp",
+      "mime": "image/webp",
+      "bytes": 48996,
+      "sha256": "5847451aff6b03d37ec43959e807e4dae1bc150ea8b794a6518b1fa84dc7fa86"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/a1c28ce24f44c27f08ebe69ea4e91582adc57c07578960f0b74954d76bd380e3.webp",
+      "mime": "image/webp",
+      "bytes": 49110,
+      "sha256": "a1c28ce24f44c27f08ebe69ea4e91582adc57c07578960f0b74954d76bd380e3"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/1161b69f79bd5d05d2194dfcfcbf95d9bccb9b337e22e2790e4adcfdedd88c9c.webp",
+      "mime": "image/webp",
+      "bytes": 45054,
+      "sha256": "1161b69f79bd5d05d2194dfcfcbf95d9bccb9b337e22e2790e4adcfdedd88c9c"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/773c48b08f4a293714011790def7531910bb733002d4b982df8d677c71799940.webp",
+      "mime": "image/webp",
+      "bytes": 50016,
+      "sha256": "773c48b08f4a293714011790def7531910bb733002d4b982df8d677c71799940"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/80df3facb42dd0d4ea1ddcfa97b804ec16379d7c35b621e489f7f798c2951e17.webp",
+      "mime": "image/webp",
+      "bytes": 49848,
+      "sha256": "80df3facb42dd0d4ea1ddcfa97b804ec16379d7c35b621e489f7f798c2951e17"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/9a878de5ecf7fcdcf7a91a1e0da77c8747b2511471ed757075c48a2497e1c94f.webp",
+      "mime": "image/webp",
+      "bytes": 41182,
+      "sha256": "9a878de5ecf7fcdcf7a91a1e0da77c8747b2511471ed757075c48a2497e1c94f"
+    },
+    {
+      "source": "sz-tale.tsx",
+      "reference": "release-assets/9743de1a7928e61857108905368f91da7b0a1f3b8a24a4e59360308aada80fd4.webp",
+      "mime": "image/webp",
+      "bytes": 62306,
+      "sha256": "9743de1a7928e61857108905368f91da7b0a1f3b8a24a4e59360308aada80fd4"
+    }
+  ]
+}

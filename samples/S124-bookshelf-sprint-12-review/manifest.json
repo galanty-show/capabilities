@@ -1,0 +1,162 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S124",
+  "title": "书架小程序 · 第 12 周迭代回顾",
+  "titles": {
+    "zh": "书架小程序 · 第 12 周迭代回顾",
+    "en": "Bookshelf · Sprint 12 Review"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "数据报告",
+  "templates": [],
+  "modules": [
+    "gh-sprint-review"
+  ],
+  "page": "https://galanty.cn/samples/#S124",
+  "version": {
+    "commit": "025d1f84c6dcaffe7c4c18485ae4d4dfb11faa82",
+    "contentDigest": "0bba87c18987d4e614de280a4b811af309a3f73a15bc75df65948511f1a37823",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "改编自 GitHub claude-code-video-toolkit 的 hello-world SprintReview（MIT，提交 959e0fc6c202，Copyright (c) 2024 Digital Samba）；内容为虚构主题，文字原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：改编自 GitHub claude-code-video-toolkit 的 hello-world SprintReview（MIT，提交 959e0fc6c202，Copyright (c) 2024 Digital Samba）；内容为虚构主题，文字原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-minimal-electronic-100",
+    "selection": "library:generated-minimal-electronic-100",
+    "title": "Minimal Electronic 100",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Minimal Electronic 100 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/style-v1?seed=216605&style=minimal-electronic&tempo=100&seconds=124",
+    "modifications": null,
+    "file": "music/generated-minimal-electronic-100.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5835,
+      "sha256": "728fc307d3053fde0b70760a8e60e12b376477b6c36c785bf171a35b81f07ca9",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2171,
+      "sha256": "abf217d2fcb052797640039ea58a8ba39f9fc41cf97651e695530a5b6fb835d5",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 6047,
+      "sha256": "40977504c8ebe802adc223cca7d0d135fbc7c5745d038713ab320b7cf194fc7d",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 399,
+      "sha256": "f68bf923620ea80accc74cbe442b56de9f6370b4d48b6ec4718d227e326d5ddb",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1325,
+      "sha256": "f10d545153535429c7d4f6db166b75972fc85e293ce6fa5fb4bd46f09345bae7",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 6192,
+      "sha256": "733f3ee1db18d500ddf0e1c151cef1a825245e2420b6afa5f5f852ebb1ea35c0",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 419,
+      "sha256": "17ebac5b8fa9e06ac49c4c6976252f771b03dcbb6170c5e8373828acffcb8d7d",
+      "license": "sample-content"
+    },
+    {
+      "path": "gh-sprint-review.tsx",
+      "bytes": 36150,
+      "sha256": "a43054838f2f7a37064f87e045bc2fe8481cceaf06ff843ed64ab7aafdeb57cd",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 3357,
+      "sha256": "8b54347e70fd55bef17619ad98bcdf130bb4c37a4de3235a68227171350a7a0a",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 4446,
+      "sha256": "a20559d8ac219009465c6a2c6c564177211e96efd6e63a92d802c02a83a826e7",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE.upstream.txt",
+      "bytes": 1070,
+      "sha256": "873922e47d1d974a6417ee28e69a55e1d186910b1141f85d265b637b70f62c67",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1655,
+      "sha256": "782cf96e28ebbfb8fb270515251cfc763068de9bd76cef2ab6acd48dc1be0125",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 4822,
+      "sha256": "8eb5141ff59ff3a8fd20f03312af110a05d8cb37266ce0235a0e7aed835ac4aa",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1987,
+      "sha256": "0f098e629aac19e4d33e963a13082a60939f3e31f660e3760ecea57c70b2f4fa",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S124.zip",
+    "bytes": 1051882,
+    "sha256": "ebabe7b79d572d044e91d6fe2a283949e42fd094ca650b4cf6d785f7e076c744",
+    "format": "galanty-source-pack",
+    "contentDigest": "0bba87c18987d4e614de280a4b811af309a3f73a15bc75df65948511f1a37823"
+  },
+  "inlineMedia": []
+}

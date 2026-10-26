@@ -1,0 +1,34 @@
+{
+  "productName": "Harbor Desk",
+  "tagline": "DEMO / Work in view",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "One queue",
+      "detail": "Collect team requests",
+      "command": "Open queue",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Shared context",
+      "detail": "Keep notes with a request",
+      "command": "Open request",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Clear handoff",
+      "detail": "Assign the next owner",
+      "command": "Assign owner",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#8fe1d0"
+  },
+  "musicStyle": "lofi",
+  "seed": 2101,
+  "durationSeconds": 30,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

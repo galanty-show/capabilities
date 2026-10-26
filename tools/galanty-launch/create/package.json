@@ -1,0 +1,12 @@
+{
+  "name": "create-galanty-launch",
+  "version": "0.1.0",
+  "description": "Create a standalone, beat-driven Remotion launch-film project.",
+  "type": "module",
+  "license": "MIT AND CC-BY-4.0 AND OFL-1.1",
+  "engines": {"node": ">=22"},
+  "bin": {"create-galanty-launch": "bin/create.mjs"},
+  "files": ["bin/", "template/", "LICENSE", "README.md"],
+  "scripts": {"prepack": "node scripts/prepare-template.mjs", "test": "node --test test/*.test.mjs"},
+  "repository": {"type": "git", "url": "https://github.com/galanty-show/capabilities.git", "directory": "tools/galanty-launch/create"}
+}

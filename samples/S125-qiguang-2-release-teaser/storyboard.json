@@ -1,0 +1,154 @@
+{
+  "contractVersion": 3,
+  "title": "栖光 2 · 发布预告",
+  "subtitle": "改编自 remocn ReleaseTeaser（MIT）· 无旁白 16 秒预告",
+  "sourceTitle": "remocn ReleaseTeaser 改编说明",
+  "scenes": [
+    {
+      "id": "idea",
+      "title": "一：从一个念头开始",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 0,
+            "f0": 0,
+            "text": "从一个念头开始"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "room",
+      "title": "二：给更好的作品留出空间",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 1,
+            "f0": 52,
+            "text": "给更好的作品\n留出空间"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "detail",
+      "title": "三：让每个细节都活过来",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 2,
+            "f0": 104,
+            "text": "让每个细节都活过来"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.9663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "together",
+      "title": "四：一起出发，走得更远",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 3,
+            "f0": 163,
+            "text": "一起出发。\n走得更远。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.9997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "chapter",
+      "title": "五：新的一章",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 4,
+            "f0": 223,
+            "text": "新的一章。\n不必从头再来。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "reveal",
+      "title": "落版：栖光 2",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 5,
+            "f0": 305,
+            "brandName": "栖光",
+            "release": "2",
+            "tagline": "下一章，从这里开始。"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 5.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

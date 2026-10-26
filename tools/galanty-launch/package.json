@@ -1,0 +1,39 @@
+{
+  "name": "galanty-launch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "node scripts/render.mjs",
+    "render": "node scripts/render.mjs",
+    "studio": "remotion studio scenes/index.tsx --port=4391",
+    "preview": "node scripts/preview-project.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test --test-concurrency=4 --test-timeout=300000 \"tests/*.test.mjs\"",
+    "typecheck": "tsc --noEmit",
+    "plan": "node scripts/prepare.mjs",
+    "eval": "node scripts/eval.mjs",
+    "eval:agent": "node scripts/agent-runner.mjs",
+    "compare": "node scripts/reference-comparison.mjs",
+    "film:self-proof": "node scripts/self-proof.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.523",
+    "@remotion/cli": "4.0.523",
+    "@remotion/fonts": "4.0.523",
+    "@remotion/renderer": "4.0.523",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.523"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.7",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "contractVersion": 3,
+  "title": "How Your Map Finds the Fastest Way Home",
+  "sourceTitle": "Dijkstra (1959), A* (1968) and contraction hierarchies (2008), explained on a code-generated city",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "You tap Home",
+      "narration": "You type Home and hit Go. A moment later, there's your route. The fastest of all the ways home. How did it know?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "hook"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "Title",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.0
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "title"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "graph",
+      "title": "A city is a graph",
+      "narration": "To a computer, a city is a graph. Intersections are nodes. Streets are edges. Each edge has a weight: seconds to drive it. Corner to corner: 93 million routes. A real city has quadrillions. Checking them one by one is hopeless.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "graph"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "cafe",
+      "title": "Amsterdam, 1956",
+      "narration": "Amsterdam, 1956. Edsger Dijkstra sits down for coffee. About twenty minutes later, he has it. No pencil, no paper.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-steps",
+          "props": {
+            "mode": "cafe"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "steps",
+      "title": "Closest first",
+      "narration": "His trick: start at zero. Every other spot is infinity, for now. Visit the closest spot you haven't visited. Then check each of its roads. If you find a shorter way, write it down. Repeat, closest first. A visited spot is final. Roads only add time, so no detour beats it.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-steps",
+          "props": {
+            "mode": "steps"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "ripple",
+      "title": "Dijkstra's ripple",
+      "narration": "On a whole city, it spreads like a ripple. The moment it touches home, it's done. That's the fastest route, guaranteed.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "ripple"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "astar",
+      "title": "A* has a sense of direction",
+      "narration": "But most of that ripple went the wrong way. A-star, from 1968, adds a sense of direction. It also guesses the time left to home. Straight-line distance, at top speed. Dijkstra checked 280 intersections. A-star checked just 83, for the same route. One rule: the guess must never overestimate.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "astar"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "traffic",
+      "title": "Traffic changes the weights",
+      "narration": "Now: a crash on Central Avenue. One block now takes over two minutes. Search again, and you're around it. That's your map quietly rerouting you.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "traffic"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "scale",
+      "title": "Continent scale",
+      "narration": "Real maps: tens of millions of intersections. So routing engines do homework in advance. They precompute shortcuts. It's called contraction hierarchies. One route across Europe: under a millisecond.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "scale"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "credit",
+      "title": "Closest first",
+      "narration": "When you're rerouted, picture the ripple. Every frame you just saw is code. And every search really ran.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "credit"
+          }
+        }
+      },
+      "hold": 1.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

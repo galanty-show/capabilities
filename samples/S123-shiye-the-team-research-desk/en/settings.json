@@ -1,0 +1,20 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 36,
+  "maxDurationSeconds": 60,
+  "narration": false,
+  "language": "zh",
+  "musicFile": "library:original-gh-ink-press",
+  "musicVolume": 0.5,
+  "brandOutro": "made-with",
+  "captionStyle": "clean",
+  "concurrency": 4,
+  "theme": {
+    "background": "#f2eee6",
+    "accent": "#955905",
+    "text": "#13110f",
+    "muted": "#65635f"
+  }
+}

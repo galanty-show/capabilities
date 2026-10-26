@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S034",
+  "title": "折页桌灯，让书页亮起来",
+  "titles": {
+    "zh": "折页桌灯，让书页亮起来",
+    "en": "Fold Lamp: Light Right on the Page"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "fold-lamp"
+  ],
+  "page": "https://galanty.cn/samples/#S034",
+  "version": {
+    "commit": "1455bc7d2e4975410dd6aa552084ec302c3d499a",
+    "contentDigest": "921c7834c2594cf54fa8666a7b435254686e9b84edb7bb8b0f131b0076469317",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-bright-horizon-96",
+    "selection": "library:generated-bright-horizon-96",
+    "title": "Bright Horizon 96",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Bright Horizon 96 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120403",
+    "modifications": null,
+    "file": "music/generated-bright-horizon-96.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S034",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 12,
+      "durationSeconds": 46.783168,
+      "files": 13
+    },
+    {
+      "seedId": "S034-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Aoede",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Aoede），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Aoede); playback stays offline",
+      "sentences": 13,
+      "durationSeconds": 31.295646,
+      "files": 14
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6495,
+      "sha256": "d1925038eae4f79ea334cac4cf3589ca7dda0737002e58c7ab0c6924d8dd1973",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2622,
+      "sha256": "a280d133568049d35b17f548c0c4da45dd0e878274cf475c229a738748409ac6",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2766,
+      "sha256": "ff5ca6804579f1dbfbae8157d286415e5c36ebc9e6d06dafc535ca316a958123",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 422,
+      "sha256": "5c16d1b6718d85afd15c44334552657e3fe239597d0135793b58e4a8de5b8504",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 712,
+      "sha256": "56f0eba7359418dd58400999779b87926b9302a31b6d404c8b1ae55d73b95578",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 5028,
+      "sha256": "324b3c2617605f93c57cbbd284005b3bb9ab1029a97237fb3ca5531e811e611c",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 788,
+      "sha256": "32fe348659706e34dc58ab3fd2edd0870aa6260678087cad9db9742064f3a606",
+      "license": "sample-content"
+    },
+    {
+      "path": "fold-lamp.tsx",
+      "bytes": 10083,
+      "sha256": "cebc4bf058d5b6e80894b62392547aff62a7b5bd64b5831926959038d920c94b",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6297,
+      "sha256": "7e805414f65d28f000f3716d92a0da310edc2d0c15101eed4697a9dd27e3cede",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1047,
+      "sha256": "603100e5beac7165b807979e431a4f3e2e2a357357b524034da78c444933f506",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7427,
+      "sha256": "b0ec0a1c62d056687a4eeb8fb31591e748f27b368c24107bba458b09382bb0cd",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1976,
+      "sha256": "336c47fdf36642a3a4625f0e7376a00b5a4b8365eee5f7ac148580d3241a056a",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S034.zip",
+    "bytes": 1127358,
+    "sha256": "cdcbc7fa92721ea9048eb8aa7b4e0b7c862b237afd5e37a6ce9e61387f4429fa",
+    "format": "galanty-source-pack",
+    "contentDigest": "921c7834c2594cf54fa8666a7b435254686e9b84edb7bb8b0f131b0076469317"
+  },
+  "inlineMedia": []
+}

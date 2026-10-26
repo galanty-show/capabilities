@@ -1,0 +1,109 @@
+{
+  "contractVersion": 3,
+  "title": "离线备忘录怎样同步",
+  "sourceTitle": "原创技术概念说明；描述演示方案，不声称已有产品实现。",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 80
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "问题",
+      "narration": "手机和电脑断网后改了同一条备忘。连上网络，哪份该留下？",
+      "sourceQuote": "手机和电脑断网后改了同一条备忘。连上网络，哪份该留下？",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "title": "两份修改，如何合并？",
+            "kicker": "原创技术说明",
+            "subtitle": "离线编辑与同步"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "先记修改",
+      "narration": "演示方案先在本地保存修改，并标记顺序；联网后交换缺少的记录。",
+      "sourceQuote": "演示方案先在本地保存修改，并标记顺序；联网后交换缺少的记录。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "离线修改到重新同步",
+            "mode": "sequence",
+            "nodes": [
+              {
+                "label": "本地保存"
+              },
+              {
+                "label": "标记顺序"
+              },
+              {
+                "label": "交换记录"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "冲突处理",
+      "narration": "不同段落可尝试合并；同一句被两边改动，就保留两个版本，请人确认。",
+      "sourceQuote": "不同段落可尝试合并；同一句被两边改动，就保留两个版本，请人确认。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "compare-two",
+          "props": {
+            "heading": "遇到两种修改",
+            "left": {
+              "label": "不同段落",
+              "title": "尝试合并",
+              "items": [
+                "保留两边内容"
+              ]
+            },
+            "right": {
+              "label": "同一句",
+              "title": "等待确认",
+              "items": [
+                "保留两个版本"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "边界",
+      "narration": "顺序标记能发现冲突，不能判断对错。下一步先验证是否丢失或重复。",
+      "sourceQuote": "顺序标记能发现冲突，不能判断对错。下一步先验证是否丢失或重复。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "先验证基本功",
+            "points": [
+              "发现冲突",
+              "避免丢失",
+              "检查重复"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

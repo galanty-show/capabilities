@@ -1,0 +1,168 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S048",
+  "title": "江灯四景",
+  "titles": {
+    "zh": "江灯四景",
+    "en": "River Lamp: Four Scenes"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "诗词文化",
+  "templates": [
+    "T09"
+  ],
+  "modules": [
+    "typography-stage"
+  ],
+  "page": "https://galanty.cn/samples/#S048",
+  "version": {
+    "commit": "f12fbe04a15c0e28fe192fd764f28fb4bbf9111c",
+    "contentDigest": "0f6c35ebbc11215392f17c186d9d5624fdfb2710cf955c15efa45740e2d454fb",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": null,
+  "narration": [
+    {
+      "seedId": "S048",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 8,
+      "durationSeconds": 32.631209,
+      "files": 9
+    },
+    {
+      "seedId": "S048-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Vindemiatrix",
+      "speechRate": 250,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Vindemiatrix），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Vindemiatrix); playback stays offline",
+      "sentences": 16,
+      "durationSeconds": 40.528499,
+      "files": 17
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6287,
+      "sha256": "a48536a27d6a2a287a24590099ef626365e6bd1ab21339bc9f54333a90f9d978",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2282,
+      "sha256": "27ef3d4fe4a5fe18c968786137797bf99a498808425bf86c3bb86cf2c14aef74",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2356,
+      "sha256": "eadcf8c513b8990e2d6e259d0441d4f74787378b335101ce8fa2484ddf2cd5bf",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 493,
+      "sha256": "060a60779a17f092b2f59b83419586b16359c257480d319e864acaa40263db2f",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 459,
+      "sha256": "9173dee3d494f86852795b659ccfb30f10b4d220b8c33fd439a6ed7befb49c94",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 2906,
+      "sha256": "aa05b7df8e8589be3ac9aaaa9ebc09e34cff5f7204c9dd44b4e5b0aad1148072",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 838,
+      "sha256": "ab08f22b0138626c57893c9c23253557ea84869bfb6639e579f91c2d4b9574d7",
+      "license": "sample-content"
+    },
+    {
+      "path": "typography-stage.tsx",
+      "bytes": 6196,
+      "sha256": "c44841a914703b77e20594925653ab53d37078c2f6786ab63d67f1b7b3d6cb80",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 5679,
+      "sha256": "7f4d24c9001240b23e8eaf2cf9e78290863bd5a5569ecbda881f8f9352711f79",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 443,
+      "sha256": "b2906133909008c76a12d0bedd22067d30522692b08bba1789f5f6267ac6b3bd",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 6807,
+      "sha256": "3a4be0654af0779a681a6aaeac76f016a2f00f5bf1a6e42d3636fecbb65f4ff7",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1923,
+      "sha256": "d4cd270713782c59138a2835f1ecbf62871d43d4a985b61826b506560b5b49fc",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S048.zip",
+    "bytes": 381933,
+    "sha256": "bef5084b701b854a04acb957d1820c640625ac0d9020937b25796ae2612d98f0",
+    "format": "galanty-source-pack",
+    "contentDigest": "0f6c35ebbc11215392f17c186d9d5624fdfb2710cf955c15efa45740e2d454fb"
+  },
+  "inlineMedia": []
+}

@@ -1,0 +1,212 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S118",
+  "title": "为什么天空是蓝的，夕阳是红的",
+  "titles": {
+    "zh": "为什么天空是蓝的，夕阳是红的",
+    "en": "Why the Sky Is Blue and Sunsets Are Red"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "sky-open",
+    "sky-light",
+    "sky-photons",
+    "sky-sunset"
+  ],
+  "page": "https://galanty.cn/samples/#S118",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "ea7d2ff3621255d7beb0eec0a31994a17957eec0b7c930025fe687ba7c41dda0",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创科普讲解：旁白为自写讲解（出处见 source.md）；画面全部由代码计算，配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创科普讲解：旁白为自写讲解（出处见 source.md）；画面全部由代码计算，配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-sky-blue",
+    "selection": "library:original-sky-blue",
+    "title": "Why the Sky Is Blue",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Why the Sky Is Blue — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S118/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (measured about 103.4 BPM); edited by tools/production/code-sky-20261013/music_build.py (advanced 0.2 s, two beats cut at 90.3 s, 300 Hz dip, 223 NumPy-synthesized sound effects with a 6 kHz shelf, no third-party samples), then encoded to 32 kbps MP3, 48 kHz stereo (library size budget, under 512 KB). Timed to sample S118; other films will not hit its accents.",
+    "file": "music/sky-blue.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S118",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 270,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 24,
+      "durationSeconds": 98.900439,
+      "files": 25
+    },
+    {
+      "seedId": "S118-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 280,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 40,
+      "durationSeconds": 93.87963,
+      "files": 41
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6435,
+      "sha256": "608a478132bbd0b97ca481128550e6a7617e1f1179edbeed7e457979ce75de4e",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 3859,
+      "sha256": "9b2aac421a073036cf682bcd64025ce2dc7ec48508edfd40d97e230275665c9f",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5854,
+      "sha256": "382c7bed3585711433aea22506e1bdd86111fb0b5ea867fc12e484d67bb3a944",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 764,
+      "sha256": "f3cf899d787ae9a6e702f382173b9cf9c06be3d4bf70b1fe12eb12dbc2bd8078",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 5894,
+      "sha256": "49f85f252daff7e30d41f0c47b585fddff20f627412736b79c94ed95d83ab180",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 18398,
+      "sha256": "c0e6d5db98e2e771ee705d21e72e237cc1a32d2e4411a977a0e79a2f12597602",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 764,
+      "sha256": "e68849b5b8d9316e8b7ac45fd94302703e5d3ab07a41e6080f3e5c4693196772",
+      "license": "sample-content"
+    },
+    {
+      "path": "sky-open.tsx",
+      "bytes": 36890,
+      "sha256": "aa16a2d9ea09fcc97a55275bb39ef312cf6c3493d34d39a842cb61c372bbc2eb",
+      "license": "MIT"
+    },
+    {
+      "path": "sky-light.tsx",
+      "bytes": 48992,
+      "sha256": "ca6fd1e4649b53a50de21ab16e9cca3733eb0368c03ce51f088e05d6a4437640",
+      "license": "MIT"
+    },
+    {
+      "path": "sky-photons.tsx",
+      "bytes": 49133,
+      "sha256": "4385d9ea5bb29254c1416b85a20b613c095695758a6be16e7fd20e611ac416f2",
+      "license": "MIT"
+    },
+    {
+      "path": "sky-sunset.tsx",
+      "bytes": 41752,
+      "sha256": "090532135f159c03c54e3f6df72cdf720cfffb4c88eb354130e4afcd0cf460a2",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 18383,
+      "sha256": "dbe3c0a6ac3fada038cc933cc5baacd1d1dfe37117ce2360572f263570a9c634",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 466,
+      "sha256": "e64811c1c3a6beecdb02bd3be65414d2a167c7aee3a89665b701ee2f9ab02537",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 8001,
+      "sha256": "e11568c0be5e0dd2f94c1ab4eb39ee9f4b4dabd2a031ce2497f10abd3a9471f7",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2464,
+      "sha256": "04656a9a4f896e8b0b5de0a08ebf72959bed0eb036e96fc09863f6a429080ac1",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13449,
+      "sha256": "44d49e545935ae2694d3889186a0e55a17f210889cfac2f7f86c56b87ad5aac8",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1999,
+      "sha256": "b40d43540460292d3452ad41558708f1df828f9180509d202e7d89d11c5966db",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S118.zip",
+    "bytes": 1520566,
+    "sha256": "f038e43ef726b568cb2375749e9e2a4e199d57c0eb62a62516663c6bd6bd680c",
+    "format": "galanty-source-pack",
+    "contentDigest": "ea7d2ff3621255d7beb0eec0a31994a17957eec0b7c930025fe687ba7c41dda0"
+  },
+  "inlineMedia": []
+}

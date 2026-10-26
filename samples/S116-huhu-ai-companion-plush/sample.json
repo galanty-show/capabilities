@@ -1,0 +1,47 @@
+{
+  "no": "S116",
+  "title": "呼呼 · AI 陪伴玩偶宣传片",
+  "titles": {
+    "zh": "呼呼 · AI 陪伴玩偶宣传片",
+    "en": "Huhu · AI Companion Plush"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "hh-night",
+    "hh-story",
+    "hh-english",
+    "hh-memory",
+    "hh-comfort",
+    "hh-parent",
+    "hh-hero",
+    "hh-end"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创产品宣传片：品牌“絮光”与产品“呼呼”虚构，旁白自写；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-huhu",
+    "selection": "library:original-huhu",
+    "title": "Huhu Lullaby",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Huhu Lullaby — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S116/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-aitoy-20261013/music_build.py (one 3-bar skip on a bar line so the quiet bars and the string lift land on the sad/hug scenes, -5 dB pre-duck under narration, 230 Hz dip, NumPy-synthesized SFX: wake chime, page turns, star dings, plucks, rain bed, phone taps, bubbles; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S116; other films will not hit its accents.",
+    "file": "music/huhu.mp3",
+    "bundled": true
+  },
+  "note": "虚构品牌与产品，参数与家长端界面为示意（画面上已写明）。旁白为预先生成的 Gemini 云端配音（旁白 Leda、玩偶 Laomedeia，随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成，绘本风）以 data URI 内联在幕代码里。配乐 Huhu Lullaby（CC0，随包曲库 library:original-huhu）按本片逐字时间轴剪辑并合成音效：改节奏或换曲后音效与情绪抬升不再对齐。正文约 52.4 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S116"
+}

@@ -1,0 +1,181 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S106",
+  "title": "Fix a word. Play on.",
+  "language": "en",
+  "languages": [
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "文影介绍",
+  "templates": [],
+  "modules": [
+    "tf-open",
+    "tf-library",
+    "tf-live",
+    "tf-assets",
+    "tf-edit",
+    "tf-resume",
+    "tf-deliver"
+  ],
+  "page": "https://galanty.cn/samples/#S106",
+  "version": {
+    "commit": "05382051b6aa34b34e263d30325ed774ceb9d09e",
+    "contentDigest": "1fe6890a7a55184a5ae24a7098160816fe5998740f1e14ed7e2eaf7a3e29cba8",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-play-on",
+    "selection": "library:original-play-on",
+    "title": "Play On",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Play On — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S105/music/synth.py",
+    "modifications": "Synthesized by templates/samples/talkframe-promos/edit-studio/music/synth.py (numpy/scipy, 48 kHz WAV), then encoded to 64 kbps MP3, 48 kHz stereo; no samples, no third-party audio.",
+    "file": "music/play-on.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5145,
+      "sha256": "2dc9ab7cdd0e67c6557c84daeb002be8b00f05c289c0cd6e1f91ffa015dd0b34",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 1988,
+      "sha256": "6cdd089bdd8c0b132aaed8bbfb4aecb63d388ddcfce817ad4a068c3221d7db08",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3316,
+      "sha256": "5c8cb3824c96dc6faaf32780f5265c610df136b420c853abb8c8e9dd8870a15c",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 403,
+      "sha256": "d0afb6d95369883dab7d0225189a619465e37298a4e80d520e20ea3a94d2f5b6",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1477,
+      "sha256": "058fac2b40f9882340656c5f4769f448f158f12cfd27e6ed9d0ac0cc6aa076a5",
+      "license": "sample-content"
+    },
+    {
+      "path": "tf-open.tsx",
+      "bytes": 5607,
+      "sha256": "b06ad71ef0566eaeb09ab8b17d79c8930cfb752462ca40e6370909afafd7fd4d",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-library.tsx",
+      "bytes": 16565,
+      "sha256": "2c182927925602e47a811a561afff8ac215d904280baa2d9841794806debff13",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-live.tsx",
+      "bytes": 34760,
+      "sha256": "53e3539281602c86cf1f076ced45d7588febdff54a52954097110fce5df97ec7",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-assets.tsx",
+      "bytes": 9332,
+      "sha256": "32a7984b1964ab581a7ebbf72be6cc69bdc9e236b560c066cc1320210fcc7cda",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-edit.tsx",
+      "bytes": 13928,
+      "sha256": "3b154df83168ae96d58ef91f5277119453ca77108bee5ef7cd516b1d4ead83e5",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-resume.tsx",
+      "bytes": 10482,
+      "sha256": "33b243d6452fa81d020ec037a72352dafe5c5327f6f4b41d02b2581c7129857b",
+      "license": "MIT"
+    },
+    {
+      "path": "tf-deliver.tsx",
+      "bytes": 11083,
+      "sha256": "92dd3f31eeb54ba129101930efd87a1daa121c2bd5d5c59a5578793b90e3a721",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 9084,
+      "sha256": "de7b80a68f85104375d31f94edc39228e09c7c6803125e1ee11457b20339347b",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 3928,
+      "sha256": "bc83159094711ac2c5078fa268a8194230fdb65d279d6e93b5e7a5a01b9928e6",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1485,
+      "sha256": "80915ee1bf858e10eeb00ce7116e2c24c1a72ffdbd700270515b03f428e4c71f",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 8779,
+      "sha256": "7cd8aaca3a9a1e66f8172213f14c80832b2961e2b1a79f47c77695a7a2cdab6b",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1930,
+      "sha256": "a0597897d716c4a573a810cb0e160af92e88a00407ced6776e8e9cd33a21bb19",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S106.zip",
+    "bytes": 601483,
+    "sha256": "c54f57472d6fc13593a54134968bf7980bfc00ce1d2a4eaea823ce66578afb39",
+    "format": "galanty-source-pack",
+    "contentDigest": "1fe6890a7a55184a5ae24a7098160816fe5998740f1e14ed7e2eaf7a3e29cba8"
+  },
+  "inlineMedia": []
+}

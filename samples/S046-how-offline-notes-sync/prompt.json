@@ -1,0 +1,51 @@
+{
+  "no": "S046",
+  "prompt": {
+    "zh-CN": "做一支约 36 秒的横版（16:9）技术解说片：手机和电脑断网时改了同一条备忘，联网后怎么同步？讲清先在本地记下修改并标记顺序，联网后交换缺少的记录，同一句被两边都改了就保留两个版本请人确认，最后说明这个方案的边界。用关系图和对比卡来讲，女声旁白，配乐按“技术解说”自动挑选，并说明这是演示方案、不声称已有产品实现。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a 36-second 16:9 landscape tech explainer: a phone and a laptop both edited the same memo while offline — how do they sync once they reconnect? Show that each device saves edits locally with an order stamp, swaps the missing records after reconnecting, and keeps both versions for a person to decide when the same sentence was changed on both sides; then state the limits of the approach. Use a relationship diagram and comparison cards, female voiceover, music picked automatically for a tech explainer, and make clear it is a demo design, not a shipped product. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支約 36 秒的橫版（16:9）技術解說片：手機和電腦在離線時改了同一則備忘錄，連上網路後要怎麼同步？講清楚先在本機記下修改並標記順序，連線後交換缺少的紀錄，同一句被兩邊都改了就保留兩個版本請人確認，最後說明這個方案的限制。用關係圖和對比卡來講，女聲旁白，配樂依「技術解說」自動挑選，並說明這是示範方案、不聲稱已有產品實作。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約36秒の横長（16:9）の技術解説動画を作ってください。スマホとパソコンがオフラインのまま同じメモを編集した場合、再接続後にどう同期するのか、という内容です。各端末でまず変更をローカルに記録して順番を付けること、接続後に足りない記録を交換すること、同じ文が両方で変更されていたら両方のバージョンを残して人に確認してもらうことを説明し、最後にこの方式の限界も伝えてください。関係図と比較カードで説明し、女性のナレーションで、BGMは「技術解説」として自動で選ばせ、これはデモ用の設計であり実際の製品で実装済みとは主張しないことも明記してください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 36초 길이의 가로형(16:9) 기술 해설 영상을 만들어 주세요. 휴대폰과 노트북이 오프라인 상태에서 같은 메모를 고쳤다면, 다시 연결된 뒤 어떻게 동기화할까요? 각 기기가 수정 내용을 순서 표시와 함께 로컬에 저장하고, 다시 연결되면 빠진 기록을 주고받으며, 같은 문장이 양쪽에서 바뀌었으면 두 버전을 모두 남겨 사람이 정하게 한다는 점을 보여 주고, 마지막으로 이 방식의 한계를 짚어 주세요. 관계도와 비교 카드로 설명하고, 여성 내레이션에 배경 음악은 ‘기술 해설’에 맞춰 자동으로 고르게 하며, 시연용 설계일 뿐 이미 출시된 제품이 아니라는 점을 분명히 해 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo explicativo técnico de unos 36 segundos en formato horizontal 16:9: un móvil y un portátil editaron la misma nota sin conexión; ¿cómo se sincronizan al volver a conectarse? Muestra que cada dispositivo guarda los cambios en local con una marca de orden, intercambia los registros que faltan al reconectarse y, si la misma frase se cambió en los dos lados, conserva ambas versiones para que decida una persona; después explica los límites del enfoque. Usa un diagrama de relaciones y tarjetas comparativas, narración con voz femenina, música elegida automáticamente para un vídeo técnico, y deja claro que es un diseño de demostración, no un producto ya lanzado. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach ein etwa 36 Sekunden langes Technik-Erklärvideo im Querformat (16:9): Ein Handy und ein Laptop haben offline dieselbe Notiz bearbeitet – wie synchronisieren sie sich, sobald sie wieder verbunden sind? Zeig, dass jedes Gerät Änderungen lokal mit einer Reihenfolgemarke speichert, nach dem Verbinden die fehlenden Einträge austauscht und beide Versionen behält, damit ein Mensch entscheidet, wenn derselbe Satz auf beiden Seiten geändert wurde; nenne danach die Grenzen dieses Ansatzes. Nutze ein Beziehungsdiagramm und Vergleichskarten, eine Sprecherin, automatisch passend für ein Technik-Erklärvideo ausgewählte Musik, und mach klar, dass es ein Demo-Konzept ist und kein fertiges Produkt. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Créez une vidéo explicative technique d'environ 36 secondes au format paysage (16:9) : un téléphone et un ordinateur portable ont tous deux modifié la même note hors ligne – comment se synchronisent-ils une fois reconnectés ? Montrez que chaque appareil enregistre les modifications localement avec un marqueur d'ordre, échange les entrées manquantes après la reconnexion, et conserve les deux versions pour qu'une personne tranche lorsque la même phrase a été modifiée des deux côtés ; présentez ensuite les limites de l'approche. Utilisez un schéma de relations et des cartes comparatives, une voix off féminine, une musique choisie automatiquement pour une vidéo explicative technique, et précisez qu'il s'agit d'une conception de démonstration, pas d'un produit existant. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um vídeo explicativo de tecnologia de cerca de 36 segundos na horizontal (16:9): um celular e um notebook editaram a mesma nota enquanto estavam offline — como eles sincronizam quando voltam a se conectar? Mostre que cada aparelho salva as edições localmente com uma marca de ordem, troca os registros que faltam depois de reconectar e, quando a mesma frase foi alterada dos dois lados, guarda as duas versões para uma pessoa decidir; depois, apresente os limites dessa abordagem. Use um diagrama de relações e cartões de comparação, narração com voz feminina, música escolhida automaticamente para explicação técnica, e deixe claro que é um design de demonstração, não um produto lançado. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Codex CLI",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Codex CLI",
+      "model": "gpt-6-sol (high)",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "macOS say",
+      "model": "Tingting",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit · Dylan",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty auto music",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Calm Current 78",
+      "where": "local"
+    }
+  ],
+  "rounds": []
+}

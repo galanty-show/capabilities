@@ -1,0 +1,57 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 120,
+  "maxDurationSeconds": 200,
+  "narration": true,
+  "voice": "Algieba",
+  "speechRate": 259,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "narr"
+      ],
+      "input": "arg",
+      "timeoutMs": 300000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -7,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "sentenceGapSeconds": 0.25,
+  "theme": {
+    "background": "#0b1020",
+    "text": "#fff4e0",
+    "accent": "#ffc56b",
+    "muted": "#a9b4c8"
+  },
+  "sentencePauses": {
+    "s-c8a400ed59504f2a-1": 1.0,
+    "s-affa0d0161dffd7e-1": 0.1,
+    "s-cbf0a62aacdc2f8e-1": 1.23,
+    "s-1dadd99d263e6729-1": 1.0,
+    "s-965d0bec3ba21675-1": 0.4,
+    "s-32006395371b3724-1": 0.3,
+    "s-58b9b74b7f4ee021-1": 0.63,
+    "s-855da2ad36474212-1": 0.63
+  },
+  "musicFile": "library:original-wolf-third-cry",
+  "sceneHolds": {
+    "idea": 2.07,
+    "arrive": 1.47,
+    "cry2": 2.33,
+    "cry3": 0.1,
+    "doors": 1.06,
+    "echo": 4.23
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "targetSeconds": 30,
+  "maxDurationSeconds": 36,
+  "narration": true,
+  "voice": "Kore",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S056-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 230,
+  "concurrency": 3,
+  "musicFile": "library:generated-minimal-electronic-100",
+  "musicVolume": 0.19,
+  "musicDuckDb": -10,
+  "brandOutro": "off",
+  "presenter": false,
+  "theme": {
+    "background": "#080B13",
+    "accent": "#C8FF4D",
+    "text": "#F6F7F4",
+    "muted": "#9CA4AF"
+  },
+  "genre": "promo"
+}

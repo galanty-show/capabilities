@@ -1,0 +1,33 @@
+{
+  "no": "S045",
+  "title": "会收起的书桌灯",
+  "titles": {
+    "zh": "会收起的书桌灯",
+    "en": "The Folding Desk Lamp"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "modules": [
+    "title-statement",
+    "three-points",
+    "process-steps",
+    "compare-two"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "page": "https://galanty.cn/samples/#S045"
+}

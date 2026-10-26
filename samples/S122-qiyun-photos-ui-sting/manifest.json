@@ -1,0 +1,204 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S122",
+  "title": "栖云相册 · UI 开场动效",
+  "titles": {
+    "zh": "栖云相册 · UI 开场动效",
+    "en": "Qiyun Photos · UI Sting"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "1:1",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "qy-lockup",
+    "qy-signin",
+    "qy-email",
+    "qy-count",
+    "qy-nav",
+    "qy-create",
+    "qy-endcard"
+  ],
+  "page": "https://galanty.cn/samples/#S122",
+  "version": {
+    "commit": "055c3419f9ce58ad03a743300e169ec50dfa7f0e",
+    "contentDigest": "d918003f103f69ffdd4702e40bb201fb7b1cd16f92a4d960c430a0ed6e823af8",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub heygen-com/hyperframes-launches（提交 d7ac3506，Apache-2.0，Copyright 2026 HeyGen, Inc.）的 heygen-apple-motion/01-ui-sting；产品“栖云相册”、文案、标志、图标与光标为原创虚构，未用上游字体、标志或素材",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：改编自 GitHub heygen-com/hyperframes-launches（提交 d7ac3506，Apache-2.0，Copyright 2026 HeyGen, Inc.）的 heygen-apple-motion/01-ui-sting；产品“栖云相册”、文案、标志、图标与光标为原创虚构，未用上游字体、标志或素材（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "external-project-utopia",
+    "selection": "library:external-project-utopia",
+    "title": "Project Utopia (seamless loop)",
+    "author": "congusbongus",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Project Utopia (seamless loop) by congusbongus, dedicated to the public domain under CC0 1.0 Universal.",
+    "attributionRequired": false,
+    "sourceUrl": "https://opengameart.org/content/project-utopia-seamless-loop",
+    "modifications": "Transcoded from Ogg Vorbis to 64 kbps MP3, 48 kHz stereo; no excerpt.",
+    "file": "music/project-utopia.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5808,
+      "sha256": "a74f6548d011a73b66715b7c14339ccfbfa467dfc0bc20069ae3e30460c03d09",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2398,
+      "sha256": "9890e732e18425eed62fe11dbac5e9bcfe047759656e5d0532852937402cf917",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3223,
+      "sha256": "25796ce1529ff58a7b229154bf44949fb55a4c929b623501df2c45f542357194",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 410,
+      "sha256": "c4cf0d57d05cf5a43e4a4c90a887dae14c4f4fab1a04ac50b44371ed75401e50",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1523,
+      "sha256": "081e7ead036af3760eb02afb94c79c687052500feed1e9637fc5d3df28fda233",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 4275,
+      "sha256": "900248b2a47008c306cce888ba83f9f51a858f5043885873b33845521f1d9f13",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 410,
+      "sha256": "c4cf0d57d05cf5a43e4a4c90a887dae14c4f4fab1a04ac50b44371ed75401e50",
+      "license": "sample-content"
+    },
+    {
+      "path": "qy-lockup.tsx",
+      "bytes": 12521,
+      "sha256": "b0f74049363cc7928767f3ad5647bcec9f5d501d350e8135a3d3394da6216ab5",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-signin.tsx",
+      "bytes": 12056,
+      "sha256": "c4837967de5fd7ca771e2e9747c20d2bb086e9d68f4b17b4c8bc875a3b4bb85d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-email.tsx",
+      "bytes": 12721,
+      "sha256": "210d0cd4e3447b9f0052d5f4af99f3e01118f9f7aa3a2494a5b2148b4fd07e65",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-count.tsx",
+      "bytes": 14521,
+      "sha256": "506aca8c4db1a903833e49fa9eedcaf3ceebb7ee896c4e52a850c93776ba8153",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-nav.tsx",
+      "bytes": 14560,
+      "sha256": "c081bd0dbfaaa4fae5371949ff11675837098e612439b874c3c8975af80ce308",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-create.tsx",
+      "bytes": 15754,
+      "sha256": "cecbe0ad121578bf728b32390ee3305b8c964668fb53618d557d6fbfe8289446",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "qy-endcard.tsx",
+      "bytes": 14058,
+      "sha256": "97308d5fc127c49c11ac84ba3ad417e9cb4098b5410c816fa5a131a33a931558",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 3184,
+      "sha256": "49945ac6278a7fe97dca6da629d1bc468e61d6294a84fb1786d5e214637b5fff",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5391,
+      "sha256": "c1c5726ef49609909a8da2f8d777a520c7b2ab879f1b798df65f765c6434cefb",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 414,
+      "sha256": "9f5b2de59a192742df45e49ce549552144dc4d8e11ddcad2ad9b9a8871be6e6a",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1943,
+      "sha256": "dadab9d2ffe5b89b95f45e1cbb96e9f79aef153622b284103ee2bd12089b9cf4",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 4736,
+      "sha256": "dde215979de92a4a25eb089d7fca4ff5d3006cfb7d08af59288a7caeddfe08ef",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1969,
+      "sha256": "dad75b6cacfad296d55def21590f2de9e22f67e5fd788b77ff4142dcb41397ac",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S122.zip",
+    "bytes": 230280,
+    "sha256": "7a09d0727ce9071b085a0be1b1e6bbd4cb7d7cedf7592d2e95007bf6298455aa",
+    "format": "galanty-source-pack",
+    "contentDigest": "d918003f103f69ffdd4702e40bb201fb7b1cd16f92a4d960c430a0ed6e823af8"
+  },
+  "inlineMedia": []
+}

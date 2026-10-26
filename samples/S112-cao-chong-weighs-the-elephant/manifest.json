@@ -1,0 +1,283 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S112",
+  "title": "曹冲称象",
+  "titles": {
+    "zh": "曹冲称象",
+    "en": "Cao Chong Weighs the Elephant"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "cc-open",
+    "cc-court",
+    "cc-river",
+    "cc-end"
+  ],
+  "page": "https://galanty.cn/samples/#S112",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "035d00a688068f3f2ba484a2a54db75b37a5c7bcf5cfd9640152d82f36e447e5",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "儿童故事：旁白为自写口语复述（出自《三国志·魏书》，公有领域）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：儿童故事：旁白为自写口语复述（出自《三国志·魏书》，公有领域）；底图、配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-cao-chong",
+    "selection": "library:original-cao-chong",
+    "title": "Cao Chong Weighs the Elephant",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Cao Chong Weighs the Elephant — Galanty, original children's score generated with Lyria 3 Pro and edited with code-synthesized sound effects (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S112/README.md",
+    "modifications": "Two cues generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original timeline prompts (tools/production/cao-chong-20261013/music/cue1, cue2); joined by tools/production/cao-chong-20261013/music_build.py: cue 1 hard-stops on the 'reached the line' beat, cue 2 starts at the weighing scene, a 12 dB dip for the children's thinking pause, 5 dB pre-duck under narration, 137 NumPy-synthesized sound effects (pops, splashes, stone thuds, a bell 'ding', xylophone counting, a fanfare; no third-party samples), then encoded to 40 kbps MP3, 48 kHz stereo (stays under the 512 KiB repository file limit). Timed to sample S112; other films will not hit its accents.",
+    "file": "music/cao-chong.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S112",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Aoede",
+      "speechRate": 220,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Aoede），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Aoede); playback stays offline",
+      "sentences": 25,
+      "durationSeconds": 69.228314,
+      "files": 26
+    },
+    {
+      "seedId": "S112-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 220,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 25,
+      "durationSeconds": 67.36844,
+      "files": 26
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 7241,
+      "sha256": "0a7ec3574ec58205d4e54b913da568ed112f17caacc448f3388c1886280b899b",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4308,
+      "sha256": "121949e82f1c134de73a278dc7d2faad3138a71d2fc404791e60d5786983acec",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 6096,
+      "sha256": "b8a9d7cd856c6cbffc35ed0294e84964567ea66843fea4586eb2bd603e943036",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 765,
+      "sha256": "1f25b7c2d64157899b5c7fdab39e6fab0e52cc6fe4613f8d35927eb0ff24a8a1",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1809,
+      "sha256": "e647c84d69d20e5b648222e45559e7cbcab540e4323ed1df77e9624d8fa37d4a",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 12470,
+      "sha256": "3d4e6ea418c33bc8ea4d0049046290f9cea667cc52a55413ba2eb58e4bf9613e",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 764,
+      "sha256": "570be7a2b55efff2a4e84a2dc0eec9ba635a2a24e460cc8091b027d4a5c9b9de",
+      "license": "sample-content"
+    },
+    {
+      "path": "cc-open.tsx",
+      "bytes": 30334,
+      "sha256": "7b503ab7f5bb117f06e509c1965d2e4de219bcdbe14cc4fc23fbdba37662d99b",
+      "license": "MIT"
+    },
+    {
+      "path": "cc-court.tsx",
+      "bytes": 32046,
+      "sha256": "8935bd958be5e6bd44cf08db3c6318ca85f38faf36aa382ade0799376997b55d",
+      "license": "MIT"
+    },
+    {
+      "path": "cc-river.tsx",
+      "bytes": 49392,
+      "sha256": "a4306e8b086b025e0a8f3cc57324419b66edb813ce19451ac71700ed249fcd2d",
+      "license": "MIT"
+    },
+    {
+      "path": "cc-end.tsx",
+      "bytes": 25832,
+      "sha256": "5e2fd3343759f8e0523a7797126de1ba266b3df0a6f12753a9f1c4c8ef8d0935",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 25312,
+      "sha256": "5d9110372da567bae51a6f05ae58bc9e917507061d77cd0755c271995cfdbfe0",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 10840,
+      "sha256": "5cc7d424db56dbf8658c821662907a03845c57e8eea82b295b2699ee6b1b8c39",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5253,
+      "sha256": "be7d89661ebc7126d6e071e9a208a3aec6ab6e4e3ae3e11c1f87d80079e513d3",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2611,
+      "sha256": "a6ad43d4da7aad8b47612a6610712acd39d762b254e345d23b9278e4226fb08b",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 14277,
+      "sha256": "f097b0fa0d7364e771d26021dc2f241ea9dcdad2f4408d38dae987226678287a",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1929,
+      "sha256": "d7fd765ad86452d66b270f218ff3c560a237527e85abc206c12a3975943e807d",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S112.zip",
+    "bytes": 2157880,
+    "sha256": "912f42da13b7c9e3b075b19c91e1c851302b4a164a8641eb44b2634748741621",
+    "format": "galanty-source-pack",
+    "contentDigest": "035d00a688068f3f2ba484a2a54db75b37a5c7bcf5cfd9640152d82f36e447e5"
+  },
+  "inlineMedia": [
+    {
+      "source": "cc-open.tsx",
+      "reference": "release-assets/21107ed2dc9510762db4a95b5e2410cbabf4cc2f0300705792ff4db7365f40f9.webp",
+      "mime": "image/webp",
+      "bytes": 85086,
+      "sha256": "21107ed2dc9510762db4a95b5e2410cbabf4cc2f0300705792ff4db7365f40f9"
+    },
+    {
+      "source": "cc-open.tsx",
+      "reference": "release-assets/85b1790d67617fc063c68d193aa7de60028253dc5d96e86bdb881af3431c5e31.webp",
+      "mime": "image/webp",
+      "bytes": 107216,
+      "sha256": "85b1790d67617fc063c68d193aa7de60028253dc5d96e86bdb881af3431c5e31"
+    },
+    {
+      "source": "cc-court.tsx",
+      "reference": "release-assets/c7745fa4f3b13e75899bdec5e05ea4361a118d70af7eb84faca6e9241cf0fbed.webp",
+      "mime": "image/webp",
+      "bytes": 125484,
+      "sha256": "c7745fa4f3b13e75899bdec5e05ea4361a118d70af7eb84faca6e9241cf0fbed"
+    },
+    {
+      "source": "cc-court.tsx",
+      "reference": "release-assets/2d5982e224b077bb42851c242296e17f48db72355b9e6c2754cb7f418b28a7cc.webp",
+      "mime": "image/webp",
+      "bytes": 110724,
+      "sha256": "2d5982e224b077bb42851c242296e17f48db72355b9e6c2754cb7f418b28a7cc"
+    },
+    {
+      "source": "cc-court.tsx",
+      "reference": "release-assets/cac2b6de3f07777aefba71f9cc15e2db6be054661d6b75f2bb3d37fac627a979.webp",
+      "mime": "image/webp",
+      "bytes": 101402,
+      "sha256": "cac2b6de3f07777aefba71f9cc15e2db6be054661d6b75f2bb3d37fac627a979"
+    },
+    {
+      "source": "cc-river.tsx",
+      "reference": "release-assets/0dce7c9d049e0f1784878d8e19019c528a6c449ec245bebf4851c2f7c2f769c3.webp",
+      "mime": "image/webp",
+      "bytes": 36534,
+      "sha256": "0dce7c9d049e0f1784878d8e19019c528a6c449ec245bebf4851c2f7c2f769c3"
+    },
+    {
+      "source": "cc-river.tsx",
+      "reference": "release-assets/f170dcb8798a1a6d92dbe852a7f6e58347a37ed2444266db0ab7b65502d9758e.webp",
+      "mime": "image/webp",
+      "bytes": 25878,
+      "sha256": "f170dcb8798a1a6d92dbe852a7f6e58347a37ed2444266db0ab7b65502d9758e"
+    },
+    {
+      "source": "cc-river.tsx",
+      "reference": "release-assets/d47fecc5473cb0ada12dd88c14788404c37df3b1e273a0acf5eb44038265b0c0.webp",
+      "mime": "image/webp",
+      "bytes": 32110,
+      "sha256": "d47fecc5473cb0ada12dd88c14788404c37df3b1e273a0acf5eb44038265b0c0"
+    },
+    {
+      "source": "cc-end.tsx",
+      "reference": "release-assets/d444534a5e78e5abea338eed9a33eb18aaa3cb4bee58b15c6fc9fc6e4622f2c9.webp",
+      "mime": "image/webp",
+      "bytes": 85360,
+      "sha256": "d444534a5e78e5abea338eed9a33eb18aaa3cb4bee58b15c6fc9fc6e4622f2c9"
+    },
+    {
+      "source": "cc-end.tsx",
+      "reference": "release-assets/56de890e58e75ef6317977d85c1658704614042d196b3292f9d45724bd13b1d6.webp",
+      "mime": "image/webp",
+      "bytes": 117686,
+      "sha256": "56de890e58e75ef6317977d85c1658704614042d196b3292f9d45724bd13b1d6"
+    }
+  ]
+}

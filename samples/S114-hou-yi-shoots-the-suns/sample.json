@@ -1,0 +1,44 @@
+{
+  "no": "S114",
+  "title": "后羿射日 · 讲给小朋友",
+  "titles": {
+    "zh": "后羿射日 · 讲给小朋友",
+    "en": "Hou Yi Shoots the Suns"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "hy-sky",
+    "hy-fusang",
+    "hy-land",
+    "hy-houyi",
+    "hy-end"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "中国神话（《淮南子》《山海经》《楚辞》，公有领域）的儿童复述，旁白自写；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-houyi",
+    "selection": "library:original-houyi",
+    "title": "Houyi Shoots the Suns",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Houyi Shoots the Suns — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S114/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original prompts (one full-length score and one opening cue); cut to the S114 timeline by tools/production/houyi-20261013/music_build.py (opening cue hit on the title, hero brass on Hou Yi's entrance, war-drum section under the volley, about 2 s of silence after the last arrow, gentle sections afterwards; 0.35 s equal-power crossfades on hard cuts, 260 Hz dip for the narrator), plus NumPy-synthesized sound effects (bowstring, arrow whistle, hit chime, gong, taiko, pops, slide whistle, crackle, rain, heat, wind, birdsong; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S114; other films will not hit its accents.",
+    "file": "music/houyi.mp3",
+    "bundled": true
+  },
+  "note": "给 4～9 岁小朋友的中国神话。旁白为预先生成的 Gemini 云端配音（旁白 Kore，后羿、金乌、村民各用一种音色；随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成）以 data URI 内联在幕代码里，同一张图只内联一次。配乐 Houyi Shoots the Suns（CC0，随包曲库 library:original-houyi）按本片逐字时间轴剪辑并合成音效：太阳倒数、每一箭的鼓与“锵”、最后一箭后的留白都对在本片旁白上，改节奏或换曲后不再对齐。卡点词都在各幕参数里（如 volley 幕的 counts）。正文约 119.9 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S114"
+}

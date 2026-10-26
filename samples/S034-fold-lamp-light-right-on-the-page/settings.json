@@ -1,0 +1,16 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 60,
+  "maxDurationSeconds": 75,
+  "narration": true,
+  "voice": "Tingting",
+  "tts": {"engine": "system"},
+  "speechRate": 220,
+  "concurrency": 3,
+  "musicFile": "library:generated-bright-horizon-96",
+  "musicVolume": 0.11,
+  "brandOutro": "made-with",
+  "theme": {"background": "#10202B", "accent": "#F3A847", "text": "#F6F2E8", "muted": "#91A5AE"}
+}

@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S033",
+  "title": "抛体运动：三种角度谁飞得远",
+  "titles": {
+    "zh": "抛体运动：三种角度谁飞得远",
+    "en": "Projectile Motion: Which Angle Flies Farthest?"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "projectile"
+  ],
+  "page": "https://galanty.cn/samples/#S033",
+  "version": {
+    "commit": "55637bf72d8076ff13d538e397e5515d540b37eb",
+    "contentDigest": "3251807811e733039bf613793eb6abb159663ab5c1b66a3583a3628839bb863b",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-calm-current-78",
+    "selection": "library:generated-calm-current-78",
+    "title": "Calm Current 78",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 78 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120402",
+    "modifications": null,
+    "file": "music/generated-calm-current-78.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S033",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 12,
+      "durationSeconds": 47.015127,
+      "files": 13
+    },
+    {
+      "seedId": "S033-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 13,
+      "durationSeconds": 39.998231,
+      "files": 14
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6490,
+      "sha256": "89c466fd8a3459b56f3267d05817909bda6a99695bce2cca8b9ca7831e551767",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2617,
+      "sha256": "d33885d16322fc7d1e70b2a72ca70d25b8673f6fe2300e0148c1da888deeeb35",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2618,
+      "sha256": "ff3d7706a57182fb3d9c88ade72ce3f9caf5d43b0e56c044bd4feeb908d8f8dd",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 435,
+      "sha256": "01fdd2a60979ba4acc9f2dad7c31a79e37c0c6edb746cc81953207009b1ababc",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 770,
+      "sha256": "c77587b9b80f556c7352885373a32189ef35283d466ffe20e0fec59930df3678",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 5995,
+      "sha256": "92053fd3baa0d49397607ec29edd297de2719dd8d794ce4bb2248fe03d294aa1",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 807,
+      "sha256": "c46dffb562f41dd600298827ae7527e140dbbfe7768f9a50f55a04c0be7bd0a2",
+      "license": "sample-content"
+    },
+    {
+      "path": "projectile.tsx",
+      "bytes": 15005,
+      "sha256": "ab22887865498ab424ffad95ac496ffd6a444ce4eb80e356c644e0247d59a05b",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6758,
+      "sha256": "b4c338470f59594aae4e3d87da190372225917c1dd20683b9c4977fa91528d3b",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1062,
+      "sha256": "2b89a429f1f47b02ade87b16cccf8943517cb7ca411c10d938f988d26bac3da6",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7894,
+      "sha256": "ab78048faca3ad879c056e38330330a67e8d5435fb85101f7035180c5f7913e6",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2000,
+      "sha256": "bff0c1913e2d50056a7a5acbfcd8045ca4d4764be4d9787ed29fb9274eb64a6b",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S033.zip",
+    "bytes": 1171510,
+    "sha256": "9ade6bd1ece450b7e188739beeec23b05fe16bbf4cac015f971d7ced37edba4c",
+    "format": "galanty-source-pack",
+    "contentDigest": "3251807811e733039bf613793eb6abb159663ab5c1b66a3583a3628839bb863b"
+  },
+  "inlineMedia": []
+}

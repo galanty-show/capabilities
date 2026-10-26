@@ -1,0 +1,283 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S117",
+  "title": "眠晓智能床垫 · 一夜到天亮",
+  "titles": {
+    "zh": "眠晓智能床垫 · 一夜到天亮",
+    "en": "MIANXIAO Smart Mattress · Through the Night"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "mx-hook",
+    "mx-brand",
+    "mx-stages",
+    "mx-bed",
+    "mx-snore",
+    "mx-report",
+    "mx-finale"
+  ],
+  "page": "https://galanty.cn/samples/#S117",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "fb75d0458c71c0e5c9a92c180bc0a37c401a37aa9879d4c3bea67b35579d0a56",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创虚构品牌宣传片：旁白与画面文字自写，品类卖点为公开报道归纳、参数为演示数据；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创虚构品牌宣传片：旁白与画面文字自写，品类卖点为公开报道归纳、参数为演示数据；底图、配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-mianxiao-dawn",
+    "selection": "library:original-mianxiao-dawn",
+    "title": "Mianxiao Dawn",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Mianxiao Dawn — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S117/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-mattress-20261013/music_build.py (re-timed: starts 1.55 s in, one 2-bar night loop so the sunrise bloom lands on the narration's 'dawn' line, 4 bright bars then the original ending; dynamics halved, 200 Hz dip for a low male voice, end card +3 dB, 47 NumPy-synthesized sound effects incl. a breathing bed, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S117; other films will not hit its accents.",
+    "file": "music/mianxiao-dawn.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S117",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Iapetus",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Iapetus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Iapetus); playback stays offline",
+      "sentences": 13,
+      "durationSeconds": 39.753647,
+      "files": 14
+    },
+    {
+      "seedId": "S117-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Iapetus",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Iapetus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Iapetus); playback stays offline",
+      "sentences": 16,
+      "durationSeconds": 37.273939,
+      "files": 17
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6451,
+      "sha256": "9ae04d6df4f95970f974909ef2e6ce07854902619ce88932392321340a242549",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4191,
+      "sha256": "71901b9f14fcb9b35306e316e8e78e8994bf475f4469d35d6b0c181b45531f77",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3838,
+      "sha256": "7763ac5ef318227ed3be11cd583341ecdec04162fd25bec4cd1afaecb450fba2",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 770,
+      "sha256": "8df627c6c3297ca1d2545595d0236945e0df446c42b2bcf68253085fe6eccc06",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 3927,
+      "sha256": "ef8021619dcbf5031d01ab48fb19aa1b7e52277c3219944522adc8d14c325869",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 8633,
+      "sha256": "62177cc4b9f4f06cfd84609f94d77f722b0191522eb65733f23ff98158dec3ba",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 829,
+      "sha256": "d70bc3fe28d90a264bd8b0a4cd429815e5726421d13a48b15978a7b95b371cd3",
+      "license": "sample-content"
+    },
+    {
+      "path": "mx-hook.tsx",
+      "bytes": 17958,
+      "sha256": "deace9e802a5ee7862eb9f34ee30a55cfbd1cfab645f24156e313b9cdc413c62",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-brand.tsx",
+      "bytes": 15388,
+      "sha256": "492f84da3796a6bb2f83a8d84179931360ba6d0f7acfc7594534a05fc653a4a7",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-stages.tsx",
+      "bytes": 20925,
+      "sha256": "46789dee3955db25c726d7c0fc1206774c7926d50d7ec97bb0d6aafc31ca609b",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-bed.tsx",
+      "bytes": 27405,
+      "sha256": "129b5edfc4ac464638e5c595c2d5ac0dcc031a3fbde9775c914a11fe10e0bbf7",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-snore.tsx",
+      "bytes": 20819,
+      "sha256": "ff925dacecd20fabfb4a9ed7f7c8b7755212b57f6e7803b358d53aa3821d9563",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-report.tsx",
+      "bytes": 19457,
+      "sha256": "6ee4b626c39c41c05292d79725aaccd820ff44d5344a528066141a5fa555d9f2",
+      "license": "MIT"
+    },
+    {
+      "path": "mx-finale.tsx",
+      "bytes": 17735,
+      "sha256": "ef197304e01aa7e21f13c588f1dd1b6e6b61b9f81a50e3189087ade7a38f11d0",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 18124,
+      "sha256": "ea751c31728f89c5c7ba5a98c32202abd14448adb914c1f4a432139d36b67d49",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 9395,
+      "sha256": "e9657814462cd9f957ad79073509b5f1a82ac2dcd2e36230d34a0cc500c421e1",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 7014,
+      "sha256": "f02ece9456f96af66abb6ade3da6b2ed77668386becf5f94dd200bb8b91b0aa2",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2626,
+      "sha256": "97487423b3d8a532a4b51b09d79ebbd93c8696e47f95405a02661872af4c4fd2",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13372,
+      "sha256": "9b2994da8fd233cd17ab00ba5f1241c21bf57dce3e9b59f06a87c52e74ddb669",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1994,
+      "sha256": "5c002a59a9b0caff8e5dc98fe3017eedcf0c1392dfd4ab91ad78836638071476",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S117.zip",
+    "bytes": 1198176,
+    "sha256": "66a68b86760ea7844fe496dbd241d51d0c1bfe2fc5eb6a7412818d15864974ba",
+    "format": "galanty-source-pack",
+    "contentDigest": "fb75d0458c71c0e5c9a92c180bc0a37c401a37aa9879d4c3bea67b35579d0a56"
+  },
+  "inlineMedia": [
+    {
+      "source": "mx-hook.tsx",
+      "reference": "release-assets/7e8755553ef1defddc968c58c50d64993daa8f4371a501d92cc89fa9e3238952.webp",
+      "mime": "image/webp",
+      "bytes": 31814,
+      "sha256": "7e8755553ef1defddc968c58c50d64993daa8f4371a501d92cc89fa9e3238952"
+    },
+    {
+      "source": "mx-brand.tsx",
+      "reference": "release-assets/b0595e1c3d132b0415817d527ed44a839a05984e71c7f5088e9029d67b79d8dc.webp",
+      "mime": "image/webp",
+      "bytes": 44638,
+      "sha256": "b0595e1c3d132b0415817d527ed44a839a05984e71c7f5088e9029d67b79d8dc"
+    },
+    {
+      "source": "mx-brand.tsx",
+      "reference": "release-assets/43d1ef9f5b5cecf4fac740bc0848e3fef041a82fd585ee47f081cee15ebc4a5f.webp",
+      "mime": "image/webp",
+      "bytes": 66314,
+      "sha256": "43d1ef9f5b5cecf4fac740bc0848e3fef041a82fd585ee47f081cee15ebc4a5f"
+    },
+    {
+      "source": "mx-stages.tsx",
+      "reference": "release-assets/bf84846cb5b10f59a4dac42360de7554c703a22e8c63ded1958f7481dcdd568f.webp",
+      "mime": "image/webp",
+      "bytes": 47050,
+      "sha256": "bf84846cb5b10f59a4dac42360de7554c703a22e8c63ded1958f7481dcdd568f"
+    },
+    {
+      "source": "mx-bed.tsx",
+      "reference": "release-assets/364054eb172a33738e4d022d8fa3cf7e4de8b518d2632e2e088d88a69f9dab73.webp",
+      "mime": "image/webp",
+      "bytes": 43944,
+      "sha256": "364054eb172a33738e4d022d8fa3cf7e4de8b518d2632e2e088d88a69f9dab73"
+    },
+    {
+      "source": "mx-report.tsx",
+      "reference": "release-assets/c3744c19ee3cec741496b5912de6c0f9853c1cbbf1d34683f5fcf58f0ffc1c90.webp",
+      "mime": "image/webp",
+      "bytes": 32872,
+      "sha256": "c3744c19ee3cec741496b5912de6c0f9853c1cbbf1d34683f5fcf58f0ffc1c90"
+    },
+    {
+      "source": "mx-finale.tsx",
+      "reference": "release-assets/7a54879f2e9d2b4dad616accc79d2d35f6aec962beb53422e76c1e714c598853.webp",
+      "mime": "image/webp",
+      "bytes": 55956,
+      "sha256": "7a54879f2e9d2b4dad616accc79d2d35f6aec962beb53422e76c1e714c598853"
+    }
+  ]
+}

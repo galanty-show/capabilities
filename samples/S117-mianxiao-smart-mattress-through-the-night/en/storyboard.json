@@ -1,0 +1,342 @@
+{
+  "contractVersion": 3,
+  "title": "MIANXIAO Smart Mattress · Through the Night",
+  "sourceTitle": "Promo for a fictional smart-mattress brand (category notes in source.md)",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "3 a.m.",
+      "narration": "Three in the morning, and you're up again. Tossing and turning, sleep becomes a jagged line.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-hook",
+          "props": {
+            "flipCue": "morning",
+            "wakeCue": "up",
+            "curveCue": "Tossing",
+            "curveLabel": "Last night",
+            "wakeLabel": "Awake"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.17
+    },
+    {
+      "id": "brand",
+      "title": "Leave it to MIANXIAO",
+      "narration": "Leave tonight to the Mianxiao smart mattress.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-brand",
+          "props": {
+            "brand": "MIANXIAO",
+            "latin": "",
+            "model": "Xiaoyi · Smart Mattress",
+            "brandCue": "Mianxiao",
+            "heroCue": "smart"
+          }
+        }
+      },
+      "hold": 0.54,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "stages",
+      "title": "Sleep stages",
+      "narration": "Sensors in the bed track heart and breathing. Light, deep, dream sleep — all mapped out.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-stages",
+          "props": {
+            "sensorLabel": "Piezo sensor layer · contact-free",
+            "sensorCue": "Sensors",
+            "heart": [
+              "Heart rate",
+              "58",
+              "bpm"
+            ],
+            "breath": [
+              "Breathing",
+              "14",
+              "/min"
+            ],
+            "heartCue": "heart",
+            "breathCue": "breathing",
+            "chartTitle": "Sleep stages",
+            "stages": [
+              {
+                "label": "Awake",
+                "cue": ""
+              },
+              {
+                "label": "REM",
+                "cue": "dream"
+              },
+              {
+                "label": "Light",
+                "cue": "Light"
+              },
+              {
+                "label": "Deep",
+                "cue": "deep"
+              }
+            ],
+            "demo": "Demo data"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      },
+      "hold": 0.27
+    },
+    {
+      "id": "pressure",
+      "title": "Pressure map",
+      "narration": "Turn over and the pressure map follows. Shoulders, waist, hips — each zone holds you.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-bed",
+          "props": {
+            "mode": "pressure",
+            "title": "Pressure map",
+            "turnCue": "Turn",
+            "turnChip": "Turned · 02:31",
+            "zones": [
+              "Head",
+              "Shoulder",
+              "Back",
+              "Waist",
+              "Hip",
+              "Legs",
+              "Feet"
+            ],
+            "adjust": [
+              {
+                "cue": "Shoulders",
+                "zone": 1,
+                "delta": -1
+              },
+              {
+                "cue": "waist",
+                "zone": 3,
+                "delta": 1
+              },
+              {
+                "cue": "hips",
+                "zone": 4,
+                "delta": -1
+              }
+            ],
+            "holdCue": "holds",
+            "peak": "Peak pressure {n}%",
+            "soft": [
+              "Soft",
+              "Firm"
+            ],
+            "legend": [
+              "Low",
+              "High"
+            ],
+            "demo": "Demo data"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      },
+      "hold": 0.93
+    },
+    {
+      "id": "snore",
+      "title": "Snore response",
+      "narration": "One snore and the head rises. Breathing eases, snoring fades.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-snore",
+          "props": {
+            "liftCue": "rises",
+            "calmCue": "Breathing",
+            "quietCue": "fades",
+            "angleLabel": "Head raised {n}°",
+            "monitor": "Snore monitor",
+            "calm": "Snoring eased",
+            "motor": "Silent motor",
+            "demo": "Demo data"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "temp",
+      "title": "Dual-zone climate",
+      "narration": "She runs cold, he runs hot. Each side, just right.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-bed",
+          "props": {
+            "mode": "temp",
+            "title": "Dual-zone climate",
+            "sides": [
+              {
+                "label": "Her · runs cold",
+                "cue": "She runs cold",
+                "from": 25,
+                "to": 29
+              },
+              {
+                "label": "Him · runs hot",
+                "cue": "he runs hot",
+                "from": 27,
+                "to": 24
+              }
+            ],
+            "zoneCue": "Each",
+            "comfyCue": "right",
+            "comfy": "Comfy",
+            "demo": "Demo data"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "report",
+      "title": "Sleep report",
+      "narration": "Morning — and your report is ready. Sleep score: 87.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-report",
+          "props": {
+            "dawnCue": "Morning",
+            "phoneCue": "your",
+            "reportCue": "report",
+            "scoreCue": "score",
+            "landCue": "87",
+            "title": "Last night's sleep",
+            "scoreLabel": "Sleep score",
+            "verdict": "Slept well",
+            "stats": [
+              {
+                "label": "Total sleep",
+                "value": "7h 12m"
+              },
+              {
+                "label": "Deep sleep",
+                "value": "1h 48m"
+              },
+              {
+                "label": "Fell asleep in",
+                "value": "12 min"
+              },
+              {
+                "label": "Head raised",
+                "value": "2×"
+              }
+            ],
+            "demo": "Demo data"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "hero",
+      "title": "Sleep deep, wake bright",
+      "narration": "The Mianxiao smart mattress. Sleep deep, wake bright.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-finale",
+          "props": {
+            "mode": "hero",
+            "brand": "MIANXIAO",
+            "latin": "",
+            "model": "Smart Mattress",
+            "slogan": [
+              {
+                "text": "Sleep deep, ",
+                "cue": "Sleep"
+              },
+              {
+                "text": "wake bright.",
+                "cue": "wake"
+              }
+            ],
+            "note": "Fictional brand · Galanty demo sample",
+            "nameSize": 60,
+            "sloganSize": 54
+          }
+        }
+      },
+      "hold": 0.23,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "endcard",
+      "title": "End card",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.8
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-finale",
+          "props": {
+            "mode": "end",
+            "brand": "MIANXIAO",
+            "latin": "",
+            "model": "Xiaoyi · Smart Mattress",
+            "slogan": [
+              {
+                "text": "Sleep deep, ",
+                "cue": "Sleep"
+              },
+              {
+                "text": "wake bright.",
+                "cue": "wake"
+              }
+            ],
+            "note": "Fictional brand · Galanty demo sample"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

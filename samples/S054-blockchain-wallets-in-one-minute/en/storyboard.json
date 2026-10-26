@@ -1,0 +1,121 @@
+{
+  "contractVersion": 3,
+  "title": "Blockchain Wallets in One Minute",
+  "subtitle": "先选网络，再选钱包",
+  "sourceTitle": "Blockchain Wallets in One Minute",
+  "sourceUrl": "",
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Wallets and On-Chain Assets",
+      "kicker": "钱包的作用",
+      "narration": "Your assets are recorded on the blockchain. A self-custody wallet manages your keys. It shows balances and signs transactions.",
+      "sourceQuote": "Assets are recorded on the blockchain; a self-custody wallet helps you manage keys, check balances and sign transactions.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "A wallet links you to ==on-chain assets==",
+            "kicker": "What a wallet does",
+            "points": [
+              "Assets are recorded on-chain",
+              "The wallet manages ==keys=="
+            ],
+            "visual": "wallet",
+            "labels": [],
+            "from": "scatter",
+            "footer": {
+              "label": "Blockchain Wallets in One Minute",
+              "index": 1,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      },
+      "transition": {
+        "kind": "handoff",
+        "duration": 1,
+        "overlap": "anchor",
+        "sharedElements": [
+          "particles"
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "title": "Addresses vs. Keys",
+      "kicker": "接收与控制",
+      "narration": "You can share your address to receive funds. Your key and seed phrase control the account. They restore it too, so never share them.",
+      "sourceQuote": "An address is for receiving assets and can be shared; your private key and recovery phrase control or restore the account, so keep them yourself and never give them to anyone.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "How do addresses and ==keys== differ?",
+            "kicker": "Receiving vs. control",
+            "points": [
+              "Address: share it to receive",
+              "Private key and phrase: keep them"
+            ],
+            "visual": "key",
+            "labels": [],
+            "from": "wallet",
+            "footer": {
+              "label": "Blockchain Wallets in One Minute",
+              "index": 2,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      },
+      "transition": {
+        "kind": "handoff",
+        "duration": 1,
+        "overlap": "anchor",
+        "sharedElements": [
+          "particles"
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "title": "Right Network, Safe Keys",
+      "kicker": "记住两个重点",
+      "narration": "Choose the network first, then the wallet. Keys mean control, so guard them yourself.",
+      "sourceQuote": "Choose the network first, then the wallet. A wallet is a tool; the keys mean control.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "Pick the network, guard your ==keys==",
+            "kicker": "Two things to remember",
+            "points": [
+              "A wallet is a tool",
+              "==Keys== mean control"
+            ],
+            "visual": "shield",
+            "labels": [],
+            "from": "key",
+            "footer": {
+              "label": "Blockchain Wallets in One Minute",
+              "index": 3,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      }
+    }
+  ]
+}

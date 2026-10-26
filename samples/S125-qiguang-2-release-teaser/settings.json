@@ -1,0 +1,15 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 30,
+  "maxDurationSeconds": 40,
+  "narration": false,
+  "language": "zh",
+  "musicFile": "library:original-gh-release-teaser",
+  "musicVolume": 0.5,
+  "brandOutro": "made-with",
+  "captionStyle": "clean",
+  "concurrency": 4,
+  "theme": {"background": "#050709", "accent": "#9BC8DD", "text": "#F2F5F7", "muted": "#A4ADB5"}
+}

@@ -1,0 +1,16 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 45,
+  "maxDurationSeconds": 70,
+  "narration": true,
+  "voice": "Tingting",
+  "tts": {"engine": "system"},
+  "speechRate": 220,
+  "concurrency": 3,
+  "musicFile": "library:generated-calm-current-78",
+  "musicVolume": 0.1,
+  "brandOutro": "made-with",
+  "theme": {"background": "#F4EEE2", "accent": "#CB734E", "text": "#FAF7F0", "muted": "#7A8786"}
+}

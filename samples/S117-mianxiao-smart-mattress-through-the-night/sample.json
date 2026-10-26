@@ -1,0 +1,46 @@
+{
+  "no": "S117",
+  "title": "眠晓智能床垫 · 一夜到天亮",
+  "titles": {
+    "zh": "眠晓智能床垫 · 一夜到天亮",
+    "en": "MIANXIAO Smart Mattress · Through the Night"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "mx-hook",
+    "mx-brand",
+    "mx-stages",
+    "mx-bed",
+    "mx-snore",
+    "mx-report",
+    "mx-finale"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创虚构品牌宣传片：旁白与画面文字自写，品类卖点为公开报道归纳、参数为演示数据；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-mianxiao-dawn",
+    "selection": "library:original-mianxiao-dawn",
+    "title": "Mianxiao Dawn",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Mianxiao Dawn — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S117/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-mattress-20261013/music_build.py (re-timed: starts 1.55 s in, one 2-bar night loop so the sunrise bloom lands on the narration's 'dawn' line, 4 bright bars then the original ending; dynamics halved, 200 Hz dip for a low male voice, end card +3 dB, 47 NumPy-synthesized sound effects incl. a breathing bed, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S117; other films will not hit its accents.",
+    "file": "music/mianxiao-dawn.mp3",
+    "bundled": true
+  },
+  "note": "品牌“眠晓”、型号与全部参数虚构，画面标“演示数据”。旁白为预先生成的 Gemini 云端配音（音色 Iapetus，随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成）以 WebP data URI 内联在幕代码里，每张只内联一次（mx-bed 两幕共用一张俯视图）。数据图、热力图、侧视抬头、手机报告都是代码画的，卡点词与读数在各幕 props。配乐 Mianxiao Dawn（CC0，随包曲库 library:original-mianxiao-dawn）按本片逐字时间轴卡点、并在“天亮了”开口处大开：改节奏或换曲后不再对齐。正文约 54.9 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S117"
+}

@@ -1,0 +1,389 @@
+{
+  "contractVersion": 3,
+  "title": "约翰·亨利：打钢钎的汉子",
+  "sourceTitle": "美国民间传说《约翰·亨利》，原创重述",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "锤声",
+      "narration": "大山深处，一把铁锤在响。钢碰钢，一下，又一下。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-hook",
+          "props": {
+            "beats": [
+              0.12,
+              3.767,
+              5.033,
+              6.067,
+              7.1,
+              8.067
+            ],
+            "place": "阿勒格尼山脉 · 1870 年代"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 2.23
+    },
+    {
+      "id": "title",
+      "title": "约翰·亨利",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.6
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-title",
+          "props": {
+            "beats": [
+              0.03
+            ],
+            "title": "约翰·亨利",
+            "subtitle": "打钢钎的汉子",
+            "tagline": "一则美国传说"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "born",
+      "title": "生来握着锤",
+      "narration": "老辈人这么讲。约翰·亨利一出生，手里就攥着锤子。刚会走路，就抡得动它。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-born",
+          "props": {
+            "beats": [
+              7.367
+            ],
+            "tag": "民间传说",
+            "hammerCue": "锤子",
+            "swingCue": "抡得动"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      },
+      "hold": 0.97
+    },
+    {
+      "id": "west",
+      "title": "铁路向西",
+      "narration": "南北战争后，铁路一路向西修。很多铁轨，出自黑人工人之手。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-west",
+          "props": {
+            "railroad": "切萨皮克—俄亥俄铁路 · 1870 年代",
+            "east": "里士满",
+            "west": "俄亥俄河",
+            "mountains": "阿勒格尼山脉",
+            "stamp": "全凭双手",
+            "stampCue": "黑人"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.7
+    },
+    {
+      "id": "crew",
+      "title": "打钢钎",
+      "narration": "一个人扶钢钎。一个人抡大锤。抡锤，谁也比不上约翰·亨利。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-crew",
+          "props": {
+            "beats": [
+              4.48,
+              5.784,
+              7.088
+            ],
+            "shaker": "扶钎手",
+            "shakerNote": "扶住钢钎，每砸一下转一转",
+            "driver": "打钎手",
+            "driverNote": "抡大锤",
+            "name": "约翰·亨利",
+            "nameCue": "约翰·亨利",
+            "swungCue": "抡大锤"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.3
+    },
+    {
+      "id": "mountain",
+      "title": "大山",
+      "narration": "后来，一座大山挡了路。一英里多，全是硬岩。打眼，放炮，运出去。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-mountain",
+          "props": {
+            "beats": [
+              5.733,
+              6.533,
+              7.5
+            ],
+            "length": "约 1¼ 英里坚硬岩石",
+            "lengthCue": "英里",
+            "steps": [
+              "打眼",
+              "放炮",
+              "运出"
+            ],
+            "stepCues": [
+              "打眼",
+              "放炮",
+              "运出"
+            ],
+            "footnote": "西弗吉尼亚州大弯隧道——也有人说是弗吉尼亚州刘易斯隧道，讲法不一。"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.63
+    },
+    {
+      "id": "drill",
+      "title": "蒸汽钻机",
+      "narration": "有一天，推销员推来一台蒸汽钻机。他说，哪个活人干活也比不过它。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-drill",
+          "props": {
+            "kicker": "新式专利",
+            "headline": "蒸汽钻机",
+            "claim": "干活胜过任何活人！",
+            "claimCue": "比不过",
+            "fine": "日夜开钻 · 不知疲倦 · 永不罢工"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.1
+    },
+    {
+      "id": "reply",
+      "title": "人不过是个人",
+      "narration": "约翰·亨利盯着那台机器，开了口。“人嘛，不过是个人。可要我输给那台钻机？我宁愿死，手里也攥着这把锤子。”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-reply",
+          "props": {
+            "quote": [
+              "人嘛，",
+              "不过",
+              "是个人。"
+            ],
+            "vow": "……我宁愿死，手里也攥着这把锤子。"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.97
+    },
+    {
+      "id": "race",
+      "title": "人和机器",
+      "narration": "于是，人和机器比了起来。钻机嘶嘶喷气，咚咚猛砸。约翰·亨利抡，抡，再抡。越来越快，还要更快。整座山都在摇晃。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "race",
+            "beats": [
+              0,
+              0.652,
+              1.304,
+              1.957,
+              2.609,
+              3.23,
+              3.852,
+              4.474,
+              5.096,
+              5.689,
+              6.282,
+              6.874,
+              7.467,
+              8.033,
+              8.598,
+              9.163,
+              9.728,
+              10.267,
+              10.806,
+              11.345,
+              11.884,
+              12.398,
+              12.912,
+              13.425,
+              13.939,
+              14.429,
+              14.919,
+              15.409,
+              15.899,
+              16.366,
+              16.833,
+              17.3
+            ],
+            "man": "约翰·亨利",
+            "machine": "蒸汽钻机",
+            "unit": "英尺",
+            "drillCue": "钻机",
+            "manCue": "约翰·亨利",
+            "swungCue": "抡",
+            "fasterCue": "越来越快",
+            "shookCue": "摇晃",
+            "footnote": "数字出自传说，各家讲法不一。"
+          }
+        }
+      },
+      "hold": 4.23,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "win",
+      "title": "十四英尺",
+      "narration": "尘土散去：钻机打了九英尺。约翰·亨利，十四英尺。他赢了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "win",
+            "beats": [
+              6.833
+            ],
+            "man": "约翰·亨利",
+            "machine": "蒸汽钻机",
+            "unit": "英尺",
+            "machineCue": "九英尺",
+            "manTotalCue": "十四",
+            "wonCue": "赢了",
+            "won": "胜",
+            "footnote": "数字出自传说，各家讲法不一。"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.67
+    },
+    {
+      "id": "still",
+      "title": "静止",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-race",
+          "props": {
+            "mode": "still",
+            "beats": [
+              0.3,
+              1.1,
+              1.95,
+              2.85
+            ],
+            "man": "约翰·亨利",
+            "machine": "蒸汽钻机",
+            "unit": "英尺",
+            "footnote": "数字出自传说，各家讲法不一。"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "fall",
+      "title": "锤子还在手里",
+      "narration": "可他那颗了不起的心，再也撑不住了。他倒下了，手里还攥着锤子。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-fall",
+          "props": {
+            "glintCue": "锤子"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "legacy",
+      "title": "每一锤",
+      "narration": "机器越来越强，到今天也是。可人们一直传唱约翰·亨利。不为他赢下的那场比赛。只为他每一锤里，那颗心。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "jh-legacy",
+          "props": {
+            "strongerCue": "越来越强",
+            "turnCue": "传唱",
+            "swingCue": "每一锤",
+            "title": "约翰·亨利",
+            "subtitle": "打钢钎的汉子",
+            "credit": "美国民间传说 · 重新讲述"
+          }
+        }
+      },
+      "hold": 1.7,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    }
+  ]
+}

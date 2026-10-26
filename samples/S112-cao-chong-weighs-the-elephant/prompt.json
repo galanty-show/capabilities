@@ -1,0 +1,107 @@
+{
+  "no": "S112",
+  "prompt": {
+    "zh-CN": "给 4～9 岁的小朋友做一支约 100 秒的中文故事动画《曹冲称象》（出自《三国志》，公版），横版 16:9，适合在平板或电视上播放。旁白自己写，用孩子听得懂的短句：开头用一个问题当钩子（一头大象有多重？），中间停一下让孩子自己想办法，再把曹冲的办法一步一步讲清楚：大象上船、船往下沉、沿着水面画线、牵走大象、一筐筐搬石头直到水面到线、把石头称一称加起来；结尾一句温和的道理，不说教。不要战争、兵器和吓人的画面。画面用温暖明亮的绘本插画（水彩、蜡笔质感），人物前后一致；关键动作用代码画：水面随船起伏、刻线发光、石头一块块落到船上、水位逼近刻线到线时“叮”一下、秤盘的指针，最后是“石头的重量 = 大象的重量”的等式。配音用温柔亲切的女声，语速慢一点，多音字（称、重）要读对；配乐原创、轻快童趣（木琴、尤克里里），音效可以用代码合成。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a ~100-second Chinese story animation for kids aged 4–9: “Cao Chong Weighs the Elephant” (Records of the Three Kingdoms, public domain), 16:9 for a tablet or TV. Write short, simple narration: open with a question (how heavy is an elephant?), pause so kids can think, then show Cao Chong's method step by step — elephant onto the boat, the boat sinks, mark the waterline, elephant off, baskets of stones until the water reaches the mark, weigh the stones and add them up — and end with one gentle lesson. No war, weapons or scary images. Use warm picture-book art (watercolor, crayon) with consistent characters, and draw key actions in code: water bobbing, a glowing mark, stones dropping as the water creeps up with a “ding” at the line, a scale needle, and “stones' weight = elephant's weight”. Use a gentle female voice, a bit slow, reading 称 and 重 correctly; a playful original score (xylophone, ukulele) and code-made sound effects. Live preview first; export the MP4 once I'm happy.",
+    "zh-Hant": "幫 4～9 歲的小朋友做一支約 100 秒的中文故事動畫《曹沖稱象》（出自《三國志》，公版），橫版 16:9，適合在平板或電視上播放。旁白由你來寫，用孩子聽得懂的短句：開頭用一個問題當鉤子（一頭大象有多重？），中間停一下讓孩子自己想辦法，再把曹沖的辦法一步一步講清楚：大象上船、船往下沉、沿著水面畫線、牽走大象、一筐筐搬石頭直到水面到線、把石頭稱一稱加起來；結尾一句溫和的道理，不說教。不要戰爭、兵器和嚇人的畫面。畫面用溫暖明亮的繪本插畫（水彩、蠟筆質感），人物前後一致；關鍵動作用程式碼畫：水面隨船起伏、刻線發光、石頭一塊塊落到船上、水位逼近刻線到線時「叮」一下、秤盤的指針，最後是「石頭的重量 = 大象的重量」的等式。配音用溫柔親切的女聲，語速慢一點，多音字（稱、重）要讀對；配樂原創、輕快童趣（木琴、烏克麗麗），音效可以用程式碼合成。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "4～9歳の子ども向けに、約100秒の中国語ストーリーアニメ「曹沖、象の重さを量る」(曹沖称象)を作ってください(出典は『三国志』、パブリックドメイン)。横向き16:9で、タブレットやテレビで見やすいものにします。ナレーションはあなたが書いて、子どもにも分かる短い文にしてください。冒頭は問いかけで引きつけ(ゾウの重さはどれくらい?)、途中で一拍置いて子どもが自分で考える時間を作り、そのあと曹沖の方法を一歩ずつ丁寧に説明します。ゾウが船に乗る、船が沈む、水面に線を引く、ゾウを降ろす、水面が線に届くまで籠で石を運ぶ、石を量って足し合わせる。最後はやさしい教えをひとこと、説教くさくならないように。戦争、武器、怖い絵は使いません。絵は温かく明るい絵本イラスト(水彩、クレヨンの質感)で、人物は最初から最後まで同じ姿に。要になる動きはコードで描いてください。船と一緒に揺れる水面、光る刻み線、石が一つずつ船に落ちる様子、水位が線に届く瞬間の「チーン」という音、秤の針、そして最後に「石の重さ = ゾウの重さ」の等式。声はやさしく親しみやすい女性の声でゆっくりめに、多音字の称と重を正しく読むこと。音楽はオリジナルの軽やかで楽しい曲(木琴、ウクレレ)、効果音はコードで合成して構いません。まずリアルタイムで再生して見せて、気に入ったらMP4に書き出します。",
+    "ko": "4~9세 어린이를 위한 약 100초 분량의 중국어 이야기 애니메이션 「조충칭상(조충, 코끼리 무게를 재다)」을 만들어 주세요(『삼국지』 수록, 공공 저작물). 가로 16:9로, 태블릿이나 TV에서 보기 좋게요. 내레이션은 직접 쓰고, 아이들이 알아듣는 짧은 문장으로 해 주세요. 처음에는 질문으로 시선을 끌고(코끼리는 얼마나 무거울까?), 중간에 잠깐 멈춰 아이가 스스로 방법을 생각해 보게 한 다음, 조충의 방법을 한 단계씩 분명하게 들려주세요. 코끼리가 배에 오르고, 배가 가라앉고, 수면을 따라 선을 긋고, 코끼리를 내리고, 물이 선에 닿을 때까지 바구니로 돌을 나르고, 돌을 달아서 더하는 순서입니다. 마무리는 부드러운 교훈 한 줄, 잔소리는 빼고요. 전쟁, 무기, 무서운 장면은 없어야 합니다. 그림은 따뜻하고 밝은 그림책 일러스트(수채화, 크레용 질감)에 인물 모습은 처음부터 끝까지 똑같이. 핵심 동작은 코드로 그려 주세요. 배를 따라 출렁이는 수면, 빛나는 눈금선, 돌이 하나씩 배에 떨어지는 모습, 수위가 눈금선에 닿는 순간 \"딩\" 하는 소리, 저울 바늘, 마지막으로 \"돌의 무게 = 코끼리의 무게\" 등식입니다. 목소리는 부드럽고 다정한 여성 목소리로 조금 천천히, 다음자 称와 重는 올바르게 읽어야 해요. 음악은 직접 만든 경쾌하고 동심 가득한 곡(실로폰, 우쿨렐레), 효과음은 코드로 합성해도 좋아요. 먼저 바로 재생해서 보여 주시고, 마음에 들면 MP4로 내보내 주세요.",
+    "es": "Haz para niños de 4 a 9 años una animación en chino de unos 100 s: «Cao Chong pesa al elefante» (Crónicas de los Tres Reinos, dominio público), 16:9 horizontal, para tableta o tele. Narración en frases cortas: abre con una pregunta gancho (¿cuánto pesa un elefante?), pausa para que piensen y luego el método de Cao Chong paso a paso: el elefante sube a la barca, la barca se hunde, se marca una línea en el agua, baja el elefante, cestas de piedras hasta que el agua llega a la marca, y se pesan y suman las piedras. Cierra con una enseñanza suave, sin sermones. Nada de guerra, armas ni imágenes que asusten. Ilustración de cuento cálida y luminosa (acuarela, cera) con personajes coherentes; acciones clave dibujadas con código: el agua meciéndose con la barca, la marca brillante, las piedras cayendo una a una, un «ding» al llegar a la línea, la aguja de una balanza y, al final, «peso de las piedras = peso del elefante». Voz de mujer dulce y pausada que lea bien 称 y 重; música original y juguetona (xilófono, ukelele) y efectos sintetizados con código. Primero reprodúcelo en directo y, si me gusta, expórtalo en MP4.",
+    "de": "Mach für Kinder von 4 bis 9 Jahren eine etwa 100-sekündige chinesische Geschichtenanimation: „Cao Chong wiegt den Elefanten“ (Aufzeichnungen der Drei Reiche, gemeinfrei), Querformat 16:9, für Tablet oder TV. Sprechtext in kurzen Sätzen: Einstieg mit einer Frage (Wie schwer ist ein Elefant?), Pause zum Selbstüberlegen, dann Cao Chongs Methode Schritt für Schritt: Elefant aufs Boot, das Boot sinkt, Linie am Wasserspiegel, Elefant runter, Körbe voller Steine, bis das Wasser die Linie erreicht, Steine wiegen und addieren. Am Ende eine sanfte Lehre ohne Moralpredigt. Keine Kriegs-, Waffen- oder Schreckensbilder. Warme, helle Bilderbuch-Illustrationen (Aquarell, Wachsmalstift), Figuren immer gleich; wichtige Bewegungen per Code: das Wasser schaukelt mit dem Boot, die Markierung leuchtet, Steine fallen einzeln aufs Boot, ein „Ding“ an der Linie, der Zeiger einer Waage, am Ende „Gewicht der Steine = Gewicht des Elefanten“. Sanfte Frauenstimme, etwas langsam, 称 und 重 richtig gelesen; originale, verspielte Musik (Xylofon, Ukulele), Effekte per Code. Erst live abspielen, nach meinem Okay als MP4 exportieren.",
+    "fr": "Fais pour des enfants de 4 à 9 ans une animation en chinois d'environ 100 s : « Cao Chong pèse l'éléphant » (Mémoires des Trois Royaumes, domaine public), 16:9 horizontal, pour tablette ou télé. Narration en phrases courtes : question accroche (combien pèse un éléphant ?), pause pour laisser chercher, puis la méthode de Cao Chong pas à pas : l'éléphant monte sur le bateau, le bateau s'enfonce, trait au niveau de l'eau, l'éléphant descend, paniers de pierres jusqu'au trait, on pèse les pierres et on additionne. Finis par une morale douce, sans leçon. Pas de guerre, d'armes ni d'images effrayantes. Illustrations d'album chaleureuses et lumineuses (aquarelle, crayon gras), personnages cohérents ; actions clés dessinées en code : l'eau qui ondule avec le bateau, le trait qui brille, les pierres qui tombent une à une, un « ding » au trait, l'aiguille d'une balance, puis « poids des pierres = poids de l'éléphant ». Voix féminine douce, un peu lente, qui lit bien 称 et 重 ; musique originale enjouée (xylophone, ukulélé), bruitages synthétisés par code. Lance d'abord la lecture en direct ; si ça me plaît, exporte en MP4.",
+    "pt-BR": "Faça para crianças de 4 a 9 anos uma animação em chinês de cerca de 100 s: “Cao Chong pesa o elefante” (Registros dos Três Reinos, domínio público), 16:9 horizontal, para tablet ou TV. Narração em frases curtas: comece com uma pergunta de gancho (quanto pesa um elefante?), pausa para as crianças pensarem e depois o método de Cao Chong passo a passo: o elefante sobe no barco, o barco afunda, marca-se uma linha na água, o elefante desce, cestos de pedras até a água chegar na marca, e as pedras são pesadas e somadas. Termine com uma lição suave, sem sermão. Nada de guerra, armas ou imagens assustadoras. Ilustrações de livro infantil quentes e luminosas (aquarela, giz de cera), personagens consistentes; ações-chave desenhadas em código: a água balançando com o barco, a marca brilhando, as pedras caindo uma a uma, um “plim” na linha, o ponteiro de uma balança e, no fim, “peso das pedras = peso do elefante”. Voz feminina doce e um pouco lenta, lendo 称 e 重 corretamente; música original e divertida (xilofone, ukulele) e efeitos por código. Primeiro reproduza ao vivo; se eu gostar, exporte em MP4."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Aoede",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 2.5 Pro TTS · Aoede",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Cao Chong Weighs the Elephant",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Following the standard of The Lychees of Chang'an, could you make a few popular American stories for me? You're in charge of planning and directing all the music and narration. I've sent you the Gemini key; use it for the voices and make a few high-quality American story templates. For the China region, make a few stories best suited to children under 10. Also make a few product promo videos, for example some products that became popular in China in 2026. Then make 3 videos of the kind Opus 5.5 is best at on today's market. And find the 5 most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "reproduce": {
+    "zh-CN": "照样片 S112《曹冲称象》复刻一支：fork_template({id: \"S112\"}) 复制分镜、设定和四个幕模块，先即时播放（随包旁白种子，不联网）。要换成别的故事，就改分镜的旁白，以及各幕参数里的画面字和卡点词（如 cueSink、cueStones、cueReach）；底图换成你自己生成的同风格插画（同名素材槽会盖过内联图）。随包配乐 library:original-cao-chong 只对这条时间轴卡点，改了旁白要重剪或换曲。满意后再导出 MP4。",
+    "en": "Reproduce sample S112 “Cao Chong Weighs the Elephant”: fork_template({id: \"S112\"}) copies the storyboard, settings and the four scene modules; play it live first (bundled narration seeds, no network). To tell another story, edit the storyboard narration and the on-screen words and cue words in each scene's params (such as cueSink, cueStones, cueReach), and swap in your own illustrations in the same style (an asset slot with the same name overrides the inline image). The bundled score library:original-cao-chong is cut to this timeline only, so re-edit or change the music after rewriting the narration. Export the MP4 once you're happy.",
+    "zh-Hant": "照樣片 S112《曹沖稱象》複刻一支：fork_template({id: \"S112\"}) 複製分鏡、設定和四個幕模組，先即時播放（隨包旁白種子，不連網）。要換成別的故事，就改分鏡的旁白，以及各幕參數裡的畫面字和卡點詞（如 cueSink、cueStones、cueReach）；底圖換成你自己生成的同風格插畫（同名素材槽會蓋過內嵌圖）。隨包配樂 library:original-cao-chong 只對這條時間軸卡點，改了旁白要重剪或換曲。滿意後再匯出 MP4。",
+    "ja": "サンプルS112「曹沖、象の重さを量る」をまねて作るには、fork_template({id: \"S112\"}) で絵コンテ・設定・4つのシーンモジュールをコピーし、まずリアルタイム再生します(同梱のナレーション素材を使うのでネット接続は不要)。別の物語にするなら、絵コンテのナレーションと、各シーンのパラメータにある画面の文字やキュー用の語(cueSink、cueStones、cueReachなど)を書き換え、背景画像は同じ雰囲気で自分で生成したイラストに差し替えます(同名の素材スロットがあれば埋め込み画像より優先されます)。同梱の曲 library:original-cao-chong はこのタイムラインにだけ合わせてあるため、ナレーションを変えたら編集し直すか曲を替えてください。気に入ったらMP4に書き出します。",
+    "ko": "샘플 S112 「조충칭상(조충, 코끼리 무게를 재다)」을 따라 만들려면 fork_template({id: \"S112\"})로 스토리보드, 설정, 4개의 장면 모듈을 복사한 뒤 먼저 바로 재생해 보세요(내장 내레이션 시드를 쓰므로 인터넷이 필요 없습니다). 다른 이야기로 바꾸려면 스토리보드의 내레이션과 각 장면 매개변수의 화면 글자, 타이밍 단어(cueSink, cueStones, cueReach 등)를 고치고, 배경 이미지는 같은 분위기로 직접 만든 일러스트로 바꾸세요(같은 이름의 소재 슬롯이 인라인 이미지보다 우선합니다). 내장 음악 library:original-cao-chong는 이 타임라인에만 맞춰져 있어서, 내레이션을 바꾸면 다시 편집하거나 곡을 바꿔야 합니다. 마음에 들면 MP4로 내보내세요.",
+    "es": "Para reproducir la muestra S112 «Cao Chong pesa al elefante»: fork_template({id: \"S112\"}) copia el guion gráfico, los ajustes y los cuatro módulos de escena; reprodúcela primero en directo (con las narraciones incluidas, sin conexión). Para contar otra historia, edita la narración del guion y los textos en pantalla y las palabras de sincronía de los parámetros de cada escena (como cueSink, cueStones, cueReach), y cambia las imágenes de fondo por ilustraciones propias del mismo estilo (un espacio de recurso con el mismo nombre prevalece sobre la imagen incrustada). La música incluida, library:original-cao-chong, está cortada solo para esta línea de tiempo, así que si cambias la narración tendrás que volver a editarla o elegir otra pieza. Cuando te guste, exporta en MP4.",
+    "de": "So baust du das Beispiel S112 „Cao Chong wiegt den Elefanten“ nach: fork_template({id: \"S112\"}) kopiert Storyboard, Einstellungen und die vier Szenenmodule; spiele es zuerst live ab (mit den mitgelieferten Sprechertönen, ohne Internet). Für eine andere Geschichte änderst du den Sprechtext im Storyboard sowie Bildschirmtexte und Stichwörter in den Szenenparametern (etwa cueSink, cueStones, cueReach) und tauschst die Hintergrundbilder gegen eigene Illustrationen im gleichen Stil (ein Asset-Slot gleichen Namens hat Vorrang vor dem eingebetteten Bild). Die mitgelieferte Musik library:original-cao-chong ist nur auf diese Zeitleiste geschnitten; nach Textänderungen neu schneiden oder ein anderes Stück wählen. Wenn es dir gefällt, als MP4 exportieren.",
+    "fr": "Pour reproduire l'exemple S112 « Cao Chong pèse l'éléphant » : fork_template({id: \"S112\"}) copie le storyboard, les réglages et les quatre modules de scène ; lance d'abord la lecture en direct (voix fournies, sans réseau). Pour une autre histoire, modifie la narration du storyboard, les textes à l'écran et les mots de synchronisation dans les paramètres de chaque scène (comme cueSink, cueStones, cueReach), et remplace les images de fond par tes propres illustrations dans le même style (un emplacement de ressource du même nom l'emporte sur l'image intégrée). La musique fournie, library:original-cao-chong, n'est calée que sur cette ligne de temps : si tu changes la narration, remonte-la ou change de morceau. Quand elle te plaît, exporte en MP4.",
+    "pt-BR": "Para reproduzir o exemplo S112 “Cao Chong pesa o elefante”: fork_template({id: \"S112\"}) copia o storyboard, as configurações e os quatro módulos de cena; reproduza primeiro ao vivo (com as narrações já incluídas, sem internet). Para contar outra história, edite a narração do storyboard, os textos na tela e as palavras de sincronia nos parâmetros de cada cena (como cueSink, cueStones, cueReach), e troque as imagens de fundo por ilustrações suas no mesmo estilo (um slot de recurso com o mesmo nome tem prioridade sobre a imagem embutida). A música incluída, library:original-cao-chong, foi cortada só para esta linha do tempo; se mudar a narração, reedite-a ou troque a música. Quando gostar, exporte em MP4."
+  },
+  "requirements": {
+    "zh-CN": "中文旁白是云端 Gemini 3.8 Flash TTS（音色 Aoede）生成，曹冲那句台词是 Gemini 2.5 Pro TTS 的童声风格；随包是预先生成的旁白，播放不需要 key。原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。原片云端费用约 US$2.5。",
+    "en": "The Chinese narration was generated in the cloud with Gemini 3.8 Flash TTS (voice Aoede), and Cao Chong's line with Gemini 2.5 Pro TTS in a childlike style; it ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The original cost about US$2.5 in cloud fees.",
+    "zh-Hant": "中文旁白由雲端 Gemini 3.8 Flash TTS（音色 Aoede）生成，曹沖那句台詞是 Gemini 2.5 Pro TTS 的童聲風格；隨包是預先生成的旁白，播放不需要 key。原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。原片雲端費用約 US$2.5。",
+    "ja": "中国語のナレーションはクラウドのGemini 3.8 Flash TTS(音色Aoede)で生成し、曹沖のセリフだけGemini 2.5 Pro TTSの子どもらしい声のスタイルを使っています。ナレーションは生成済みのものを同梱しているので、再生にキーは要りません。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。元作品のクラウド費用は約US$2.5でした。",
+    "ko": "중국어 내레이션은 클라우드의 Gemini 3.8 Flash TTS(음색 Aoede)로 만들었고, 조충의 대사는 Gemini 2.5 Pro TTS의 어린이 목소리 스타일입니다. 내레이션은 미리 생성해 포함되어 있어 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 원작의 클라우드 비용은 약 US$2.5였습니다.",
+    "es": "La narración en chino se generó en la nube con Gemini 3.8 Flash TTS (voz Aoede), y la frase de Cao Chong con Gemini 2.5 Pro TTS en estilo infantil. Viene ya generada, así que reproducirla no requiere ninguna clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. El original costó unos US$2.5 en la nube.",
+    "de": "Der chinesische Sprechtext wurde in der Cloud mit Gemini 3.8 Flash TTS (Stimme Aoede) erzeugt, Cao Chongs Satz mit Gemini 2.5 Pro TTS im kindlichen Stil. Er liegt fertig generiert bei, daher braucht die Wiedergabe keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Das Original kostete etwa US$2.5 an Cloud-Gebühren.",
+    "fr": "La narration en chinois a été générée dans le cloud avec Gemini 3.8 Flash TTS (voix Aoede), et la réplique de Cao Chong avec Gemini 2.5 Pro TTS dans un style enfantin. Elle est fournie déjà générée : la lecture n'exige aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. L'original a coûté environ US$2.5 en frais de cloud.",
+    "pt-BR": "A narração em chinês foi gerada na nuvem com Gemini 3.8 Flash TTS (voz Aoede), e a fala de Cao Chong com Gemini 2.5 Pro TTS em estilo infantil. Ela já vem gerada, então reproduzir não exige nenhuma chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. O original custou cerca de US$2.5 em taxas de nuvem."
+  }
+}

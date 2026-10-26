@@ -1,0 +1,73 @@
+{
+  "productName": "Zelqio",
+  "tagline": "Capture. Replay. Review.",
+  "installCommand": "zelqio replay ./demo",
+  "demoLabel": "DEMO / 示例",
+  "terminalLines": [
+    "Local workflow rehearsals",
+    "Capture. Replay. Compare. Report."
+  ],
+  "codeCaption": "A trace you can review.",
+  "gridItemLabel": "trace",
+  "revealCaption": "One local workflow.",
+  "sellingPoints": [
+    {
+      "text": "One workflow",
+      "source": "examples/product.md#four-stages",
+      "detail": "Capture / replay / compare / report",
+      "metric": {
+        "value": 4,
+        "label": "STAGES. ONE WORKFLOW.",
+        "source": "examples/product.md#four-stages",
+        "items": [
+          "CAPTURE",
+          "REPLAY",
+          "COMPARE",
+          "REPORT"
+        ]
+      }
+    },
+    {
+      "text": "Replay locally",
+      "source": "examples/product.md#local-replay",
+      "detail": "Pinned inputs. Repeatable runs.",
+      "command": "zelqio replay ./demo",
+      "scale": {
+        "count": 16,
+        "label": "DEMO / 16 ILLUSTRATIVE TRACES"
+      }
+    },
+    {
+      "text": "Keep the trace",
+      "source": "examples/product.md#review-bundle",
+      "detail": "Inputs, diffs and a readable report",
+      "command": "zelqio report ./demo"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "STEP 01",
+      "label": "Capture",
+      "source": "examples/product.md#four-stages"
+    },
+    {
+      "date": "STEP 02",
+      "label": "Replay",
+      "source": "examples/product.md#local-replay"
+    },
+    {
+      "date": "STEP 03",
+      "label": "Review",
+      "source": "examples/product.md#review-bundle"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#b6ebcf"
+  },
+  "musicStyle": "electronic",
+  "seed": 105,
+  "durationSeconds": 30,
+  "timelineCaption": "A workflow, in order."
+}

@@ -1,0 +1,80 @@
+{
+  "contractVersion": 3,
+  "title": "River Lamp: Four Scenes",
+  "sourceTitle": "Original verse; not quoted from classical texts and not attributed to any real poet.",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 64
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Dusk Crossing",
+      "narration": "Clouds clear east of the little bridge, and reed shadows sway in a light breeze. Who set a lamp afloat on the water, lighting home a few calling swallows?",
+      "sourceQuote": "Clouds clear east of the little bridge, and reed shadows sway in a light breeze. Who set a lamp afloat on the water, lighting home a few calling swallows?",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Dusk Crossing",
+            "kicker": "Original verse"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Moonlit Shore",
+      "narration": "The moon rises slowly off the far shore; grass greens the empty path. Hills and stream are hushed, and a lit window waits for the traveler.",
+      "sourceQuote": "The moon rises slowly off the far shore; grass greens the empty path. Hills and stream are hushed, and a lit window waits for the traveler.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Moonlit Shore",
+            "kicker": "Original verse"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Reading at Night",
+      "narration": "Opening old pages, I hear rain in the pines; writing new lines, I see a distant shore. Where is warmth tonight? In clear tea and one bright lamp.",
+      "sourceQuote": "Opening old pages, I hear rain in the pines; writing new lines, I see a distant shore. Where is warmth tonight? In clear tea and one bright lamp.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Reading at Night",
+            "kicker": "Original verse"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Home at Dawn",
+      "narration": "Dawn mist opens on the ferry landing, and lamplight finds the one returning. The line still unfinished in my heart, I write into the coming spring.",
+      "sourceQuote": "Dawn mist opens on the ferry landing, and lamplight finds the one returning. The line still unfinished in my heart, I write into the coming spring.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Home at Dawn",
+            "kicker": "Original verse"
+          }
+        }
+      }
+    }
+  ]
+}

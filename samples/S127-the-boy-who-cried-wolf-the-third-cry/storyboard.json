@@ -1,0 +1,292 @@
+{
+  "contractVersion": 3,
+  "title": "狼来了 · 第三声",
+  "sourceTitle": "伊索寓言《牧童与狼》原创改写",
+  "scenes": [
+    {
+      "id": "cold",
+      "title": "第三声",
+      "narration": "这一次，狼是真的来了。狼来了，救命啊！可山脚下的村子，一盏灯也没有亮。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "cold"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "狼来了",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "title"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "morning",
+      "title": "三天前",
+      "narration": "故事，要从三天前说起。山村里有个放羊娃，每天天一亮，就赶着羊群上山。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "morning"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.0
+      }
+    },
+    {
+      "id": "bored",
+      "title": "好无聊",
+      "narration": "山上什么都好，就是太安静了。好无聊啊！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "bored"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "idea",
+      "title": "坏主意",
+      "narration": "他望着山下干活的大人们，眼珠一转，冒出个坏主意。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-day",
+          "props": {
+            "mode": "idea"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry1",
+      "title": "第一声",
+      "narration": "狼来了，狼来了，快来人啊！锄头一扔，扁担一甩，全村的人都往山上冲。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry1",
+          "props": {
+            "mode": "first"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "arrive",
+      "title": "骗你们的",
+      "narration": "狼呢，狼在哪儿？哈哈哈，骗你们的！大人们气得直跺脚，摇着头下了山。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-hill",
+          "props": {
+            "mode": "arrive"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry2",
+      "title": "第二声",
+      "narration": "第二天，他又喊了一遍。狼来了，这回是真的！这一次，上山的人，少了一大半。再撒谎，就没有人信你了！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry2",
+          "props": {
+            "mode": "second"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "dusk",
+      "title": "两点绿光",
+      "narration": "第三天傍晚，太阳一点一点沉下山。草丛里，忽然亮起了两点绿光。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dusk",
+          "props": {
+            "mode": "dusk"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "wolf",
+      "title": "狼",
+      "narration": "是狼，一只饿极了的狼。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dusk",
+          "props": {
+            "mode": "wolf"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cry3",
+      "title": "第三声",
+      "narration": "狼来了，狼真的来了，快救救我的羊！喊声滚下山坡，传进了村子。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-cry3",
+          "props": {
+            "mode": "third"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "doors",
+      "title": "关门",
+      "narration": "又来骗人，别理他。门，一扇一扇地关上了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-village",
+          "props": {
+            "mode": "doors"
+          }
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    },
+    {
+      "id": "lamb",
+      "title": "那一晚",
+      "narration": "那一晚，羊群被冲散了。放羊娃抱着一只发抖的小羊，在山上哭了很久很久。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-night",
+          "props": {
+            "mode": "lamb"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    },
+    {
+      "id": "grandpa",
+      "title": "老爷爷",
+      "narration": "天亮时，村里的老爷爷提着灯，上山找到了他。孩子，说惯了谎话的人，说真话，也没人信了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dawn",
+          "props": {
+            "mode": "grandpa"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "echo",
+      "title": "回声",
+      "narration": "信任，就像山谷里的回声。骗它一次，它就小一声；骗多了，它就再也不回答。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "wc-dawn",
+          "props": {
+            "mode": "echo"
+          }
+        }
+      },
+      "hold": 3.0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.8
+      }
+    }
+  ]
+}

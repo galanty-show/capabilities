@@ -1,0 +1,429 @@
+import React from 'react';
+import {Media, clamp, easeInOut, seeded, useCanvas, useScene, type SceneInput} from '@talkframe/scene';
+
+// The Boy Who Cried Wolf: shared cinematic library. prepare.py joins it with each module into scenes/<module>.tsx and inlines
+// only the Ma Shan Zheng (OFL) glyph outlines a module draws. No runtime fonts, randomness or clocks: everything is a function of t.
+const GLYPHS: Record<string, string> = {"三":"M798 785Q805 779 811.5 779Q818 779 832 788Q850 796 866 798Q903 804 918 817Q933 830 933 855Q933 869 921.5 887.5Q910 906 899 909Q891 913 859.5 908.5Q828 904 820 900Q817 897 740 888.5Q663 880 627 884.5Q591 889 540 893Q450 900 293 936Q258 946 252.5 946Q247 946 225 959.5Q203 973 170 974Q146 974 138.5 972.5Q131 971 112 958Q87 941 83 941Q79 941 74.5 931.5Q70 922 67 910Q65 900 80 884Q92 873 102 869.5Q112 866 147 858Q386 814 602 805Q786 798 798 785ZM407 580Q473 569 483.5 565Q494 561 522.5 563Q551 565 564.5 565Q578 565 598 583Q617 601 619 614.5Q621 628 606 644Q595 657 589 664Q576 679 539 661Q520 652 484 654Q444 658 401.5 667Q359 676 352 681Q346 687 340.5 686Q335 685 314 673Q295 664 288.5 657.5Q282 651 277 638Q268 617 277 609Q289 601 407 580ZM477 333Q517 329 527.5 322.5Q538 316 547 319Q556 322 590.5 327.5Q625 333 635 340Q650 350 649 379.5Q648 409 631 423Q621 432 612 433Q603 434 582 428Q549 417 491 422.5Q433 428 387 444Q345 460 334 460Q328 460 308.5 445Q289 430 286 430Q273 430 270 401L269 384L324 366Q404 343 477 333Z","前":"M515 607Q521 592 535.5 595Q550 598 564 617Q571 628 573 637.5Q575 647 573 681Q572 731 570 775Q569 805 567 814Q565 823 558 831Q548 840 542 837Q536 834 527 819Q512 789 509.5 773.5Q507 758 510 698Q512 621 515 607ZM326 519Q334 517 371 517Q437 516 467 541Q478 550 480 555Q482 560 482 573Q482 593 479 596Q470 601 465 671Q460 741 465 791Q472 893 466.5 942Q461 991 438 1021L418 1046Q407 1060 397.5 1057.5Q388 1055 371 1035Q352 1013 352 1007.5Q352 1002 346 997Q340 992 340 986Q340 980 330 967Q314 945 318 933Q322 921 344 928Q359 932 372 932Q381 932 384.5 928.5Q388 925 393 913Q399 900 400 889Q401 878 399 843Q396 792 395 675V558L377 557Q336 556 311 568Q291 578 282.5 586Q274 594 272 604Q271 616 267 637Q261 661 267.5 669.5Q274 678 289 667Q295 662 320 654.5Q345 647 352 647Q371 647 381 667.5Q391 688 378 700Q367 710 304 723Q290 725 283 728.5Q276 732 269 734Q262 736 262 761Q262 786 265 786Q268 786 294 772Q344 749 360 766Q379 786 372 804Q369 813 355.5 821.5Q342 830 327 833Q313 835 297 838.5Q281 842 265 844Q256 846 253 849.5Q250 853 247 864Q242 881 236 939Q232 975 229.5 986.5Q227 998 221 1002Q213 1010 209 1009.5Q205 1009 201 1000Q194 990 195 925Q196 860 203 841Q213 811 224 695Q230 622 235 596Q240 570 250 560Q257 552 284 537.5Q311 523 326 519ZM557 197Q566 191 568 192L589 202Q608 211 622 224Q632 231 634.5 237Q637 243 639 260Q644 301 632 301Q626 301 602 323Q575 347 566 353Q557 359 538 368Q515 379 515 382Q524 384 579.5 383Q635 382 713.5 378.5Q792 375 828 371Q853 369 869.5 377Q886 385 902 408Q922 436 912 464Q905 484 888 477Q879 472 851.5 475Q824 478 807 471Q786 462 685 449Q670 448 670 450.5Q670 453 692 475L715 497L713 518Q709 549 710.5 626.5Q712 704 718 743Q719 755 722 826Q729 951 719 985Q714 999 714 1011Q714 1043 679.5 1076.5Q645 1110 625 1099Q616 1095 616 1090Q616 1083 598.5 1062.5Q581 1042 569 1036Q557 1031 547 1017Q537 1003 542 998Q544 994 577 994Q610 994 620.5 990.5Q631 987 637 974Q657 933 649 818Q642 710 641 574L639 448H589Q498 448 367 470Q309 481 274 486Q238 492 180 516Q169 521 163.5 520Q158 519 141 515Q107 504 87 485Q83 481 84.5 478Q86 475 99 468Q116 458 165.5 444Q215 430 262 423Q334 411 337 408.5Q340 406 334.5 396.5Q329 387 323 383Q315 378 301 356.5Q287 335 282 328Q273 320 268 310.5Q263 301 267 298Q271 296 271 287Q271 264 326 279Q351 285 365 299.5Q379 314 388 342Q396 372 396 380Q396 395 429 365Q437 358 449 347Q474 321 500.5 289Q527 257 527 250Q527 243 538.5 222.5Q550 202 557 197Z","天":"M454 398Q458 388 462.5 387.5Q467 387 484 397Q501 405 506 411.5Q511 418 517 439Q524 464 523 496L522 513L569 511Q600 509 610 506.5Q620 504 624 500Q629 494 632.5 494Q636 494 653 498Q676 505 698 503Q717 501 726 505Q735 509 741 519Q756 544 740 559Q731 568 727 577Q724 582 715 582.5Q706 583 667 582Q610 580 565 580Q526 580 517 585Q508 590 507 612Q507 627 527.5 669.5Q548 712 570 741Q589 766 629 805Q669 844 706 872Q745 902 776 922Q805 942 817 953Q829 964 846 972Q862 981 881 998Q900 1015 900 1022Q900 1037 875 1042Q826 1052 787 1077L771 1088L749 1076Q728 1066 708 1049Q647 993 635 979L602 944Q580 920 575.5 912Q571 904 547.5 872Q524 840 520 827Q489 763 489 757Q489 752 483.5 744.5Q478 737 475 737Q473 737 473 742.5Q473 748 465 764Q457 780 453 789Q438 822 397 863Q380 880 380 883Q380 885 364.5 899.5Q349 914 344 915.5Q339 917 320 936Q303 952 272 974Q241 996 222 1002Q179 1021 144 1021Q110 1021 143 999Q144 998 145 997Q165 987 169 982.5Q173 978 175 978Q177 978 197.5 965Q218 952 228 946Q250 936 282 899.5Q314 863 343 812Q384 743 384 728Q384 724 386 720Q390 718 405.5 672.5Q421 627 423 612Q425 604 423.5 603Q422 602 413 604Q391 607 346 623.5Q301 640 292 646Q283 655 274 655Q265 655 248 645Q237 637 234 632.5Q231 628 233 618Q234 606 236.5 601.5Q239 597 250 590Q288 571 351 552Q420 533 430 527Q435 525 437 513.5Q439 502 446 449Q450 409 454 398ZM524 276Q573 257 585.5 257Q598 257 613 279L625 299L614 331Q602 361 599.5 363.5Q597 366 589 363Q571 355 524 376Q504 384 473 380Q400 373 390 369Q382 365 357 363Q329 361 315 358Q301 355 292 352.5Q283 350 282 348.5Q281 347 282 343Q284 334 343 326Q395 318 431.5 308.5Q468 299 524 276Z"};
+const W = 1920, H = 1080;
+const GOLD = '#ffd27a', EMBER = '#ff9c4a', MOON = '#dfe9ff', INK = '#05070d', PAPER = '#fff4e0', WOLF = '#9dff7a';
+const sm = (v: number) => {const p = clamp(v); return p * p * (3 - 2 * p);};
+const out3 = (v: number) => 1 - Math.pow(1 - clamp(v), 3);
+const in2 = (v: number) => {const p = clamp(v); return p * p;};
+const mix = (a: number, b: number, p: number) => a + (b - a) * p;
+/** Window: fade in from a, fade out from b (seconds). */
+const win = (t: number, a: number, b: number, f = .25) => sm((t - a) / f) * (1 - sm((t - b) / f));
+/** 0 before a, 1 after a (soft edge f). */
+const after = (t: number, a: number, f = .2) => sm((t - a) / f);
+
+const MEDIA: Record<string, string> = {"boy-bored":"release-assets/9c8d0bcfd7c62ad294cc559acabd586c3f6f7a3b2d4d74c1d800410a9027c723.webp","boy-idea":"release-assets/1d0da5f414ffa48e2165260ad7b97b1710c7e795d1c99d206af856d614f60738.webp","morning-valley":"release-assets/db3283a4566b00a134177d0f3267c9a746e5b60a01ea038c37b7bebc258b99ae.webp","village-work":"release-assets/33cd3ee89e40cc1deaba8a56c9c37bf2c46a4bb855f043fb4ca3ead0d079a0ca.webp"};
+const VIDEO_URLS = new Map<string, string>();
+function slot(props: SceneInput, name: string): any {
+  if (props.assets[name]) return props.assets[name];
+  const media = MEDIA[name];
+  if (!media) return undefined;
+  if (!media.startsWith('data:video/')) return {src: media, kind: 'image'};
+  let url = VIDEO_URLS.get(name);
+  if (!url) {
+    const raw = atob(media.slice(media.indexOf(',') + 1));
+    const bytes = Uint8Array.from(raw, c => c.charCodeAt(0));
+    url = URL.createObjectURL(new Blob([bytes], {type: 'video/mp4'}));
+    VIDEO_URLS.set(name, url);
+  }
+  return {src: url, kind: 'video'};
+}
+function txt(props: SceneInput, key: string): string {
+  const value = props.params[key];
+  return typeof value === 'string' ? value : String((meta as any).params?.[key]?.default ?? '');
+}
+const mode = (props: SceneInput, fallback: string) => typeof props.params.mode === 'string' ? props.params.mode as string : fallback;
+const isLatin = (text: string) => !/[㐀-鿿]/.test(text);
+
+/** Sentence timing with fallbacks, so edited narration never drops a beat. */
+function cues(props: SceneInput) {
+  const s = useScene(props);
+  const at = (phrase: string, fallback = 0) => (phrase ? s.cue(phrase) : undefined) ?? fallback;
+  const start = (i: number, fallback = 0) => s.sentence(i)?.start ?? fallback;
+  const end = (i: number, fallback = s.seconds) => s.sentence(i)?.end ?? fallback;
+  return {s, t: s.t, at, start, end, dur: s.seconds};
+}
+
+/** Full-frame plate with a camera move (zoom s, offset x/y in px) laid out as a plain box, not a CSS transform:
+ * transformed image layers re-raster differently run to run (CODE_NONDETERMINISTIC). Children share the plate frame (1920x1080). */
+function Plate({asset, frame, p, from = [1.04, 0, 0], to = [1.12, -20, -10], opacity = 1, origin = '50% 50%', shift = [0, 0], ease = easeInOut, children}:
+  {asset: any; frame: number; p: number; from?: number[]; to?: number[]; opacity?: number; origin?: string; shift?: number[]; ease?: (v: number) => number; children?: any}) {
+  if (opacity <= 0) return null;
+  const k = ease(clamp(p));
+  const s = mix(from[0], to[0], k), x = mix(from[1], to[1], k) + shift[0], y = mix(from[2], to[2], k) + shift[1];
+  const [px, py] = origin.split(' ').map(v => parseFloat(v) / 100), ox = px * W, oy = py * H;
+  const box = {left: ox * (1 - s) + x, top: oy * (1 - s) + y, width: W * s, height: H * s};
+  return <div style={{position: 'absolute', inset: 0, overflow: 'hidden', opacity}}>
+    <div style={{position: 'absolute', left: box.left, top: box.top, width: box.width, height: box.height}}>
+      {asset ? <Media asset={asset} frame={frame} fit="cover" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        : <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, #1b2440, #3a3050 60%, #20283a)'}} />}
+      {children}
+    </div>
+  </div>;
+}
+/** Where a plate point (1920x1080 plate pixels) lands on screen for the same camera move as Plate. */
+function camPoint(pt: number[], p: number, from = [1.04, 0, 0], to = [1.12, -20, -10], origin = '50% 50%', shift = [0, 0], ease = easeInOut) {
+  const k = ease(clamp(p)), s = mix(from[0], to[0], k), x = mix(from[1], to[1], k) + shift[0], y = mix(from[2], to[2], k) + shift[1];
+  const [px, py] = origin.split(' ').map(v => parseFloat(v) / 100), ox = px * W, oy = py * H;
+  return [ox * (1 - s) + x + pt[0] * s, oy * (1 - s) + y + pt[1] * s, s];
+}
+const Svg = ({children, style}: {children: any; style?: any}) =>
+  <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0, overflow: 'visible', ...style}}>{children}</svg>;
+
+/** Brush lettering: each glyph wipes in stroke-wise; p is the line's progress 0->1. Latin text falls back to a serif line. */
+function Brush({text, x, y, size, fill = PAPER, p = 1, id, gap = .98, align = 'start', glow = ''}:
+  {text: string; x: number; y: number; size: number; fill?: string; p?: number; id: string; gap?: number; align?: 'start' | 'middle' | 'end'; glow?: string}) {
+  if (!text || p <= 0) return null;
+  const filter = glow ? {filter: `drop-shadow(0 0 3px rgba(30,15,5,.85)) drop-shadow(0 0 18px ${glow}) drop-shadow(0 6px 16px rgba(0,0,0,.6))`} : {filter: 'drop-shadow(0 6px 16px rgba(0,0,0,.55))'};
+  if (isLatin(text)) {
+    const k = Math.min(1, 1680 / (text.length * size * .62 * .56)), font = size * .62 * k, width = text.length * font * .56, left = align === 'middle' ? x - width / 2 : align === 'end' ? x - width : x;
+    return <g style={filter} opacity={clamp(p * 1.4)}>
+      <text x={left} y={y + size * .62} fontFamily='Georgia, "Times New Roman", serif' fontWeight={700} fontSize={font} letterSpacing={font * .08} fill={fill}>{text}</text>
+    </g>;
+  }
+  const chars = Array.from(text), total = ((chars.length - 1) * gap + 1) * size;
+  const ox0 = align === 'middle' ? x - total / 2 : align === 'end' ? x - total : x;
+  return <g style={filter}>{chars.map((ch, i) => {
+    const q = clamp(p * chars.length - i);
+    if (q <= 0 || !GLYPHS[ch]) return null;
+    return <g key={i} transform={`translate(${ox0 + i * size * gap} ${y}) scale(${size / 1000})`}>
+      <defs><mask id={`${id}-${i}`} maskUnits="userSpaceOnUse" x="-150" y="-150" width="1300" height="1300">
+        <path d="M-80 80 L1040 80 L-80 320 L1040 320 L-80 550 L1040 550 L-80 790 L1040 790 L-80 1030 L1040 1030"
+          fill="none" stroke="white" strokeWidth="255" pathLength="100" strokeDasharray="100" strokeDashoffset={100 * (1 - q)} />
+      </mask></defs>
+      <path d={GLYPHS[ch]} fill={fill} mask={`url(#${id}-${i})`} />
+    </g>;
+  })}</g>;
+}
+
+/** The film's motif: a shout turned into rings rolling out from (x, y) toward `dir` degrees.
+ * strength scales brightness/width/count; breakAt (px radius) makes rings shatter into falling fragments past that radius. */
+function Echo({t, at, x, y, dir = 0, spread = 38, strength = 1, n = 5, gap = .26, speed = 900, maxR = 1500, color = GOLD, breakAt = 0, seed = 1, day = false}:
+  {t: number; at: number; x: number; y: number; dir?: number; spread?: number; strength?: number; n?: number; gap?: number; speed?: number; maxR?: number; color?: string; breakAt?: number; seed?: number; day?: boolean}) {
+  if (t < at || strength <= 0) return null;
+  const rings = [];
+  for (let i = 0; i < n; i++) {
+    const d = t - at - i * gap;
+    if (d <= 0) continue;
+    const r = 40 + speed * d * (1 - .25 * clamp(d / 3));
+    if (r > maxR) continue;
+    let alpha = Math.min(1, strength * 1.15) * (1 - Math.pow(r / maxR, 1.6)) * clamp(d / .1) * (1 - i * .07);
+    const width = (34 - i * 3) * (.45 + .55 * strength) * (1 - .5 * r / maxR);
+    const broken = breakAt > 0 && r > breakAt, k = broken ? clamp((r - breakAt) / 260) : 0;
+    if (broken) alpha *= 1 - k;
+    if (alpha <= .01) continue;
+    const a0 = (dir - spread) * Math.PI / 180, a1 = (dir + spread) * Math.PI / 180;
+    if (!broken) {
+      const dpath = `M ${x + Math.cos(a0) * r} ${y + Math.sin(a0) * r} A ${r} ${r} 0 0 1 ${x + Math.cos(a1) * r} ${y + Math.sin(a1) * r}`;
+      const dust = seeded(seed * 53 + i * 11);
+      for (let j = 0; j < 22; j++) {
+        const u = dust(), ang = (dir - spread + 2 * spread * u) * Math.PI / 180, rr = r + (dust() - .5) * width * 3, tw = .4 + .6 * Math.abs(Math.sin(d * 9 + j));
+        rings.push(<circle key={`${i}d${j}`} cx={x + Math.cos(ang) * rr} cy={y + Math.sin(ang) * rr} r={1.2 + dust() * width * .16} fill="#fffbe8" opacity={alpha * tw * .8} />);
+      }
+      rings.push(<g key={i} opacity={alpha}>
+        {day && <path d={dpath} fill="none" stroke="#7a3a08" strokeWidth={width * 1.25} strokeLinecap="round" opacity={.35} />}
+        <path d={dpath} fill="none" stroke={color} strokeWidth={width * 4.5} strokeLinecap="round" opacity={.14} />
+        <path d={dpath} fill="none" stroke={color} strokeWidth={width * 2.2} strokeLinecap="round" opacity={.3} />
+        <path d={dpath} fill="none" stroke={color} strokeWidth={width} strokeLinecap="round" opacity={.75} />
+        <path d={dpath} fill="none" stroke="#fffaf0" strokeWidth={Math.max(2, width * .32)} strokeLinecap="round" />
+      </g>);
+    } else {
+      // shatter: the arc splits into shards that drift apart, tumble and drop
+      const rnd = seeded(seed * 31 + i * 7), shards = 9;
+      for (let j = 0; j < shards; j++) {
+        const u0 = j / shards, u1 = u0 + .7 / shards, jit = (rnd() - .5) * 2;
+        const aa = a0 + (a1 - a0) * u0, ab = a0 + (a1 - a0) * u1, rr = r + jit * 40 * k;
+        const fall = 140 * k * k * (.6 + rnd()), sx = Math.cos((aa + ab) / 2) * 40 * k * jit;
+        const p0 = [x + Math.cos(aa) * rr + sx, y + Math.sin(aa) * rr + fall], p1 = [x + Math.cos(ab) * rr + sx, y + Math.sin(ab) * rr + fall];
+        rings.push(<g key={`${i}-${j}`} opacity={alpha}><line x1={p0[0]} y1={p0[1]} x2={p1[0]} y2={p1[1]} stroke={color} strokeWidth={width * 2 * (1 - .4 * k)} strokeLinecap="round" opacity={.3} />
+          <line x1={p0[0]} y1={p0[1]} x2={p1[0]} y2={p1[1]} stroke="#fffaf0" strokeWidth={width * .45 * (1 - .4 * k)} strokeLinecap="round" /></g>);
+      }
+    }
+  }
+  return <g style={day ? undefined : {mixBlendMode: 'screen'}}>{rings}</g>;
+}
+
+/** Foreground grass silhouettes swaying in the wind; `drift` moves them faster than the plate for parallax depth. */
+function Grass({t, side = 'both', color = '#0d140c', height = 260, wind = 1, n = 34, seed = 3, drift = 0, opacity = 1, rim = ''}:
+  {t: number; side?: 'left' | 'right' | 'both' | 'bottom'; color?: string; height?: number; wind?: number; n?: number; seed?: number; drift?: number; opacity?: number; rim?: string}) {
+  if (opacity <= 0) return null;
+  const r = seeded(seed), blades = Array.from({length: n}, () => ({u: r(), h: .45 + r() * .7, w: 10 + r() * 22, ph: r() * 6, lean: (r() - .5) * .5}));
+  const place = (u: number) => side === 'left' ? u * 520 : side === 'right' ? W - u * 520 : u * W;
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0, opacity}}>
+    {blades.map((b, i) => {
+      const x = place(b.u) + drift * (.6 + b.h), hgt = height * b.h * (side === 'bottom' ? .7 : 1);
+      const sway = (Math.sin(t * 1.7 * wind + b.ph) * .6 + Math.sin(t * 3.1 * wind + b.ph * 2) * .25) * 70 * wind + b.lean * 120;
+      const tipX = x + sway, tipY = H - hgt, cx = x + sway * .35, cy = H - hgt * .55;
+      const d = `M ${x - b.w} ${H + 10} Q ${cx - b.w * .4} ${cy} ${tipX} ${tipY} Q ${cx + b.w * .4} ${cy} ${x + b.w} ${H + 10} Z`;
+      return <g key={i}><path d={d} fill={color} />{rim && <path d={`M ${tipX} ${tipY} Q ${cx + b.w * .4} ${cy} ${x + b.w} ${H + 10}`} fill="none" stroke={rim} strokeWidth={2} opacity={.55} />}</g>;
+    })}
+  </svg>;
+}
+
+/** Drifting mist banks (soft ellipses) across a band of the frame. */
+function Mist({t, y0 = 500, y1 = 800, color = '255,255,255', amount = .35, n = 7, speed = 18, seed = 5}:
+  {t: number; y0?: number; y1?: number; color?: string; amount?: number; n?: number; speed?: number; seed?: number}) {
+  if (amount <= 0) return null;
+  const r = seeded(seed), banks = Array.from({length: n}, () => ({x: r() * (W + 800) - 400, y: y0 + r() * (y1 - y0), rx: 300 + r() * 420, ry: 40 + r() * 70, v: .5 + r(), ph: r() * 6}));
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0}}>
+    <defs><radialGradient id={`mist${seed}`}><stop offset="0" stopColor={`rgb(${color})`} stopOpacity="1" /><stop offset="1" stopColor={`rgb(${color})`} stopOpacity="0" /></radialGradient></defs>
+    {banks.map((b, i) => {
+      const x = ((b.x + t * speed * b.v) % (W + 1000)) - 500;
+      return <ellipse key={i} cx={x} cy={b.y + Math.sin(t * .3 + b.ph) * 10} rx={b.rx} ry={b.ry} fill={`url(#mist${seed})`} opacity={amount * (.5 + .5 * Math.sin(t * .4 + b.ph) ** 2)} />;
+    })}
+  </svg>;
+}
+
+/** Volumetric light shafts from a source point (screen blend, outside the plate box). */
+function Rays({t, x, y, color = '255,226,160', amount = .5, n = 7, spread = 70, dir = 120, length = 2200, seed = 2}:
+  {t: number; x: number; y: number; color?: string; amount?: number; n?: number; spread?: number; dir?: number; length?: number; seed?: number}) {
+  if (amount <= 0) return null;
+  const r = seeded(seed), rays = Array.from({length: n}, () => ({a: dir + (r() - .5) * spread, w: 2 + r() * 5, ph: r() * 6}));
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'screen'}}>
+    <defs><linearGradient id={`ray${seed}`} gradientUnits="userSpaceOnUse" x1={x} y1={y} x2={x + Math.cos(dir * Math.PI / 180) * length} y2={y + Math.sin(dir * Math.PI / 180) * length}>
+      <stop offset="0" stopColor={`rgb(${color})`} stopOpacity=".9" /><stop offset="1" stopColor={`rgb(${color})`} stopOpacity="0" /></linearGradient>
+      <radialGradient id={`raysrc${seed}`}><stop offset="0" stopColor={`rgb(${color})`} stopOpacity=".9" /><stop offset="1" stopColor={`rgb(${color})`} stopOpacity="0" /></radialGradient></defs>
+    <circle cx={x} cy={y} r={340} fill={`url(#raysrc${seed})`} opacity={amount * .7} />
+    {rays.map((ray, i) => {
+      const a = (ray.a + Math.sin(t * .25 + ray.ph) * 2.5) * Math.PI / 180, wa = ray.w * Math.PI / 180;
+      const p1 = [x + Math.cos(a - wa) * length, y + Math.sin(a - wa) * length], p2 = [x + Math.cos(a + wa) * length, y + Math.sin(a + wa) * length];
+      return <polygon key={i} points={`${x},${y} ${p1.join(',')} ${p2.join(',')}`} fill={`url(#ray${seed})`} opacity={amount * (.25 + .2 * Math.sin(t * .7 + ray.ph))} />;
+    })}
+  </svg>;
+}
+
+/** Floating specks: pollen/dust by day, fireflies or embers at night (twinkling glow). */
+function Motes({t, n = 40, color = '255,236,180', size = 3, amount = 1, area = [0, 0, W, H], rise = 12, glow = false, seed = 9}:
+  {t: number; n?: number; color?: string; size?: number; amount?: number; area?: number[]; rise?: number; glow?: boolean; seed?: number}) {
+  if (amount <= 0) return null;
+  const r = seeded(seed), [ax, ay, bx, by] = area, pts = Array.from({length: n}, () => ({x: ax + r() * (bx - ax), y: ay + r() * (by - ay), s: .5 + r(), ph: r() * 6, v: .5 + r()}));
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'screen'}}>
+    {pts.map((m, i) => {
+      const x = m.x + Math.sin(t * .6 * m.v + m.ph) * 40, y = ay + ((m.y - ay - t * rise * m.v) % (by - ay) + (by - ay)) % (by - ay);
+      const tw = glow ? Math.max(0, Math.sin(t * 1.3 * m.v + m.ph * 3)) : .6 + .4 * Math.sin(t * 2 + m.ph);
+      return <g key={i} opacity={amount * tw}>
+        {glow && <circle cx={x} cy={y} r={size * m.s * 6} fill={`rgba(${color},.18)`} />}
+        <circle cx={x} cy={y} r={size * m.s} fill={`rgb(${color})`} />
+      </g>;
+    })}
+  </svg>;
+}
+
+/** Soft warm/cool glow blob (window light, lantern, sun) — screen blend. */
+const Glow = ({x, y, r, color = '255,190,110', amount = 1}: {x: number; y: number; r: number; color?: string; amount?: number}) => amount <= 0 ? null :
+  <div style={{position: 'absolute', left: x - r, top: y - r, width: r * 2, height: r * 2, borderRadius: '50%', opacity: amount, mixBlendMode: 'screen',
+    background: `radial-gradient(circle, rgba(${color},.95) 0%, rgba(${color},.45) 25%, rgba(${color},.12) 55%, rgba(${color},0) 72%)`}} />;
+
+/** Predator eyes: two glints that ignite at `at`, breathe, and blink once. */
+function Eyes({t, at, x, y, gap = 70, size = 16, color = WOLF, tilt = 6}: {t: number; at: number; x: number; y: number; gap?: number; size?: number; color?: string; tilt?: number}) {
+  const on = sm((t - at) / .35);
+  if (on <= 0) return null;
+  const blinkT = (t - at - 1.9), blink = blinkT > 0 && blinkT < .16 ? .12 : 1;
+  const breathe = .85 + .15 * Math.sin((t - at) * 3.2);
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'screen'}}>
+    <defs><radialGradient id="eyeglow"><stop offset="0" stopColor={color} stopOpacity=".9" /><stop offset="1" stopColor={color} stopOpacity="0" /></radialGradient></defs>
+    {[-1, 1].map(k => <g key={k} transform={`translate(${x + k * gap / 2} ${y + k * tilt}) scale(1 ${blink})`} opacity={on * breathe}>
+      <circle r={size * 7} fill="url(#eyeglow)" opacity={.35} />
+      <ellipse rx={size * 1.25} ry={size * .62} fill={color} transform={`rotate(${k * -12})`} />
+      <ellipse rx={size * .5} ry={size * .3} fill="#f6ffe8" transform={`rotate(${k * -12})`} />
+    </g>)}
+  </svg>;
+}
+
+/** Small birds bursting up out of the trees when the shout lands. */
+function Birds({t, at, x, y, n = 9, spread = 220, seed = 4, color = '#1d2318', scale = 1}: {t: number; at: number; x: number; y: number; n?: number; spread?: number; seed?: number; color?: string; scale?: number}) {
+  const d = t - at;
+  if (d < 0 || n <= 0) return null;
+  const r = seeded(seed), birds = Array.from({length: n}, () => ({dx: (r() - .5) * spread, vx: (r() - .3) * 160, vy: 120 + r() * 140, ph: r() * 6, s: .7 + r() * .6}));
+  return <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{position: 'absolute', inset: 0}}>
+    {birds.map((b, i) => {
+      const bx = x + b.dx + b.vx * d, by = y - b.vy * d + 18 * d * d, flap = Math.sin(d * 22 + b.ph) * 9 * b.s * scale, s = 9 * b.s * scale;
+      return <path key={i} d={`M ${bx - s} ${by - flap} Q ${bx - s * .4} ${by - 2} ${bx} ${by} Q ${bx + s * .4} ${by - 2} ${bx + s} ${by - flap}`}
+        fill="none" stroke={color} strokeWidth={2.4 * scale} strokeLinecap="round" opacity={clamp(1 - (d - 3) / 1)} />;
+    })}
+  </svg>;
+}
+
+/** Colour grade wash over the frame (outside the plate box): multiply tint + optional screen lift. */
+const Grade = ({tint, amount = 1, lift = '', liftAmount = 0}: {tint: string; amount?: number; lift?: string; liftAmount?: number}) => <>
+  {amount > 0 && <div style={{position: 'absolute', inset: 0, background: tint, mixBlendMode: 'multiply', opacity: amount}} />}
+  {lift && liftAmount > 0 && <div style={{position: 'absolute', inset: 0, background: lift, mixBlendMode: 'screen', opacity: liftAmount}} />}
+</>;
+
+/** Film finish: vignette, deterministic grain and thin letterbox bars. */
+function Film({frame, vignette = .45, grain = .07, bars = 54, black = 0}: {frame: number; vignette?: number; grain?: number; bars?: number; black?: number}) {
+  const ref = useCanvas(frame, (c, f) => {
+    const r = seeded(f * 7919 + 17), img = c.createImageData(480, 270);
+    for (let i = 0; i < img.data.length; i += 4) {const v = r() * 255; img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255;}
+    c.putImageData(img, 0, 0);
+  });
+  return <>
+    <div style={{position: 'absolute', inset: 0, background: `radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 48%, rgba(0,0,0,${vignette}) 100%)`}} />
+    <canvas ref={ref} width={480} height={270} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: grain, mixBlendMode: 'overlay', imageRendering: 'auto'}} />
+    {bars > 0 && <><div style={{position: 'absolute', left: 0, right: 0, top: 0, height: bars, background: INK}} />
+      <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: bars, background: INK}} /></>}
+    {black > 0 && <div style={{position: 'absolute', inset: 0, background: INK, opacity: black}} />}
+  </>;
+}
+/** Decaying camera shake offset [x, y] in px. */
+const shake = (t: number, at: number, power = 14, len = .5) => {
+  const d = t - at;
+  if (d < 0 || d > len) return [0, 0];
+  const k = (1 - d / len) * power;
+  return [Math.sin(d * 83) * k, Math.cos(d * 67) * k * .7];
+};
+/** Handheld drift: tiny slow wobble for living frames. */
+const handheld = (t: number, amp = 4, seed = 1) => [Math.sin(t * .9 + seed) * amp + Math.sin(t * 2.3 + seed * 2) * amp * .35, Math.cos(t * .7 + seed * 3) * amp * .7];
+const fadeEdges = (t: number, dur: number, inS = .2, outS = .2) => Math.min(sm(t / inS), sm((dur - t) / outS));
+
+/** Camera by keyframes [time, zoom, focusX, focusY] in plate pixels: the focus point is centred, clamped so the plate always covers the frame.
+ * Between keys the move eases (easeInOut). Returns [scale, left, top]. */
+type Key = [number, number, number, number];
+function cam(t: number, keys: Key[], shift = [0, 0]): number[] {
+  let k0 = keys[0], k1 = keys[keys.length - 1];
+  for (let i = 0; i < keys.length - 1; i++) if (t >= keys[i][0] && t <= keys[i + 1][0]) {k0 = keys[i]; k1 = keys[i + 1]; break;}
+  if (t < keys[0][0]) k1 = k0;
+  if (t > keys[keys.length - 1][0]) k0 = k1;
+  const u = k1[0] > k0[0] ? easeInOut(clamp((t - k0[0]) / (k1[0] - k0[0]))) : 1;
+  const s = mix(k0[1], k1[1], u), fx = mix(k0[2], k1[2], u), fy = mix(k0[3], k1[3], u);
+  const left = Math.min(0, Math.max(W - W * s, W / 2 - fx * s)) + shift[0], top = Math.min(0, Math.max(H - H * s, H / 2 - fy * s)) + shift[1];
+  return [s, left, top];
+}
+/** Plate point -> screen point for a camera from cam(). */
+const sp = (c: number[], x: number, y: number) => [c[1] + x * c[0], c[2] + y * c[0]];
+/** A plate shown through a cam() camera; children are drawn in plate pixels. */
+function Shot({asset, frame, c, opacity = 1, children}: {asset: any; frame: number; c: number[]; opacity?: number; children?: any}) {
+  if (opacity <= 0) return null;
+  return <div style={{position: 'absolute', inset: 0, overflow: 'hidden', opacity}}>
+    <div style={{position: 'absolute', left: c[1], top: c[2], width: W * c[0], height: H * c[0]}}>
+      {asset ? <Media asset={asset} frame={frame} fit="cover" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        : <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, #1b2440, #3a3050 60%, #20283a)'}} />}
+      {children}
+    </div>
+  </div>;
+}
+/** Rising chimney smoke wisps (plate pixels). */
+function Smoke({t, x, y, n = 6, color = '235,235,240', amount = .5, height = 240, seed = 8, lean = 40}: {t: number; x: number; y: number; n?: number; color?: string; amount?: number; height?: number; seed?: number; lean?: number}) {
+  if (amount <= 0) return null;
+  const r = seeded(seed), puffs = Array.from({length: n}, () => ({ph: r(), s: .7 + r() * .6}));
+  const id = `smk${seed}-${Math.round(x)}`;
+  return <g><defs><radialGradient id={id}><stop offset="0" stopColor={`rgb(${color})`} stopOpacity=".7" /><stop offset=".6" stopColor={`rgb(${color})`} stopOpacity=".25" />
+    <stop offset="1" stopColor={`rgb(${color})`} stopOpacity="0" /></radialGradient></defs>{puffs.map((p, i) => {
+    const k = (t * .16 + p.ph) % 1, px = x + Math.sin(k * 5 + i) * 14 + lean * k * k, py = y - k * height, rr = (16 + 50 * k) * p.s;
+    return <ellipse key={i} cx={px} cy={py} rx={rr} ry={rr * .8} fill={`url(#${id})`} opacity={amount * Math.sin(Math.PI * k)} />;
+  })}</g>;
+}
+/** Twinkle star glint. */
+const Glint = ({x, y, s = 1, opacity = 1, color = '#fffbe8'}: {x: number; y: number; s?: number; opacity?: number; color?: string}) => opacity <= 0 ? null :
+  <g opacity={opacity} style={{mixBlendMode: 'screen'}}>
+    <defs><radialGradient id={`gl${Math.round(x)}${Math.round(y)}`}><stop offset="0" stopColor={color} stopOpacity=".5" /><stop offset="1" stopColor={color} stopOpacity="0" /></radialGradient></defs>
+    <circle cx={x} cy={y} r={34 * s} fill={`url(#gl${Math.round(x)}${Math.round(y)})`} />
+    <path transform={`translate(${x} ${y}) scale(${s})`} fill={color} d="M 0 -30 C 3 -7 7 -3 30 0 C 7 3 3 7 0 30 C -3 7 -7 3 -30 0 C -7 -3 -3 -7 0 -30 Z" />
+  </g>;
+
+// Day: the morning three days earlier, the bored boy, and the idea.
+// morning: crane down from the sunrise to the valley, smoke from the chimneys, a tiny boy and his flock trot up the slope.
+// bored: lazy push-in, a butterfly, a gust on the sigh. idea: the farmers below -> the boy's sideways glance, a glint on the bad idea.
+export const meta = {
+  params: {
+    mode: {label: '模式', type: 'select', default: 'morning', options: [{value: 'morning', label: '三天前'}, {value: 'bored', label: '好无聊'}, {value: 'idea', label: '坏主意'}]},
+    when: {label: '时间字', type: 'text', default: '三天前', maxLength: 8},
+    whenCue: {label: '时间卡点词', type: 'text', default: '三天前', maxLength: 24},
+    flockCue: {label: '羊群卡点词', type: 'text', default: '赶着', maxLength: 24},
+    sighCue: {label: '叹气卡点词', type: 'text', default: '好无聊', maxLength: 24},
+    glanceCue: {label: '转眼卡点词', type: 'text', default: '眼珠', maxLength: 24},
+    ideaCue: {label: '坏主意卡点词', type: 'text', default: '坏主意', maxLength: 24},
+  },
+  slots: {'morning-valley': '清晨山村', 'boy-bored': '躺着发呆', 'village-work': '田里干活', 'boy-idea': '坏笑'},
+};
+const SUN = [1787, 73];
+/** Up-slope path for the tiny flock (plate pixels), bottom-right to top-left. */
+const PATH = [[930, 830], [760, 760], [560, 690], [380, 630], [180, 575]];
+const along = (u: number) => {
+  const k = clamp(u) * (PATH.length - 1), i = Math.min(PATH.length - 2, Math.floor(k)), f = k - i;
+  return [mix(PATH[i][0], PATH[i + 1][0], f), mix(PATH[i][1], PATH[i + 1][1], f)];
+};
+function Flock({t, at}: {t: number; at: number}) {
+  const d = t - at;
+  if (d < 0) return null;
+  const items = Array.from({length: 8}, (_, i) => i);
+  return <g>{items.map(i => {
+    const u = .03 * d - i * .028 + .06;
+    if (u < 0 || u > 1) return null;
+    const [x, y] = along(u), hop = Math.abs(Math.sin(d * 7 + i)) * 3, sc = .9 - u * .35;
+    if (i === 0) return <g key={i} transform={`translate(${x - 28} ${y - 8 - hop}) scale(${sc})`}>
+      <ellipse cx={0} cy={-6} rx={4.5} ry={9} fill="#3a4c7a" /><circle cx={0} cy={-19} r={4.2} fill="#f0c49a" />
+      <rect x={-4} y={-14} width={8} height={3} fill="#c8332a" /><line x1={6} y1={-12} x2={14} y2={4} stroke="#6b4a2a" strokeWidth={1.6} /></g>;
+    return <g key={i} transform={`translate(${x} ${y - hop}) scale(${sc})`}>
+      <ellipse cx={0} cy={-6} rx={11} ry={7} fill="#fbf6ea" /><circle cx={-11} cy={-8} r={3.6} fill="#4a3a30" />
+      <line x1={-5} y1={0} x2={-5} y2={4} stroke="#4a3a30" strokeWidth={1.6} /><line x1={5} y1={0} x2={5} y2={4} stroke="#4a3a30" strokeWidth={1.6} /></g>;
+  })}</g>;
+}
+function Butterfly({t, cx, cy, seed = 1}: {t: number; cx: number; cy: number; seed?: number}) {
+  const x = cx + Math.sin(t * .7 + seed) * 220 + Math.sin(t * 1.9) * 40, y = cy + Math.cos(t * .9 + seed) * 80 + Math.sin(t * 2.7) * 25;
+  const flap = .25 + .75 * Math.abs(Math.sin(t * 13 + seed));
+  return <g transform={`translate(${x} ${y}) rotate(${Math.sin(t * 1.1) * 18})`}>
+    <ellipse cx={-9} cy={-3} rx={10 * flap} ry={7} fill="#ffcf5a" stroke="#7a4a10" strokeWidth={1} />
+    <ellipse cx={9} cy={-3} rx={10 * flap} ry={7} fill="#ffcf5a" stroke="#7a4a10" strokeWidth={1} />
+    <ellipse cx={-7} cy={6} rx={6 * flap} ry={5} fill="#ffb03a" /><ellipse cx={7} cy={6} rx={6 * flap} ry={5} fill="#ffb03a" />
+    <rect x={-1.2} y={-8} width={2.4} height={16} rx={1.2} fill="#3a2a10" />
+  </g>;
+}
+
+export default function Day(props: SceneInput) {
+  const {t, at, start, dur} = cues(props);
+  const m = mode(props, 'morning');
+
+  if (m === 'morning') {
+    const when = at(txt(props, 'whenCue'), .4), flock = at(txt(props, 'flockCue'), start(1, dur * .45)), [hx, hy] = handheld(t, 2.5, 1);
+    const c = cam(t, [[0, 1.5, 1500, 240], [dur * .55, 1.12, 1150, 470], [dur, 1.06, 900, 560]], [hx, hy]);
+    const sun = sp(c, SUN[0], SUN[1]);
+    return <div style={{position: 'absolute', inset: 0, background: INK, overflow: 'hidden'}}>
+      <Shot asset={slot(props, 'morning-valley')} frame={props.frame} c={c}>
+        <Svg><Smoke t={t} x={1060} y={500} seed={3} /><Smoke t={t} x={1160} y={493} seed={4} n={5} /><Smoke t={t} x={1215} y={480} seed={6} n={4} amount={.35} />
+          <Flock t={t} at={flock - 1.2} /><Birds t={t} at={1.2} x={900} y={420} n={5} spread={200} seed={3} color="#2c3a2a" scale={.8} /></Svg>
+      </Shot>
+      <Rays t={t} x={sun[0]} y={sun[1]} dir={140} spread={60} amount={.55} n={8} />
+      <Mist t={t} y0={300} y1={560} color="255,246,226" amount={.28} speed={14} seed={2} />
+      <Motes t={t} n={34} color="255,236,180" size={2.6} amount={.65} rise={10} seed={5} />
+      <Grass t={t} side="bottom" color="#183010" height={190} wind={.9} n={40} seed={21} rim="#e8ffb0" />
+      <Svg><Brush id="when" text={txt(props, 'when')} x={150} y={130} size={118} p={clamp((t - when) / .7) * (1 - sm((t - when - 3.2) / .6))} glow="rgba(255,210,140,.55)" /></Svg>
+      <Film frame={props.frame} vignette={.4} grain={.06} />
+    </div>;
+  }
+
+  if (m === 'bored') {
+    const sigh = at(txt(props, 'sighCue'), start(1, dur * .6)), gust = win(t, sigh, sigh + 1.6, .4), [hx, hy] = handheld(t, 2, 4);
+    const c = cam(t, [[0, 1.04, 900, 560], [dur, 1.2, 560, 600]], [hx, hy + 14 * sm((t - sigh) / 1.2)]);
+    return <div style={{position: 'absolute', inset: 0, background: INK, overflow: 'hidden'}}>
+      <Shot asset={slot(props, 'boy-bored')} frame={props.frame} c={c}>
+        <Svg><Butterfly t={t} cx={1180} cy={760} seed={2} /></Svg>
+      </Shot>
+      <Mist t={t} y0={40} y1={260} color="255,255,255" amount={.18} speed={10} seed={6} />
+      <Motes t={t} n={30} color="255,240,200" size={2.4} amount={.6} rise={6 + 40 * gust} seed={7} />
+      <Grass t={t} side="bottom" color="#1f3a12" height={170} wind={.6 + 1.6 * gust} n={44} seed={23} rim="#f2ffc0" />
+      <Rays t={t} x={1900} y={40} dir={150} spread={50} amount={.35} n={6} seed={4} />
+      <Film frame={props.frame} vignette={.38} grain={.06} />
+    </div>;
+  }
+
+  // idea
+  const glance = at(txt(props, 'glanceCue'), dur * .45), idea = at(txt(props, 'ideaCue'), dur * .75), [hx, hy] = handheld(t, 2, 6);
+  const A = t < glance - .05;
+  const cA = cam(t, [[0, 1.08, 760, 520], [glance, 1.14, 1100, 520]], [hx, hy]);
+  const cB = cam(t, [[glance - .05, 1.06, 820, 470], [idea, 1.18, 760, 440], [dur, 1.3, 760, 430]], [hx, hy]);
+  const sly = sm((t - idea) / .6);
+  return <div style={{position: 'absolute', inset: 0, background: INK, overflow: 'hidden'}}>
+    {A ? <Shot asset={slot(props, 'village-work')} frame={props.frame} c={cA}>
+      <Svg><Smoke t={t} x={1120} y={340} seed={9} n={5} amount={.4} /></Svg></Shot>
+      : <Shot asset={slot(props, 'boy-idea')} frame={props.frame} c={cB}>
+        <Svg><Glint x={812} y={402} s={.9} opacity={win(t, idea, idea + .9, .12)} /></Svg></Shot>}
+    <Rays t={t} x={1900} y={60} dir={150} spread={50} amount={A ? .4 : .3} n={6} seed={7} />
+    <Motes t={t} n={26} color="255,236,180" size={2.4} amount={.55} rise={8} seed={8} />
+    <Grade tint="linear-gradient(90deg, #6a5a8a, #fff)" amount={sly * .28} />
+    <Film frame={props.frame} vignette={.38 + .25 * sly} grain={.06} />
+  </div>;
+}

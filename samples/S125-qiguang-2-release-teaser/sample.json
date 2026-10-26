@@ -1,0 +1,40 @@
+{
+  "no": "S125",
+  "title": "栖光 2 · 发布预告",
+  "titles": {
+    "zh": "栖光 2 · 发布预告",
+    "en": "Qiguang 2 · Release Teaser"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "gh-release-teaser"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "改编自 GitHub remocn 的 ReleaseTeaser 模板（MIT，提交 fd2d3010a818，Copyright (c) 2026 Remocn）；品牌为虚构，文字原创；配乐原创",
+    "verified": true
+  },
+  "music": {
+    "id": "original-gh-release-teaser",
+    "selection": "library:original-gh-release-teaser",
+    "title": "Qiguang Teaser",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Qiguang Teaser — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S125/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (tools/production/github-remotion-20261013/s125-release-teaser/music-prompt.txt, take score-s125b); cut from 1.55 s so the strongest onset lands on the release reveal (10.18 s); NumPy-synthesized glass plucks on the five statements, a reverse swell, a low impact and a chime on the reveal; no third-party recordings or samples; encoded to 40 kbps MP3, 48 kHz stereo. Timed to sample S125; other films will not hit its accents.",
+    "file": "music/gh-release-teaser.mp3",
+    "bundled": true
+  },
+  "note": "改编自 remocn 的 ReleaseTeaser（上游许可原文见目录 LICENSE.upstream.txt）。无旁白；圆环在画布逐面绘制，六幕共用一个模块、按全片时钟连续。配乐 Qiguang Teaser（CC0，随包曲库 library:original-gh-release-teaser）的重音按本片时间表剪好。正文约 16 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S125"
+}

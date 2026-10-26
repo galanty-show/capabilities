@@ -1,0 +1,270 @@
+{
+  "contractVersion": 3,
+  "title": "麦琪的礼物",
+  "sourceTitle": "欧·亨利《麦琪的礼物》（1905），重新讲述",
+  "scenes": [
+    {
+      "id": "coins",
+      "title": "一块八毛七",
+      "narration": "一块八毛七分钱。这就是她全部的家当。德拉把钱数了三遍。明天，就是圣诞节了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-coins",
+          "props": {
+            "recountCue": "三遍",
+            "dateCue": "圣诞节",
+            "month": "十二月"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 1.47
+    },
+    {
+      "id": "title",
+      "title": "麦琪的礼物",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-title",
+          "props": {
+            "title": "麦琪的礼物",
+            "byline": "欧·亨利 · 1905"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "flat",
+      "title": "每周八块钱",
+      "narration": "纽约一间小公寓，每周八块钱。吉姆和德拉，一无所有。只有两件宝贝。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-flat",
+          "props": {
+            "rentTop": "带家具出租",
+            "rent": "每周 8 美元",
+            "rentCue": "八块",
+            "him": "吉姆",
+            "her": "德拉",
+            "spotCue": "两件"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "treasures",
+      "title": "两件宝贝",
+      "narration": "一件是吉姆的金表，祖父传下来的。另一件，是德拉的长发。散开来，一直垂过膝盖。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-treasures",
+          "props": {
+            "watchLabel": "其一 · 金表",
+            "hairLabel": "其二 · 长发",
+            "heirloom": "祖父传下来的",
+            "heirloomCue": "祖父",
+            "hairCue": "另一件",
+            "kneeCue": "膝盖"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sale",
+      "title": "各式头发制品",
+      "narration": "她穿上旧的褐色外套。戴上旧的褐色帽子。索弗罗妮夫人，专营头发制品。“二十块，”夫人说。“快把钱给我，”德拉说。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-sale",
+          "props": {
+            "shop": "索弗罗妮夫人",
+            "goods": "专营头发制品",
+            "goods2": "各式俱全",
+            "shopCue": "索弗罗妮",
+            "goodsCue": "专营",
+            "priceCue": "二十块",
+            "snipCue": "快把钱"
+          }
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "search",
+      "title": "白金表链",
+      "narration": "整整两个小时，她把一家家商店翻了个遍。终于，她找到了：一条白金表链。一问，要二十一块钱。她揣着剩下的八毛七，跑回了家。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-search",
+          "props": {
+            "foundCue": "找到",
+            "priceCue": "二十一",
+            "leftCue": "八毛七"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "wait",
+      "title": "七点整",
+      "narration": "她把短发烫成了小卷。活像个逃学的小男生。七点，楼梯上响起吉姆的脚步。“上帝啊，让他觉得我还好看吧。”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-wait",
+          "props": {
+            "sevenCue": "七点",
+            "stepsCue": "楼梯",
+            "prayerCue": "上帝"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "door",
+      "title": "门开了",
+      "narration": "门开了。吉姆站住了，直直地盯着她。不是生气。也不是惊讶。那是一种她看不懂的神情。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-door",
+          "props": {
+            "openCue": "门开",
+            "stopCue": "站住",
+            "notWords": [
+              "生气",
+              "惊讶"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "combs",
+      "title": "那套发梳",
+      "narration": "“我把头发卖了，给你买了礼物。”“我的头发长得飞快，吉姆。”他送的礼物，正是她一直想要的那套宝石发梳。可现在，她的长发没了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-combs",
+          "props": {
+            "openCue": "他送的",
+            "goneCue": "没了",
+            "note": "纯玳瑁 · 宝石镶边"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "reveal",
+      "title": "我把表卖了",
+      "narration": "“你看，漂不漂亮，吉姆？”“把表给我，我想看看配上它的样子。”吉姆往沙发上一倒，笑了。“德尔，”他说。“我把表卖了，给你买了梳子。”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-reveal",
+          "props": {
+            "watchLabel": "其一 · 金表",
+            "hairLabel": "其二 · 长发",
+            "handCue": "你看",
+            "askCue": "把表",
+            "jimCue": "沙发",
+            "soldCue": "卖了",
+            "combsCue": "梳子"
+          }
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "embrace",
+      "title": "两个傻孩子",
+      "narration": "两个人紧紧抱在一起，又哭又笑。小小的公寓里，两个傻孩子。各自送出了最珍贵的宝贝。为了对方。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-embrace",
+          "props": {
+            "warmCue": "为了对方"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "magi",
+      "title": "他们就是麦琪",
+      "narration": "麦琪带来了世上第一批圣诞礼物。在所有送礼的人里，这两个人最有智慧。他们，就是麦琪。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-magi",
+          "props": {
+            "giftsCue": "所有送礼",
+            "line": "他们就是麦琪。",
+            "lineCue": "就是麦琪",
+            "credit": "欧·亨利 · 《麦琪的礼物》 · 1905"
+          }
+        }
+      },
+      "hold": 0.75,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

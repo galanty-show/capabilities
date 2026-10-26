@@ -1,0 +1,49 @@
+{
+  "no": "S119",
+  "title": "人类走到 80 亿",
+  "titles": {
+    "zh": "人类走到 80 亿",
+    "en": "Eight Billion of Us"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "数据报告",
+  "templates": [],
+  "modules": [
+    "pc-zoom",
+    "pc-title",
+    "pc-flat",
+    "pc-field",
+    "pc-bars",
+    "pc-why",
+    "pc-rate",
+    "pc-aging",
+    "pc-giants",
+    "pc-peak"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创数据新闻短片：旁白与画面文字自写，数据来自联合国《世界人口展望 2024》等公开资料（出处见 source.md）；画面全部由代码绘制，配乐为 AI 原创生成后剪辑",
+    "verified": true
+  },
+  "music": {
+    "id": "original-eight-billion",
+    "selection": "library:original-eight-billion",
+    "title": "Eight Billion",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Eight Billion — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S119/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (take c of three, measured 104 BPM); edited by tools/production/code-population-20261013/music_build.py (re-timed so the drum entry hits the title, one bar removed before the drop, eight ambient bars repeated after it, 230 Hz dip, 65 NumPy-synthesized cues: bells, plucks, ticks, sweeps, no third-party samples), then encoded to 32 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S119; other films will not hit its accents.",
+    "file": "music/eight-billion.mp3",
+    "bundled": true
+  },
+  "note": "旁白为预先生成的 Gemini 云端配音（随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。画面 100% 由代码绘制（SVG 与 Canvas），没有图片素材；数据以常量写在幕代码里，画面文字、标注与卡点词是参数。配乐 Eight Billion（CC0，随包曲库 library:original-eight-billion）按本片逐字时间轴卡点：改节奏或换曲后重击不再对齐。数据出处与口径见 source.md；人口转变曲线、预测区间扇形的中间年份与“18 岁以下”线为示意或估算。正文约 118.5 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S119"
+}

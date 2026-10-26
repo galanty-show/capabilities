@@ -1,0 +1,56 @@
+{
+  "no": "S125",
+  "prompt": {
+    "zh-CN": "做一支约 16 秒的暗场发布预告：一只金属圆环在黑暗里慢慢转，五句短句从中间向两边逐字对焦，最后品牌落版，不要旁白。先即时播放给我看。",
+    "en": "Make a 16-second dark release teaser: a metal ring turns slowly in the dark, five short lines focus in letter by letter from the center out, then the brand lockup, no voiceover. Show me a live preview first.",
+    "zh-Hant": "做一支約 16 秒的暗場發布預告：金屬圓環在黑暗中慢慢轉，五句短句從中間向兩邊逐字對焦，最後品牌落版，不要旁白。先即時播放給我看。",
+    "ja": "約16秒の暗いリリースティザーを作って。金属のリングが暗闇でゆっくり回り、5つの短文が中央から一文字ずつピントが合い、最後にブランドロゴ。ナレーションなし。まずライブ再生で見せて。",
+    "ko": "약 16초 어두운 출시 티저를 만들어 줘. 금속 링이 어둠 속에서 천천히 돌고, 짧은 문장 다섯 개가 가운데서 바깥으로 한 글자씩 초점이 맞고, 마지막에 브랜드 로고. 내레이션 없이. 먼저 실시간 재생으로 보여 줘.",
+    "es": "Haz un teaser oscuro de lanzamiento de unos 16 s: un anillo metálico gira despacio en la oscuridad, cinco frases cortas se enfocan letra a letra desde el centro y cierra con la marca, sin locución. Muéstrame primero la vista previa en vivo.",
+    "de": "Erstelle einen etwa 16 Sekunden langen dunklen Release-Teaser: Ein Metallring dreht sich langsam im Dunkeln, fünf kurze Sätze werden von der Mitte aus Zeichen für Zeichen scharf, am Ende das Markenlogo, ohne Sprecher. Zeig mir zuerst die Live-Vorschau.",
+    "fr": "Réalise un teaser de lancement sombre d'environ 16 s : un anneau métallique tourne lentement dans le noir, cinq phrases courtes se précisent lettre par lettre depuis le centre, puis le logo, sans voix off. Montre-moi d'abord l'aperçu en direct.",
+    "pt-BR": "Faça um teaser escuro de lançamento de cerca de 16 s: um anel metálico gira devagar no escuro, cinco frases curtas entram em foco letra a letra a partir do centro e fecha com a marca, sem narração. Mostre primeiro a prévia ao vivo."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Qiguang Teaser",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "从 GitHub 上找 5 个最火的这种风格的视频，试着修改、播放，做成我们的模板。",
+      "en": "Find the five most popular videos of this kind on GitHub, try editing and playing them, and turn them into our templates."
+    }
+  ]
+}

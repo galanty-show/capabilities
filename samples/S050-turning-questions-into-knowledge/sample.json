@@ -1,0 +1,31 @@
+{
+  "no": "S050",
+  "title": "把问题变成知识",
+  "titles": {
+    "zh": "把问题变成知识",
+    "en": "Turning Questions into Knowledge"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T02",
+    "T06",
+    "T09"
+  ],
+  "modules": [
+    "three-points",
+    "typography-stage",
+    "relation-map"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "page": "https://galanty.cn/samples/#S050"
+}

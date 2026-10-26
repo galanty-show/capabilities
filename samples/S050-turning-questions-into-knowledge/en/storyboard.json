@@ -1,0 +1,256 @@
+{
+  "contractVersion": 3,
+  "title": "Turning Questions into Knowledge",
+  "sourceTitle": "Original visual regression example",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Observation and Evidence",
+      "narration": "Observe first, then write it down. Let evidence correct your judgment.",
+      "sourceQuote": "Observe first, then write it down. Let evidence correct your judgment.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "Let ==evidence== speak",
+            "points": [
+              "First, record ==observations==",
+              "Then form a ==hypothesis==",
+              "Finally, test it with an ==experiment=="
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "title": "The Rhythm of Knowing",
+      "narration": "Observation raises questions. Experiments test hypotheses. Evidence supports conclusions.",
+      "sourceQuote": "Observation raises questions. Experiments test hypotheses. Evidence supports conclusions.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "From observation to conclusion",
+            "preset": "science",
+            "kicker": "Knowledge at a glance"
+          }
+        }
+      }
+    },
+    {
+      "id": "3",
+      "title": "Eight Nodes: Sequence",
+      "narration": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "sourceQuote": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "Sequence: eight steps in a row",
+            "layout": "sequence",
+            "nodes": [
+              {
+                "label": "Question",
+                "glyph": "question"
+              },
+              {
+                "label": "Observe",
+                "glyph": "globe"
+              },
+              {
+                "label": "Record",
+                "glyph": "record"
+              },
+              {
+                "label": "Classify",
+                "glyph": "book"
+              },
+              {
+                "label": "Hypothesis",
+                "glyph": "key"
+              },
+              {
+                "label": "Experiment",
+                "glyph": "code"
+              },
+              {
+                "label": "Compare",
+                "glyph": "compare"
+              },
+              {
+                "label": "Conclusion",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "4",
+      "title": "Eight Nodes: Hub",
+      "narration": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "sourceQuote": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "Hub: one question, seven links",
+            "layout": "hub",
+            "nodes": [
+              {
+                "label": "Question",
+                "glyph": "question"
+              },
+              {
+                "label": "Observe",
+                "glyph": "globe"
+              },
+              {
+                "label": "Record",
+                "glyph": "record"
+              },
+              {
+                "label": "Classify",
+                "glyph": "book"
+              },
+              {
+                "label": "Hypothesis",
+                "glyph": "key"
+              },
+              {
+                "label": "Experiment",
+                "glyph": "code"
+              },
+              {
+                "label": "Compare",
+                "glyph": "compare"
+              },
+              {
+                "label": "Conclusion",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "5",
+      "title": "Eight Nodes: Grid",
+      "narration": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "sourceQuote": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "Grid: eight items side by side",
+            "layout": "grid",
+            "nodes": [
+              {
+                "label": "Question",
+                "glyph": "question"
+              },
+              {
+                "label": "Observe",
+                "glyph": "globe"
+              },
+              {
+                "label": "Record",
+                "glyph": "record"
+              },
+              {
+                "label": "Classify",
+                "glyph": "book"
+              },
+              {
+                "label": "Hypothesis",
+                "glyph": "key"
+              },
+              {
+                "label": "Experiment",
+                "glyph": "code"
+              },
+              {
+                "label": "Compare",
+                "glyph": "compare"
+              },
+              {
+                "label": "Conclusion",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "6",
+      "title": "Eight Nodes: Tree",
+      "narration": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "sourceQuote": "Every one of the eight steps stays on screen. Each relationship needs its own layout.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "Tree: branching level by level",
+            "layout": "tree",
+            "nodes": [
+              {
+                "label": "Question",
+                "glyph": "question"
+              },
+              {
+                "label": "Observe",
+                "glyph": "globe"
+              },
+              {
+                "label": "Record",
+                "glyph": "record"
+              },
+              {
+                "label": "Classify",
+                "glyph": "book"
+              },
+              {
+                "label": "Hypothesis",
+                "glyph": "key"
+              },
+              {
+                "label": "Experiment",
+                "glyph": "code"
+              },
+              {
+                "label": "Compare",
+                "glyph": "compare"
+              },
+              {
+                "label": "Conclusion",
+                "glyph": "shield"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

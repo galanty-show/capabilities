@@ -1,0 +1,13 @@
+{
+  "contractVersion": 3,
+  "title": "抛体运动：三种角度谁飞得远",
+  "subtitle": "同速、同高、无空气阻力",
+  "sourceTitle": "原创教学脚本：三个发射角度",
+  "scenes": [
+    {"id":"s1","title":"只改角度，谁最远？","narration":"三颗球同高、同速出发。只改发射角度：三十、四十五和六十度，谁落得最远？","sourceQuote":"三颗球同高、同速出发。只改发射角度：三十、四十五和六十度，谁落得最远？","hold":1.3,"component":{"id":"scene.code","version":1,"params":{"module":"projectile","props":{"stage":1,"eyebrow":"一场公平的飞行","headline":"只改角度，谁最远？"}}}},
+    {"id":"s2","title":"把比较条件锁住","narration":"初速度每秒十米，重力加速度十米每平方秒；忽略空气阻力，落点也在同一高度。","sourceQuote":"初速度每秒十米，重力加速度十米每平方秒；忽略空气阻力，落点也在同一高度。","hold":1.4,"component":{"id":"scene.code","version":1,"params":{"module":"projectile","props":{"stage":2,"eyebrow":"先把条件锁住","headline":"同速 · 同高 · 无阻力"}}}},
+    {"id":"s3","title":"三条轨迹，同时飞行","narration":"三十度的球飞得平，六十度的球飞得高。它们在空中待的时间不同，落点却重合。","sourceQuote":"三十度的球飞得平，六十度的球飞得高。它们在空中待的时间不同，落点却重合。","hold":1.6,"component":{"id":"scene.code","version":1,"params":{"module":"projectile","props":{"stage":3,"eyebrow":"飞行的弧线","headline":"低与高，落在同一点"}}}},
+    {"id":"s4","title":"四十五度落得更远","narration":"四十五度的轨迹落得更远。它的水平位移是十米；另两条是约八点六六米。","sourceQuote":"四十五度的轨迹落得更远。它的水平位移是十米；另两条是约八点六六米。","hold":1.6,"component":{"id":"scene.code","version":1,"params":{"module":"projectile","props":{"stage":4,"eyebrow":"看落点","headline":"45° 到了 10 米"}}}},
+    {"id":"s5","title":"四十五度为何最远","narration":"因为射程取决于二倍角的正弦。三十与六十相加九十度，射程相等；在这些条件下，四十五度最远。","sourceQuote":"因为射程取决于二倍角的正弦。三十与六十相加九十度，射程相等；在这些条件下，四十五度最远。","hold":1.8,"component":{"id":"scene.code","version":1,"params":{"module":"projectile","props":{"stage":5,"eyebrow":"答案背后","headline":"把角度乘二，再看正弦"}}}}
+  ]
+}

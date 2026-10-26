@@ -1,0 +1,80 @@
+{
+  "contractVersion": 3,
+  "title": "The Paper Boat's Trip Home",
+  "sourceTitle": "An original fictional story; the characters and plot are invented.",
+  "music": {
+    "mood": "calm",
+    "energy": "rise",
+    "tempo": 76
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Setting Off",
+      "narration": "A paper boat takes a letter across the river. The current pushes it toward a rock, and it's too scared to go on.",
+      "sourceQuote": "A paper boat takes a letter across the river. The current pushes it toward a rock, and it's too scared to go on.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "The Boat Sets Off",
+            "kicker": "Original story"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Two Kinds of Advice",
+      "narration": "The reeds say go with the current, but the water weeds say go against it. The two answers are opposites, and the little boat can't decide.",
+      "sourceQuote": "The reeds say go with the current, but the water weeds say go against it. The two answers are opposites, and the little boat can't decide.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "Opposite Advice",
+            "kicker": "Original story"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Trying for Itself",
+      "narration": "It studies the ripples first. It turns and slips past on slower water.",
+      "sourceQuote": "It studies the ripples first. It turns and slips past on slower water.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "Look First, Then Try",
+            "kicker": "Original story"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "The Other Bank",
+      "narration": "The boat reaches the bank, and the letter is still dry. It learned to listen to advice, and to watch the water right beneath it. What would you look at first?",
+      "sourceQuote": "The boat reaches the bank, and the letter is still dry. It learned to listen to advice, and to watch the water right beneath it. What would you look at first?",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "story-illustration",
+          "props": {
+            "title": "Safe on the Far Bank",
+            "kicker": "Original story"
+          }
+        }
+      }
+    }
+  ]
+}

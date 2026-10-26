@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S036",
+  "title": "停水通知，一眼看清",
+  "titles": {
+    "zh": "停水通知，一眼看清",
+    "en": "Water Outage Notice at a Glance"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "生活通知",
+  "templates": [],
+  "modules": [
+    "water-notice"
+  ],
+  "page": "https://galanty.cn/samples/#S036",
+  "version": {
+    "commit": "1a462eaa452ac7d7687f628334c616677f5657a8",
+    "contentDigest": "26a3cdb59e9b9828327540ad958784044e044e7e005a35878ba8f7d40088fdaf",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-calm-current-64",
+    "selection": "library:generated-calm-current-64",
+    "title": "Calm Current 64",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 64 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120401",
+    "modifications": null,
+    "file": "music/generated-calm-current-64.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S036",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 8,
+      "durationSeconds": 29.228918,
+      "files": 9
+    },
+    {
+      "seedId": "S036-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 9,
+      "durationSeconds": 23.514064,
+      "files": 10
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6490,
+      "sha256": "155c8d87036cf4193d1dbe00c24ec7aa583eb144ee25d66eac4b867a4e2a5ab1",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2613,
+      "sha256": "bb992a1fe1808a38e76ef97dcbf79a5955c2290195bba4d019f9b9159bd9e590",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2100,
+      "sha256": "9abd07cb32c0792f1cb617ed4c6cbc1376f84cbc44a7377d2a00b79093bc5868",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 420,
+      "sha256": "4639ba92c0d59652dfb434a9290e3185584fee9aee3eaab4e73b8c6508b58a25",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 445,
+      "sha256": "150a81d3f45d6b88621c1e321b9a260b79325b2231b5d23393b161e778634c26",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 4701,
+      "sha256": "8ee1dc7f6eaef0dd48ce5bfb8d63c695b5591242181cfe40e5bff47d0baa025b",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 785,
+      "sha256": "3d1d1d1cdc48aef5744b60bb35ff2ecf20dd06541fc6eaaaa34c2b7824bd4b5f",
+      "license": "sample-content"
+    },
+    {
+      "path": "water-notice.tsx",
+      "bytes": 10207,
+      "sha256": "7d1c8861ebf0d5251f1bab55a0a239f989d779e23c020d5f8ac37507ec3c33a9",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6677,
+      "sha256": "d3cf9d5d3b97cd0b1c2ed943f9e4a0e8ddbd78751ee791f367e62aa3b5dfa1f5",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1025,
+      "sha256": "6eab206310ecfb0fbf405b793d452f4a243e66bb4ba9d959a8ef1d9d1dda70eb",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 7801,
+      "sha256": "9188d69a8f4f1d3a1690d391ca13980a624efd1c63657c11523bcbe63ad65d8f",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1961,
+      "sha256": "b00a3de07e8b2f1ee90a3d254db2f618b4dc9bcb9dec7002528c969903035a0d",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S036.zip",
+    "bytes": 1010800,
+    "sha256": "53077aacdfdfa813884bd3184c45d7ad0f5cfdbd1b4c62b58f3dd321cd8850a1",
+    "format": "galanty-source-pack",
+    "contentDigest": "26a3cdb59e9b9828327540ad958784044e044e7e005a35878ba8f7d40088fdaf"
+  },
+  "inlineMedia": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "galanty-launch",
+  "version": "0.1.0",
+  "description": "Sourced, beat-driven product launch films with timestamped preview revisions.",
+  "author": {"name": "Talkframe", "url": "https://github.com/galanty-show"},
+  "homepage": "https://github.com/galanty-show/capabilities",
+  "repository": "https://github.com/galanty-show/capabilities",
+  "license": "MIT AND CC-BY-4.0",
+  "mcpServers": {
+    "galanty": {
+      "command": "npx",
+      "args": ["-y", "@galanty/cli", "mcp"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+ "version": 1,
+ "sample": "S119",
+ "note": "《人类走到 80 亿》（S119）的画面全部由 scenes/*.tsx 代码实时绘制（SVG 与 Canvas）：没有图片、视频、字体或其他素材文件，也没有使用 AI 生成的图片。数据出处见 source.md。",
+ "files": []
+}

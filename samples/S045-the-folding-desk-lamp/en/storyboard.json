@@ -1,0 +1,103 @@
+{
+  "contractVersion": 3,
+  "title": "The Folding Desk Lamp",
+  "sourceTitle": "A wholly fictional product concept; its features and experience are creative inventions.",
+  "music": {
+    "mood": "bright",
+    "energy": "rise",
+    "tempo": 108
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "What It Is",
+      "narration": "Meet a fictional fold-out desk lamp. It gives a small desk a beam to read by. Then it folds flat, like a slim book.",
+      "sourceQuote": "Meet a fictional fold-out desk lamp. It gives a small desk a beam to read by. Then it folds flat, like a slim book.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "title": "Folding Desk Lamp",
+            "kicker": "Fictional product concept",
+            "subtitle": "Open to light, close to store"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Three Things",
+      "narration": "This lamp does three simple things: open it to light the page, dim it to ease the glare, and close it to free up the desk.",
+      "sourceQuote": "This lamp does three simple things: open it to light the page, dim it to ease the glare, and close it to free up the desk.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "Three core moves",
+            "points": [
+              "Light up",
+              "Dim down",
+              "Fold away"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "How to Use It",
+      "narration": "Set it beside your book and open the shade. Press to dim it, then aim it at the page. Fold it shut when you finish reading.",
+      "sourceQuote": "Set it beside your book and open the shade. Press to dim it, then aim it at the page. Fold it shut when you finish reading.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "process-steps",
+          "props": {
+            "heading": "From open to put away",
+            "steps": [
+              "Place by the book",
+              "Unfold the shade",
+              "Press to dim",
+              "Fold to store"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Limits and Next Step",
+      "narration": "It won't replace your room's main light, and it may not suit every desk. Measure your desk before deciding on one.",
+      "sourceQuote": "It won't replace your room's main light, and it may not suit every desk. Measure your desk before deciding on one.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "compare-two",
+          "props": {
+            "heading": "Where it fits",
+            "left": {
+              "label": "Good for",
+              "title": "Desk reading",
+              "items": [
+                "Task lighting"
+              ]
+            },
+            "right": {
+              "label": "Not for",
+              "title": "Room lighting",
+              "items": [
+                "Not a main light"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

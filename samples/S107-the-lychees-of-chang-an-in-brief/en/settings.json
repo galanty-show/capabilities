@@ -1,0 +1,27 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 120,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "english_storyteller",
+  "speechRate": 245,
+  "tts": {
+    "engine": "mlx-qwen",
+    "fallback": false
+  },
+  "brandOutro": "made-with",
+  "musicFile": "library:original-changan-lychee",
+  "musicVolume": 0.5,
+  "musicDuckDb": -9,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#0c0a09",
+    "text": "#f4ead8",
+    "accent": "#c8323c",
+    "muted": "#a99b86"
+  },
+  "sentenceGapSeconds": 0.05
+}

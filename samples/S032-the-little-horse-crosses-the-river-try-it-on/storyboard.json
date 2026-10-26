@@ -1,0 +1,13 @@
+{
+  "contractVersion": 3,
+  "title": "小马过河：衣服尺码要自己试",
+  "subtitle": "别人的建议，要用自己的尺寸验证",
+  "sourceTitle": "原创故事：小马过河选雨衣",
+  "scenes": [
+    {"id":"s1","title":"三件雨衣，哪件合身？","narration":"小马要过河，想挑件雨衣，却被一排尺码难住了。标签写着小、中、大，哪件才合身？","sourceQuote":"小马要过河，想挑件雨衣，却被一排尺码难住了。标签写着小、中、大，哪件才合身？","hold":1.4,"component":{"id":"scene.code","version":1,"params":{"module":"size-story","props":{"stage":1,"eyebrow":"一件雨衣 · 三个尺码","headline":"衣服合不合身，谁说了算？"}}}},
+    {"id":"s2","title":"建议来自不同身形","narration":"小松鼠说选小号，壮壮牛说选大号。它们说的都是真心话，却都按自己的身形在想。","sourceQuote":"小松鼠说选小号，壮壮牛说选大号。它们说的都是真心话，却都按自己的身形在想。","hold":1.3,"component":{"id":"scene.code","version":1,"params":{"module":"size-story","props":{"stage":2,"eyebrow":"两个朋友 · 两种答案","headline":"建议里，藏着他们的尺寸"}}}},
+    {"id":"s3","title":"小号紧，大号松","narration":"小马先穿小号，袖子缩在肩上。再穿大号，衣摆拖到蹄边，跑起来直晃。","sourceQuote":"小马先穿小号，袖子缩在肩上。再穿大号，衣摆拖到蹄边，跑起来直晃。","hold":1.6,"component":{"id":"scene.code","version":1,"params":{"module":"size-story","props":{"stage":3,"eyebrow":"真正试穿","headline":"小号太紧，大号太松"}}}},
+    {"id":"s4","title":"用自己的尺寸选中号","narration":"它量好肩宽和胸围，对照衣服的尺寸卡。中号扣得上，袖口也落在合适的位置。","sourceQuote":"它量好肩宽和胸围，对照衣服的尺寸卡。中号扣得上，袖口也落在合适的位置。","hold":1.5,"component":{"id":"scene.code","version":1,"params":{"module":"size-story","props":{"stage":4,"eyebrow":"量一量 · 再穿上","headline":"让自己的尺寸来回答"}}}},
+    {"id":"s5","title":"自己的尺寸，穿着走","narration":"小马穿着合身的雨衣走过浅桥。别人的建议可以听，最后要拿自己的尺寸试一试。","sourceQuote":"小马穿着合身的雨衣走过浅桥。别人的建议可以听，最后要拿自己的尺寸试一试。","hold":1.8,"component":{"id":"scene.code","version":1,"params":{"module":"size-story","props":{"stage":5,"eyebrow":"过河了","headline":"听建议，也要亲自试"}}}}
+  ]
+}

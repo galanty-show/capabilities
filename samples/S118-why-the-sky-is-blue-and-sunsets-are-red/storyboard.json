@@ -1,0 +1,214 @@
+{
+  "contractVersion": 3,
+  "title": "为什么天空是蓝的，夕阳是红的",
+  "sourceTitle": "瑞利散射与米氏散射科普（自写讲解，出处见 source.md）",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "同一片天",
+      "narration": "正午的天是蓝的，傍晚的天，却烧成了橙红。这其实是同一道物理题。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "hook"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "片名",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.0
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "title"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "prism",
+      "title": "白光是一道彩虹",
+      "narration": "阳光看着是白的，其实是一整道彩虹。穿过棱镜，就拆成从紫到红的光谱，紫光约四百纳米，红光约七百。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "prism"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "scatter",
+      "title": "瑞利散射",
+      "narration": "空气分子比光的波长还小上千倍。光撞上它们，会被弹向四面八方，这叫瑞利散射。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "scatter"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "formula",
+      "title": "四次方反比",
+      "narration": "散射的强度，和波长的四次方成反比。蓝光四百五十纳米，红光七百纳米，算下来蓝光被散射的机会，是红光的五点九倍。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "formula"
+          }
+        }
+      },
+      "hold": 0.1,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sky",
+      "title": "把天染蓝",
+      "narration": "于是蓝光被弹得满天都是，红光大多直接穿过。不管朝哪个方向看，迎面来的主要是被弹来的蓝光，天就被染蓝了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "sky"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.45
+      }
+    },
+    {
+      "id": "violet",
+      "title": "为什么不是紫色",
+      "narration": "可紫光波长更短，天为什么不是紫的？阳光里紫光本来就少，更短的紫外线，早被臭氧层挡在了高空。人眼又对紫色不敏感，散射光混在一起，就成了天蓝。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "violet"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sunset",
+      "title": "把太阳拖到地平线",
+      "narration": "那夕阳呢？太阳越低，光穿过的大气越厚，贴着地平线时，是头顶直射的三十八倍。蓝光半路就被散射殆尽，到你眼前的只剩橙和红。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-sunset",
+          "props": {
+            "part": "sunset"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cloud",
+      "title": "云为什么是白的",
+      "narration": "云为什么是白的？云里的水滴比光的波长要大得多，米氏散射几乎不挑颜色，各色一起弹回来，混成了白。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "cloud"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "mars",
+      "title": "火星的蓝色日落",
+      "narration": "彩蛋：火星上，颜色反了过来。那里白天天空昏黄，日落时，太阳周围却泛着蓝光。火星尘埃只有光波长的几倍大，会把蓝光集中散射在太阳附近。好奇号和毅力号都拍到过蓝色日落。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-sunset",
+          "props": {
+            "part": "mars"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "recap",
+      "title": "同一套散射物理",
+      "narration": "同一套散射物理，画出了蓝天、红日、白云，和火星的蓝色黄昏。片中天空与光的颜色，全是代码按物理模型算出来的。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "recap"
+          }
+        }
+      },
+      "hold": 2.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S126",
+  "title": "四渡赤水 · 一堂军事课",
+  "titles": {
+    "en": "Four Crossings of the Chishui: A Military Lesson"
+  },
+  "language": "zh",
+  "languages": [
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "hook1",
+    "hook2",
+    "xiangjiang",
+    "zunyi",
+    "siege",
+    "tucheng",
+    "cross1",
+    "cross2",
+    "gouba",
+    "cross3",
+    "cross4",
+    "guiyang",
+    "jinsha",
+    "radio",
+    "lesson",
+    "ending"
+  ],
+  "page": "https://galanty.cn/samples/#S126",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "d9f5b0db211ea5c9c20131b542139180897cbc113ded5017bb1f358a2b9317b0",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创脚本（史实依据 research.md 所列公开来源）；画作 AI 原创生成、配乐 AI 原创生成（CC0）；地形为公共领域高程，河流 © OpenStreetMap contributors (ODbL)，省界 Natural Earth",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创脚本（史实依据 research.md 所列公开来源）；画作 AI 原创生成、配乐 AI 原创生成（CC0）；地形为公共领域高程，河流 © OpenStreetMap contributors (ODbL)，省界 Natural Earth（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-sidu-chishui",
+    "selection": "library:original-sidu-chishui",
+    "title": "Four Crossings of the Chishui",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Four Crossings of the Chishui — Galanty, Lyria 3 Pro original score with NumPy sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S126/README.md",
+    "modifications": "Lyria 3 Pro 生成；由 tools/production/sidu-chishui-20261016/music/music_build.py 按本片时间表剪辑与合成 NumPy 音效，无第三方采样；64 kbps MP3、48 kHz 立体声。Lyria 段落未卡拍，92 BPM 为生成指示；未人耳试听。",
+    "file": "music/sidu-chishui.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S126",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Orus",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Orus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Orus); playback stays offline",
+      "sentences": 86,
+      "durationSeconds": 323.400281,
+      "files": 87
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5680,
+      "sha256": "003a0c0866f4c4b92d9814a2d69a627c4602446899bbd165474ec7e328d58347",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 3600,
+      "sha256": "82d3ce43a73390b009ea435fead4eec99d266897dc995e1efcc1cb590ed553cc",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 63114,
+      "sha256": "603beaa89ddd7337258463e2643e0513dd1fb833a488ac539dd0b996995e9114",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 841,
+      "sha256": "c1977c3c5ec692a5dc7f28a1001b291aab8194c6207cd7681eb8d4f65df233cc",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 5128,
+      "sha256": "89f436f53d0fed7c2d8f243812a14e3537afabd3d5472f66a8082f552077ca6d",
+      "license": "sample-content"
+    },
+    {
+      "path": "hook1.tsx",
+      "bytes": 32576,
+      "sha256": "88ffaeb43e0be50acc64c0f66d38fc97b8ac53101dcef0f6f4a7419f7267e2eb",
+      "license": "MIT"
+    },
+    {
+      "path": "hook2.tsx",
+      "bytes": 156052,
+      "sha256": "6b70aaa25c20ca80c3c072a8e31ccc3ea85776a1ec47a719d48ae383380ea3c2",
+      "license": "MIT"
+    },
+    {
+      "path": "xiangjiang.tsx",
+      "bytes": 152159,
+      "sha256": "9e0fca3b3becc0cfc76b9046381734276e592940dee05b4ce9807ec7c2a2d933",
+      "license": "MIT"
+    },
+    {
+      "path": "zunyi.tsx",
+      "bytes": 144264,
+      "sha256": "6a0c45bea611888fd2da3eaf26e048d89267d1998ddb41ec8d3744481829f7fd",
+      "license": "MIT"
+    },
+    {
+      "path": "siege.tsx",
+      "bytes": 148015,
+      "sha256": "da6813805421ce21f4d8821bc1d0d5200c6f4361ac6fcec8546c2577ff671162",
+      "license": "MIT"
+    },
+    {
+      "path": "tucheng.tsx",
+      "bytes": 37426,
+      "sha256": "ab64bea406704440300c55de31ca580feb64b7352fad90406ddc408167d15ecc",
+      "license": "MIT"
+    },
+    {
+      "path": "cross1.tsx",
+      "bytes": 60247,
+      "sha256": "ed54a5210d8be02ba0f0c12bc67f0fc956d641533464edb8102e0b27148e2318",
+      "license": "MIT"
+    },
+    {
+      "path": "cross2.tsx",
+      "bytes": 61329,
+      "sha256": "10d6b4510dc8a0379af522e908cfa0dda6ea41250068a0b674cb0911a3a69a2c",
+      "license": "MIT"
+    },
+    {
+      "path": "gouba.tsx",
+      "bytes": 31843,
+      "sha256": "cb36996f42373f8d12738a76293e9368a6cc44807410ae727bc5c6b7b0eb4a6e",
+      "license": "MIT"
+    },
+    {
+      "path": "cross3.tsx",
+      "bytes": 57489,
+      "sha256": "66557f314b7ef9e0c50595a4a561f429b73c2c389183f6047075a6a781409988",
+      "license": "MIT"
+    },
+    {
+      "path": "cross4.tsx",
+      "bytes": 150507,
+      "sha256": "cd92495025f390744fc6a2080248ab076738ac9823c492ef82f01532befa5c32",
+      "license": "MIT"
+    },
+    {
+      "path": "guiyang.tsx",
+      "bytes": 145316,
+      "sha256": "cae7e10c24d5b2873a08fe1275e5e76244930d2669f283f3e4b0f6ed02d197fb",
+      "license": "MIT"
+    },
+    {
+      "path": "jinsha.tsx",
+      "bytes": 164102,
+      "sha256": "a65f5230a87a81dd1741b54e064a07fd1ec0dd80486b49e7b1721818ba01fbb1",
+      "license": "MIT"
+    },
+    {
+      "path": "radio.tsx",
+      "bytes": 145770,
+      "sha256": "f43eb7ad48d2a5f987e54821cffb2d2ca0987e16ecc7bf408b40b12c1c011302",
+      "license": "MIT"
+    },
+    {
+      "path": "lesson.tsx",
+      "bytes": 150458,
+      "sha256": "ad1b0cbf4197c4cb2f182bf4d4979b51bafda419e05e42a46b79b9e64b876b05",
+      "license": "MIT"
+    },
+    {
+      "path": "ending.tsx",
+      "bytes": 31227,
+      "sha256": "06a1b1ca8f27fc89e0deaa3ac1e765f8f500d0a4be422a80070e579ef5eceaaa",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 16705,
+      "sha256": "27b3038a73837e37bc2e143e673409705692a70ee43a70f6ac51cbe39da11ab3",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 53690,
+      "sha256": "64e641e3dcd7d7379353c78ae4cb1bf072f2ab5fab5aed23aa122307c79c489a",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 4731,
+      "sha256": "529f94f9c3d56481fe7571f5797d866acbc8aaffbc02e2ed867f47711612fd5f",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2064,
+      "sha256": "14d93af19681b331e9f0454c6be809b69ff39cac617b2d5657bd3342683110a0",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 9599,
+      "sha256": "d983b5c1cdc1e38d74de3908d79a96084ceb464917e5a22e2726d5e3501b0c41",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1986,
+      "sha256": "8d23089f5bf220532fb30f95195e8a65b382b9808cd3464994c41bb8244c68de",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S126.zip",
+    "bytes": 13617398,
+    "sha256": "231aa0a87bc981df7ae80f05551abaee91a0e2b18d7962f11cdbe3d54e75ab57",
+    "format": "galanty-source-pack",
+    "contentDigest": "d9f5b0db211ea5c9c20131b542139180897cbc113ded5017bb1f358a2b9317b0"
+  },
+  "inlineMedia": [
+    {
+      "source": "hook2.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "hook2.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/ce8389007d764cfe8e48965ada080d37bc9d0fa4a896dd9160b6ed5e74a359a3.webp",
+      "mime": "image/webp",
+      "bytes": 147402,
+      "sha256": "ce8389007d764cfe8e48965ada080d37bc9d0fa4a896dd9160b6ed5e74a359a3"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/c21af3cccbba89d2934ac6a69e8c2526e194c036501312426b0b764d7f8383a8.webp",
+      "mime": "image/webp",
+      "bytes": 169050,
+      "sha256": "c21af3cccbba89d2934ac6a69e8c2526e194c036501312426b0b764d7f8383a8"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/31dcaddb7cf923148c638c7b85649f8ae1b66163f25797786bf2856dd634c34a.webp",
+      "mime": "image/webp",
+      "bytes": 100042,
+      "sha256": "31dcaddb7cf923148c638c7b85649f8ae1b66163f25797786bf2856dd634c34a"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/a109f152918a544cf51d3e97595a64a1c2d9b83ba5c70792335c6742ece2d98b.webp",
+      "mime": "image/webp",
+      "bytes": 4318,
+      "sha256": "a109f152918a544cf51d3e97595a64a1c2d9b83ba5c70792335c6742ece2d98b"
+    },
+    {
+      "source": "xiangjiang.tsx",
+      "reference": "release-assets/2dddddc4582471c574bcbafd9764dd5458bfceac26e91db17b53210169b9747e.webp",
+      "mime": "image/webp",
+      "bytes": 5574,
+      "sha256": "2dddddc4582471c574bcbafd9764dd5458bfceac26e91db17b53210169b9747e"
+    },
+    {
+      "source": "zunyi.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "zunyi.tsx",
+      "reference": "release-assets/332ca2d6daf409fe2c086fb9e30633570a6310f728528c94ac3af2de15d1eaff.webp",
+      "mime": "image/webp",
+      "bytes": 110142,
+      "sha256": "332ca2d6daf409fe2c086fb9e30633570a6310f728528c94ac3af2de15d1eaff"
+    },
+    {
+      "source": "zunyi.tsx",
+      "reference": "release-assets/326cf0298748d392e57005e0ee6394ecddbded33bdcc3a6c64f381f436d838aa.webp",
+      "mime": "image/webp",
+      "bytes": 6004,
+      "sha256": "326cf0298748d392e57005e0ee6394ecddbded33bdcc3a6c64f381f436d838aa"
+    },
+    {
+      "source": "siege.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "siege.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "tucheng.tsx",
+      "reference": "release-assets/98a5e3177dd0d1197924cf6c70b7318b8ac9475c4fe06c1c886f2d9b2064d346.webp",
+      "mime": "image/webp",
+      "bytes": 74776,
+      "sha256": "98a5e3177dd0d1197924cf6c70b7318b8ac9475c4fe06c1c886f2d9b2064d346"
+    },
+    {
+      "source": "tucheng.tsx",
+      "reference": "release-assets/87327e409f0814c31c8716f8eca0c4ccfbae2dbff449e24dece2d1e36fe5f6b3.png",
+      "mime": "image/png",
+      "bytes": 476106,
+      "sha256": "87327e409f0814c31c8716f8eca0c4ccfbae2dbff449e24dece2d1e36fe5f6b3"
+    },
+    {
+      "source": "tucheng.tsx",
+      "reference": "release-assets/e831556e416b7d48eccf38b4c6285f8b1967b2bfd5ceef2edd250619277ea36e.webp",
+      "mime": "image/webp",
+      "bytes": 79378,
+      "sha256": "e831556e416b7d48eccf38b4c6285f8b1967b2bfd5ceef2edd250619277ea36e"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/98a5e3177dd0d1197924cf6c70b7318b8ac9475c4fe06c1c886f2d9b2064d346.webp",
+      "mime": "image/webp",
+      "bytes": 74776,
+      "sha256": "98a5e3177dd0d1197924cf6c70b7318b8ac9475c4fe06c1c886f2d9b2064d346"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/87327e409f0814c31c8716f8eca0c4ccfbae2dbff449e24dece2d1e36fe5f6b3.png",
+      "mime": "image/png",
+      "bytes": 476106,
+      "sha256": "87327e409f0814c31c8716f8eca0c4ccfbae2dbff449e24dece2d1e36fe5f6b3"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/83b86ec70813f61ce54034743e539466dd6e2924d34c1942adc9b5daed33efc1.webp",
+      "mime": "image/webp",
+      "bytes": 204544,
+      "sha256": "83b86ec70813f61ce54034743e539466dd6e2924d34c1942adc9b5daed33efc1"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/18b918e7e3d639444b142ca8b281e3adaac7c3a37c317ac2f6f7e913496a4e32.webp",
+      "mime": "image/webp",
+      "bytes": 5046,
+      "sha256": "18b918e7e3d639444b142ca8b281e3adaac7c3a37c317ac2f6f7e913496a4e32"
+    },
+    {
+      "source": "cross1.tsx",
+      "reference": "release-assets/e831556e416b7d48eccf38b4c6285f8b1967b2bfd5ceef2edd250619277ea36e.webp",
+      "mime": "image/webp",
+      "bytes": 79378,
+      "sha256": "e831556e416b7d48eccf38b4c6285f8b1967b2bfd5ceef2edd250619277ea36e"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/3c5672f0df963b2eecb95bf7639075ce7473e0c9a35bc007c46419e7c5a0caad.webp",
+      "mime": "image/webp",
+      "bytes": 99426,
+      "sha256": "3c5672f0df963b2eecb95bf7639075ce7473e0c9a35bc007c46419e7c5a0caad"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/d9a4e4ade4e5e003e6e0c8bc126423c97dac30234aa6489a990e8efe9ad57718.png",
+      "mime": "image/png",
+      "bytes": 520850,
+      "sha256": "d9a4e4ade4e5e003e6e0c8bc126423c97dac30234aa6489a990e8efe9ad57718"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/cd8d5f5e34c07f0b1b63e3d7c18dfa2cd4e81f09b8aa39932b8c53cc9f11e53d.webp",
+      "mime": "image/webp",
+      "bytes": 161522,
+      "sha256": "cd8d5f5e34c07f0b1b63e3d7c18dfa2cd4e81f09b8aa39932b8c53cc9f11e53d"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/381f953565b16e0f4790b5b880021c8c1d2c6614dbbb7eaa86d122ca1ece2167.webp",
+      "mime": "image/webp",
+      "bytes": 4142,
+      "sha256": "381f953565b16e0f4790b5b880021c8c1d2c6614dbbb7eaa86d122ca1ece2167"
+    },
+    {
+      "source": "cross2.tsx",
+      "reference": "release-assets/fabb03da2230492b9d469e22946f03638453b1748234fb254a45d86ec08c2f9c.webp",
+      "mime": "image/webp",
+      "bytes": 95432,
+      "sha256": "fabb03da2230492b9d469e22946f03638453b1748234fb254a45d86ec08c2f9c"
+    },
+    {
+      "source": "gouba.tsx",
+      "reference": "release-assets/abbf5285afc5219ef9b50cf4990b2830910ae90088ad5e435247d02f1d9c8efe.webp",
+      "mime": "image/webp",
+      "bytes": 126822,
+      "sha256": "abbf5285afc5219ef9b50cf4990b2830910ae90088ad5e435247d02f1d9c8efe"
+    },
+    {
+      "source": "gouba.tsx",
+      "reference": "release-assets/d293fc5df7a05f0a49676b1530d71810a36791d409e9e65ba6ca41e34a5fff4b.webp",
+      "mime": "image/webp",
+      "bytes": 5174,
+      "sha256": "d293fc5df7a05f0a49676b1530d71810a36791d409e9e65ba6ca41e34a5fff4b"
+    },
+    {
+      "source": "cross3.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "cross3.tsx",
+      "reference": "release-assets/db902f7c3569eda1940c31bb48e7cbd0254869f07e64490b6334bf065e0b1dab.webp",
+      "mime": "image/webp",
+      "bytes": 210968,
+      "sha256": "db902f7c3569eda1940c31bb48e7cbd0254869f07e64490b6334bf065e0b1dab"
+    },
+    {
+      "source": "cross3.tsx",
+      "reference": "release-assets/32d6df2e38deb5187c2b4f22e23f71f23b914e87f707c22c5524120321e48364.webp",
+      "mime": "image/webp",
+      "bytes": 4230,
+      "sha256": "32d6df2e38deb5187c2b4f22e23f71f23b914e87f707c22c5524120321e48364"
+    },
+    {
+      "source": "cross4.tsx",
+      "reference": "release-assets/600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba.webp",
+      "mime": "image/webp",
+      "bytes": 212056,
+      "sha256": "600ef8cc71a311e110071e5bf84d7aa806618716735e2d6256989ec60de32fba"
+    },
+    {
+      "source": "cross4.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "cross4.tsx",
+      "reference": "release-assets/457a5edf31d8627e3f0396ad24ec24f12f29e2ab85904b3b728fd255a365bd25.webp",
+      "mime": "image/webp",
+      "bytes": 85658,
+      "sha256": "457a5edf31d8627e3f0396ad24ec24f12f29e2ab85904b3b728fd255a365bd25"
+    },
+    {
+      "source": "cross4.tsx",
+      "reference": "release-assets/702a5213ae1d508df75d6443d3e902cbc30f753fbca5e745ba3338f1c7120614.png",
+      "mime": "image/png",
+      "bytes": 517835,
+      "sha256": "702a5213ae1d508df75d6443d3e902cbc30f753fbca5e745ba3338f1c7120614"
+    },
+    {
+      "source": "cross4.tsx",
+      "reference": "release-assets/d098e38593ba76459c1dc370b83d8e98c45e4688f2cbc8c462b2be89e77285ea.webp",
+      "mime": "image/webp",
+      "bytes": 93408,
+      "sha256": "d098e38593ba76459c1dc370b83d8e98c45e4688f2cbc8c462b2be89e77285ea"
+    },
+    {
+      "source": "guiyang.tsx",
+      "reference": "release-assets/b2aff580170d56c68374f1db1a29003335161ed75c539fafb6cce4ad252fba76.webp",
+      "mime": "image/webp",
+      "bytes": 199320,
+      "sha256": "b2aff580170d56c68374f1db1a29003335161ed75c539fafb6cce4ad252fba76"
+    },
+    {
+      "source": "guiyang.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "guiyang.tsx",
+      "reference": "release-assets/e010dded2f33bfdd7f71b570c521d7caa8db803bdf6c83cef3ebded79ebccdea.webp",
+      "mime": "image/webp",
+      "bytes": 125226,
+      "sha256": "e010dded2f33bfdd7f71b570c521d7caa8db803bdf6c83cef3ebded79ebccdea"
+    },
+    {
+      "source": "guiyang.tsx",
+      "reference": "release-assets/6341cb5e3cb4e86fbfbb9fe20c03babf5365348c4bb59a5bca14efdf1afed0ab.webp",
+      "mime": "image/webp",
+      "bytes": 5882,
+      "sha256": "6341cb5e3cb4e86fbfbb9fe20c03babf5365348c4bb59a5bca14efdf1afed0ab"
+    },
+    {
+      "source": "jinsha.tsx",
+      "reference": "release-assets/9b0579b872997ea28ff759ed1e5155c8e5999b4bdf21d54e45a9ba549d1b3167.webp",
+      "mime": "image/webp",
+      "bytes": 230618,
+      "sha256": "9b0579b872997ea28ff759ed1e5155c8e5999b4bdf21d54e45a9ba549d1b3167"
+    },
+    {
+      "source": "jinsha.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "jinsha.tsx",
+      "reference": "release-assets/822d55e1c4244d75232de56206ba1d66b0ca66f97b3dd986514ae7c6ba226d6b.webp",
+      "mime": "image/webp",
+      "bytes": 215626,
+      "sha256": "822d55e1c4244d75232de56206ba1d66b0ca66f97b3dd986514ae7c6ba226d6b"
+    },
+    {
+      "source": "jinsha.tsx",
+      "reference": "release-assets/851920177385615bb06db237db97c81ce8848edf2279675fd7bb9251f345765a.png",
+      "mime": "image/png",
+      "bytes": 545098,
+      "sha256": "851920177385615bb06db237db97c81ce8848edf2279675fd7bb9251f345765a"
+    },
+    {
+      "source": "jinsha.tsx",
+      "reference": "release-assets/32c741fef99f8589ca593b581a980c7f8471ef11ea003bd663525a3f4f82de49.webp",
+      "mime": "image/webp",
+      "bytes": 135028,
+      "sha256": "32c741fef99f8589ca593b581a980c7f8471ef11ea003bd663525a3f4f82de49"
+    },
+    {
+      "source": "radio.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "radio.tsx",
+      "reference": "release-assets/0fed1669877aa5593101128f489cedda183c3f7ca65782027fcd4bf09a3ce20c.webp",
+      "mime": "image/webp",
+      "bytes": 100988,
+      "sha256": "0fed1669877aa5593101128f489cedda183c3f7ca65782027fcd4bf09a3ce20c"
+    },
+    {
+      "source": "radio.tsx",
+      "reference": "release-assets/966103a52ed3daacb012e5d3020685493bcb45eed2b2e333883a869c743bc042.webp",
+      "mime": "image/webp",
+      "bytes": 4306,
+      "sha256": "966103a52ed3daacb012e5d3020685493bcb45eed2b2e333883a869c743bc042"
+    },
+    {
+      "source": "lesson.tsx",
+      "reference": "release-assets/67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867.webp",
+      "mime": "image/webp",
+      "bytes": 163254,
+      "sha256": "67587e04fa43b7008deaab11885bdc9f4bad86ec7453c286e93a95bfb406a867"
+    },
+    {
+      "source": "ending.tsx",
+      "reference": "release-assets/275945227f0fd63f5f9ecdabf539f42dbd5aba8a27838b3dcd11839f196c125e.webp",
+      "mime": "image/webp",
+      "bytes": 122258,
+      "sha256": "275945227f0fd63f5f9ecdabf539f42dbd5aba8a27838b3dcd11839f196c125e"
+    },
+    {
+      "source": "ending.tsx",
+      "reference": "release-assets/80609c6b9eb74bfbb9e39e3578cb5b95ec80f373abbc9adb5533f4b8396bbe90.webp",
+      "mime": "image/webp",
+      "bytes": 3456,
+      "sha256": "80609c6b9eb74bfbb9e39e3578cb5b95ec80f373abbc9adb5533f4b8396bbe90"
+    }
+  ]
+}

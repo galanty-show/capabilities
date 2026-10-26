@@ -1,0 +1,46 @@
+{
+  "no": "S115",
+  "title": "羽见 AI 眼镜 · 抬头就是答案",
+  "titles": {
+    "zh": "羽见 AI 眼镜 · 抬头就是答案",
+    "en": "PLUMO AI Glasses · Just Look Up"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "9:16",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "pg-hook",
+    "pg-translate",
+    "pg-navigate",
+    "pg-capture",
+    "pg-prompter",
+    "pg-notify",
+    "pg-hero"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创：虚构品牌与产品、自写旁白；底图与配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-plumo-heads-up",
+    "selection": "library:original-plumo-heads-up",
+    "title": "PLUMO Heads Up",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "PLUMO Heads Up — Galanty, original electronic pop score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S115/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-glasses-20261013/music_build.py (one splice on a measured 126 BPM grid so the groove enters on the first feature cut and the drop lands on the product reveal, voice-section pre-duck and 2.7 kHz dip, +4 dB drop, NumPy-synthesized UI sounds, shutter, whooshes and impacts, no third-party samples), normalized to -18 LUFS, then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S115; other films will not hit its accents.",
+    "file": "music/plumo-heads-up.mp3",
+    "bundled": true
+  },
+  "note": "虚构品牌「羽见 PLUMO」AI 眼镜的竖屏卡点宣传片，品牌、外观与参数均为演示设定，画面没有真实商标。旁白为预先生成的 Gemini 云端配音（随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成）以 data URI 内联在幕代码里。配乐 PLUMO Heads Up（CC0，随包曲库 library:original-plumo-heads-up）按本片 126 BPM 小节网格剪辑并预压旁白段：各幕是定长（小节数 × 小节秒），改节奏、改时长或换曲后拍点不再对齐。平台安全区按抖音预设。正文约 43.4 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S115"
+}

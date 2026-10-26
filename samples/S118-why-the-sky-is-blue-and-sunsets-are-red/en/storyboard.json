@@ -1,0 +1,539 @@
+{
+  "contractVersion": 3,
+  "title": "Why the Sky Is Blue and Sunsets Are Red",
+  "sourceTitle": "Rayleigh and Mie scattering explained (original script; sources in source.md)",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Same Sky",
+      "narration": "Blue at noon, but at dusk it burns orange. It's one and the same physics problem.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "hook",
+            "hud": "Live render · single-scattering sky model",
+            "elevLabel": "Sun elevation",
+            "pathLabel": "Air mass",
+            "duskCue": "dusk",
+            "redCue": "orange",
+            "title1": "Why the Sky Is Blue",
+            "title2": "and Sunsets Are Red",
+            "subtitle": "A physics puzzle about 1/λ⁴ · every frame computed live in code",
+            "panels": [
+              "Earth · noon",
+              "Earth · sunset",
+              "White cloud",
+              "Mars · sunset"
+            ],
+            "panelCues": [
+              "Blue sky",
+              "red sun",
+              "white cloud",
+              "Martian"
+            ],
+            "closing": "Every color here is computed",
+            "equations": "CIE 1931 color matching · 5778 K blackbody · τ ∝ λ⁻⁴ · Kasten–Young air mass · Mie diffraction peak"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 1
+    },
+    {
+      "id": "title",
+      "title": "Title",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "title",
+            "hud": "Live render · single-scattering sky model",
+            "elevLabel": "Sun elevation",
+            "pathLabel": "Air mass",
+            "duskCue": "dusk",
+            "redCue": "orange",
+            "title1": "Why the Sky Is Blue",
+            "title2": "and Sunsets Are Red",
+            "subtitle": "A physics puzzle about 1/λ⁴ · every frame computed live in code",
+            "panels": [
+              "Earth · noon",
+              "Earth · sunset",
+              "White cloud",
+              "Mars · sunset"
+            ],
+            "panelCues": [
+              "Blue sky",
+              "red sun",
+              "white cloud",
+              "Martian"
+            ],
+            "closing": "Every color here is computed",
+            "equations": "CIE 1931 color matching · 5778 K blackbody · τ ∝ λ⁻⁴ · Kasten–Young air mass · Mie diffraction peak"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "prism",
+      "title": "White Light Is a Rainbow",
+      "narration": "Sunlight looks white, but it's a rainbow. A prism fans it out from violet to red. Violet is near 400 nanometers, red near 700.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "prism",
+            "colorNames": [
+              "Violet",
+              "Blue",
+              "Cyan",
+              "Green",
+              "Yellow",
+              "Orange",
+              "Red"
+            ],
+            "rainbowCue": "rainbow",
+            "violetCue": "400",
+            "redCue": "700",
+            "prismLabel": "Glass prism · index varies with wavelength",
+            "whiteLabel": "White light",
+            "waveLabel": "One wavelength of blue light · 450 nm",
+            "moleculeLabel": "N₂ molecule ≈ 0.3 nm (magnified 300×)",
+            "ratioCue": "1,000",
+            "ratioText": "wavelength ÷ molecule ≈ 1500×",
+            "bounceCue": "every which way",
+            "nameCue": "Rayleigh scattering",
+            "scatterName": "Rayleigh scattering",
+            "patternLabel": "Pattern ∝ 1 + cos²θ",
+            "terms": [
+              "Intensity",
+              "Wavelength",
+              "4th power"
+            ],
+            "termCues": [
+              "intensity",
+              "wavelength",
+              "fourth",
+              "one over"
+            ],
+            "blueCue": "450",
+            "redCue2": "700",
+            "stepCue": "math",
+            "resultCue": "5.9",
+            "blueName": "Blue",
+            "redName": "Red",
+            "curveLabel": "Scattering intensity (700 nm = 1)"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.9
+    },
+    {
+      "id": "scatter",
+      "title": "Rayleigh Scattering",
+      "narration": "An air molecule is over 1,000 times smaller. Light that hits one bounces every which way. This is Rayleigh scattering.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "scatter",
+            "colorNames": [
+              "Violet",
+              "Blue",
+              "Cyan",
+              "Green",
+              "Yellow",
+              "Orange",
+              "Red"
+            ],
+            "rainbowCue": "rainbow",
+            "violetCue": "400",
+            "redCue": "700",
+            "prismLabel": "Glass prism · index varies with wavelength",
+            "whiteLabel": "White light",
+            "waveLabel": "One wavelength of blue light · 450 nm",
+            "moleculeLabel": "N₂ molecule ≈ 0.3 nm (magnified 300×)",
+            "ratioCue": "1,000",
+            "ratioText": "wavelength ÷ molecule ≈ 1500×",
+            "bounceCue": "every which way",
+            "nameCue": "Rayleigh scattering",
+            "scatterName": "Rayleigh scattering",
+            "patternLabel": "Pattern ∝ 1 + cos²θ",
+            "terms": [
+              "Intensity",
+              "Wavelength",
+              "4th power"
+            ],
+            "termCues": [
+              "intensity",
+              "wavelength",
+              "fourth",
+              "one over"
+            ],
+            "blueCue": "450",
+            "redCue2": "700",
+            "stepCue": "math",
+            "resultCue": "5.9",
+            "blueName": "Blue",
+            "redName": "Red",
+            "curveLabel": "Scattering intensity (700 nm = 1)"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "formula",
+      "title": "The Inverse Fourth Power",
+      "narration": "Scattering intensity obeys one law. It goes as one over wavelength to the fourth. Blue is 450 nanometers, red is 700. Do the math: blue scatters 5.9 times as much.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-light",
+          "props": {
+            "part": "formula",
+            "colorNames": [
+              "Violet",
+              "Blue",
+              "Cyan",
+              "Green",
+              "Yellow",
+              "Orange",
+              "Red"
+            ],
+            "rainbowCue": "rainbow",
+            "violetCue": "400",
+            "redCue": "700",
+            "prismLabel": "Glass prism · index varies with wavelength",
+            "whiteLabel": "White light",
+            "waveLabel": "One wavelength of blue light · 450 nm",
+            "moleculeLabel": "N₂ molecule ≈ 0.3 nm (magnified 300×)",
+            "ratioCue": "1,000",
+            "ratioText": "wavelength ÷ molecule ≈ 1500×",
+            "bounceCue": "every which way",
+            "nameCue": "Rayleigh scattering",
+            "scatterName": "Rayleigh scattering",
+            "patternLabel": "Pattern ∝ 1 + cos²θ",
+            "terms": [
+              "Intensity",
+              "Wavelength",
+              "4th power"
+            ],
+            "termCues": [
+              "intensity",
+              "wavelength",
+              "fourth",
+              "one over"
+            ],
+            "blueCue": "450",
+            "redCue2": "700",
+            "stepCue": "math",
+            "resultCue": "5.9",
+            "blueName": "Blue",
+            "redName": "Red",
+            "curveLabel": "Scattering intensity (700 nm = 1)"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sky",
+      "title": "Painting the Sky Blue",
+      "narration": "So blue light bounces all across the sky, while most red goes straight through. Look anywhere, and scattered blue meets you. That is what dyes the sky blue.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "sky",
+            "histTitle": "Scattered photons, by λ",
+            "histModel": "Dashed: sunlight × 1/λ⁴",
+            "lookCue": "Look",
+            "dyeCue": "dyes",
+            "sunLabel": "Sunlight",
+            "airLabel": "Atmosphere (optical depth exaggerated)",
+            "curveNames": [
+              "1/λ⁴ alone: violet wins",
+              "Sunlight (≈5778 K)",
+              "Scattered: sun × 1/λ⁴",
+              "Eye cones (CIE 1931)"
+            ],
+            "whyCue": "why not",
+            "lessCue": "little violet",
+            "uvCue": "Ultraviolet",
+            "eyeCue": "barely",
+            "mixCue": "Mix",
+            "uvLabel": "UV · absorbed by ozone",
+            "violetSwatch": "Pure violet 400 nm",
+            "skySwatch": "Scattered sum = sky blue",
+            "panelNames": [
+              "Air molecules ≈ 0.3 nm · Rayleigh",
+              "Cloud droplets ≈ 10–20 μm · Mie"
+            ],
+            "qNames": [
+              "Scattering efficiency ∝ 1/λ⁴",
+              "Efficiency ≈ 2, nearly flat across λ"
+            ],
+            "mieCue": "Mie scattering",
+            "whiteCue": "white",
+            "mixLabel": "Bounced light"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.45
+      }
+    },
+    {
+      "id": "violet",
+      "title": "Why Not Violet?",
+      "narration": "Violet is shorter still, so why not violet? Sunlight holds little violet to begin with. Ultraviolet is stopped high up by ozone. And our eyes barely register violet. Mix all the scattered light, and you get sky blue.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "violet",
+            "histTitle": "Scattered photons, by λ",
+            "histModel": "Dashed: sunlight × 1/λ⁴",
+            "lookCue": "Look",
+            "dyeCue": "dyes",
+            "sunLabel": "Sunlight",
+            "airLabel": "Atmosphere (optical depth exaggerated)",
+            "curveNames": [
+              "1/λ⁴ alone: violet wins",
+              "Sunlight (≈5778 K)",
+              "Scattered: sun × 1/λ⁴",
+              "Eye cones (CIE 1931)"
+            ],
+            "whyCue": "why not",
+            "lessCue": "little violet",
+            "uvCue": "Ultraviolet",
+            "eyeCue": "barely",
+            "mixCue": "Mix",
+            "uvLabel": "UV · absorbed by ozone",
+            "violetSwatch": "Pure violet 400 nm",
+            "skySwatch": "Scattered sum = sky blue",
+            "panelNames": [
+              "Air molecules ≈ 0.3 nm · Rayleigh",
+              "Cloud droplets ≈ 10–20 μm · Mie"
+            ],
+            "qNames": [
+              "Scattering efficiency ∝ 1/λ⁴",
+              "Efficiency ≈ 2, nearly flat across λ"
+            ],
+            "mieCue": "Mie scattering",
+            "whiteCue": "white",
+            "mixLabel": "Bounced light"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sunset",
+      "title": "Dragging the Sun Down",
+      "narration": "So what makes the sunset red? As the sun sinks, its light crosses more air. At the horizon: 38 times the overhead path. Blue is scattered out along the way, and only orange and red reach your eyes.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-sunset",
+          "props": {
+            "part": "sunset",
+            "dragCue": "sun sinks",
+            "landCue": "38",
+            "lossCue": "scattered out",
+            "elevLabel": "Sun elevation",
+            "pathLabel": "Air mass (overhead = 1)",
+            "diagramNote": "Not to scale: atmosphere thickened",
+            "transLabel": "Sunlight reaching your eye (relative)",
+            "diskLabel": "Sun disk",
+            "marsTitle": "Bonus · Mars",
+            "dayCue": "dusty yellow",
+            "duskCue": "sunset",
+            "dayLabel": "Day: dusty yellow sky",
+            "duskLabel": "Sunset: blue around the sun",
+            "lobeTitle": "Forward diffraction peak of dust (d ≈ 3 μm)",
+            "lobeAxis": "30° from the sun",
+            "lobeNote": "Peak width ∝ λ / d: blue stays near the sun",
+            "roverCue": "Curiosity",
+            "rovers": [
+              "Curiosity · 2015-04-15 · Sol 956 · Gale Crater",
+              "Perseverance · 2021-11-09 · Sol 257 · Jezero Crater"
+            ],
+            "disclaimer": "Model rendering, not a rover photo"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cloud",
+      "title": "Why Clouds Are White",
+      "narration": "Why are clouds white? Cloud droplets dwarf the wavelength of light. Mie scattering barely cares about color. All colors bounce back and blend into white.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-photons",
+          "props": {
+            "part": "cloud",
+            "histTitle": "Scattered photons, by λ",
+            "histModel": "Dashed: sunlight × 1/λ⁴",
+            "lookCue": "Look",
+            "dyeCue": "dyes",
+            "sunLabel": "Sunlight",
+            "airLabel": "Atmosphere (optical depth exaggerated)",
+            "curveNames": [
+              "1/λ⁴ alone: violet wins",
+              "Sunlight (≈5778 K)",
+              "Scattered: sun × 1/λ⁴",
+              "Eye cones (CIE 1931)"
+            ],
+            "whyCue": "why not",
+            "lessCue": "little violet",
+            "uvCue": "Ultraviolet",
+            "eyeCue": "barely",
+            "mixCue": "Mix",
+            "uvLabel": "UV · absorbed by ozone",
+            "violetSwatch": "Pure violet 400 nm",
+            "skySwatch": "Scattered sum = sky blue",
+            "panelNames": [
+              "Air molecules ≈ 0.3 nm · Rayleigh",
+              "Cloud droplets ≈ 10–20 μm · Mie"
+            ],
+            "qNames": [
+              "Scattering efficiency ∝ 1/λ⁴",
+              "Efficiency ≈ 2, nearly flat across λ"
+            ],
+            "mieCue": "Mie scattering",
+            "whiteCue": "white",
+            "mixLabel": "Bounced light"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "mars",
+      "title": "Blue Sunsets on Mars",
+      "narration": "Bonus: on Mars, the colors flip. By day the Martian sky is a dusty yellow. At sunset, a blue glow surrounds the sun. Its dust is only a few wavelengths across, so it scatters blue tightly around the sun. Curiosity and Perseverance saw blue sunsets.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-sunset",
+          "props": {
+            "part": "mars",
+            "dragCue": "sun sinks",
+            "landCue": "38",
+            "lossCue": "scattered out",
+            "elevLabel": "Sun elevation",
+            "pathLabel": "Air mass (overhead = 1)",
+            "diagramNote": "Not to scale: atmosphere thickened",
+            "transLabel": "Sunlight reaching your eye (relative)",
+            "diskLabel": "Sun disk",
+            "marsTitle": "Bonus · Mars",
+            "dayCue": "dusty yellow",
+            "duskCue": "sunset",
+            "dayLabel": "Day: dusty yellow sky",
+            "duskLabel": "Sunset: blue around the sun",
+            "lobeTitle": "Forward diffraction peak of dust (d ≈ 3 μm)",
+            "lobeAxis": "30° from the sun",
+            "lobeNote": "Peak width ∝ λ / d: blue stays near the sun",
+            "roverCue": "Curiosity",
+            "rovers": [
+              "Curiosity · 2015-04-15 · Sol 956 · Gale Crater",
+              "Perseverance · 2021-11-09 · Sol 257 · Jezero Crater"
+            ],
+            "disclaimer": "Model rendering, not a rover photo"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "recap",
+      "title": "One Physics",
+      "narration": "Blue sky, red sun, white cloud, Martian dusk. The same scattering physics paints all four. Every color here was computed by code.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sky-open",
+          "props": {
+            "part": "recap",
+            "hud": "Live render · single-scattering sky model",
+            "elevLabel": "Sun elevation",
+            "pathLabel": "Air mass",
+            "duskCue": "dusk",
+            "redCue": "orange",
+            "title1": "Why the Sky Is Blue",
+            "title2": "and Sunsets Are Red",
+            "subtitle": "A physics puzzle about 1/λ⁴ · every frame computed live in code",
+            "panels": [
+              "Earth · noon",
+              "Earth · sunset",
+              "White cloud",
+              "Mars · sunset"
+            ],
+            "panelCues": [
+              "Blue sky",
+              "red sun",
+              "white cloud",
+              "Martian"
+            ],
+            "closing": "Every color here is computed",
+            "equations": "CIE 1931 color matching · 5778 K blackbody · τ ∝ λ⁻⁴ · Kasten–Young air mass · Mie diffraction peak"
+          }
+        }
+      },
+      "hold": 2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

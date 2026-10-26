@@ -1,0 +1,53 @@
+{
+  "no": "S107",
+  "title": "长安的荔枝 · 两分钟讲完",
+  "titles": {
+    "zh": "长安的荔枝 · 两分钟讲完",
+    "en": "The Lychees of Chang'an, in Brief"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "lc-poem",
+    "lc-title",
+    "lc-changan",
+    "lc-edict",
+    "lc-decay",
+    "lc-map",
+    "lc-south",
+    "lc-trials",
+    "lc-relay",
+    "lc-arrive",
+    "lc-cost",
+    "lc-truth",
+    "lc-war",
+    "lc-credit"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创故事导读：旁白为自写概述（原著马伯庸《长安的荔枝》），诗句公有领域；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-changan-lychee",
+    "selection": "library:original-changan-lychee",
+    "title": "Chang'an Lychee",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Chang'an Lychee — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S107/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/lychee-20261007/music_build.py (re-timed, one 4-bar loop, 230 Hz dip, NumPy-synthesized SFX and rain/wind/fire beds, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S107; other films will not hit its accents.",
+    "file": "music/changan-lychee.mp3",
+    "bundled": true
+  },
+  "note": "旁白为预先生成的 Gemini 云端配音（随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成）以 data URI 内联在幕代码里；成片里的 3 段 Veo 奔马镜头不随包，样片改用同名底图推镜。配乐 Chang'an Lychee（CC0，随包曲库 library:original-changan-lychee）按本片逐字时间轴卡点：改节奏或换曲后重击不再对齐。天气参数在 relay、credit 两幕的 weathers。正文约 121 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S107"
+}

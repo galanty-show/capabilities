@@ -1,0 +1,218 @@
+{
+  "contractVersion": 3,
+  "title": "羽见 AI 眼镜 · 抬头就是答案",
+  "subtitle": "虚构品牌 AI 眼镜竖屏宣传片（卡点）",
+  "sourceTitle": "羽见 PLUMO AI 眼镜宣传片创作依据（虚构品牌）",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "别低头",
+      "narration": "别低头了。答案，就在眼前。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hook",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": 0.0
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "translate",
+      "title": "实时翻译",
+      "narration": "语言不通？字幕实时翻译。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.833
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-translate",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": 0.0095
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "navigate",
+      "title": "贴地导航",
+      "narration": "陌生路口，箭头铺在脚下。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-navigate",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": -0.0143
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "capture",
+      "title": "随手拍与隐私灯",
+      "narration": "说拍就拍，隐私灯同步亮起。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-capture",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": -0.0048
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "prompter",
+      "title": "提词器",
+      "narration": "上台不忘词，讲稿跟着你走。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-prompter",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": 0.0048
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "notify",
+      "title": "轻提示",
+      "narration": "消息轻轻一闪，不用掏手机。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.833
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-notify",
+          "props": {
+            "bpm": 126.0,
+            "beatOffset": 0.0143
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "build",
+      "title": "只有 42 克",
+      "narration": "这一切，只有 42 克。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.7997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "build",
+            "bpm": 126.0,
+            "beatOffset": -0.0095
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "drop",
+      "title": "产品亮相",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.633
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "drop",
+            "bpm": 126.0,
+            "beatOffset": -0.0
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "end",
+      "title": "抬头，就是答案",
+      "narration": "羽见 AI 眼镜。抬头，就是答案。",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 9.0997
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pg-hero",
+          "props": {
+            "part": "end",
+            "bpm": 126.0,
+            "beatOffset": -0.0143
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

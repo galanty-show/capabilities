@@ -1,0 +1,45 @@
+{
+  "contractVersion": 3,
+  "title": "窗前两章",
+  "sourceTitle": "原创短诗",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "晚窗",
+      "narration": "山色入窗深。风来一叶轻。",
+      "sourceQuote": "山色入窗深。风来一叶轻。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "晚窗",
+            "kicker": "原创短诗",
+            "preset": "poetry"
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "title": "夜路",
+      "narration": "灯照归途远。月随行客明。",
+      "sourceQuote": "灯照归途远。月随行客明。",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "夜路",
+            "kicker": "原创短诗",
+            "preset": "poetry"
+          }
+        }
+      }
+    }
+  ]
+}

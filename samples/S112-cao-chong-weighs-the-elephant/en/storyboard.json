@@ -1,0 +1,434 @@
+{
+  "contractVersion": 3,
+  "title": "Cao Chong Weighs the Elephant",
+  "sourceTitle": "Cao Chong Weighs the Elephant, from the Records of the Three Kingdoms (a story for kids)",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "How Heavy Is an Elephant?",
+      "narration": "Hey kids, how heavy is an elephant? Long ago, there was no scale that big!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "hook",
+            "hookQuestion": "How heavy?",
+            "hookTiny": "Too small!",
+            "cueQuestion": "heavy",
+            "cueScale": "scale",
+            "title": "Cao Chong\nWeighs the Elephant",
+            "subtitle": "A little story from the Three Kingdoms",
+            "thinkQuestion": "What would you do?",
+            "thinkHints": [
+              "boat",
+              "water",
+              "stones"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "Cao Chong Weighs the Elephant",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.4
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "title",
+            "title": "Cao Chong\nWeighs the Elephant",
+            "subtitle": "A little story from the Three Kingdoms",
+            "hookQuestion": "How heavy?",
+            "hookTiny": "Too small!",
+            "thinkQuestion": "What would you do?",
+            "thinkHints": [
+              "boat",
+              "water",
+              "stones"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "gift",
+      "title": "A Gift of an Elephant",
+      "narration": "Long ago, someone gave Cao Cao an elephant. Wow, it was so big! Ears like fans, and legs like pillars. Cao Cao wondered: how heavy could it be?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "gift",
+            "wow": "Wow!",
+            "fanWord": "fans",
+            "pillarWord": "pillars",
+            "cueWow": "Wow",
+            "cueFan": "fans",
+            "cuePillar": "pillars",
+            "cueWonder": "Cao Cao wondered",
+            "tooHeavy": "Can't lift it!",
+            "nameTag": "Cao Chong",
+            "ageTag": "Age 5–6",
+            "idea": "I know how!"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "officials",
+      "title": "Too Heavy to Lift",
+      "narration": "The officials thought and thought. Build a giant scale? Way too big for anyone to lift!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "officials",
+            "tooHeavy": "Can't lift it!",
+            "cueThink": "thought",
+            "cueBig": "giant",
+            "cueHeavy": "lift",
+            "wow": "Wow!",
+            "fanWord": "fans",
+            "pillarWord": "pillars",
+            "nameTag": "Cao Chong",
+            "ageTag": "Age 5–6",
+            "idea": "I know how!"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "caochong",
+      "title": "I Know How!",
+      "narration": "In ran little Cao Chong, only five or six. \"I know how to do it!\"",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-court",
+          "props": {
+            "stage": "caochong",
+            "nameTag": "Cao Chong",
+            "ageTag": "Age 5–6",
+            "idea": "I know how!",
+            "cueName": "Cao Chong",
+            "cueIdea": "I know",
+            "wow": "Wow!",
+            "fanWord": "fans",
+            "pillarWord": "pillars",
+            "tooHeavy": "Can't lift it!"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "think",
+      "title": "Your Turn to Think",
+      "narration": "Hey kids, can you think of a way?",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-open",
+          "props": {
+            "stage": "think",
+            "thinkQuestion": "What would you do?",
+            "thinkHints": [
+              "boat",
+              "water",
+              "stones"
+            ],
+            "hookQuestion": "How heavy?",
+            "hookTiny": "Too small!",
+            "title": "Cao Chong\nWeighs the Elephant",
+            "subtitle": "A little story from the Three Kingdoms"
+          }
+        }
+      },
+      "hold": 1,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "load",
+      "title": "Step One",
+      "narration": "Step one: lead the elephant onto a big boat. Look, the boat sinks down low!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "load",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "cueSink": "sinks",
+            "cueLook": "Look",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "badgeUnload": "Step 3 · Elephant off",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "mark",
+      "title": "Step Two",
+      "narration": "Step two: draw a line right at the water.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "mark",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "cueDraw": "draw",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "badgeUnload": "Step 3 · Elephant off",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "unload",
+      "title": "Step Three",
+      "narration": "Step three: lead it off, and the boat rises.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "unload",
+            "badgeUnload": "Step 3 · Elephant off",
+            "cueFloat": "rises",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "stones",
+      "title": "Step Four",
+      "narration": "Step four: load stones, basket after basket. Slowly, the boat sinks closer to the line. It reaches the line! Stop, no more stones!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "stones",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "cueStones": [
+              "stones",
+              "basket",
+              "after"
+            ],
+            "cueReach": "reaches",
+            "cueStop": "Stop",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "badgeUnload": "Step 3 · Elephant off",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "weigh",
+      "title": "Weigh Them",
+      "narration": "Last, weigh each basket, then add them up.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "weigh",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones",
+            "cueWeigh": "weigh",
+            "cueSum": "add",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "badgeUnload": "Step 3 · Elephant off",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "equal",
+      "title": "Just as Heavy",
+      "narration": "The stones weigh the same as the elephant!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-river",
+          "props": {
+            "stage": "equal",
+            "stoneWord": "The stones",
+            "elephantWord": "The elephant",
+            "cueStoneSide": "stones",
+            "cueElephantSide": "elephant",
+            "badgeLoad": "Step 1 · Elephant on board",
+            "badgeMark": "Step 2 · Draw a line",
+            "markLabel": "Mark",
+            "badgeUnload": "Step 3 · Elephant off",
+            "badgeStones": "Step 4 · Load the stones",
+            "counter": "Basket {n}",
+            "reached": "At the line!",
+            "stop": "STOP",
+            "badgeWeigh": "Last · Weigh them",
+            "sumLabel": "All the stones"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "praise",
+      "title": "So Clever!",
+      "narration": "Cao Cao and everyone cheered: so clever!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-end",
+          "props": {
+            "stage": "praise",
+            "praise": "So clever!",
+            "cuePraise": "clever",
+            "moralLines": [
+              "When it's hard,",
+              "stay calm,",
+              "and try a new way!"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "moral",
+      "title": "Try Another Way",
+      "narration": "When it's hard, stay calm and try a new way. The answer might be right next to you!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "cc-end",
+          "props": {
+            "stage": "moral",
+            "moralLines": [
+              "When it's hard,",
+              "stay calm,",
+              "and try a new way!"
+            ],
+            "moralCues": [
+              "hard",
+              "calm",
+              "new way"
+            ],
+            "cueBulb": "answer",
+            "praise": "So clever!"
+          }
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

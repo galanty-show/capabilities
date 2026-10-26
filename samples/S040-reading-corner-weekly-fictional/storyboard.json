@@ -1,0 +1,121 @@
+{
+  "contractVersion": 3,
+  "title": "虚构阅读角周报",
+  "sourceTitle": "原创虚构样片原文",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "阅读角的一周",
+      "narration": "这是一组虚构的阅读角周报。窗口是周一到周日；每次到访算一次，不代表独立人数。先看本周，再对照前周。",
+      "sourceQuote": "这是一组虚构的阅读角周报。窗口是周一到周日；每次到访算一次，不代表独立人数。先看本周，再对照前周。",
+      "hold": 1.0,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "虚构数据 · 周一至周日",
+            "title": "阅读角的一周",
+            "subtitle": "同口径看变化"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "三项周指标",
+      "narration": "本周到访八十四次，前周七十二次；借出三十一册，前周二十八册；活动参与二十四人次，前周二十人次。单位不同，分别比较。",
+      "sourceQuote": "本周到访八十四次，前周七十二次；借出三十一册，前周二十八册；活动参与二十四人次，前周二十人次。单位不同，分别比较。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "本周与前周",
+            "metrics": [
+              {
+                "label": "到访",
+                "value": 84,
+                "unit": "次",
+                "compareTo": 72,
+                "comparisonLabel": "前周"
+              },
+              {
+                "label": "借出",
+                "value": 31,
+                "unit": "册",
+                "compareTo": 28,
+                "comparisonLabel": "前周"
+              },
+              {
+                "label": "活动参与",
+                "value": 24,
+                "unit": "人次",
+                "compareTo": 20,
+                "comparisonLabel": "前周"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "七天到访分布",
+      "narration": "七天到访依次是八、十、九、十二、十三、十五、十七次，合计八十四次。周末较高只是演示记录中的现象，不能推断原因。",
+      "sourceQuote": "七天到访依次是八、十、九、十二、十三、十五、十七次，合计八十四次。周末较高只是演示记录中的现象，不能推断原因。",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "week-bars",
+          "props": {
+            "heading": "七天合计 84 次",
+            "days": [
+              "一",
+              "二",
+              "三",
+              "四",
+              "五",
+              "六",
+              "日"
+            ],
+            "values": [
+              8,
+              10,
+              9,
+              12,
+              13,
+              15,
+              17
+            ],
+            "unit": "次"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "继续按同一口径",
+      "narration": "下周继续用同一口径记录，才能看变化是否延续。",
+      "sourceQuote": "下周继续用同一口径记录，才能看变化是否延续。",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "下一步",
+            "title": "持续记录",
+            "subtitle": "再判断变化是否延续"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S114",
+  "title": "后羿射日 · 讲给小朋友",
+  "titles": {
+    "zh": "后羿射日 · 讲给小朋友",
+    "en": "Hou Yi Shoots the Suns"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "hy-sky",
+    "hy-fusang",
+    "hy-land",
+    "hy-houyi",
+    "hy-end"
+  ],
+  "page": "https://galanty.cn/samples/#S114",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "1c52e16360f98c6a9aceb1a1187b86a24a738547c7648f92ae428c08538671f8",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "中国神话（《淮南子》《山海经》《楚辞》，公有领域）的儿童复述，旁白自写；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：中国神话（《淮南子》《山海经》《楚辞》，公有领域）的儿童复述，旁白自写；底图、配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-houyi",
+    "selection": "library:original-houyi",
+    "title": "Houyi Shoots the Suns",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Houyi Shoots the Suns — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S114/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original prompts (one full-length score and one opening cue); cut to the S114 timeline by tools/production/houyi-20261013/music_build.py (opening cue hit on the title, hero brass on Hou Yi's entrance, war-drum section under the volley, about 2 s of silence after the last arrow, gentle sections afterwards; 0.35 s equal-power crossfades on hard cuts, 260 Hz dip for the narrator), plus NumPy-synthesized sound effects (bowstring, arrow whistle, hit chime, gong, taiko, pops, slide whistle, crackle, rain, heat, wind, birdsong; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S114; other films will not hit its accents.",
+    "file": "music/houyi.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S114",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 250,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 29,
+      "durationSeconds": 94.259191,
+      "files": 30
+    },
+    {
+      "seedId": "S114-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Aoede",
+      "speechRate": 250,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Aoede），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Aoede); playback stays offline",
+      "sentences": 38,
+      "durationSeconds": 89.47167,
+      "files": 39
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6430,
+      "sha256": "9bef8bb66c7dd182f2af1bb439cffc108ac57b687594179a1f55947420325e3f",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4434,
+      "sha256": "2c5d9cf69570c757ed4d32b3bd8599589762d064fa5fe5131abb36938b42e595",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 6468,
+      "sha256": "1554722484254f1df4d90612d439a5ec80343ef34a67b1534980d27b2172d6ff",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 790,
+      "sha256": "9c68ce3317c4329dab1d88135d199cf06ebac97bbac5afe24d6ca4c8187dae4a",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 2232,
+      "sha256": "3a5743655035c8b2f191eba8aa807e3fce1e8595cd2c1cd4592344a00dd95933",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 15020,
+      "sha256": "204488fba83dde3d11cc5dc401d9a0c7d9368bf54a97cc9812146354324bbc78",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 791,
+      "sha256": "e0344cc54c0085e4426b95a8e17b71143db1d0f25f77b8c67ac8fb4a1e5d1ddd",
+      "license": "sample-content"
+    },
+    {
+      "path": "hy-sky.tsx",
+      "bytes": 51216,
+      "sha256": "6039c121f55dc89bfa7848e645db962265ec66565615040a435555714de8302c",
+      "license": "MIT"
+    },
+    {
+      "path": "hy-fusang.tsx",
+      "bytes": 54461,
+      "sha256": "eb80271e9200aa6734bca79c219fcc6ae0437be59fb9a6293664befcfea50d3a",
+      "license": "MIT"
+    },
+    {
+      "path": "hy-land.tsx",
+      "bytes": 42016,
+      "sha256": "3122ad99d15b318667bd4d016939d136672c0ccd904d57edab95b9510d2a16b1",
+      "license": "MIT"
+    },
+    {
+      "path": "hy-houyi.tsx",
+      "bytes": 77743,
+      "sha256": "6c25d833d4cb473876e8c3367dbac167417dba00234e031d4d51db48f79b29a6",
+      "license": "MIT"
+    },
+    {
+      "path": "hy-end.tsx",
+      "bytes": 48213,
+      "sha256": "5ba0ad89a89296820a4f0c13de3f268eb1fa68fe195b44a0c752235c9c0c8bee",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 17730,
+      "sha256": "4eb4ca37c61c44c027b455909bd38e8e848d1274656c9b3593f96faac46d7106",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 19195,
+      "sha256": "975bd2993087adda1ae9b23e71e42fa3ff4d85621978104c3ea7366bf1be782e",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 6016,
+      "sha256": "59a45f320896c9163d1aad98f9d7ab2bbf6779683451a4b17250a2910eee5ab6",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2706,
+      "sha256": "060c907f303e9a8b66826a23e0bab22cbc6e3f9917fbc5c6a22eec4034620520",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13229,
+      "sha256": "70173b5426daf0635035aff96e25ada11cd31c5c66e0bc5b43e916c4b3c6c5cc",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1960,
+      "sha256": "ab1b3d38aa3d8d001fa0f1f387a7a41c4fc921b62209dcf6f09bb888cbaf6f80",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S114.zip",
+    "bytes": 2602643,
+    "sha256": "04b5f536f42e3a2869a30e566c3f61b40bacb601d3fa26d002d904629210989d",
+    "format": "galanty-source-pack",
+    "contentDigest": "1c52e16360f98c6a9aceb1a1187b86a24a738547c7648f92ae428c08538671f8"
+  },
+  "inlineMedia": [
+    {
+      "source": "hy-sky.tsx",
+      "reference": "release-assets/cf7c0f9d8cb578139359cbf7ff5266eb4a9b8a8c3e96c86346400b99e7f84ad6.webp",
+      "mime": "image/webp",
+      "bytes": 78044,
+      "sha256": "cf7c0f9d8cb578139359cbf7ff5266eb4a9b8a8c3e96c86346400b99e7f84ad6"
+    },
+    {
+      "source": "hy-fusang.tsx",
+      "reference": "release-assets/673381abb323fc2a9563a6e2bc0ba7e503271f7cfedf5364bcc1bb6bed8fb637.webp",
+      "mime": "image/webp",
+      "bytes": 75380,
+      "sha256": "673381abb323fc2a9563a6e2bc0ba7e503271f7cfedf5364bcc1bb6bed8fb637"
+    },
+    {
+      "source": "hy-land.tsx",
+      "reference": "release-assets/9053df2015332e3366964dca7563b649bf8525f348279fc20ee8acaf21736628.webp",
+      "mime": "image/webp",
+      "bytes": 92658,
+      "sha256": "9053df2015332e3366964dca7563b649bf8525f348279fc20ee8acaf21736628"
+    },
+    {
+      "source": "hy-land.tsx",
+      "reference": "release-assets/f99135ef4ed93236efbb4d3c78d806bf8b40402a369afdf60c4ab1f6ec6cc9c7.webp",
+      "mime": "image/webp",
+      "bytes": 132000,
+      "sha256": "f99135ef4ed93236efbb4d3c78d806bf8b40402a369afdf60c4ab1f6ec6cc9c7"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/bfe5e81f3cf277203938b12b76fe954fad8f0db6b81edfdd9c763af68b92418a.webp",
+      "mime": "image/webp",
+      "bytes": 59264,
+      "sha256": "bfe5e81f3cf277203938b12b76fe954fad8f0db6b81edfdd9c763af68b92418a"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/7a7ba9a9de1d54943374831f1f8870a8c760ba7d4efc7cc06c685b59d91eb5a0.webp",
+      "mime": "image/webp",
+      "bytes": 33408,
+      "sha256": "7a7ba9a9de1d54943374831f1f8870a8c760ba7d4efc7cc06c685b59d91eb5a0"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/23cd4b50f9262de8dc8c23e23fc4690c729b1fcb9bfc5d956c181f30915cc669.webp",
+      "mime": "image/webp",
+      "bytes": 65738,
+      "sha256": "23cd4b50f9262de8dc8c23e23fc4690c729b1fcb9bfc5d956c181f30915cc669"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/580d30b314a6334f553a788897955aced48f3cf2f892286a4ae4a16f9808ec7c.webp",
+      "mime": "image/webp",
+      "bytes": 22622,
+      "sha256": "580d30b314a6334f553a788897955aced48f3cf2f892286a4ae4a16f9808ec7c"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/b05be585fecb05de5cc8a3016978bdf054ad40258c968dcec3648b8891a9e1e4.webp",
+      "mime": "image/webp",
+      "bytes": 59636,
+      "sha256": "b05be585fecb05de5cc8a3016978bdf054ad40258c968dcec3648b8891a9e1e4"
+    },
+    {
+      "source": "hy-houyi.tsx",
+      "reference": "release-assets/c73415e154b1e9c693503204556bd1289f9957c300d9661671fee756976ce508.webp",
+      "mime": "image/webp",
+      "bytes": 50824,
+      "sha256": "c73415e154b1e9c693503204556bd1289f9957c300d9661671fee756976ce508"
+    },
+    {
+      "source": "hy-end.tsx",
+      "reference": "release-assets/d6043521b9a03da483a1ef6c4a47ef85a1934421e85640fb790bad88c53951c6.webp",
+      "mime": "image/webp",
+      "bytes": 92656,
+      "sha256": "d6043521b9a03da483a1ef6c4a47ef85a1934421e85640fb790bad88c53951c6"
+    }
+  ]
+}

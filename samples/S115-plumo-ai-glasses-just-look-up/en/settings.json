@@ -1,0 +1,41 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "aspectPreset": "9:16",
+  "platform": "douyin",
+  "targetSeconds": 43,
+  "maxDurationSeconds": 60,
+  "narration": true,
+  "voice": "Aoede",
+  "speechRate": 250,
+  "sentenceGapSeconds": 0.12,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicFile": "library:original-plumo-heads-up",
+  "musicVolume": 0.5,
+  "musicDuckDb": -2,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#05070a",
+    "text": "#f2f6f7",
+    "accent": "#46f0c0",
+    "muted": "#8a96a3"
+  }
+}

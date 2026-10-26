@@ -1,0 +1,155 @@
+{
+  "contractVersion": 3,
+  "title": "Fold Lamp: Light Right on the Page",
+  "sourceTitle": "Fold Lamp: a fictional product demo",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "First, a crowded desk",
+      "narration": "There’s barely any room left to read. The lamp hogs a corner, leaving the page dim. Bring the light closer and the desk fills up.",
+      "sourceQuote": "There’s barely any room left to read. The lamp hogs a corner, leaving the page dim. Bring the light closer and the desk fills up.",
+      "hold": 2.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "fold-lamp",
+          "props": {
+            "phase": "before",
+            "eyebrow": "01 / Before",
+            "headline": "The light misses the book",
+            "detail": "Lamp in the corner · shadow on the page",
+            "beforeTags": [
+              "Lamp in corner",
+              "Shaded page"
+            ],
+            "formTags": [
+              "Slim base",
+              "Folding arm"
+            ],
+            "useTags": [
+              "Slide to book",
+              "Turn the knob"
+            ],
+            "afterTags": [
+              "Panel folded",
+              "Room for a mug"
+            ],
+            "footer": "Fictional product demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "A desk lamp that folds",
+      "narration": "Fold Lamp tucks its arm into a slim base. Open it, and the panel swings forward. Closed, it sits at the edge, off your page.",
+      "sourceQuote": "Fold Lamp tucks its arm into a slim base. Open it, and the panel swings forward. Closed, it sits at the edge, off your page.",
+      "hold": 2.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "fold-lamp",
+          "props": {
+            "phase": "form",
+            "eyebrow": "02 / Design",
+            "headline": "Open to light, fold to store",
+            "detail": "Slim base · swivel arm · warm panel",
+            "beforeTags": [
+              "Lamp in corner",
+              "Shaded page"
+            ],
+            "formTags": [
+              "Slim base",
+              "Folding arm"
+            ],
+            "useTags": [
+              "Slide to book",
+              "Turn the knob"
+            ],
+            "afterTags": [
+              "Panel folded",
+              "Room for a mug"
+            ],
+            "footer": "Fictional product demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Put the light where you need it",
+      "narration": "Slide the base up beside your book. Lift the arm and turn the orange knob. Warm light falls on your page and notebook. If you shift in your seat, nudge the panel.",
+      "sourceQuote": "Slide the base up beside your book. Lift the arm and turn the orange knob. Warm light falls on your page and notebook. If you shift in your seat, nudge the panel.",
+      "hold": 3,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "fold-lamp",
+          "props": {
+            "phase": "use",
+            "eyebrow": "03 / Two steps",
+            "headline": "Slide, lift, turn",
+            "detail": "Light lands where you read and write",
+            "beforeTags": [
+              "Lamp in corner",
+              "Shaded page"
+            ],
+            "formTags": [
+              "Slim base",
+              "Folding arm"
+            ],
+            "useTags": [
+              "Slide to book",
+              "Turn the knob"
+            ],
+            "afterTags": [
+              "Panel folded",
+              "Room for a mug"
+            ],
+            "footer": "Fictional product demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "After reading, a calm desk",
+      "narration": "When you’re done, fold the panel back. There’s room for your mug again. Next time, book, pen and light all fit again.",
+      "sourceQuote": "When you’re done, fold the panel back. There’s room for your mug again. Next time, book, pen and light all fit again.",
+      "hold": 2.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "fold-lamp",
+          "props": {
+            "phase": "after",
+            "eyebrow": "04 / After",
+            "headline": "Room for what you’re doing",
+            "detail": "Book · pen · mug, each in its place",
+            "beforeTags": [
+              "Lamp in corner",
+              "Shaded page"
+            ],
+            "formTags": [
+              "Slim base",
+              "Folding arm"
+            ],
+            "useTags": [
+              "Slide to book",
+              "Turn the knob"
+            ],
+            "afterTags": [
+              "Panel folded",
+              "Room for a mug"
+            ],
+            "footer": "Fictional product demo"
+          }
+        }
+      }
+    }
+  ]
+}

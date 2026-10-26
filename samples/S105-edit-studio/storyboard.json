@@ -1,0 +1,169 @@
+{
+  "contractVersion": 3,
+  "title": "改一个字，接着播",
+  "subtitle": "124 BPM 卡点宣传片 · 原创配乐《Play On》",
+  "sourceTitle": "文影宣传片创作说明（原创）",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "开场：又要等一遍？",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-open",
+          "props": {
+            "bar0": 0,
+            "f0": 0
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.8663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "library",
+      "title": "铺垫：样片库悬停即播",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-library",
+          "props": {
+            "bar0": 2,
+            "f0": 116
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "live",
+      "title": "Drop A：即时预览",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-live",
+          "props": {
+            "bar0": 6,
+            "f0": 348
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 15.4997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "assets",
+      "title": "间奏：素材管理",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-assets",
+          "props": {
+            "bar0": 14,
+            "f0": 813
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "edit",
+      "title": "铺垫二：定位这一秒，改一个字",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-edit",
+          "props": {
+            "bar0": 18,
+            "f0": 1045
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Drop B：同一秒，接着播",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-resume",
+          "props": {
+            "bar0": 22,
+            "f0": 1277
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "deliver",
+      "title": "Drop B：交付与三件事",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-deliver",
+          "props": {
+            "bar0": 26,
+            "f0": 1510
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

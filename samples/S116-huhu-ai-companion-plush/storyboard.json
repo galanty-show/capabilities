@@ -1,0 +1,162 @@
+{
+  "contractVersion": 3,
+  "title": "呼呼 · AI 陪伴玩偶宣传片",
+  "sourceTitle": "絮光呼呼 AI 陪伴玩偶（虚构品牌）产品宣传片",
+  "scenes": [
+    {
+      "id": "whisper",
+      "title": "睡前悄悄话",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.6
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-night",
+          "props": {
+            "mode": "whisper"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "hello",
+      "title": "眼睛亮了",
+      "narration": "我在呢，今晚想听什么故事？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-night",
+          "props": {
+            "mode": "hello",
+            "clock": 1.6
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "story",
+      "title": "睡前故事",
+      "narration": "呼呼的睡前故事，每晚都不一样。小兔子推开门，门外有什么呢？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-story",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "english",
+      "title": "陪练英语",
+      "narration": "陪你练英语，说错了也不笑你。Apple！说得真棒！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-english",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "memory",
+      "title": "记得小事",
+      "narration": "它记得你的生日，还记得你掉了第一颗牙。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-memory",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "comfort",
+      "title": "难过的时候",
+      "narration": "不开心的时候，它会安静地听你说完。要不要，去抱抱妈妈？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-comfort",
+          "props": {}
+        }
+      },
+      "hold": 1.0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "parent",
+      "title": "家长放心",
+      "narration": "家长在手机上，能设时长，也能看聊天记录。到点了，它会说晚安。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-parent",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "hero",
+      "title": "抱着刚刚好",
+      "narration": "亲肤短绒，抱着刚刚好；充一次电，能聊六个小时；外套拆下来，就能洗。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-hero",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "end",
+      "title": "听你说，陪你长大",
+      "narration": "呼呼，听你说，陪你长大。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "hh-end",
+          "props": {}
+        }
+      },
+      "hold": 1.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

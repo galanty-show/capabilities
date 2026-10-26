@@ -1,0 +1,39 @@
+{
+  "no": "S033",
+  "title": "抛体运动：三种角度谁飞得远",
+  "titles": {
+    "zh": "抛体运动：三种角度谁飞得远",
+    "en": "Projectile Motion: Which Angle Flies Farthest?"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "projectile"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-calm-current-78",
+    "selection": "library:generated-calm-current-78",
+    "title": "Calm Current 78",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 78 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120402",
+    "modifications": null,
+    "file": "music/generated-calm-current-78.mp3",
+    "bundled": true
+  },
+  "page": "https://galanty.cn/samples/#S033"
+}

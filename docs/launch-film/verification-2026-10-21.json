@@ -1,0 +1,198 @@
+{
+  "verifiedAt": "2026-10-21T04:56:30.070300+00:00",
+  "branch": "skill/launch-pack",
+  "status": "Local media and installation checks passed; founder acceptance pending. No push/publication.",
+  "versions": {
+    "node": "25.6.1",
+    "remotion": "4.0.523",
+    "chrome": "149.0.7790.0",
+    "ffmpeg": "8.0.1"
+  },
+  "films": [
+    {
+      "language": "zh",
+      "movie": "zh/promo.mp4",
+      "sha256": "ab27ff5e7b5e1fa61bbb2c5b5124bfa5e47dd326f48c1cdccf49b0997ca39942",
+      "bytes": 4250630,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "seconds": 30,
+      "frames": 900,
+      "renderFingerprint": "37982211b609609b25c7eeca8386e487bbc77f0d0e0954ad262da047c0000301",
+      "renderPort": 4397,
+      "pid": 7622,
+      "checkPassed": true,
+      "matchedDecodedRgbaFrames": 900,
+      "sampledPngMatches": 9,
+      "fontsLoaded": true,
+      "missingGlyphs": [],
+      "audio": {
+        "integratedLufs": -14.05,
+        "truePeakDbtp": -1.92
+      },
+      "cutResidualMedianMs": 8.33333333333286,
+      "decodedDropOnsetMedianMs": 1.2499999999988631,
+      "decodedDropMatchedBeatRatio": 1,
+      "warnings": [
+        {
+          "code": "LOW_VISIBLE_SUBJECT_COVERAGE",
+          "severity": "advisory",
+          "threshold": 0.25,
+          "lowCoverageFrames": 290,
+          "minimumCoverage": 0.14930555555555555,
+          "message": "290/900 decoded frames have estimated subject-region coverage below 25%. Enlarge readable content if appropriate; transitions and intentional negative space may be valid. This recommendation does not fail check."
+        }
+      ],
+      "frameContactSheet": "zh/contact-sheet.png",
+      "localReferenceComparison": "zh/reference-comparison.png",
+      "timingsFinalRunSeconds": {
+        "total": 145.493410666,
+        "pictureRender": 60.409749166999994,
+        "check": 77.61846300000002
+      },
+      "aiTokens": null
+    },
+    {
+      "language": "en",
+      "movie": "en/promo.mp4",
+      "sha256": "1784c1e0d4efbb6519d2316b7f852bddeef8565e0a28c20c672925d72c0b0907",
+      "bytes": 4203340,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "seconds": 30,
+      "frames": 900,
+      "renderFingerprint": "c5f1d5a903887ef4d7318a68b3eeaa73bf8c603eb1a52ba1ba5b82a2be69b8ed",
+      "renderPort": 4397,
+      "pid": 7622,
+      "checkPassed": true,
+      "matchedDecodedRgbaFrames": 900,
+      "sampledPngMatches": 9,
+      "fontsLoaded": true,
+      "missingGlyphs": [],
+      "audio": {
+        "integratedLufs": -14.05,
+        "truePeakDbtp": -1.92
+      },
+      "cutResidualMedianMs": 8.33333333333286,
+      "decodedDropOnsetMedianMs": 1.2499999999988631,
+      "decodedDropMatchedBeatRatio": 1,
+      "warnings": [
+        {
+          "code": "LOW_VISIBLE_SUBJECT_COVERAGE",
+          "severity": "advisory",
+          "threshold": 0.25,
+          "lowCoverageFrames": 59,
+          "minimumCoverage": 0.16493055555555555,
+          "message": "59/900 decoded frames have estimated subject-region coverage below 25%. Enlarge readable content if appropriate; transitions and intentional negative space may be valid. This recommendation does not fail check."
+        }
+      ],
+      "frameContactSheet": "en/contact-sheet.png",
+      "localReferenceComparison": "en/reference-comparison.png",
+      "timingsFinalRunSeconds": {
+        "total": 139.83005837499996,
+        "pictureRender": 56.430456041999975,
+        "check": 76.68874770800004
+      },
+      "aiTokens": null
+    }
+  ],
+  "rasterRegression": {
+    "concurrency": 4,
+    "dialogueAndCode": {
+      "sourceFrames": [
+        169,
+        393
+      ],
+      "compared": 225,
+      "matched": 225
+    },
+    "introAndImpact": {
+      "sourceFrames": [
+        0,
+        168
+      ],
+      "compared": 169,
+      "matched": 169
+    },
+    "mechanism": "Observed text/SVG edge differences depended on rendering history; browser-internal mechanism is inferred, not established by a Skia trace. Static clear UI copy, native SVG rounded rects and static mark containers removed observed differences."
+  },
+  "tests": {
+    "toolkitFull": {
+      "command": "node --test --test-concurrency=4 --test-timeout=300000 \"tests/*.test.mjs\"",
+      "cwd": "tools/galanty-launch",
+      "passed": 56,
+      "failed": 0,
+      "skipped": 0
+    },
+    "distributionAndCreator": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "cwd": "tools/galanty-launch",
+      "passed": true
+    },
+    "desktopTypecheck": {
+      "passed": false,
+      "status": "unavailable in this public checkout",
+      "command": "npx tsc -p desktop --noEmit",
+      "actualDiagnostic": "TS5058: desktop path does not exist"
+    },
+    "sizeAssert": {
+      "passed": false,
+      "status": "unavailable in this public checkout",
+      "command": "npm run size:assert",
+      "actualDiagnostic": "Missing script: size:assert"
+    },
+    "budgetsOrDeliveryThresholdsRelaxed": false,
+    "publicBoundary": {
+      "passed": true,
+      "files": 219,
+      "method": "Source candidate snapshot from git tracked and unignored files; no generated outputs, caches or private paths."
+    }
+  },
+  "manualReview": {
+    "allNineFramesInspected": {
+      "zh": true,
+      "en": true
+    },
+    "bothLocalReferenceComparisonsInspected": true,
+    "subjectCoverageAdvisory": "Intentional negative space in brand and impact shots; recommendations retained, not suppressed.",
+    "subjectiveAudioReview": "not verified",
+    "installedAppOrQaOperated": false,
+    "realAppSeekOrPerformanceVerified": false,
+    "productionScreencast": "not recorded; film UI is code-drawn, not real App footage",
+    "founderApproval": "pending",
+    "browserPlaybackObserved": {
+      "zh": "Initial preview played to 30s; final nine frames inspected after raster fixes.",
+      "en": "Final delivered MP4 observed playing from 0 to 30s."
+    }
+  },
+  "distribution": {
+    "report": "../distribution/verification-2026-10-21.json",
+    "localMethodsPassed": 3,
+    "packageSha256": "1fcdc464b56c6ef34f5071a496393dcae1e68beb9560b116c20946a51c187233",
+    "packageBytes": 2330599,
+    "remoteSkillInstall": "not verified; remote list in this run lacked galanty-launch",
+    "npmPublished": false
+  },
+  "productionUsage": {
+    "aiTokens": null,
+    "reason": "No per-film token telemetry; development conversation excluded. No jobs/ai.log records in this standalone workflow.",
+    "voiceOver": "none",
+    "music": "local deterministic synthesis",
+    "timingScope": "Final successful local render/check round only; not initial end-to-end production, does not cover prior retries or unrecorded script authoring."
+  },
+  "processes": {
+    "finalFilmPid": 7622,
+    "previewHttpServerPid": 71911,
+    "previewHttpPort": 4396,
+    "renderPort": 4397,
+    "probePort": 4398,
+    "cleanup": "Verified: film PID 7622 and probe PID 88355 exited; HTTP PID 71911 terminated; no listeners on 4396/4397/4398."
+  }
+}

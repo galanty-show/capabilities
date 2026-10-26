@@ -1,0 +1,162 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S125",
+  "title": "栖光 2 · 发布预告",
+  "titles": {
+    "zh": "栖光 2 · 发布预告",
+    "en": "Qiguang 2 · Release Teaser"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "gh-release-teaser"
+  ],
+  "page": "https://galanty.cn/samples/#S125",
+  "version": {
+    "commit": "edd30dcf7975e781754a2686904aae8e728645f8",
+    "contentDigest": "c21215daf0208c12f0e01b35c0456b6d44970c07ac6cf409eaa63d326c335e7d",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "改编自 GitHub remocn 的 ReleaseTeaser 模板（MIT，提交 fd2d3010a818，Copyright (c) 2026 Remocn）；品牌为虚构，文字原创；配乐原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：改编自 GitHub remocn 的 ReleaseTeaser 模板（MIT，提交 fd2d3010a818，Copyright (c) 2026 Remocn）；品牌为虚构，文字原创；配乐原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-gh-release-teaser",
+    "selection": "library:original-gh-release-teaser",
+    "title": "Qiguang Teaser",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Qiguang Teaser — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S125/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (tools/production/github-remotion-20261013/s125-release-teaser/music-prompt.txt, take score-s125b); cut from 1.55 s so the strongest onset lands on the release reveal (10.18 s); NumPy-synthesized glass plucks on the five statements, a reverse swell, a low impact and a chime on the reveal; no third-party recordings or samples; encoded to 40 kbps MP3, 48 kHz stereo. Timed to sample S125; other films will not hit its accents.",
+    "file": "music/gh-release-teaser.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5814,
+      "sha256": "31482b231187ad892d34155eb02eb446c69d5e966a0447860a44a5a348a5f8a1",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2621,
+      "sha256": "852d70b08a88fcf315bfe1f13665caea2e99a721a9149f48ad89ada1b0f86b72",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3400,
+      "sha256": "0a9d94719686c467d146f9979d37e2b27eef1eed89d081f3844d5607d301dab3",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 393,
+      "sha256": "327304a966b4001d8a73e405e86ec94ed30e5331db6e06bd53c343c03a6a06da",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1002,
+      "sha256": "f228163985c90e864bc17801f73ec4d11376f96c8c984b993469a65bc9560e6e",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 3363,
+      "sha256": "c69b1835d3417fd58b4fcbcd54fd7b68e15b5f1000beab6e3bfa5f3e45dbdec0",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 413,
+      "sha256": "98234b298163b6d03299496d5d40443376aeeede0f916e79e0a1c8c84336aa4d",
+      "license": "sample-content"
+    },
+    {
+      "path": "gh-release-teaser.tsx",
+      "bytes": 13617,
+      "sha256": "683a68f11a8fea35b6895ddbee0860353b41bf4c58ffa665d72e4977ad3dd531",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 3295,
+      "sha256": "bf20517928537912263f8d2571e1ddd296f32d02a29b2130ddfe4bfe29b1faf6",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 4045,
+      "sha256": "28dcdb236a93f5ee794d6e6335add4fd4dd49ff1aea9d591008def6b929a7f1e",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE.upstream.txt",
+      "bytes": 1063,
+      "sha256": "9045ed59114eee12264c0d551288d4ab0f77893c1fc211283410c5c24cc579c6",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2083,
+      "sha256": "44ab36abdef6154d81963d1a0a0910eb8ed00361cbf4759420253cf9fd01fc12",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 4624,
+      "sha256": "1182506ae78dfdb5a6e8982f07b50bb8caac197977534c2d16ad8a9311721164",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1951,
+      "sha256": "46ba318a52a8c4e1808f4214a4bdd49eb1d751a5b804080143aa6a0e21904992",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S125.zip",
+    "bytes": 151607,
+    "sha256": "2548faad2626c0652bc3115fb6247c8f1b4da689ada6b3e7daa03b9fa138fd28",
+    "format": "galanty-source-pack",
+    "contentDigest": "c21215daf0208c12f0e01b35c0456b6d44970c07ac6cf409eaa63d326c335e7d"
+  },
+  "inlineMedia": []
+}

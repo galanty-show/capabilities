@@ -1,0 +1,239 @@
+{
+  "contractVersion": 3,
+  "title": "书架小程序 · 第 12 周迭代回顾",
+  "subtitle": "改编自 claude-code-video-toolkit hello-world（MIT）· 无旁白讲解片",
+  "sourceTitle": "claude-code-video-toolkit SprintReview 改编说明",
+  "scenes": [
+    {
+      "id": "title",
+      "title": "标题：书架小程序 · 第 12 周",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 0,
+            "f0": 0,
+            "logoChar": "书",
+            "product": "书架小程序",
+            "sprintLabel": "迭代回顾",
+            "sprintName": "第 12 周",
+            "dateRange": "10 月 6 日 – 10 月 12 日",
+            "platform": "移动端 · v1.4"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "overview",
+      "title": "概览：本周做了什么",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 1,
+            "f0": 142,
+            "overviewEyebrow": "迭代概览",
+            "overviewTitle": "本周做了什么",
+            "items": [
+              {
+                "text": "借书流程",
+                "highlight": "两步完成"
+              },
+              {
+                "text": "到期提醒",
+                "highlight": "按天推送"
+              },
+              {
+                "text": "读屏",
+                "highlight": "全页可用"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 9.5997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "demo",
+      "title": "演示：扫码借书",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 2,
+            "f0": 430,
+            "demoLabel": "演示：扫码借书",
+            "demoRef": "需求 #142",
+            "steps": [
+              "扫描书背条形码",
+              "核对书目信息",
+              "确认借阅",
+              "记下还书日期"
+            ],
+            "scanHint": "将书背条形码放入框内",
+            "bookTitle": "夏天的图书馆",
+            "bookShelf": "B 区 3 架",
+            "bookStock": "可借 2 本",
+            "confirmText": "确认借阅",
+            "loanTerm": "借期 14 天 · 可续借 1 次",
+            "successText": "借阅成功",
+            "dueText": "还书日期 10 月 26 日",
+            "loanNote": "到期前一天会提醒你"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.1997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "summary",
+      "title": "总结：本周数字",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 3,
+            "f0": 646,
+            "summaryEyebrow": "迭代完成",
+            "summaryTitle": "本周数字",
+            "stats": [
+              {
+                "value": 37,
+                "unit": "",
+                "label": "任务完成"
+              },
+              {
+                "value": 2,
+                "unit": "步",
+                "label": "借完一本书"
+              },
+              {
+                "value": 100,
+                "unit": "%",
+                "label": "页面读屏可用"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.7997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "summary-hold",
+      "title": "总结：数字落定停留",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 4,
+            "f0": 790,
+            "summaryEyebrow": "迭代完成",
+            "summaryTitle": "本周数字",
+            "stats": [
+              {
+                "value": 37,
+                "unit": "",
+                "label": "任务完成"
+              },
+              {
+                "value": 2,
+                "unit": "步",
+                "label": "借完一本书"
+              },
+              {
+                "value": 100,
+                "unit": "%",
+                "label": "页面读屏可用"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.3997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "credits",
+      "title": "致谢",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-sprint-review",
+          "props": {
+            "shot": 5,
+            "f0": 862,
+            "creditsTitle": "致谢",
+            "product": "书架小程序",
+            "credits": [
+              {
+                "category": "参与",
+                "names": "产品 · 设计 · 前端 · 测试"
+              },
+              {
+                "category": "下周",
+                "names": "预约到馆 · 借阅历史"
+              },
+              {
+                "category": "制作",
+                "names": "Claude Code · 文影"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.7997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

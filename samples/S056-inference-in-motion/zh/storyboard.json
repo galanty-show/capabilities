@@ -1,0 +1,131 @@
+{
+  "contractVersion": 3,
+  "title": "推理进行时",
+  "sourceTitle": "根据一句话创意简报的原创演绎；不含任何产品事实陈述",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "此刻",
+      "narration": "灵感刚到，世界从不等人。",
+      "sourceQuote": "灵感刚到，世界从不等人。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "now",
+            "nowLabel": "智能 / 实时",
+            "nowTitle": "此刻",
+            "nowMark": "。",
+            "nowSubtitle": "这一刻，已经在动。"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "实时信号",
+      "narration": "实时信号，化作聪明的回应。",
+      "sourceQuote": "实时信号，化作聪明的回应。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "signals",
+            "signalsLabel": "01 / 实时信号",
+            "signalTitle": "信号",
+            "signalAccent": "入。",
+            "responseTitle": "回应",
+            "responseAccent": "出。"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "可能性",
+      "narration": "一个问题，打开千万种可能。",
+      "sourceQuote": "一个问题，打开千万种可能。",
+      "hold": 1.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "question",
+            "questionLabel": "02 / 可能性",
+            "questionTitle": "下一步",
+            "questionMark": "？"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "下一步",
+      "narration": "下一步，在流动中成形。",
+      "sourceQuote": "下一步，在流动中成形。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "next",
+            "nextLabel": "03 / 下一步",
+            "nextTitle": "正在",
+            "nextAccent": "成形。",
+            "nextSubtitle": "答案，变成行动。"
+          }
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "title": "动势",
+      "narration": "为动势而造，让人一直留在心流里。",
+      "sourceQuote": "为动势而造，让人一直留在心流里。",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "flow",
+            "flowLabel": "04 / 动势",
+            "flowTitle": "保持",
+            "flowAccent": "心流。"
+          }
+        }
+      }
+    },
+    {
+      "id": "s6",
+      "title": "片尾",
+      "narration": "推理，进行时。",
+      "sourceQuote": "推理，进行时。",
+      "hold": 2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "inference-film",
+          "props": {
+            "phase": "end",
+            "finalTitle": "推理",
+            "finalMark": "。",
+            "finalSubtitle": "进行时"
+          }
+        }
+      }
+    }
+  ]
+}

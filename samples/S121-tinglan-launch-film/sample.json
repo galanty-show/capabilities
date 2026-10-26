@@ -1,0 +1,46 @@
+{
+  "no": "S121",
+  "title": "听澜纪要 · 发布片",
+  "titles": {
+    "zh": "听澜纪要 · 发布片",
+    "en": "Tinglan · Launch Film"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "tl-hook",
+    "tl-problem",
+    "tl-concept",
+    "tl-workflow",
+    "tl-metric",
+    "tl-cta",
+    "tl-brand"
+  ],
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub heygen-com/hyperframes（提交 23d1fe5b，Apache-2.0，Copyright 2026 HeyGen, Inc.）的发布片分段范例；产品“听澜纪要”、文案、标志与图标为原创虚构，未用上游任何商标或素材",
+    "verified": true
+  },
+  "music": {
+    "id": "original-play-on",
+    "selection": "library:original-play-on",
+    "title": "Play On",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Play On — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S105/music/synth.py",
+    "modifications": "Synthesized by templates/samples/talkframe-promos/edit-studio/music/synth.py (numpy/scipy, 48 kHz WAV), then encoded to 64 kbps MP3, 48 kHz stereo; no samples, no third-party audio.",
+    "file": "music/play-on.mp3",
+    "bundled": true
+  },
+  "note": "改编自 HyperFrames 主仓库 skills/hyperframes-animation/examples（Apache-2.0，上游 LICENSE 原文在样片目录）。无旁白卡点片：七段按随包配乐《Play On》（124 BPM，CC0）乐句排时，节拍写在幕代码里，换曲或调节奏后不再对齐。纯配乐按默认床乐音量混音偏轻。正文约 50.3 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S121"
+}

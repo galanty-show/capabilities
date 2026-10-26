@@ -1,0 +1,28 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 68,
+  "maxDurationSeconds": 80,
+  "narration": true,
+  "voice": "english_storyteller",
+  "speechRate": 230,
+  "tts": {
+    "engine": "mlx-qwen",
+    "fallback": false
+  },
+  "brandOutro": "off",
+  "musicFile": "library:original-luobi",
+  "musicVolume": 0.5,
+  "musicDuckDb": -8,
+  "captionStyle": "clean",
+  "sentenceGapSeconds": 0.25,
+  "concurrency": 3,
+  "theme": {
+    "background": "#EEE6D3",
+    "accent": "#B8372A",
+    "text": "#15130F",
+    "muted": "#6D655A"
+  },
+  "sentencePauses": {}
+}

@@ -1,0 +1,38 @@
+{
+  "no": "S106",
+  "title": "Fix a word. Play on.",
+  "language": "en",
+  "ratio": "16:9",
+  "category": "文影介绍",
+  "templates": [],
+  "modules": [
+    "tf-open",
+    "tf-library",
+    "tf-live",
+    "tf-assets",
+    "tf-edit",
+    "tf-resume",
+    "tf-deliver"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "original-play-on",
+    "selection": "library:original-play-on",
+    "title": "Play On",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Play On — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S105/music/synth.py",
+    "modifications": "Synthesized by templates/samples/talkframe-promos/edit-studio/music/synth.py (numpy/scipy, 48 kHz WAV), then encoded to 64 kbps MP3, 48 kHz stereo; no samples, no third-party audio.",
+    "file": "music/play-on.mp3",
+    "bundled": true
+  },
+  "note": "S105 的英文版。无旁白卡点片：即时预览、精确修改、素材管理。配乐《Play On》为本片原创代码合成（124 BPM，随包曲库 library:original-play-on，CC0），节拍写在幕代码里：换曲或在即时播放里调节奏后拍点不再对齐。幕代码读 theme，播放页换配色会生效。正文约 58 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S106"
+}

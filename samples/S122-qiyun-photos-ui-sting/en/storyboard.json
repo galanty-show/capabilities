@@ -1,0 +1,192 @@
+{
+  "contractVersion": 3,
+  "title": "Qiyun Photos · UI Sting",
+  "subtitle": "Adapted from the HyperFrames launch template 01-ui-sting (Apache-2.0)",
+  "sourceTitle": "Qiyun Photos (fictional product) UI sting · making-of notes",
+  "scenes": [
+    {
+      "id": "lockup",
+      "title": "A · Logo pops in",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-lockup",
+          "props": {
+            "f0": 0,
+            "brandName": "Qiyun Photos"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.1663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "signin",
+      "title": "B · Sign-in card",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-signin",
+          "props": {
+            "f0": 35,
+            "cardTitle": "Sign in to Qiyun",
+            "passwordHint": "Password",
+            "continueLabel": "Continue",
+            "signupLabel": "Create account"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.233
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "email",
+      "title": "C · Typing the account",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-email",
+          "props": {
+            "f0": 72,
+            "cardTitle": "Sign in to Qiyun",
+            "passwordHint": "Password",
+            "continueLabel": "Continue",
+            "signupLabel": "Create account"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.3663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "count",
+      "title": "D · One key number",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-count",
+          "props": {
+            "f0": 113,
+            "metricLabel": "Photos organized",
+            "metricSub": "from 42 albums",
+            "primaryLabel": "Make a memory",
+            "secondaryLabel": "Share"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.3663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "nav",
+      "title": "E · Nav and highlight",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-nav",
+          "props": {
+            "f0": 154,
+            "navItems": [
+              "Home",
+              "Memories",
+              "People & Pets",
+              "Places",
+              "Shared albums"
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "create",
+      "title": "F · Create something new",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-create",
+          "props": {
+            "f0": 209,
+            "createLabel": "New",
+            "menuItems": [
+              "Collage",
+              "Timeline album",
+              "Memory video",
+              "Shared album"
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.1663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "endcard",
+      "title": "G · End card",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-endcard",
+          "props": {
+            "f0": 304,
+            "taglineA": "Your days,",
+            "taglineB": "kept with care.",
+            "brandName": "Qiyun Photos"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.1997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 110,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "Algenib",
+  "speechRate": 242,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/john-henry-20261013/tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -8,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#14100d",
+    "text": "#efe3c8",
+    "accent": "#c2502e",
+    "muted": "#a8977c"
+  },
+  "musicFile": "library:original-john-henry"
+}

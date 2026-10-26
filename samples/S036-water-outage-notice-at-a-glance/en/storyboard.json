@@ -1,0 +1,131 @@
+{
+  "contractVersion": 3,
+  "title": "Water Outage Notice at a Glance",
+  "sourceTitle": "A fictional community water outage notice",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "First, note the time",
+      "narration": "This is a fictional notice. East District water is off Saturday, 9 to 12.",
+      "sourceQuote": "This is a fictional notice. East District water is off Saturday, 9 to 12.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "water-notice",
+          "props": {
+            "phase": "time",
+            "headline": "09:00—12:00",
+            "detail": "This Saturday · planned outage",
+            "eyebrow": "Community notice / fictional sample",
+            "resumeNote": "Estimated time; the official notice prevails",
+            "timeLabel": "Planned outage · 3 hours",
+            "buildingLabels": [
+              "1",
+              "2",
+              "3",
+              "W"
+            ],
+            "scopeLabel": "East District affected",
+            "confirmationLabel": "Not yet confirmed",
+            "footer": "Illustration only · do not plan real water use on it"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Check who’s affected",
+      "narration": "It affects East District buildings 1 to 3. West District is outside this example.",
+      "sourceQuote": "It affects East District buildings 1 to 3. West District is outside this example.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "water-notice",
+          "props": {
+            "phase": "scope",
+            "headline": "Buildings 1—3",
+            "detail": "West District is not in this sample",
+            "eyebrow": "Community notice / fictional sample",
+            "resumeNote": "Estimated time; the official notice prevails",
+            "timeLabel": "Planned outage · 3 hours",
+            "buildingLabels": [
+              "1",
+              "2",
+              "3",
+              "W"
+            ],
+            "scopeLabel": "East District affected",
+            "confirmationLabel": "Not yet confirmed",
+            "footer": "Illustration only · do not plan real water use on it"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Two things to do first",
+      "narration": "Store some water first, and close your taps. Don’t keep opening valves during the outage.",
+      "sourceQuote": "Store some water first, and close your taps. Don’t keep opening valves during the outage.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "water-notice",
+          "props": {
+            "phase": "prepare",
+            "headline": "Store water, then close taps",
+            "detail": "Fill what you need · check your taps",
+            "eyebrow": "Community notice / fictional sample",
+            "resumeNote": "Estimated time; the official notice prevails",
+            "timeLabel": "Planned outage · 3 hours",
+            "buildingLabels": [
+              "1",
+              "2",
+              "3",
+              "W"
+            ],
+            "scopeLabel": "East District affected",
+            "confirmationLabel": "Not yet confirmed",
+            "footer": "Illustration only · do not plan real water use on it"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "The official notice decides",
+      "narration": "Water is expected back at noon. When it returns, run the tap briefly first. If in doubt, follow the official notice.",
+      "sourceQuote": "Water is expected back at noon. When it returns, run the tap briefly first. If in doubt, follow the official notice.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "water-notice",
+          "props": {
+            "phase": "resume",
+            "headline": "Expected back at 12:00",
+            "detail": "Run the tap briefly · watch for the official notice",
+            "eyebrow": "Community notice / fictional sample",
+            "resumeNote": "Estimated time; the official notice prevails",
+            "timeLabel": "Planned outage · 3 hours",
+            "buildingLabels": [
+              "1",
+              "2",
+              "3",
+              "W"
+            ],
+            "scopeLabel": "East District affected",
+            "confirmationLabel": "Not yet confirmed",
+            "footer": "Illustration only · do not plan real water use on it"
+          }
+        }
+      }
+    }
+  ]
+}

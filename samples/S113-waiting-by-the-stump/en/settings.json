@@ -1,0 +1,43 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 90,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "Aoede",
+  "speechRate": 265,
+  "sentenceGapSeconds": 0.08,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_TTS_MODEL=gemini-2.5-pro-preview-tts",
+        "PROD_DIR=tools/production/shouzhu-20261013",
+        "PROD_WORKS=works/shouzhu-20261013-i18n",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "kids_en"
+      ],
+      "input": "arg",
+      "timeoutMs": 300000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicFile": "library:original-waiting-stump",
+  "musicVolume": 0.5,
+  "musicDuckDb": -7.5,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#8fd3f4",
+    "text": "#3b2a1e",
+    "accent": "#f2665c",
+    "muted": "#8d6e63"
+  }
+}

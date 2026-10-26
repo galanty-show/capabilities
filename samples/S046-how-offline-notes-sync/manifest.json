@@ -1,0 +1,192 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S046",
+  "title": "离线备忘录怎样同步",
+  "titles": {
+    "zh": "离线备忘录怎样同步",
+    "en": "How Offline Notes Sync"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T01",
+    "T02",
+    "T03",
+    "T06"
+  ],
+  "modules": [
+    "title-statement",
+    "relation-map",
+    "compare-two",
+    "three-points"
+  ],
+  "page": "https://galanty.cn/samples/#S046",
+  "version": {
+    "commit": "45b8b0c53bac318f85219e1ef5dc89d46c6b28f7",
+    "contentDigest": "a6ca2f6f400d42a8f41403199daee6217b49877ba4631ee48b8ad524f1c75595",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": null,
+  "narration": [
+    {
+      "seedId": "S046",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 8,
+      "durationSeconds": 29.588751,
+      "files": 9
+    },
+    {
+      "seedId": "S046-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Iapetus",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Iapetus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Iapetus); playback stays offline",
+      "sentences": 12,
+      "durationSeconds": 27.800834,
+      "files": 13
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6282,
+      "sha256": "c89e15a108a32a14fdaa28f8646bd1d38c4d8ffcb82c1711ab504566aa21b4f3",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2328,
+      "sha256": "c263f48202c5a09387978411d1b8ec8000025858a0c05e641a4c7874c63ee97b",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3200,
+      "sha256": "7a0ac8a9400f3be4dd99b0165b818b3a8148b984bf83f5107a8fa28ff8a87df8",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 493,
+      "sha256": "86855823d71298883fb76dc1e309b72cdd1b06168404b56559c956da76e62530",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 489,
+      "sha256": "07fbb7f4fd6927b0bf3c93c36b1768ba8733704cafc047406bef59119b55eaca",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 3453,
+      "sha256": "a04705d25a40d2addc05c5027ac7b1e538eb3669634b9be96d66c273b4236e85",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 833,
+      "sha256": "4d4db0c0a78852a0d8dfb0c51c2b3ee64d2a7ff9f1880eefb16ce0453f60768e",
+      "license": "sample-content"
+    },
+    {
+      "path": "title-statement.tsx",
+      "bytes": 3446,
+      "sha256": "a1d25f6a9d23601050276d4ede22905bb63f9d965f20880facfd2625410f95ef",
+      "license": "MIT"
+    },
+    {
+      "path": "relation-map.tsx",
+      "bytes": 9787,
+      "sha256": "3a143f3bd664323fbec472e8ed0d746bac2e535239e2654cc0be0e0f4cf78d01",
+      "license": "MIT"
+    },
+    {
+      "path": "compare-two.tsx",
+      "bytes": 4054,
+      "sha256": "3cd0291b23349d8ccca51feb0c5cdca351f45faa751ef67a0df5a4048d39de4e",
+      "license": "MIT"
+    },
+    {
+      "path": "three-points.tsx",
+      "bytes": 3965,
+      "sha256": "470c90d9ce91ca85d250ab12db9bc142aabac609793663f641c9030535ce7436",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 7665,
+      "sha256": "14c721639f9b64326826dec814b4d43eeaaf32847fa9a37ae696c1de4e6bd73d",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 563,
+      "sha256": "fa532e81ec90790fbee07919bf4bff1f3370dfd7a95680c45700ca4fc91bc43f",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 8808,
+      "sha256": "8236e9308ade8434d04f9304ced63a6d0de9eb74619f55b01257100160b93de5",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1952,
+      "sha256": "fc7fb5875809d492cb2fba89ffdfc4abcf5933d51dc00e94408d7e6f99dd81ac",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S046.zip",
+    "bytes": 319491,
+    "sha256": "70dbfff09d3c7dd0aed3f24e8542dce83a980deb3fa82b3ee1d2ad89204edf53",
+    "format": "galanty-source-pack",
+    "contentDigest": "a6ca2f6f400d42a8f41403199daee6217b49877ba4631ee48b8ad524f1c75595"
+  },
+  "inlineMedia": []
+}

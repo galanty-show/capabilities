@@ -1,0 +1,43 @@
+{
+  "no": "S112",
+  "title": "曹冲称象",
+  "titles": {
+    "zh": "曹冲称象",
+    "en": "Cao Chong Weighs the Elephant"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "儿童故事",
+  "templates": [],
+  "modules": [
+    "cc-open",
+    "cc-court",
+    "cc-river",
+    "cc-end"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "儿童故事：旁白为自写口语复述（出自《三国志·魏书》，公有领域）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-cao-chong",
+    "selection": "library:original-cao-chong",
+    "title": "Cao Chong Weighs the Elephant",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Cao Chong Weighs the Elephant — Galanty, original children's score generated with Lyria 3 Pro and edited with code-synthesized sound effects (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S112/README.md",
+    "modifications": "Two cues generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original timeline prompts (tools/production/cao-chong-20261013/music/cue1, cue2); joined by tools/production/cao-chong-20261013/music_build.py: cue 1 hard-stops on the 'reached the line' beat, cue 2 starts at the weighing scene, a 12 dB dip for the children's thinking pause, 5 dB pre-duck under narration, 137 NumPy-synthesized sound effects (pops, splashes, stone thuds, a bell 'ding', xylophone counting, a fanfare; no third-party samples), then encoded to 40 kbps MP3, 48 kHz stereo (stays under the 512 KiB repository file limit). Timed to sample S112; other films will not hit its accents.",
+    "file": "music/cao-chong.mp3",
+    "bundled": true
+  },
+  "note": "给 4～9 岁小朋友的绘本风故事动画。旁白为预先生成的 Gemini 云端配音（随包旁白种子，播放不联网），曹冲那句“我有办法！”是同一音色的童声风格；改旁白文字后新句需要本机配音整片重配。底图与贴纸（AI 生成）以 data URI 内联在幕代码里。水面、刻线、石头落船与水位、秤盘指针、等式都是代码画的，卡点词在各幕参数里。配乐 Cao Chong Weighs the Elephant（CC0，随包曲库 library:original-cao-chong）按本片逐字时间轴剪接，“到线了”处骤停并带合成音效：改节奏或换曲后音效不再对齐。正文约 93.8 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S112"
+}

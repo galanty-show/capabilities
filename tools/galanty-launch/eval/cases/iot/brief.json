@@ -1,0 +1,34 @@
+{
+  "productName": "Sprout Sensor",
+  "tagline": "DEMO / Notice change",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Read a sample",
+      "detail": "Display a sample sensor value",
+      "command": "Open sample",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Mark a place",
+      "detail": "Label a demo location",
+      "command": "Name location",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Review a trace",
+      "detail": "Browse illustrative readings",
+      "command": "Open trace",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#ffb6cf"
+  },
+  "musicStyle": "electronic",
+  "seed": 2112,
+  "durationSeconds": 24,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

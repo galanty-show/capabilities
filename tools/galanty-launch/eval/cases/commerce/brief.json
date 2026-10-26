@@ -1,0 +1,34 @@
+{
+  "productName": "Market Shelf",
+  "tagline": "DEMO / Present the craft",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Build a shelf",
+      "detail": "Arrange demo product cards",
+      "command": "New shelf",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Tell a story",
+      "detail": "Add a product description",
+      "command": "Edit story",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Preview a shop",
+      "detail": "Inspect the sample storefront",
+      "command": "Preview shop",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#8fe1d0"
+  },
+  "musicStyle": "lofi",
+  "seed": 2113,
+  "durationSeconds": 30,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

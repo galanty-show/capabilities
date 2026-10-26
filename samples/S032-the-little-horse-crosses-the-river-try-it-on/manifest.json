@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S032",
+  "title": "小马过河：衣服尺码要自己试",
+  "titles": {
+    "zh": "小马过河：衣服尺码要自己试",
+    "en": "The Little Horse Crosses the River: Try It On"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "生活通知",
+  "templates": [],
+  "modules": [
+    "size-story"
+  ],
+  "page": "https://galanty.cn/samples/#S032",
+  "version": {
+    "commit": "f5ef58af9927cc4c0e95430ef3464e4975fca63a",
+    "contentDigest": "67140bd9f2e3f4c35a4171689cef3deb4b9a67189f820ce30b811f71a964bb57",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-bright-horizon-96",
+    "selection": "library:generated-bright-horizon-96",
+    "title": "Bright Horizon 96",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Bright Horizon 96 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120403",
+    "modifications": null,
+    "file": "music/generated-bright-horizon-96.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S032",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 10,
+      "durationSeconds": 43.449667,
+      "files": 11
+    },
+    {
+      "seedId": "S032-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 230,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 10,
+      "durationSeconds": 28.802062,
+      "files": 11
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6494,
+      "sha256": "fcc8b5a68cf239f15bcd31a5cbb96f081eec5fe00bc47a155fb1b760ac63f8ef",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2625,
+      "sha256": "a46c1bcd8e5c3636888ed8efad668e85e30439d516da2c50ed299a0fb8789bd5",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2640,
+      "sha256": "b03b7c6a1c1565a03c61811009d7fbeab29d3b1cb3db40ce75fa1fd60f72ad8a",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 437,
+      "sha256": "0c238e7a1146c9e4dc09f871e5004e8d262d08faebfed78458f320efcdcff362",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 742,
+      "sha256": "54efda258308af2ab1fa10b40e822176bb258c038dbe0e074b1fda9b2f674b3d",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 7358,
+      "sha256": "4a7f84242325d6a2a9ccd14dae65463ec26c0abf5a16c3cef62ae7957292b9be",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 809,
+      "sha256": "20043068f784143294a200d2b6dff04e823404176852b681b446a963e480a62e",
+      "license": "sample-content"
+    },
+    {
+      "path": "size-story.tsx",
+      "bytes": 13673,
+      "sha256": "5166f4f9127fe1b3c94d674bf30c715a7612e18dbbb746b6c93cd9717f8ae922",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 7481,
+      "sha256": "e207cb0c45ad6a0169639102a638c15541abdbce282571f5999695e97b093a4d",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1071,
+      "sha256": "e7ebb6c0564d669f5aec457723b098d7478da21d97a3ad427140fbc4ee00668c",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 8617,
+      "sha256": "d56285a107ccfd1de700f22d2fd700ffe19119cfd95e975e5631be8a9b66dbe0",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1999,
+      "sha256": "b8faac034ca3b9398aceab4227d85b7a2d35a4285fe2619750a739a7c813d31e",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S032.zip",
+    "bytes": 1104572,
+    "sha256": "53899b0b3b6cd996102c9f4038b0d1d20d5a118436ff4c010b6eb7a240fc4538",
+    "format": "galanty-source-pack",
+    "contentDigest": "67140bd9f2e3f4c35a4171689cef3deb4b9a67189f820ce30b811f71a964bb57"
+  },
+  "inlineMedia": []
+}

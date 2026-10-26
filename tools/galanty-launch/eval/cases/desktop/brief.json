@@ -1,0 +1,34 @@
+{
+  "productName": "Folio Desk",
+  "tagline": "DEMO / Space to think",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Collect pages",
+      "detail": "Group local demo pages",
+      "command": "New collection",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Pin a page",
+      "detail": "Keep a reference nearby",
+      "command": "Pin page",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Find a thought",
+      "detail": "Search the demo collection",
+      "command": "Search pages",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#e8c67c"
+  },
+  "musicStyle": "epic",
+  "seed": 2111,
+  "durationSeconds": 36,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

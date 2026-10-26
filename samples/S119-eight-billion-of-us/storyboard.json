@@ -1,0 +1,201 @@
+{
+  "contractVersion": 3,
+  "title": "人类走到 80 亿",
+  "sourceTitle": "联合国《世界人口展望 2024》等公开数据（数据新闻短片）",
+  "scenes": [
+    {
+      "id": "dot",
+      "title": "一个点",
+      "narration": "这是一个点，代表一个人。往后退：一百人，一万人，一百万人。一直退到八十多亿，这就是今天的人类。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-zoom",
+          "props": {
+            "mode": "out"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "人类走到 80 亿",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-title",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "flat",
+      "title": "几乎是一条平线",
+      "narration": "公元元年，全世界大约三亿人；一千五百年后，也才五亿左右。然后，这条线竖了起来。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-flat",
+          "props": {}
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "billion",
+      "title": "第一个十亿",
+      "narration": "换个看法：每个点，代表一百万人。一八零四年前后，人类第一次凑满十亿。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-field",
+          "props": {}
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "bars",
+      "title": "每多十亿用了多少年",
+      "narration": "第二个十亿，用了一百二十三年。第三个，三十三年；第四个，十四年。然后是十三年、十二年、十二年。二零二二年十一月十五日，联合国宣布世界人口达到八十亿。这一次，只用了十一年。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-bars",
+          "props": {}
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "why",
+      "title": "死亡先降",
+      "narration": "原因主要不是生得更多，而是死得更少。疫苗、抗生素、干净的水，让更多孩子活过了童年；化肥和良种，让粮食跟上了人口。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-why",
+          "props": {}
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "rate",
+      "title": "增长率的峰与回落",
+      "narration": "可转折，其实早就来了。全球人口增长率，在一九六三年见顶，约百分之二点三。此后一路回落，如今已不到百分之一。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-rate",
+          "props": {}
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "aging",
+      "title": "世界在变老",
+      "narration": "孩子少了，寿命长了，世界在变老。到本世纪七十年代末，六十五岁以上的人，将多过十八岁以下的孩子。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-aging",
+          "props": {}
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "giants",
+      "title": "印度超过中国",
+      "narration": "联合国估计，印度在二零二三年前后超过中国；中国人口，已经开始减少。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-giants",
+          "props": {}
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "peak",
+      "title": "峰值与不确定",
+      "narration": "联合国的中位预测：本世纪八十年代中期，达到约一百零三亿的峰值，然后缓慢回落。但未来并不确定：到二一零零年，九成五的可能落在九十亿到一百一十四亿之间。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-peak",
+          "props": {}
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "you",
+      "title": "八十多亿分之一",
+      "narration": "八十多亿，是一个一个人组成的。而你，是这八十多亿分之一。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "pc-zoom",
+          "props": {
+            "mode": "in"
+          }
+        }
+      },
+      "hold": 2.3,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

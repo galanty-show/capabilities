@@ -1,0 +1,84 @@
+{
+  "no": "S120",
+  "prompt": {
+    "zh-CN": "做一支约两分钟的英文横版（16:9）算法讲解短片《How Your Map Finds the Fastest Way Home》：城市是一张图（路口是节点、路段是带权的边，权重是通行时间）；Dijkstra 按已知最短时间一圈圈向外扩、保证最优；A* 再加上“直线距离按最高车速估算剩余时间”的启发，搜索范围小得多，只要估计不高估就仍然最优；堵车会改变边权、路线随之改道；最后点到真实导航用 contraction hierarchies 预处理。画面全部用代码画、不用任何生成图片：按固定种子生成一座城市路网，在画面里真跑 Dijkstra 和 A*（已访问路口像水波扩散、优先队列前沿发光、每个路口标出当前最短时间），分屏对比两种算法实际访问的路口数，演示一段路堵车变红、实时改道，结尾拉远到大陆尺度的光点网络。每一帧都按帧号从预先算好的搜索序列取前 k 步，渲染要确定。旁白清楚、聪明、带一点幽默，用高质量云端英文配音；配乐原创轻快的合成器琶音，搜索扩散时节奏推进、改道时一个转折，访问的“滴”声按批合并、克制。片中数字都要实算，事实写明出处。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a two-minute English explainer in 16:9 called “How Your Map Finds the Fastest Way Home”. A city is a graph: intersections are nodes, roads are edges weighted by travel time. Dijkstra expands ring by ring and is guaranteed optimal; A* adds a guess of the time left (straight line at top speed), searches far less, and stays optimal as long as the guess never overestimates; traffic changes the weights and the route; end with a light touch on contraction hierarchies. Draw everything in code, no generated images: build a road network from a fixed seed and really run Dijkstra and A* on screen (a ripple of visited intersections, a glowing priority-queue frontier, current best times), compare the real visit counts side by side, jam one road and reroute live, then pull out to a continent of lights. Derive each frame's search state from the frame number so rendering is deterministic. Clear, smart, lightly funny cloud narration; an original light synth-arpeggio score that builds as the search spreads and turns at the reroute, with restrained visit ticks. Compute every number and source every fact. Show me a live preview first; export the MP4 only when I'm happy.",
+    "zh-Hant": "做一支約兩分鐘的英文橫版（16:9）演算法講解短片《How Your Map Finds the Fastest Way Home》：城市是一張圖（路口是節點、路段是帶權的邊，權重是通行時間）；Dijkstra 依已知最短時間一圈圈向外擴、保證最優；A* 再加上「直線距離按最高車速估算剩餘時間」的啟發，搜尋範圍小得多，只要估計不高估就仍然最優；塞車會改變邊權、路線隨之改道；最後點到真實導航用 contraction hierarchies 預先處理。畫面全部用程式碼畫、不用任何生成圖片：以固定種子生成一座城市路網，在畫面裡真的跑 Dijkstra 和 A*（已走訪路口像水波擴散、優先佇列前緣發光、每個路口標出目前最短時間），分割畫面比較兩種演算法實際走訪的路口數，示範一段路塞車變紅、即時改道，結尾拉遠到大陸尺度的光點網路。每一格都依幀號從預先算好的搜尋序列取前 k 步，渲染要確定。旁白清楚、聰明、帶一點幽默，用高品質雲端英文配音；配樂原創輕快的合成器琶音，搜尋擴散時節奏推進、改道時一個轉折，走訪的「滴」聲分批合併、克制。片中數字都要實算，事實寫明出處。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "約2分の英語の横長（16:9）アルゴリズム解説動画「How Your Map Finds the Fastest Way Home」を作ってください。都市はグラフです（交差点がノード、道路区間が重み付きの辺で、重みは所要時間）。Dijkstra は既知の最短時間の順に一周ずつ外へ広がり、最適が保証されます。A* は「直線距離を最高速度で割った残り時間の見積もり」を加えて探索範囲をぐっと小さくし、見積もりが過大でない限り最適のままです。渋滞は辺の重みを変え、ルートもそれに合わせて変わります。最後に、実際のナビが contraction hierarchies で事前計算していることに軽く触れてください。画面はすべてコードで描き、生成画像は使いません。固定シードで都市の道路網を作り、画面の中で Dijkstra と A* を実際に走らせます（訪問済みの交差点が波紋のように広がり、優先度付きキューの最前線が光り、各交差点に現在の最短時間を表示）。画面を分割して2つのアルゴリズムが実際に訪れた交差点の数を比べ、1本の道が渋滞で赤くなってリアルタイムに迂回するところを見せ、最後は大陸規模の光の網へズームアウトします。各フレームは、事前に計算した探索手順の最初の k ステップをフレーム番号から求め、レンダリングを決定的にしてください。ナレーションは明快で知的、少しユーモアのある高品質なクラウドの英語音声で。BGM はオリジナルの軽快なシンセのアルペジオで、探索が広がるにつれてリズムが前に進み、迂回の瞬間に展開が変わるように。訪問の「ピッ」という音はまとめて控えめに。画面の数字はすべて実際に計算し、事実には出典を付けてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "약 2분짜리 영어 가로형(16:9) 알고리즘 해설 영상 「How Your Map Finds the Fastest Way Home」를 만들어 주세요. 도시는 그래프예요(교차로는 노드, 도로 구간은 가중치가 있는 간선, 가중치는 통행 시간). Dijkstra는 알려진 최단 시간 순서로 한 겹씩 바깥으로 퍼지며 최적이 보장되고, A*는 '직선거리를 최고 속도로 나눈 남은 시간 추정'을 더해 탐색 범위를 훨씬 줄이면서도 추정이 과대평가하지 않는 한 여전히 최적이에요. 정체는 간선 가중치를 바꾸고 경로도 따라 바뀌어요. 마지막엔 실제 내비게이션이 contraction hierarchies로 미리 계산해 둔다는 점을 가볍게 짚어 주세요. 화면은 전부 코드로 그리고 생성 이미지는 쓰지 마세요. 고정 시드로 도시 도로망을 만들고 화면 안에서 Dijkstra와 A*를 실제로 돌려 주세요(방문한 교차로가 물결처럼 퍼지고, 우선순위 큐의 최전선이 빛나고, 교차로마다 현재 최단 시간을 표시). 화면을 나눠 두 알고리즘이 실제로 방문한 교차로 수를 비교하고, 도로 한 구간이 막혀 빨갛게 변하며 실시간으로 우회하는 모습을 보여 준 뒤, 대륙 규모의 빛나는 점 네트워크로 줌아웃해 주세요. 각 프레임은 미리 계산한 탐색 순서에서 프레임 번호로 처음 k단계를 가져와 렌더링이 결정적이도록 해 주세요. 내레이션은 명확하고 똑똑하면서 살짝 유머 있게, 고품질 클라우드 영어 음성으로요. 음악은 오리지널 경쾌한 신스 아르페지오로, 탐색이 퍼질 때 리듬이 앞으로 나아가고 경로가 바뀔 때 전환이 오게 해 주세요. 방문 '띡' 소리는 묶어서 절제해 주세요. 화면의 숫자는 모두 실제로 계산하고 사실에는 출처를 달아 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo explicativo en inglés de dos minutos, 16:9, titulado “How Your Map Finds the Fastest Way Home”. Una ciudad es un grafo: los cruces son nodos y las calles, aristas con peso igual al tiempo de viaje. Dijkstra se expande anillo a anillo y garantiza el óptimo; A* añade una estimación del tiempo restante (línea recta a la velocidad máxima), explora mucho menos y sigue siendo óptimo si la estimación nunca se pasa; el tráfico cambia los pesos y la ruta; cierra con las contraction hierarchies. Todo dibujado en código, sin imágenes generadas: una red de calles con semilla fija donde Dijkstra y A* se ejecutan de verdad (una onda de cruces visitados, el frente de la cola de prioridad brillando), comparación en pantalla dividida con los recuentos reales, un atasco con desvío en vivo y un alejamiento hasta una red de luces continental. El estado de cada fotograma sale de su número, para un render determinista. Narración clara, inteligente y con humor; voz inglesa en la nube; música original de arpegios de sintetizador que avanza con la búsqueda y gira en el desvío. Calcula cada número y cita cada dato. Primero vista previa en vivo; exporta el MP4 solo cuando me guste.",
+    "de": "Erstelle ein zweiminütiges englisches Erklärvideo in 16:9: „How Your Map Finds the Fastest Way Home“. Eine Stadt ist ein Graph: Kreuzungen sind Knoten, Straßen Kanten mit der Fahrzeit als Gewicht. Dijkstra breitet sich Ring für Ring aus und ist garantiert optimal; A* schätzt zusätzlich die Restzeit (Luftlinie bei Höchsttempo), sucht viel weniger und bleibt optimal, solange die Schätzung nie zu hoch ist; Verkehr ändert Gewichte und Route; zum Schluss kurz Contraction Hierarchies. Alles im Code gezeichnet, ohne generierte Bilder: ein Straßennetz aus festem Seed, auf dem Dijkstra und A* wirklich laufen (eine Welle besuchter Kreuzungen, leuchtende Front der Prioritätswarteschlange), geteiltes Bild mit den echten Besuchszahlen, ein Stau mit Live-Umleitung und ein Zoom hinaus auf ein Lichternetz im Kontinentmaßstab. Der Zustand jedes Frames folgt aus der Framenummer, damit das Rendering deterministisch ist. Klare, kluge, leicht witzige englische Cloud-Stimme; eigene Musik mit Synth-Arpeggios, die mit der Suche vorantreibt und beim Umleiten kippt. Jede Zahl berechnen, jede Tatsache belegen. Zuerst Live-Vorschau; MP4 erst exportieren, wenn ich zufrieden bin.",
+    "fr": "Réalisez une vidéo explicative en anglais de deux minutes, en 16:9 : « How Your Map Finds the Fastest Way Home ». Une ville est un graphe : les carrefours sont des nœuds, les rues des arêtes pondérées par le temps de trajet. Dijkstra s'étend anneau par anneau et garantit l'optimum ; A* ajoute une estimation du temps restant (ligne droite à vitesse maximale), explore bien moins et reste optimal tant qu'elle ne surestime jamais ; la circulation change les poids et l'itinéraire ; finir sur les contraction hierarchies. Tout est dessiné en code, sans image générée : un réseau de rues à graine fixe où Dijkstra et A* tournent vraiment (une onde de carrefours visités, le front de la file de priorité qui brille), un écran partagé avec les vrais comptes, un bouchon avec recalcul en direct, puis un dézoom vers un réseau de lumières continental. L'état de chaque image découle de son numéro pour un rendu déterministe. Narration claire, intelligente et drôle par une voix anglaise cloud ; musique originale en arpèges de synthé qui avance avec la recherche et vire au détour. Calculez chaque chiffre, sourcez chaque fait. D'abord l'aperçu en direct ; exportez le MP4 seulement quand il me convient.",
+    "pt-BR": "Faça um explicativo em inglês de dois minutos, em 16:9, chamado “How Your Map Finds the Fastest Way Home”. Uma cidade é um grafo: cruzamentos são nós e ruas são arestas com peso igual ao tempo de viagem. Dijkstra se expande anel por anel e garante o ótimo; A* acrescenta uma estimativa do tempo restante (linha reta na velocidade máxima), explora bem menos e continua ótimo se a estimativa nunca exagerar; o trânsito muda os pesos e a rota; termine com as contraction hierarchies. Tudo desenhado em código, sem imagens geradas: uma malha de ruas com semente fixa onde Dijkstra e A* rodam de verdade (uma onda de cruzamentos visitados, a frente da fila de prioridade brilhando), tela dividida com as contagens reais, um congestionamento com desvio ao vivo e um afastamento até uma rede de luzes continental. O estado de cada quadro vem do número do quadro, para a renderização ser determinística. Narração clara, inteligente e bem-humorada numa voz em inglês na nuvem; trilha original de arpejos de sintetizador que avança com a busca e vira no desvio. Calcule cada número e cite a fonte de cada fato. Primeiro a prévia ao vivo; exporte o MP4 só quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "SVG + Canvas 2D (code-drawn, no images)",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Puck",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Fastest Way Home",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "To the standard of The Lychees of Chang'an, could you make a few stories that are popular in the US? You're in charge of planning and directing the music and voice; I've sent you the Gemini key, so use it for the narration and make a few American story templates — keep the quality high. For the China region, make a few stories best suited to children under 10; also make a few promo films for products, such as products newly popular in China in 2026; and make 3 videos that Opus 5.5 is best suited to make on today's market; then find the 5 most popular videos in this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "英文旁白是云端 Gemini 3.8 Flash TTS（音色 Puck）预先生成、随包提供，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。画面纯代码，不需要任何图片素材。原片云端费用约 US$0.5。",
+    "en": "The English narration was generated in the cloud with Gemini 3.8 Flash TTS (voice Puck) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The visuals are pure code and need no image assets. The original cost about US$0.5 in cloud fees.",
+    "zh-Hant": "英文旁白是雲端 Gemini 3.8 Flash TTS（音色 Puck）預先生成、隨包提供，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。畫面純程式碼，不需要任何圖片素材。原片雲端費用約 US$0.5。",
+    "ja": "英語ナレーションはクラウドの Gemini 3.8 Flash TTS（音声 Puck）で事前生成して同梱しているため、再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。映像はすべてコードで、画像素材は不要です。元の動画のクラウド費用は約 US$0.5 でした。",
+    "ko": "영어 내레이션은 클라우드 Gemini 3.8 Flash TTS(음성 Puck)로 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 화면은 전부 코드라 이미지 소재가 필요 없습니다. 원본 제작의 클라우드 비용은 약 US$0.5였습니다.",
+    "es": "La narración en inglés se generó en la nube con Gemini 3.8 Flash TTS (voz Puck) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. Las imágenes son puro código y no necesitan recursos gráficos. El original costó unos US$0,5 en la nube.",
+    "de": "Die englische Sprachspur entstand in der Cloud mit Gemini 3.8 Flash TTS (Stimme Puck) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Das Bild ist reiner Code und braucht keine Bilddateien. Das Original kostete rund US$0,5 an Cloud-Gebühren.",
+    "fr": "La narration anglaise a été générée dans le cloud avec Gemini 3.8 Flash TTS (voix Puck) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. L'image est entièrement du code et ne demande aucune ressource graphique. L'original a coûté environ 0,5 US$ de cloud.",
+    "pt-BR": "A narração em inglês foi gerada na nuvem com o Gemini 3.8 Flash TTS (voz Puck) e vem pré-gerada, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. O visual é só código e não precisa de imagens. O original custou cerca de US$0,5 em nuvem."
+  }
+}

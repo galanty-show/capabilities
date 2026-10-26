@@ -1,0 +1,46 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 68,
+  "maxDurationSeconds": 80,
+  "narration": true,
+  "voice": "poem_reader",
+  "speechRate": 220,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/ink-promo-20261007/voice_seed.py",
+        "{text}",
+        "{out}",
+        "{rate}"
+      ],
+      "input": "arg",
+      "timeoutMs": 60000
+    }
+  },
+  "brandOutro": "off",
+  "musicFile": "library:original-luobi",
+  "musicVolume": 0.5,
+  "musicDuckDb": -8,
+  "captionStyle": "clean",
+  "sentenceGapSeconds": 0.25,
+  "concurrency": 3,
+  "theme": {
+    "background": "#EEE6D3",
+    "accent": "#B8372A",
+    "text": "#15130F",
+    "muted": "#6D655A"
+  },
+  "sentencePauses": {
+    "s-184a6e44c6ff0ac7-1": 0.201,
+    "s-b4b5b36f0390e6fb-1": 0.428,
+    "s-0ec221c111a4709d-1": 0.439,
+    "s-d1dc29e241901b44-1": 0.147,
+    "s-c68b0c7f5a519943-1": 0.405,
+    "s-24f247e6dc102c9d-1": 0.911
+  }
+}

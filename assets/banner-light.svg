@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Galanty 文影 — Change one thing. Back to that second.</title>
+<desc id="desc">让视频制作更简单。右侧是流程示意：在 12.4 秒标注，再从同一秒检查改动；不是实际软件截图。品牌几何源自 src/brand/mark.ts。</desc>
+<rect width="1280" height="320" rx="20" fill="#F2F3EF"/>
+<rect x="0" y="0" width="8" height="320" fill="#C9F65A"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="48" y="30" width="64" height="64" rx="16" fill="#1C3134"/>
+<g transform="translate(45 29) scale(.70)" fill="#C9F65A"><rect x="16" y="20" width="68" height="13" rx="6.5"/>
+<rect x="16" y="43.5" width="68" height="13" rx="6.5"/>
+<rect x="16" y="67" width="41.4" height="13" rx="6.5"/>
+<path d="M64.5 62.13L84.98 73.5L64.5 84.88Z" stroke="#C9F65A" stroke-width="2.73" stroke-linejoin="round"/></g>
+<text x="130" y="63" fill="#1C3134" font-size="30" font-weight="700" letter-spacing="-.7">Galanty</text>
+<text x="264" y="63" fill="#52605D" font-size="20">文影</text>
+<text x="130" y="85" fill="#52605D" font-size="13" letter-spacing="1.4">VIDEO MAKING, MADE SIMPLE</text>
+<text x="48" y="152" fill="#1C3134" font-size="50" font-weight="700" letter-spacing="-1.7">Change one thing.</text>
+<text x="48" y="211" fill="#1C3134" font-size="50" font-weight="700" letter-spacing="-1.7">Back to that second.</text>
+<text x="50" y="251" fill="#52605D" font-size="19">改一处，回到那一秒。</text>
+<text x="50" y="287" fill="#52605D" font-size="13">让视频制作更简单</text>
+<text x="636" y="287" fill="#1C3134" font-size="14">galanty.cn</text>
+<rect x="786" y="34" width="446" height="252" rx="18" fill="#E6EAE1" stroke="#CCD4C5"/>
+<text x="810" y="62" fill="#52605D" font-size="11" letter-spacing="1.4">ANNOTATE → AGENT → RESUME</text>
+<rect x="810" y="78" width="88" height="28" rx="14" fill="#C9F65A"/>
+<text x="829" y="97" fill="#1C3134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">12.4 s</text>
+<text x="911" y="97" fill="#1C3134" font-size="14">Back to the same moment</text>
+<rect x="810" y="122" width="160" height="79" rx="9" fill="#F2F3EF" stroke="#CCD4C5"/>
+<text x="831" y="146" fill="#52605D" font-size="10" letter-spacing=".9">YOUR NOTE</text>
+<text x="831" y="175" fill="#1C3134" font-size="15">Make it larger.</text>
+<path d="M984 162H1013M1006 155L1013 162L1006 169" fill="none" stroke="#52605D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1028" y="122" width="180" height="79" rx="9" fill="#F2F3EF" stroke="#CCD4C5"/>
+<text x="1045" y="146" fill="#52605D" font-size="10" letter-spacing=".9">YOUR NEXT LOOK</text>
+<text x="1080" y="185" fill="#1C3134" font-size="40" font-weight="700">Aa</text>
+<path d="M810 225H1208" stroke="#CCD4C5" stroke-width="5" stroke-linecap="round"/>
+<path d="M810 225H977" stroke="#C9F65A" stroke-width="5" stroke-linecap="round"/>
+<path d="M977 214V237" stroke="#1C3134" stroke-width="2"/>
+<circle cx="977" cy="225" r="6" fill="#C9F65A" stroke="#1C3134" stroke-width="2"/>
+<text x="810" y="265" fill="#52605D" font-size="10" letter-spacing="1">WORKFLOW ILLUSTRATION · 流程示意</text>
+<text x="1170" y="265" fill="#1C3134" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">12.4</text>
+</g>
+</svg>

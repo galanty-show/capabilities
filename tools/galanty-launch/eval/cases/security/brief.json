@@ -1,0 +1,34 @@
+{
+  "productName": "Vault Map",
+  "tagline": "DEMO / See access",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "List a role",
+      "detail": "View demo access roles",
+      "command": "Open roles",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Trace a grant",
+      "detail": "Inspect a sample grant",
+      "command": "Open grant",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Review changes",
+      "detail": "Read sample access history",
+      "command": "Review history",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#ffb6cf"
+  },
+  "musicStyle": "electronic",
+  "seed": 2109,
+  "durationSeconds": 24,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

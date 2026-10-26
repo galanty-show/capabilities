@@ -1,0 +1,297 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S115",
+  "title": "羽见 AI 眼镜 · 抬头就是答案",
+  "titles": {
+    "zh": "羽见 AI 眼镜 · 抬头就是答案",
+    "en": "PLUMO AI Glasses · Just Look Up"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "9:16",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "pg-hook",
+    "pg-translate",
+    "pg-navigate",
+    "pg-capture",
+    "pg-prompter",
+    "pg-notify",
+    "pg-hero"
+  ],
+  "page": "https://galanty.cn/samples/#S115",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "6e81bda6a770c59a59ec48b6748a1d69f6b476bf80095a48001e4343acf8337f",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创：虚构品牌与产品、自写旁白；底图与配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创：虚构品牌与产品、自写旁白；底图与配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-plumo-heads-up",
+    "selection": "library:original-plumo-heads-up",
+    "title": "PLUMO Heads Up",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "PLUMO Heads Up — Galanty, original electronic pop score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S115/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-glasses-20261013/music_build.py (one splice on a measured 126 BPM grid so the groove enters on the first feature cut and the drop lands on the product reveal, voice-section pre-duck and 2.7 kHz dip, +4 dB drop, NumPy-synthesized UI sounds, shutter, whooshes and impacts, no third-party samples), normalized to -18 LUFS, then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S115; other films will not hit its accents.",
+    "file": "music/plumo-heads-up.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S115",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Zephyr",
+      "speechRate": 250,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Zephyr），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Zephyr); playback stays offline",
+      "sentences": 11,
+      "durationSeconds": 20.648772,
+      "files": 12
+    },
+    {
+      "seedId": "S115-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Aoede",
+      "speechRate": 250,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Aoede），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Aoede); playback stays offline",
+      "sentences": 9,
+      "durationSeconds": 20.046209,
+      "files": 10
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6450,
+      "sha256": "9be6b21014c15c98fad60ea2a31323f24cecbbed94abbb3e76d25f439606ee66",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 3937,
+      "sha256": "f8269afe1ab570e6c817dc13e923dfa3c5a33346158b2d5aaabfe60864979c3c",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 4749,
+      "sha256": "9e5f98661b7fc66eb31b67d61f9651b88cc35902ab986a2b9051f00e5154c43a",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 850,
+      "sha256": "8cdf55a1cc042c4b396321870c2d3aebad06e09fe2ed7af1895711ab30d100ef",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 4318,
+      "sha256": "d7e85c18dce11f48cb10223cfec853e5544418c148e5f9cbc660d30c8c6bd866",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 7491,
+      "sha256": "bcfe91800492a5496d5add6ed14d9c221fab116d8e51522ecc7872024422891b",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 849,
+      "sha256": "3850f633e47364280d6019b0563cd5fbbe8ba0704afe7f8b1fd2c27885be6d65",
+      "license": "sample-content"
+    },
+    {
+      "path": "pg-hook.tsx",
+      "bytes": 20265,
+      "sha256": "ac1db6f6c44d9a73eed3d513fce06f941a28cd3987ed4faa81343be01e0ecd02",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-translate.tsx",
+      "bytes": 17727,
+      "sha256": "3a21b2ad54475422e03051ec28a13cc67ae6ad34b53e852017b65f939fffb06e",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-navigate.tsx",
+      "bytes": 19588,
+      "sha256": "94979c075339ce16a23ea542dafc2949c48ace978682f05057d1f6b057c2a32e",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-capture.tsx",
+      "bytes": 19247,
+      "sha256": "f3de3cdc10eda266427c0f7fa551b70b2f94eee170105bf1158ad8e119005d69",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-prompter.tsx",
+      "bytes": 17716,
+      "sha256": "a1c63778b0cfc2a096b0be1e1ac347a57304a8d79b06d288f8eb347cb795c38a",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-notify.tsx",
+      "bytes": 17724,
+      "sha256": "234041669e56f12dd6aca8247b8896491c71cc43c6d07a7fc9b85852327ed459",
+      "license": "MIT"
+    },
+    {
+      "path": "pg-hero.tsx",
+      "bytes": 24635,
+      "sha256": "32fdd59dc7326ca4c7043124a1bf4908ae683533f66f6a18f5dbe843dd142e82",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 18283,
+      "sha256": "69c863685839fbed96bfb49df6ce425464690f37989d8c196d21070f34d303ba",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 11205,
+      "sha256": "8264286f15caeb906c73136b6b7f7ce937268f2f56d352771466d7a115060afa",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5859,
+      "sha256": "494ea295c80093b0c32ee37f84f6b154fb24017bee1ab31d12da67d53a9ede2f",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2532,
+      "sha256": "889cb11f78044c409ff3197733f45d79641a5a0569a134e04dc8c29971ea774a",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13056,
+      "sha256": "728c51f34faa77403a8fbf37a042640bc62fc4f72a53a61ad5117bb820da0e3b",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1984,
+      "sha256": "225b715f3596ceac99f0ed063a691f7c4af57b21a23e6ab340e273631767eae5",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S115.zip",
+    "bytes": 1079458,
+    "sha256": "a456834df6b9386e59b733b49e2e902996908dbdbb2bdfdbe6618f8f629786e0",
+    "format": "galanty-source-pack",
+    "contentDigest": "6e81bda6a770c59a59ec48b6748a1d69f6b476bf80095a48001e4343acf8337f"
+  },
+  "inlineMedia": [
+    {
+      "source": "pg-hook.tsx",
+      "reference": "release-assets/f6509e673de5720f125396dc65bc97949cf38eca31e2094e2e773ae8e9ab728a.webp",
+      "mime": "image/webp",
+      "bytes": 85468,
+      "sha256": "f6509e673de5720f125396dc65bc97949cf38eca31e2094e2e773ae8e9ab728a"
+    },
+    {
+      "source": "pg-translate.tsx",
+      "reference": "release-assets/370ba7ec8d4d77a041b55d96a395ca95771a5a991e35c1288cf737215b6fc899.webp",
+      "mime": "image/webp",
+      "bytes": 77132,
+      "sha256": "370ba7ec8d4d77a041b55d96a395ca95771a5a991e35c1288cf737215b6fc899"
+    },
+    {
+      "source": "pg-navigate.tsx",
+      "reference": "release-assets/dd4f47bae9f8e0761a6bdecb4c16cdb2e0af3f1219cf0dac154002dc358ef25b.webp",
+      "mime": "image/webp",
+      "bytes": 89490,
+      "sha256": "dd4f47bae9f8e0761a6bdecb4c16cdb2e0af3f1219cf0dac154002dc358ef25b"
+    },
+    {
+      "source": "pg-capture.tsx",
+      "reference": "release-assets/e7dcf75704996e09aadc7a4e7cd4ad8ebb75322f909a6e7e44f666a1c68fd03b.webp",
+      "mime": "image/webp",
+      "bytes": 56650,
+      "sha256": "e7dcf75704996e09aadc7a4e7cd4ad8ebb75322f909a6e7e44f666a1c68fd03b"
+    },
+    {
+      "source": "pg-prompter.tsx",
+      "reference": "release-assets/9be5ec738dd3a06649cd6d95184854dc32f951d2ebfbbaf5c4e8f0999a1b77fa.webp",
+      "mime": "image/webp",
+      "bytes": 58740,
+      "sha256": "9be5ec738dd3a06649cd6d95184854dc32f951d2ebfbbaf5c4e8f0999a1b77fa"
+    },
+    {
+      "source": "pg-notify.tsx",
+      "reference": "release-assets/d2162db521699f546a4bc3de7456db8facac27f67c88dfc6c8e3b8813a681272.webp",
+      "mime": "image/webp",
+      "bytes": 39934,
+      "sha256": "d2162db521699f546a4bc3de7456db8facac27f67c88dfc6c8e3b8813a681272"
+    },
+    {
+      "source": "pg-hero.tsx",
+      "reference": "release-assets/ff9e86269c257c34cc4d08a0f7ab064ac81d2d87a899727ae737cd439d795bef.webp",
+      "mime": "image/webp",
+      "bytes": 12396,
+      "sha256": "ff9e86269c257c34cc4d08a0f7ab064ac81d2d87a899727ae737cd439d795bef"
+    },
+    {
+      "source": "pg-hero.tsx",
+      "reference": "release-assets/b87b1380e5524c7f09167fb86e5f14471060cbaa425515e8e1baaf40a8843ad2.webp",
+      "mime": "image/webp",
+      "bytes": 11700,
+      "sha256": "b87b1380e5524c7f09167fb86e5f14471060cbaa425515e8e1baaf40a8843ad2"
+    },
+    {
+      "source": "pg-hero.tsx",
+      "reference": "release-assets/edc5ac619f595d03a4010aef58d0c9e285faae529488f58f6033dd3db9dfabc7.webp",
+      "mime": "image/webp",
+      "bytes": 25784,
+      "sha256": "edc5ac619f595d03a4010aef58d0c9e285faae529488f58f6033dd3db9dfabc7"
+    }
+  ]
+}

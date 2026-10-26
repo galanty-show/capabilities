@@ -1,0 +1,199 @@
+{
+  "contractVersion": 3,
+  "title": "Ink Becomes Image",
+  "subtitle": "An ink-wash promo · four Tang poems · local narration · original score “Luobi”, 96 BPM",
+  "sourceTitle": "Notes on the ink-wash promo (original)",
+  "scenes": [
+    {
+      "id": "drop",
+      "title": "A Drop of Ink",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-open",
+          "props": {
+            "part": "drop"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.1
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "title",
+      "title": "Brushing the Name",
+      "narration": "Where words become paintings.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-open",
+          "props": {
+            "part": "title"
+          }
+        }
+      },
+      "hold": 2.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p1",
+      "title": "Li Bai · Yellow Crane Tower",
+      "narration": "Li Bai bids farewell at Yellow Crane Tower. A lone sail fades into the blue. Only the river flows on to the sky.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "孤帆远影碧空尽，唯见长江天际流",
+            "title": "黄鹤楼送孟浩然之广陵",
+            "author": "李白",
+            "painting": "river",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.259,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p2",
+      "title": "Liu Zongyuan · River Snow",
+      "narration": "Exiled, Liu Zongyuan writes a snowy river. A lone boat, an old man in a straw cape. He fishes alone in the cold river snow.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "孤舟蓑笠翁，独钓寒江雪",
+            "title": "江雪",
+            "author": "柳宗元",
+            "painting": "snow",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.913,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p3",
+      "title": "Du Fu · Quatrain",
+      "narration": "At his thatched cottage, Du Fu sees spring. Two orioles sing in the green willows. A line of egrets climbs the blue sky.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "两个黄鹂鸣翠柳，一行白鹭上青天",
+            "title": "绝句",
+            "author": "杜甫",
+            "painting": "willow",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 2.927,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p4",
+      "title": "Wang Wei · Autumn in the Hills",
+      "narration": "Wang Wei, a hermit, writes an autumn night. The bright moon shines between the pines. Clear springs flow over the stones.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "明月松间照，清泉石上流",
+            "title": "山居秋暝",
+            "author": "王维",
+            "painting": "moon",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.946,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "edit",
+      "title": "The Moon Becomes a Setting Sun",
+      "narration": "Want another mood? Click once, change one word. The bright moon becomes a setting sun.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-edit",
+          "props": {
+            "poem": "明月松间照，清泉石上流",
+            "author": "王维",
+            "word": "明月",
+            "editTo": "落日",
+            "cardTitle": "Click to edit",
+            "selectedLabel": "Selected: {word}",
+            "appliedLabel": "Changed: {word}",
+            "hint": "Only this changes",
+            "applyLabel": "Apply",
+            "doneLabel": "✓ Done"
+          }
+        }
+      },
+      "hold": 0.01,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "finale",
+      "title": "Ink Becomes Image",
+      "narration": "Galanty: ink becomes image.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-finale",
+          "props": {
+            "text": "文影",
+            "seal": "文影",
+            "tagline": "Ink Becomes Image",
+            "latin": "GALANTY"
+          }
+        }
+      },
+      "hold": 2.615,
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    }
+  ]
+}

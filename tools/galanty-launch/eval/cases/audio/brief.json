@@ -1,0 +1,34 @@
+{
+  "productName": "Echo Room",
+  "tagline": "DEMO / Listen closer",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Trim a clip",
+      "detail": "Select a clip range",
+      "command": "Trim clip",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Place a marker",
+      "detail": "Mark a listening point",
+      "command": "Add marker",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Export audio",
+      "detail": "Save the demo mix",
+      "command": "Export mix",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#e8c67c"
+  },
+  "musicStyle": "epic",
+  "seed": 2108,
+  "durationSeconds": 36,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

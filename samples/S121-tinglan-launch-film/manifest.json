@@ -1,0 +1,198 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S121",
+  "title": "听澜纪要 · 发布片",
+  "titles": {
+    "zh": "听澜纪要 · 发布片",
+    "en": "Tinglan · Launch Film"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "tl-hook",
+    "tl-problem",
+    "tl-concept",
+    "tl-workflow",
+    "tl-metric",
+    "tl-cta",
+    "tl-brand"
+  ],
+  "page": "https://galanty.cn/samples/#S121",
+  "version": {
+    "commit": "a356c1ae644af5578fb3b4d16a3c638b504accc0",
+    "contentDigest": "ae1b3929b32eab6912534edeb946e2393feb560e21ec69b48bd400c910575024",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub heygen-com/hyperframes（提交 23d1fe5b，Apache-2.0，Copyright 2026 HeyGen, Inc.）的发布片分段范例；产品“听澜纪要”、文案、标志与图标为原创虚构，未用上游任何商标或素材",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：改编自 GitHub heygen-com/hyperframes（提交 23d1fe5b，Apache-2.0，Copyright 2026 HeyGen, Inc.）的发布片分段范例；产品“听澜纪要”、文案、标志与图标为原创虚构，未用上游任何商标或素材（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-play-on",
+    "selection": "library:original-play-on",
+    "title": "Play On",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Play On — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S105/music/synth.py",
+    "modifications": "Synthesized by templates/samples/talkframe-promos/edit-studio/music/synth.py (numpy/scipy, 48 kHz WAV), then encoded to 64 kbps MP3, 48 kHz stereo; no samples, no third-party audio.",
+    "file": "music/play-on.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5794,
+      "sha256": "8d4679298df2f7e2200e04c5d5bb5901dfb4e09e0d69440444857ffb35c67e2f",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2357,
+      "sha256": "b0ab837e75e4030a4a57a187a39bf0a90de003a1643eb5a41d9331d30479b3da",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3257,
+      "sha256": "38c45b982fea8e56994810c779f0ca0fd92c24e03d5a17469462be1ee74fbc3a",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 403,
+      "sha256": "5cdc1d7c9097e45d4430a9131b290d4029e09e0c147b0b163081aca9bec2e329",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1686,
+      "sha256": "cb3ce2b73fe7492f084cb2d3aef07330549456b2cf2e8b78ecf223692955fa50",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 6323,
+      "sha256": "1854f18b0bfb671a70519d85c9ea3bebb1b30f641554673e17a8796ab3e607ef",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 403,
+      "sha256": "5cdc1d7c9097e45d4430a9131b290d4029e09e0c147b0b163081aca9bec2e329",
+      "license": "sample-content"
+    },
+    {
+      "path": "tl-hook.tsx",
+      "bytes": 17761,
+      "sha256": "cadd82c48179c920966ce645b9766d2c4bb7dd54f47f1ca9664edca749b3cb17",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-problem.tsx",
+      "bytes": 22539,
+      "sha256": "62632f59ee41c811491f1b682335d2f6613e474bebcae5d8717170dfa215cd0c",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-concept.tsx",
+      "bytes": 16398,
+      "sha256": "812da3ff0fd19dcdb31fbf8c475b54e9499e220a7929a009e89f17ba94a475b5",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-workflow.tsx",
+      "bytes": 21010,
+      "sha256": "598fa679fd687d0bf8c3c6611eaeb853c41392205c66519463158ab6f192b03b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-metric.tsx",
+      "bytes": 18708,
+      "sha256": "a2284d36340757f1fb91017af82861c9d6f456c8189a844c782c31ed56d3f4ac",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-cta.tsx",
+      "bytes": 15657,
+      "sha256": "676f35aa9a8c4ee7f205c66a77528704c224d53fe4b1bcbb0470f51686811789",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tl-brand.tsx",
+      "bytes": 17268,
+      "sha256": "c8b95f9af557054d2c1203fb0afe9e6c468f8503f9a89e84ee45db552c9bdc91",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 3355,
+      "sha256": "7487682dae945c2b93b51bb27953991bdd68678241cb4be93bbf67db94b7c597",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5980,
+      "sha256": "1dfca0a3c70f85e008a17683093ecae9ec09f04b7c1d0a7160216528480a020c",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10763,
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1853,
+      "sha256": "32ef5ac7ac015a948ed3fb146b203d27533c805f03de1954820aa19abde52235",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 5016,
+      "sha256": "97a64b06d98ed94404d2f3500c064309735c3d50fef3f31042b7d7f3e844d12e",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1955,
+      "sha256": "7d0f24139e48d499956574a06ff04941affe09ed5df970ac300a68b4e4660fd7",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S121.zip",
+    "bytes": 619916,
+    "sha256": "b128cefa846fbe10d9c9a36547b4aea4a544cee36718ae0fbaebbc903ef76e4c",
+    "format": "galanty-source-pack",
+    "contentDigest": "ae1b3929b32eab6912534edeb946e2393feb560e21ec69b48bd400c910575024"
+  },
+  "inlineMedia": []
+}

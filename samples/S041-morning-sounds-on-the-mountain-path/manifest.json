@@ -1,0 +1,195 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S041",
+  "title": "山径晨声",
+  "titles": {
+    "zh": "山径晨声",
+    "en": "Morning Sounds on the Mountain Path"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "诗词文化",
+  "templates": [
+    "T01"
+  ],
+  "modules": [
+    "morning-verse",
+    "verse-journey",
+    "title-statement"
+  ],
+  "page": "https://galanty.cn/samples/#S041",
+  "version": {
+    "commit": "cfa5d438e9992a9eb6d0bb9330626fbefa315c9b",
+    "contentDigest": "fb19304b3f381f20fa98112f0d8ee8ce9c89c081191ca696f7c4b100b7655c1f",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-calm-current-64",
+    "selection": "library:generated-calm-current-64",
+    "title": "Calm Current 64",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 64 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120401",
+    "modifications": null,
+    "file": "music/generated-calm-current-64.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S041",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 220,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 12,
+      "durationSeconds": 48.08046,
+      "files": 13
+    },
+    {
+      "seedId": "S041-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Sulafat",
+      "speechRate": 220,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Sulafat），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Sulafat); playback stays offline",
+      "sentences": 13,
+      "durationSeconds": 39.332481,
+      "files": 14
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6493,
+      "sha256": "44402efc8894d58c37edf79d4f21ccbd086440dc408f57a5bf7957a552f4412d",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2668,
+      "sha256": "19868a4da1d9aa1718eb48c70da9860813927cf9086eb26f2a17c0192b21a20a",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3346,
+      "sha256": "6c55e71c1d09a8f384545d0845891721bea167a41908c2984235a870133d680b",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 541,
+      "sha256": "c481fe3d0cf8b0e4c2373dd84efee64776681cb3bf4bfed74762847488fb3b98",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 706,
+      "sha256": "1677f517ae16c0926876d18fec51bf00b037a82112b5816792948a616978691a",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 3845,
+      "sha256": "425d904bfc00968bf1ada622f3fc00a6ddd9c8da0c1c590e9a6a803e487118cf",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 858,
+      "sha256": "00312660a7fc7cc2ab7439c89e789ddf841dabeae6b31f301587959a8bb65e19",
+      "license": "sample-content"
+    },
+    {
+      "path": "morning-verse.tsx",
+      "bytes": 3811,
+      "sha256": "f7c4b07cbe8d2011ea18aaf2e1c81146b027233efccc1a609f5826906b066a83",
+      "license": "MIT"
+    },
+    {
+      "path": "verse-journey.tsx",
+      "bytes": 2341,
+      "sha256": "6e0aaac153ce8cb67c548265de067697f5c1e1638f0a0348970fd042318a3412",
+      "license": "MIT"
+    },
+    {
+      "path": "title-statement.tsx",
+      "bytes": 2293,
+      "sha256": "eea577dda3044164f8b4c2f9796ae08c39041961fa51180424e1a6f88fa8e930",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 6773,
+      "sha256": "e95bb5e6b3b690dae3db5a0b6c15ab9d02c9aa0ebb6d690820226904215efa1b",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1057,
+      "sha256": "cfbebcb8c09cd7a420d35462c81e2b0d960faf325fde094173d0b6f234388938",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 8008,
+      "sha256": "cab1fd7fcb51a7b95ef4f5b49426c49571ad4a0a72d1b6f93384dbd6dae3d54a",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1935,
+      "sha256": "1daa62a7d6610e543b769e64388b0f940a158fe771f312d0e56a0617bd05b652",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S041.zip",
+    "bytes": 1168762,
+    "sha256": "794516de305cc0f7cf53373cf96ceb1b19618464f86edc90457d06885929706e",
+    "format": "galanty-source-pack",
+    "contentDigest": "fb19304b3f381f20fa98112f0d8ee8ce9c89c081191ca696f7c4b100b7655c1f"
+  },
+  "inlineMedia": []
+}

@@ -1,0 +1,304 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S116",
+  "title": "呼呼 · AI 陪伴玩偶宣传片",
+  "titles": {
+    "zh": "呼呼 · AI 陪伴玩偶宣传片",
+    "en": "Huhu · AI Companion Plush"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "hh-night",
+    "hh-story",
+    "hh-english",
+    "hh-memory",
+    "hh-comfort",
+    "hh-parent",
+    "hh-hero",
+    "hh-end"
+  ],
+  "page": "https://galanty.cn/samples/#S116",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "c82f625ec75882c76004891d0a38f129445a4800e238a1d57ef1a2faf57a3cd8",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创产品宣传片：品牌“絮光”与产品“呼呼”虚构，旁白自写；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创产品宣传片：品牌“絮光”与产品“呼呼”虚构，旁白自写；底图、配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-huhu",
+    "selection": "library:original-huhu",
+    "title": "Huhu Lullaby",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Huhu Lullaby — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S116/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/promo-aitoy-20261013/music_build.py (one 3-bar skip on a bar line so the quiet bars and the string lift land on the sad/hug scenes, -5 dB pre-duck under narration, 230 Hz dip, NumPy-synthesized SFX: wake chime, page turns, star dings, plucks, rain bed, phone taps, bubbles; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S116; other films will not hit its accents.",
+    "file": "music/huhu.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S116",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 236,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 15,
+      "durationSeconds": 37.646751,
+      "files": 16
+    },
+    {
+      "seedId": "S116-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Leda",
+      "speechRate": 236,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Leda），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Leda); playback stays offline",
+      "sentences": 14,
+      "durationSeconds": 36.434607,
+      "files": 15
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6427,
+      "sha256": "4ae313903b5a40312cbc703086a8fef55dc9975631acfae2f0162e1206ed18ea",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4171,
+      "sha256": "85e86efa63b9215f2c97f641626896c7e3a1060ac158ddcafc1fd347875729bf",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 3792,
+      "sha256": "c3091fa134daf75cdda21c8aa7d25d7ab1c6960355320c5a0779fd16c951074d",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 925,
+      "sha256": "04e409971011c1e117cdeaba85f8bdf9ed6de77451e92a995c8deeac0a94d8d2",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 4998,
+      "sha256": "b82af74768130e54fc85c0e067dc615822e5dddfa0ef80c4ddef93dca7930c8f",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 7338,
+      "sha256": "e55b87458e4967553decc7ef8463fd68f4c1c14f082981702158876a22b9a53d",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 925,
+      "sha256": "04e409971011c1e117cdeaba85f8bdf9ed6de77451e92a995c8deeac0a94d8d2",
+      "license": "sample-content"
+    },
+    {
+      "path": "hh-night.tsx",
+      "bytes": 24393,
+      "sha256": "2967b8433d282a13307406570aef59cd40304a859bff2cb1f18c0392a0809919",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-story.tsx",
+      "bytes": 30018,
+      "sha256": "36fc924a06bf9ca905da5c891e8237626ac7e088f8e45bf3d7460e3e2e48031d",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-english.tsx",
+      "bytes": 25094,
+      "sha256": "a8bb05e2b10b9ed2c0e8c9bcd964cfb175865a2f9ba76c00020d0d68ebea2f47",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-memory.tsx",
+      "bytes": 25654,
+      "sha256": "b03484cdea26f4a5f60a26a16da09fbc6b604ae355ba32aef9afe0dee138e51d",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-comfort.tsx",
+      "bytes": 24521,
+      "sha256": "c0f6de4f5469c7ebbcc689b096eae453c48a9fb582d279b4b269e8fe4d16ba3e",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-parent.tsx",
+      "bytes": 31211,
+      "sha256": "a8a9cb44b5a6e30df3b93d292da936e2c1820cb79995033eb6f934f4f6f56834",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-hero.tsx",
+      "bytes": 26780,
+      "sha256": "08950e078f7fb01ab054d450d3b18e4de8393f9c88e9be9d32fc1583c1889c5c",
+      "license": "MIT"
+    },
+    {
+      "path": "hh-end.tsx",
+      "bytes": 23741,
+      "sha256": "00fb4912027d0af2fcf18e23b5d6287db069df17001c6607607dc3977455fd69",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 19456,
+      "sha256": "601b3ab27b74c5df573a8f28ee421600b6179e791ffa3a06f627f7e3b02315ac",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 14421,
+      "sha256": "6641130b94d74e2f50d50a6187a63d9ca39de67c1af13e0ea84a702572b8cfcf",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 6497,
+      "sha256": "26b814cac5c2c5eb61fde992d753c46dea6976e1df427825f14a4486e5cdba66",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2383,
+      "sha256": "3b144a118dab626bef531d9c19f7bd51469da6a7e6db583e8a5a5a521362266f",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 14142,
+      "sha256": "693bba41fa85d17659ca2b0daa603d038ca34c630f558079ca29177971702616",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1970,
+      "sha256": "28b2fa260446998ac13c6c72bd67afebdf96c73040473d512e4867cb9fef8319",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S116.zip",
+    "bytes": 1347710,
+    "sha256": "2205c5b22cf21db4d35d795d6a4ebfe296dd01486f49a6311ae0f2a0ca802166",
+    "format": "galanty-source-pack",
+    "contentDigest": "c82f625ec75882c76004891d0a38f129445a4800e238a1d57ef1a2faf57a3cd8"
+  },
+  "inlineMedia": [
+    {
+      "source": "hh-night.tsx",
+      "reference": "release-assets/382934a546e278e11836c004ee92844b92a75c1e7514cab4de754c196fde58ed.webp",
+      "mime": "image/webp",
+      "bytes": 45022,
+      "sha256": "382934a546e278e11836c004ee92844b92a75c1e7514cab4de754c196fde58ed"
+    },
+    {
+      "source": "hh-story.tsx",
+      "reference": "release-assets/06ac4713c8795ce45ad20039f97458a3208df005141f1325342e36a7472fa3fa.webp",
+      "mime": "image/webp",
+      "bytes": 51266,
+      "sha256": "06ac4713c8795ce45ad20039f97458a3208df005141f1325342e36a7472fa3fa"
+    },
+    {
+      "source": "hh-english.tsx",
+      "reference": "release-assets/e2dcc6f43b9cad0be485accd2bd6e864fc7cbde27d0fe5264f7b890a67f4a52e.webp",
+      "mime": "image/webp",
+      "bytes": 98520,
+      "sha256": "e2dcc6f43b9cad0be485accd2bd6e864fc7cbde27d0fe5264f7b890a67f4a52e"
+    },
+    {
+      "source": "hh-memory.tsx",
+      "reference": "release-assets/175820bb91e8202867c1f6afc85a32cb150845b1a58522e73b755485fb4f8850.webp",
+      "mime": "image/webp",
+      "bytes": 42116,
+      "sha256": "175820bb91e8202867c1f6afc85a32cb150845b1a58522e73b755485fb4f8850"
+    },
+    {
+      "source": "hh-comfort.tsx",
+      "reference": "release-assets/1261bfb10ac6ba89233b9bb80654b8141a389974f74046f7d69ab5dac734cd10.webp",
+      "mime": "image/webp",
+      "bytes": 52794,
+      "sha256": "1261bfb10ac6ba89233b9bb80654b8141a389974f74046f7d69ab5dac734cd10"
+    },
+    {
+      "source": "hh-comfort.tsx",
+      "reference": "release-assets/d5ceb6ffdcc4d8ec95eb1c3b1c41dbae542b4caa1b7ae7c3d4009e4d1cf3e32a.webp",
+      "mime": "image/webp",
+      "bytes": 74334,
+      "sha256": "d5ceb6ffdcc4d8ec95eb1c3b1c41dbae542b4caa1b7ae7c3d4009e4d1cf3e32a"
+    },
+    {
+      "source": "hh-parent.tsx",
+      "reference": "release-assets/12442b6f016f7791810f971e9e7d99c63ff845cb8cb397e0c698cabee32e3757.webp",
+      "mime": "image/webp",
+      "bytes": 44160,
+      "sha256": "12442b6f016f7791810f971e9e7d99c63ff845cb8cb397e0c698cabee32e3757"
+    },
+    {
+      "source": "hh-hero.tsx",
+      "reference": "release-assets/60f5b8e1a351373e71f94ca37dbe9ec768a599e7ed573a9174b682af8c1e754f.webp",
+      "mime": "image/webp",
+      "bytes": 25018,
+      "sha256": "60f5b8e1a351373e71f94ca37dbe9ec768a599e7ed573a9174b682af8c1e754f"
+    },
+    {
+      "source": "hh-end.tsx",
+      "reference": "release-assets/5403a8ac8832303e2e81f18a8badc4108c971bddd0f4790d94e0eac26ba8ee34.webp",
+      "mime": "image/webp",
+      "bytes": 48760,
+      "sha256": "5403a8ac8832303e2e81f18a8badc4108c971bddd0f4790d94e0eac26ba8ee34"
+    }
+  ]
+}

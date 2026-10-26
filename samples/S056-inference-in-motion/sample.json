@@ -1,0 +1,39 @@
+{
+  "no": "S056",
+  "title": "Inference, in motion",
+  "titles": {
+    "en": "Inference, in motion",
+    "zh": "推理进行时"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "inference-film"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-minimal-electronic-100",
+    "selection": "library:generated-minimal-electronic-100",
+    "title": "Minimal Electronic 100",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Minimal Electronic 100 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/style-v1?seed=216605&style=minimal-electronic&tempo=100&seconds=124",
+    "modifications": null,
+    "file": "music/generated-minimal-electronic-100.mp3",
+    "bundled": true
+  },
+  "page": "https://galanty.cn/samples/#S056"
+}

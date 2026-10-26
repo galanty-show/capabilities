@@ -1,0 +1,34 @@
+{
+  "productName": "Cedar Kit",
+  "tagline": "DEMO / Build together",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Typed pieces",
+      "detail": "Compose typed UI pieces",
+      "command": "import { Panel } from \"cedar-demo\";",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Readable source",
+      "detail": "Explore the example source",
+      "command": "Open source",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Local examples",
+      "detail": "Run the demo gallery",
+      "command": "npm run gallery",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#8fe1d0"
+  },
+  "musicStyle": "lofi",
+  "seed": 2104,
+  "durationSeconds": 30,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

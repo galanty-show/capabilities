@@ -1,0 +1,40 @@
+{
+  "no": "S124",
+  "title": "书架小程序 · 第 12 周迭代回顾",
+  "titles": {
+    "zh": "书架小程序 · 第 12 周迭代回顾",
+    "en": "Bookshelf · Sprint 12 Review"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "数据报告",
+  "templates": [],
+  "modules": [
+    "gh-sprint-review"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "改编自 GitHub claude-code-video-toolkit 的 hello-world SprintReview（MIT，提交 959e0fc6c202，Copyright (c) 2024 Digital Samba）；内容为虚构主题，文字原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-minimal-electronic-100",
+    "selection": "library:generated-minimal-electronic-100",
+    "title": "Minimal Electronic 100",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Minimal Electronic 100 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/style-v1?seed=216605&style=minimal-electronic&tempo=100&seconds=124",
+    "modifications": null,
+    "file": "music/generated-minimal-electronic-100.mp3",
+    "bundled": true
+  },
+  "note": "改编自 claude-code-video-toolkit 的 hello-world 示例（上游许可原文见目录 LICENSE.upstream.txt）。无旁白；原作演示段的录屏改为代码画的手机界面。切点按随包曲 Minimal Electronic 100（100 BPM）的小节线排，换曲后不再对齐。正文约 33.5 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S124"
+}

@@ -1,0 +1,44 @@
+{
+  "no": "S042",
+  "title": "虚构清单接口演示",
+  "titles": {
+    "zh": "虚构清单接口演示",
+    "en": "A Fictional List API Demo"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T04",
+    "T06"
+  ],
+  "modules": [
+    "relation-map",
+    "process-steps",
+    "api-packets"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-tense-undertow-80",
+    "selection": "library:generated-tense-undertow-80",
+    "title": "Tense Undertow 80",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Tense Undertow 80 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120405",
+    "modifications": null,
+    "file": "music/generated-tense-undertow-80.mp3",
+    "bundled": true
+  },
+  "page": "https://galanty.cn/samples/#S042"
+}

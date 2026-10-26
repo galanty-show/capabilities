@@ -1,0 +1,27 @@
+{
+  "no": "S054",
+  "title": "一分钟认识区块链钱包",
+  "titles": {
+    "zh": "一分钟认识区块链钱包",
+    "en": "Blockchain Wallets in One Minute"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [
+    "T05"
+  ],
+  "modules": [
+    "semantic-cards"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "page": "https://galanty.cn/samples/#S054"
+}

@@ -1,0 +1,103 @@
+{
+  "contractVersion": 3,
+  "title": "会收起的书桌灯",
+  "sourceTitle": "完全虚构的产品概念；功能、体验均为创作设定。",
+  "music": {
+    "mood": "bright",
+    "energy": "rise",
+    "tempo": 108
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "是什么",
+      "narration": "虚构的折页书桌灯，给小桌面留一束读书的光；不用时折成薄册。",
+      "sourceQuote": "虚构的折页书桌灯，给小桌面留一束读书的光；不用时折成薄册。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "title": "折页书桌灯",
+            "kicker": "虚构产品概念",
+            "subtitle": "展开照明，合起收纳"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "三件事",
+      "narration": "它有三件事：展开照书页，调暗少刺眼，合起腾桌面。",
+      "sourceQuote": "它有三件事：展开照书页，调暗少刺眼，合起腾桌面。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "三项核心动作",
+            "points": [
+              "展开照明",
+              "调低亮度",
+              "合起收纳"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "使用路径",
+      "narration": "放在书旁，展开灯面，按键调光，对准书页；读完再合起。",
+      "sourceQuote": "放在书旁，展开灯面，按键调光，对准书页；读完再合起。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "process-steps",
+          "props": {
+            "heading": "从展开到收纳",
+            "steps": [
+              "放在书旁",
+              "展开灯面",
+              "按键调光",
+              "合起收纳"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "边界与行动",
+      "narration": "它不代替房间主灯，也未必适合每张桌子。先量桌面，再决定是否需要。",
+      "sourceQuote": "它不代替房间主灯，也未必适合每张桌子。先量桌面，再决定是否需要。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "compare-two",
+          "props": {
+            "heading": "适用边界",
+            "left": {
+              "label": "适合",
+              "title": "桌面阅读",
+              "items": [
+                "局部照明"
+              ]
+            },
+            "right": {
+              "label": "不适合",
+              "title": "全屋照明",
+              "items": [
+                "不能代替主灯"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

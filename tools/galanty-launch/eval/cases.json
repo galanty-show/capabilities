@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "cli",
+      "category": "CLI",
+      "fictional": true,
+      "brief": "cases/cli/brief.json",
+      "source": "cases/cli/source.md"
+    },
+    {
+      "id": "saas",
+      "category": "SaaS",
+      "fictional": true,
+      "brief": "cases/saas/brief.json",
+      "source": "cases/saas/source.md"
+    },
+    {
+      "id": "mobile",
+      "category": "mobile",
+      "fictional": true,
+      "brief": "cases/mobile/brief.json",
+      "source": "cases/mobile/source.md"
+    },
+    {
+      "id": "hardware",
+      "category": "hardware",
+      "fictional": true,
+      "brief": "cases/hardware/brief.json",
+      "source": "cases/hardware/source.md"
+    },
+    {
+      "id": "oss",
+      "category": "OSS",
+      "fictional": true,
+      "brief": "cases/oss/brief.json",
+      "source": "cases/oss/source.md"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "fictional": true,
+      "brief": "cases/data/brief.json",
+      "source": "cases/data/source.md"
+    },
+    {
+      "id": "design",
+      "category": "design",
+      "fictional": true,
+      "brief": "cases/design/brief.json",
+      "source": "cases/design/source.md"
+    },
+    {
+      "id": "education",
+      "category": "education",
+      "fictional": true,
+      "brief": "cases/education/brief.json",
+      "source": "cases/education/source.md"
+    },
+    {
+      "id": "audio",
+      "category": "audio",
+      "fictional": true,
+      "brief": "cases/audio/brief.json",
+      "source": "cases/audio/source.md"
+    },
+    {
+      "id": "security",
+      "category": "security",
+      "fictional": true,
+      "brief": "cases/security/brief.json",
+      "source": "cases/security/source.md"
+    },
+    {
+      "id": "automation",
+      "category": "automation",
+      "fictional": true,
+      "brief": "cases/automation/brief.json",
+      "source": "cases/automation/source.md"
+    },
+    {
+      "id": "desktop",
+      "category": "desktop",
+      "fictional": true,
+      "brief": "cases/desktop/brief.json",
+      "source": "cases/desktop/source.md"
+    },
+    {
+      "id": "iot",
+      "category": "IoT",
+      "fictional": true,
+      "brief": "cases/iot/brief.json",
+      "source": "cases/iot/source.md"
+    },
+    {
+      "id": "commerce",
+      "category": "commerce",
+      "fictional": true,
+      "brief": "cases/commerce/brief.json",
+      "source": "cases/commerce/source.md"
+    },
+    {
+      "id": "bun",
+      "category": "real-OSS",
+      "fictional": false,
+      "brief": "cases/bun/brief.json",
+      "source": "cases/bun/source.md"
+    }
+  ]
+}

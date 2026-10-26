@@ -1,0 +1,40 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 360,
+  "maxDurationSeconds": 480,
+  "narration": true,
+  "presenter": false,
+  "voice": "Orus",
+  "speechRate": 240,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/sidu-chishui-20261016/voice/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain",
+        "sample-s126-voice-r2"
+      ],
+      "input": "arg",
+      "timeoutMs": 300000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicFile": "library:original-sidu-chishui",
+  "musicVolume": 0.45,
+  "musicDuckDb": -10,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#0b0d10",
+    "text": "#f1e9d6",
+    "accent": "#e03b2f",
+    "muted": "#a79b88"
+  }
+}

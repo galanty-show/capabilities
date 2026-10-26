@@ -1,0 +1,39 @@
+{
+  "contractVersion": 3,
+  "title": "停水通知，一眼看清",
+  "sourceTitle": "虚构社区停水通知",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "先记住停水时间",
+      "narration": "虚构通知：本周六上午九点至十二点，东区计划停水。",
+      "sourceQuote": "虚构通知：本周六上午九点至十二点，东区计划停水。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "water-notice", "props": {"phase": "time", "headline": "09:00—12:00", "detail": "本周六 · 计划停水"}}}
+    },
+    {
+      "id": "s2",
+      "title": "确认影响范围",
+      "narration": "影响东区一至三号楼。西区不在示例范围。",
+      "sourceQuote": "影响东区一至三号楼。西区不在示例范围。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "water-notice", "props": {"phase": "scope", "headline": "东区 1—3 号楼", "detail": "西区不在本次示例范围"}}}
+    },
+    {
+      "id": "s3",
+      "title": "停水前做两件事",
+      "narration": "停水前按需备少量生活用水，并关好家中龙头。期间不要反复开阀。",
+      "sourceQuote": "停水前按需备少量生活用水，并关好家中龙头。期间不要反复开阀。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "water-notice", "props": {"phase": "prepare", "headline": "先备水，再关阀", "detail": "按需接取 · 检查龙头"}}}
+    },
+    {
+      "id": "s4",
+      "title": "恢复时间仍以正式通知为准",
+      "narration": "预计十二点恢复。来水后先短暂放水；异常时以正式通知为准。",
+      "sourceQuote": "预计十二点恢复。来水后先短暂放水；异常时以正式通知为准。",
+      "hold": 0.8,
+      "component": {"id": "scene.code", "version": 1, "params": {"module": "water-notice", "props": {"phase": "resume", "headline": "预计 12:00 恢复", "detail": "先短暂放水 · 关注正式通知"}}}
+    }
+  ]
+}

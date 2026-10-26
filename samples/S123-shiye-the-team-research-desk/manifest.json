@@ -1,0 +1,198 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S123",
+  "title": "拾页 · 团队研究台",
+  "titles": {
+    "zh": "拾页 · 团队研究台",
+    "en": "Shiye · The Team Research Desk"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "gh-ink-open",
+    "gh-ink-card",
+    "gh-ink-deck",
+    "gh-ink-detail",
+    "gh-ink-radar",
+    "gh-ink-brief",
+    "gh-ink-outro"
+  ],
+  "page": "https://galanty.cn/samples/#S123",
+  "version": {
+    "commit": "f1a152a442b33c08580ee3c1956d075f7e236e49",
+    "contentDigest": "9d1882e90588d3794007f2b7858a96db934e5e8bb858ca61f42c569ca39782ab",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub video-shotcraft「Ink Press」模板（Apache-2.0，提交 13c74a707786，Copyright 2026 Wei Yihao）；界面改为代码现画的中文虚构界面，文字原创；配乐与音效原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：改编自 GitHub video-shotcraft「Ink Press」模板（Apache-2.0，提交 13c74a707786，Copyright 2026 Wei Yihao）；界面改为代码现画的中文虚构界面，文字原创；配乐与音效原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-gh-ink-press",
+    "selection": "library:original-gh-ink-press",
+    "title": "Ink Press Morning",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Ink Press Morning — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S123/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (tools/production/github-remotion-20261013/s123-ink-press/music-prompt.txt, take score-s123a); re-timed by music_build.py (groove enters on the first deck shot, breath before the finale, the track's own ending placed after the wordmark stamp) plus NumPy-synthesized sound design pinned to the same frames as the upstream template's SFX table (whooshes, typing, pops, riser, impact, sparkle); no third-party recordings or samples; encoded to 40 kbps MP3, 48 kHz stereo. Timed to sample S123; other films will not hit its accents.",
+    "file": "music/gh-ink-press.mp3",
+    "bundled": true
+  },
+  "narration": [],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 5804,
+      "sha256": "b74b6d4aa971502411314bb0ac02cf15763dfcf2bde4b6581d330869da6a64c0",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2943,
+      "sha256": "90a8772714c9ffb44e44c97e2eb8ab4681b6af88c0aa191e1985c6fa98f69ea2",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5003,
+      "sha256": "b35c5ed026d302498cde86a992f3e5764c6cf04962a1590a8f0d62f675d51e1d",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 388,
+      "sha256": "cd45e9587e218757b38f2adde006a0f26c1fe8e9461326296bc6e6b2f4fd00c8",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1043,
+      "sha256": "7eb118f2aa2363d869ee45219f528f6f6721913553d6c8dca6a19cb6979294d3",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 33436,
+      "sha256": "6f1c0150b79fe83c776d876188304a57ea5550379114d17b25918919d546e7ce",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 408,
+      "sha256": "e39f60fd56943e78c9f32c41bbadb006605287c73e396756919c5b697f678294",
+      "license": "sample-content"
+    },
+    {
+      "path": "gh-ink-open.tsx",
+      "bytes": 35721,
+      "sha256": "c7efdd80e0692369d260c16a5fa1e97ade052bb3715192c2626c57290aeabcb9",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-card.tsx",
+      "bytes": 22348,
+      "sha256": "0664d2d0f1fb87740bd5add44211ec4d290d2ae62cda529fc83bd9effc1e95c0",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-deck.tsx",
+      "bytes": 32417,
+      "sha256": "385d07e80166bcd4a0f5dceed82f54d04143267fdeda953de3e0f75eec536300",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-detail.tsx",
+      "bytes": 32534,
+      "sha256": "4c8b3a4bbe14886da90b39867963086f0fce726a4d91177b1992582f86bd5cbd",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-radar.tsx",
+      "bytes": 41954,
+      "sha256": "b6b9e507b616285910541f3a7a1fb5196f7d07e4569b27554fb9461ef5000d24",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-brief.tsx",
+      "bytes": 47536,
+      "sha256": "a71d33d07788c034600cd1509332ce4b865438ba72ca653ea94c9814eb0b99a6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "gh-ink-outro.tsx",
+      "bytes": 36508,
+      "sha256": "bba32f3274a5676d467a851487fe9c2e6f32437b22aff6788d82f5f6bd33dfc5",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 3852,
+      "sha256": "afbf45123d30c9854c17b8e14fd191276cea369ece2e0494a96ed900ec5fbb45",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 4754,
+      "sha256": "515110de107f7738725869f3d6b22da71faabff09943cc54290acaf8f36e43ac",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11340,
+      "sha256": "b2ce9877a55547ada9b870150664d1468ff777e67cc9888806a73927d31c5771",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2484,
+      "sha256": "157582c1d6b39fb2bfcf2a9f605a7c50d1bf34f0de4d175fc5709fa31173eeb6",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 5242,
+      "sha256": "1f05c0bd80e248077c6f47b20471d3555d06e65b5e6b5a84c49e8b841afed949",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1964,
+      "sha256": "4fd8e9ea6bdfd2f99f65685735128d1877e62383be007dd6ea53c267a8bd7227",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S123.zip",
+    "bytes": 340483,
+    "sha256": "cdf697a5cf6aa5230386079639cda22e47be35bf980bfe536da4468e6cbe9aed",
+    "format": "galanty-source-pack",
+    "contentDigest": "9d1882e90588d3794007f2b7858a96db934e5e8bb858ca61f42c569ca39782ab"
+  },
+  "inlineMedia": []
+}

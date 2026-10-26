@@ -1,0 +1,154 @@
+{
+  "contractVersion": 3,
+  "title": "Qiguang 2 · Release Teaser",
+  "subtitle": "Adapted from remocn ReleaseTeaser (MIT) · a 16-second teaser, no voiceover",
+  "sourceTitle": "Notes on adapting remocn ReleaseTeaser",
+  "scenes": [
+    {
+      "id": "idea",
+      "title": "1: It starts with an idea",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 0,
+            "f0": 0,
+            "text": "It starts with an idea."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "room",
+      "title": "2: Room for better work",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 1,
+            "f0": 52,
+            "text": "Room to make\nbetter work."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "detail",
+      "title": "3: Every detail, alive",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 2,
+            "f0": 104,
+            "text": "Every detail, alive."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.9663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "together",
+      "title": "4: Go together, go further",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 3,
+            "f0": 163,
+            "text": "Go together.\nGo further."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.9997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "chapter",
+      "title": "5: A new chapter",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 4,
+            "f0": 223,
+            "text": "A new chapter.\nNo starting over."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "reveal",
+      "title": "End card: Qiguang 2",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-release-teaser",
+          "props": {
+            "shot": 5,
+            "f0": 305,
+            "brandName": "Qiguang",
+            "release": "2",
+            "tagline": "The next chapter starts here."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 5.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

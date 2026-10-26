@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S056",
+  "title": "Inference, in motion",
+  "titles": {
+    "en": "Inference, in motion",
+    "zh": "推理进行时"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "inference-film"
+  ],
+  "page": "https://galanty.cn/samples/#S056",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "46d30c04d065123268577445289b8fb8482e18f039b52c680ee9be7029751d34",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-minimal-electronic-100",
+    "selection": "library:generated-minimal-electronic-100",
+    "title": "Minimal Electronic 100",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Minimal Electronic 100 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/style-v1?seed=216605&style=minimal-electronic&tempo=100&seconds=124",
+    "modifications": null,
+    "file": "music/generated-minimal-electronic-100.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S056",
+      "language": "en",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 235,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 6,
+      "durationSeconds": 20.050458,
+      "files": 7
+    },
+    {
+      "seedId": "S056-zh",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 230,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 6,
+      "durationSeconds": 16.381375,
+      "files": 7
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6496,
+      "sha256": "16d5564d31d7bc3567f99cc5c736c16ed2f06e5fec3b7bf749bb5b385c09d218",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2665,
+      "sha256": "2d0c8b319e1299ab66fdac895cb58685b6b0fd64cf2e3243ab051f3640d30fb9",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 2034,
+      "sha256": "7bd3b41b4b2385a9ae070ac09a265392d25a8e574303bf4480585a4ce19047d1",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 504,
+      "sha256": "501af25eeee6fe25569cc6991e7553ef69b6b88a7f7da3eb955a182c558816a8",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 497,
+      "sha256": "909402021f8cddee1bbc4248656bfbad29ca1c82fcb01ea88480187d6a5d38f4",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/storyboard.json",
+      "bytes": 3493,
+      "sha256": "5de7d0449f35a11afa91c05314a92195308f89588045b609924387608eb2c461",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/settings.json",
+      "bytes": 849,
+      "sha256": "6084bc4146f4779eacd379706e2a43a2fd2e116f9f8313d0d50f190b7dabf684",
+      "license": "sample-content"
+    },
+    {
+      "path": "inference-film.tsx",
+      "bytes": 12234,
+      "sha256": "a8ffe9a064a65f14133e7aad88da601c5f11be17e64c3c04b994cbe8d14f1d87",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 11943,
+      "sha256": "798da99605aeb8f536e2648730cbf283fbe258ea06ffe9bde55616db9b3dea28",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1077,
+      "sha256": "4ddf32a144872ec3df3829a8929044ad54bee13bb8438a74f098dbcfb2b5c580",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 8505,
+      "sha256": "06ab10222115bc2cbc156db8d542dd9da06c2073ab8289dbb253bf6a2ce8f4bd",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1936,
+      "sha256": "3370893ed182fa319a850b012616971204b6ba561bdb44831a64c47af7218c43",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S056.zip",
+    "bytes": 1214520,
+    "sha256": "3a85e6c9ed4d76717b4e1e11c0273f74afb6b702537f8475b753df88213b585f",
+    "format": "galanty-source-pack",
+    "contentDigest": "46d30c04d065123268577445289b8fb8482e18f039b52c680ee9be7029751d34"
+  },
+  "inlineMedia": []
+}

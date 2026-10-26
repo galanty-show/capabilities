@@ -1,0 +1,360 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S109",
+  "title": "The Legend of Sleepy Hollow",
+  "titles": {
+    "en": "The Legend of Sleepy Hollow",
+    "zh": "沉睡谷传奇"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "sh-road",
+    "sh-title",
+    "sh-hollow",
+    "sh-ichabod",
+    "sh-katrina",
+    "sh-brom",
+    "sh-party",
+    "sh-ride",
+    "sh-shadow",
+    "sh-chase",
+    "sh-morning",
+    "sh-wedding",
+    "sh-credit"
+  ],
+  "page": "https://galanty.cn/samples/#S109",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "65fd6cb1809c16442fdc975e36fb084bb08ca84fbdcab19d971d97610e72f824",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创英文复述：旁白为自写（原著 Washington Irving 1820 年公版小说，引原文一句）；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创英文复述：旁白为自写（原著 Washington Irving 1820 年公版小说，引原文一句）；底图、配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-sleepy-hollow",
+    "selection": "library:original-sleepy-hollow",
+    "title": "Sleepy Hollow",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Sleepy Hollow — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S109/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/sleepy-hollow-20261013/music_build.py (cut into 7 segments on the S109 timeline: title hit, folk waltz, heartbeat pulse, 6/8 chase that stops dead on the pumpkin, music-box morning, waltz reprise, final chord; NumPy-synthesized wind, fire, thunder, cannon, flame whoosh, pumpkin crash and bells; no third-party samples), then trimmed to the film body and encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S109; other films will not hit its accents.",
+    "file": "music/sleepy-hollow.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S109",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Charon",
+      "speechRate": 258,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Charon），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Charon); playback stays offline",
+      "sentences": 41,
+      "durationSeconds": 101.351814,
+      "files": 42
+    },
+    {
+      "seedId": "S109-zh",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Charon",
+      "speechRate": 272,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Charon），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Charon); playback stays offline",
+      "sentences": 41,
+      "durationSeconds": 97.778026,
+      "files": 42
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6441,
+      "sha256": "29bbbb0717e5083f3a2836fb9a72c42693b7c8480fb2ffd46c0b5feeebd449ba",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4289,
+      "sha256": "6369f66576006116bdba0695c27776ae837f757a7785e0701749277c2dc8df99",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 6426,
+      "sha256": "b100ced966cd46043e7be159aed8e624ab324b47c247811fc54e5581891b18f0",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 824,
+      "sha256": "4161ea707dd6425242e5b914c158385ac17a7aa1910424165b09479cc7282253",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 3148,
+      "sha256": "7c4e1a8c40e864e1b9e4c0ef23edd986b2b0bff76d6f8aac6eadecf3dd4ee05f",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/storyboard.json",
+      "bytes": 9298,
+      "sha256": "34dcdbc0d135cde3179448008f314361ebdc0a6afd0b980d24dec22e9bddb073",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/settings.json",
+      "bytes": 828,
+      "sha256": "b0baff16608e06407ca2cbd82ad84a172674849e8abc345cd1d36888f6914c9c",
+      "license": "sample-content"
+    },
+    {
+      "path": "sh-road.tsx",
+      "bytes": 19755,
+      "sha256": "8e25ea8cfaf7dc84a84474a82b9cdc6a6804086f09244b6007030154bddff45b",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-title.tsx",
+      "bytes": 16425,
+      "sha256": "28bf00b90f7802b26433266a21ab08179b0cf18b7f10d3943592da7629688249",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-hollow.tsx",
+      "bytes": 13959,
+      "sha256": "42470b7e43ade771b2c71ae283905c16c8cc6880d5f0539f9ec7234a7fcb4067",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-ichabod.tsx",
+      "bytes": 12844,
+      "sha256": "ddab18372d95987c5636927a83a5900e0330329c9da572f9c06905f4260a82db",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-katrina.tsx",
+      "bytes": 11067,
+      "sha256": "1c013cf9b370e2531c2bc3e80534d101ec34413bcfcffcde452f0dcf2de4d9fb",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-brom.tsx",
+      "bytes": 12268,
+      "sha256": "6abc052d404ab2767a78bc1e0fe6902a6f6323436542aa30c59a6f280eb6a393",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-party.tsx",
+      "bytes": 15988,
+      "sha256": "40838085c43a7eba67849890bafe51040005c4865de373ddad2904bb230294d8",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-ride.tsx",
+      "bytes": 12455,
+      "sha256": "870387e889ecf56d44be3b2d2a40b1819e662fff571f51cf7b06efb65935a932",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-shadow.tsx",
+      "bytes": 16245,
+      "sha256": "e7e0dae5b8f74be958a06c4de565a17f4b8ebf59f27c216cba50b06a1237fd6a",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-chase.tsx",
+      "bytes": 42412,
+      "sha256": "d0f022347c3dc5b68bfe79bbf6795976550a53209f011323c15d319aa4750d5f",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-morning.tsx",
+      "bytes": 13849,
+      "sha256": "042cbf2da851deea5dad65f38fb93823d7a8884e989a15b08770484ff09fa36f",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-wedding.tsx",
+      "bytes": 10705,
+      "sha256": "50a66fc52fa77fc55e94cdf9f825fb31301b9f597f0fc6c6d8d7a24bd85b8cef",
+      "license": "MIT"
+    },
+    {
+      "path": "sh-credit.tsx",
+      "bytes": 28528,
+      "sha256": "0d40519bf0195081a4c38f616a874e100ce6858f5e13c3af934c277e0d75a375",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 17792,
+      "sha256": "f7c66b298d7af857141d46e98e35cc614c42eeef3399db8b058d69b8f7850d66",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 14266,
+      "sha256": "582b5e0cdcba0eed3bbbcd28dee38619b342894a0e5bd0d28d5a0735b1bdfff5",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 7564,
+      "sha256": "17b623ba45894bed8cf5ec9e29640b79997f40e29ccd891a4bc1e939cb289f3b",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2745,
+      "sha256": "91513afc59db3a0a6e5f0507432a046d47ab56b82226dc0f28dc6edc2194ac70",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13219,
+      "sha256": "15361c26c1d473ff2615f4e3162e46ab9cbc58f6e8b86c9596169b527fa8281a",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1957,
+      "sha256": "f10cdffa1d99d91ef56093fee982a2c02db8175133bc787fe2edca59f61a00c6",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S109.zip",
+    "bytes": 2825214,
+    "sha256": "8d6c3bf71b9fc49972f73f57eb760ec4d80b5f6a2b6f3bdf94d86250c1781460",
+    "format": "galanty-source-pack",
+    "contentDigest": "65fd6cb1809c16442fdc975e36fb084bb08ca84fbdcab19d971d97610e72f824"
+  },
+  "inlineMedia": [
+    {
+      "source": "sh-road.tsx",
+      "reference": "release-assets/5d85f5c45676d8d091e251db0c6686085873ac41ca20c55a13077828d59acec9.webp",
+      "mime": "image/webp",
+      "bytes": 44256,
+      "sha256": "5d85f5c45676d8d091e251db0c6686085873ac41ca20c55a13077828d59acec9"
+    },
+    {
+      "source": "sh-hollow.tsx",
+      "reference": "release-assets/5c2e972909e22df3f57a92943e4219ae0569aba85956c14aea462f934c5138be.webp",
+      "mime": "image/webp",
+      "bytes": 53652,
+      "sha256": "5c2e972909e22df3f57a92943e4219ae0569aba85956c14aea462f934c5138be"
+    },
+    {
+      "source": "sh-ichabod.tsx",
+      "reference": "release-assets/8b1678a010186b1123ac30cb142b9b236842dab22f1d71e06b1a8e5169fde404.webp",
+      "mime": "image/webp",
+      "bytes": 76506,
+      "sha256": "8b1678a010186b1123ac30cb142b9b236842dab22f1d71e06b1a8e5169fde404"
+    },
+    {
+      "source": "sh-katrina.tsx",
+      "reference": "release-assets/df6d1378b78d585d6087ae6d62c5e3ab396eeff51986118abf8e18e0c6d7892d.webp",
+      "mime": "image/webp",
+      "bytes": 124308,
+      "sha256": "df6d1378b78d585d6087ae6d62c5e3ab396eeff51986118abf8e18e0c6d7892d"
+    },
+    {
+      "source": "sh-brom.tsx",
+      "reference": "release-assets/ec56a8e3c1429f61d18494ea863aff56b39aaf9d5e2ae9e0ded504c3fc2bd8f8.webp",
+      "mime": "image/webp",
+      "bytes": 99942,
+      "sha256": "ec56a8e3c1429f61d18494ea863aff56b39aaf9d5e2ae9e0ded504c3fc2bd8f8"
+    },
+    {
+      "source": "sh-party.tsx",
+      "reference": "release-assets/9c3dc6608422db395c17eb92bf7382d746f3121bd8c869fa6cbff84fac3505ed.webp",
+      "mime": "image/webp",
+      "bytes": 82472,
+      "sha256": "9c3dc6608422db395c17eb92bf7382d746f3121bd8c869fa6cbff84fac3505ed"
+    },
+    {
+      "source": "sh-ride.tsx",
+      "reference": "release-assets/af20a9a77fd8fc0c6cccbf0095d4c4569bbe05dc07f9066b0235b312610e6c7b.webp",
+      "mime": "image/webp",
+      "bytes": 55248,
+      "sha256": "af20a9a77fd8fc0c6cccbf0095d4c4569bbe05dc07f9066b0235b312610e6c7b"
+    },
+    {
+      "source": "sh-shadow.tsx",
+      "reference": "release-assets/ad401e48fdc7de1fe0227b22a8a090e803eaa313a0e24b9eb04475f83f94a4f1.webp",
+      "mime": "image/webp",
+      "bytes": 55354,
+      "sha256": "ad401e48fdc7de1fe0227b22a8a090e803eaa313a0e24b9eb04475f83f94a4f1"
+    },
+    {
+      "source": "sh-chase.tsx",
+      "reference": "release-assets/567d674372cacba6c48d394c730bd3bc5c1dddb41ca40d22daa9446ef88bca40.webp",
+      "mime": "image/webp",
+      "bytes": 63764,
+      "sha256": "567d674372cacba6c48d394c730bd3bc5c1dddb41ca40d22daa9446ef88bca40"
+    },
+    {
+      "source": "sh-chase.tsx",
+      "reference": "release-assets/5a048e5cc1840b8cc6a22d6976a6ba5be18844822680f74e180794c2ccf66d06.webp",
+      "mime": "image/webp",
+      "bytes": 64492,
+      "sha256": "5a048e5cc1840b8cc6a22d6976a6ba5be18844822680f74e180794c2ccf66d06"
+    },
+    {
+      "source": "sh-morning.tsx",
+      "reference": "release-assets/806b5d0f79b8f833515e265a38683b19efbc834020e3caf65c8af8ed77d598f6.webp",
+      "mime": "image/webp",
+      "bytes": 94830,
+      "sha256": "806b5d0f79b8f833515e265a38683b19efbc834020e3caf65c8af8ed77d598f6"
+    },
+    {
+      "source": "sh-wedding.tsx",
+      "reference": "release-assets/af6f0dc444a659da6f7d89a0ee73ec80a876a77ad784beeba670b793059c0517.webp",
+      "mime": "image/webp",
+      "bytes": 87468,
+      "sha256": "af6f0dc444a659da6f7d89a0ee73ec80a876a77ad784beeba670b793059c0517"
+    }
+  ]
+}

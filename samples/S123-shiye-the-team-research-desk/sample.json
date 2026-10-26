@@ -1,0 +1,46 @@
+{
+  "no": "S123",
+  "title": "拾页 · 团队研究台",
+  "titles": {
+    "zh": "拾页 · 团队研究台",
+    "en": "Shiye · The Team Research Desk"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "gh-ink-open",
+    "gh-ink-card",
+    "gh-ink-deck",
+    "gh-ink-detail",
+    "gh-ink-radar",
+    "gh-ink-brief",
+    "gh-ink-outro"
+  ],
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub video-shotcraft「Ink Press」模板（Apache-2.0，提交 13c74a707786，Copyright 2026 Wei Yihao）；界面改为代码现画的中文虚构界面，文字原创；配乐与音效原创",
+    "verified": true
+  },
+  "music": {
+    "id": "original-gh-ink-press",
+    "selection": "library:original-gh-ink-press",
+    "title": "Ink Press Morning",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Ink Press Morning — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S123/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (tools/production/github-remotion-20261013/s123-ink-press/music-prompt.txt, take score-s123a); re-timed by music_build.py (groove enters on the first deck shot, breath before the finale, the track's own ending placed after the wordmark stamp) plus NumPy-synthesized sound design pinned to the same frames as the upstream template's SFX table (whooshes, typing, pops, riser, impact, sparkle); no third-party recordings or samples; encoded to 40 kbps MP3, 48 kHz stereo. Timed to sample S123; other films will not hit its accents.",
+    "file": "music/gh-ink-press.mp3",
+    "bundled": true
+  },
+  "note": "改编自 video-shotcraft 的 Ink Press 成片模板（上游许可原文与修改说明见目录 LICENSE.upstream.txt、README）。无旁白；原作截图改为 DOM 现画的中文虚构界面，原作 Mixkit 音效改为按同一帧号代码合成，混在配乐 Ink Press Morning（CC0，随包曲库 library:original-gh-ink-press）里：改幕长后音效不再对齐。宋体/楷体用 macOS 字体，其他系统回退。正文约 36.2 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S123"
+}

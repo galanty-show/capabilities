@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "galanty-launch",
+  "version": "0.1.0",
+  "description": "Sourced, beat-driven product launch films with timestamped preview revisions.",
+  "author": {"name": "Talkframe", "url": "https://github.com/galanty-show"},
+  "homepage": "https://github.com/galanty-show/capabilities",
+  "repository": "https://github.com/galanty-show/capabilities",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["video", "remotion", "launch"],
+  "extensions": {"com.openai": {"requires_local_executor": true, "interface": {"displayName": "Galanty Launch", "shortDescription": "Sourced launch films, previewed at every edit.", "developerName": "Talkframe", "category": "Productivity"}}}
+}

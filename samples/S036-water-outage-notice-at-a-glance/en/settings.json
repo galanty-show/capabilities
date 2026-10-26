@@ -1,0 +1,38 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 32,
+  "maxDurationSeconds": 60,
+  "narration": true,
+  "voice": "Kore",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S036-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 240,
+  "concurrency": 3,
+  "musicFile": "library:generated-calm-current-64",
+  "musicVolume": 0.07,
+  "brandOutro": "made-with",
+  "theme": {
+    "background": "#EAF3F5",
+    "accent": "#176C85",
+    "text": "#F7FCFA",
+    "muted": "#65828C"
+  }
+}

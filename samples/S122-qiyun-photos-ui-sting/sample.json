@@ -1,0 +1,46 @@
+{
+  "no": "S122",
+  "title": "栖云相册 · UI 开场动效",
+  "titles": {
+    "zh": "栖云相册 · UI 开场动效",
+    "en": "Qiyun Photos · UI Sting"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "1:1",
+  "category": "产品宣传",
+  "templates": [],
+  "modules": [
+    "qy-lockup",
+    "qy-signin",
+    "qy-email",
+    "qy-count",
+    "qy-nav",
+    "qy-create",
+    "qy-endcard"
+  ],
+  "license": {
+    "code": "Apache-2.0",
+    "content": "改编自 GitHub heygen-com/hyperframes-launches（提交 d7ac3506，Apache-2.0，Copyright 2026 HeyGen, Inc.）的 heygen-apple-motion/01-ui-sting；产品“栖云相册”、文案、标志、图标与光标为原创虚构，未用上游字体、标志或素材",
+    "verified": true
+  },
+  "music": {
+    "id": "external-project-utopia",
+    "selection": "library:external-project-utopia",
+    "title": "Project Utopia (seamless loop)",
+    "author": "congusbongus",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Project Utopia (seamless loop) by congusbongus, dedicated to the public domain under CC0 1.0 Universal.",
+    "attributionRequired": false,
+    "sourceUrl": "https://opengameart.org/content/project-utopia-seamless-loop",
+    "modifications": "Transcoded from Ogg Vorbis to 64 kbps MP3, 48 kHz stereo; no excerpt.",
+    "file": "music/project-utopia.mp3",
+    "bundled": true
+  },
+  "note": "改编自 HyperFrames 官方发布片模板 01-ui-sting（Apache-2.0，上游 LICENSE 与 NOTICE 原文在样片目录），七段帧号与缓动照原作，尾卡延长到 2.2 秒。配乐用随包 CC0 曲《Project Utopia》（不卡点）；交付成片另配专用音乐与界面音效（不随包）。运动模糊用运行时 blur，换环境需重跑交付检查。正文约 12.3 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S122"
+}

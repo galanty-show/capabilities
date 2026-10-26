@@ -1,0 +1,38 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 60,
+  "maxDurationSeconds": 75,
+  "narration": true,
+  "voice": "Aoede",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S034-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 240,
+  "concurrency": 3,
+  "musicFile": "library:generated-bright-horizon-96",
+  "musicVolume": 0.11,
+  "brandOutro": "made-with",
+  "theme": {
+    "background": "#10202B",
+    "accent": "#F3A847",
+    "text": "#F6F2E8",
+    "muted": "#91A5AE"
+  }
+}

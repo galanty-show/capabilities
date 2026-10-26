@@ -1,0 +1,121 @@
+{
+  "contractVersion": 3,
+  "title": "一分钟认识区块链钱包",
+  "subtitle": "先选网络，再选钱包",
+  "sourceTitle": "一分钟认识区块链钱包",
+  "sourceUrl": "",
+  "scenes": [
+    {
+      "id": "01",
+      "title": "钱包，连接链上资产",
+      "kicker": "钱包的作用",
+      "narration": "资产记录在区块链上。自托管钱包帮你管理密钥、查看余额，并签署交易。",
+      "sourceQuote": "资产记录在区块链上；自托管钱包帮助你管理密钥、查看余额并签署交易。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "钱包，连接==链上资产==",
+            "kicker": "钱包的作用",
+            "points": [
+              "资产记录在链上",
+              "钱包管理==密钥=="
+            ],
+            "visual": "wallet",
+            "labels": [],
+            "from": "scatter",
+            "footer": {
+              "label": "一分钟认识区块链钱包",
+              "index": 1,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      },
+      "transition": {
+        "kind": "handoff",
+        "duration": 1,
+        "overlap": "anchor",
+        "sharedElements": [
+          "particles"
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "title": "地址和密钥有何区别？",
+      "kicker": "接收与控制",
+      "narration": "地址可以分享，用来收款。私钥和助记词用于控制或恢复账户，不能交给他人。",
+      "sourceQuote": "地址用于接收资产，可以分享；私钥和助记词用于控制或恢复账户，必须自己保管，不要交给他人。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "地址和==密钥==有何区别？",
+            "kicker": "接收与控制",
+            "points": [
+              "地址：可分享，用于接收",
+              "私钥与助记词：自己保管"
+            ],
+            "visual": "key",
+            "labels": [],
+            "from": "wallet",
+            "footer": {
+              "label": "一分钟认识区块链钱包",
+              "index": 2,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      },
+      "transition": {
+        "kind": "handoff",
+        "duration": 1,
+        "overlap": "anchor",
+        "sharedElements": [
+          "particles"
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "title": "选对网络，保管密钥",
+      "kicker": "记住两个重点",
+      "narration": "先选网络，再选钱包。密钥代表控制权，务必自己保管。",
+      "sourceQuote": "先选网络，再选钱包。钱包是工具，密钥代表控制权。",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "semantic-cards",
+          "props": {
+            "title": "选对网络，保管==密钥==",
+            "kicker": "记住两个重点",
+            "points": [
+              "钱包是工具",
+              "==密钥==代表控制权"
+            ],
+            "visual": "shield",
+            "labels": [],
+            "from": "key",
+            "footer": {
+              "label": "一分钟认识区块链钱包",
+              "index": 3,
+              "total": 3
+            },
+            "particleHandoff": "semantic-glyph-v1"
+          }
+        }
+      }
+    }
+  ]
+}

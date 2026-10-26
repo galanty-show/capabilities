@@ -1,0 +1,162 @@
+{
+  "contractVersion": 3,
+  "title": "听澜纪要 · 发布片",
+  "subtitle": "改编自 HyperFrames 官方动画技能的发布片分段范例（Apache-2.0）",
+  "sourceTitle": "听澜纪要（虚构产品）发布片 · 创作说明",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "钩子：数字炸开",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-hook",
+          "props": {
+            "f0": 0
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.8663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "problem",
+      "title": "问题：会后一团乱",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-problem",
+          "props": {
+            "f0": 116
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "concept",
+      "title": "概念：录音变待办",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-concept",
+          "props": {
+            "f0": 348
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "workflow",
+      "title": "流程：一键分发",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-workflow",
+          "props": {
+            "f0": 581
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "metric",
+      "title": "数字：三分钟",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-metric",
+          "props": {
+            "f0": 813
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cta",
+      "title": "行动：按下试用",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-cta",
+          "props": {
+            "f0": 1045
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brand",
+      "title": "品牌：就用听澜",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-brand",
+          "props": {
+            "f0": 1277
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

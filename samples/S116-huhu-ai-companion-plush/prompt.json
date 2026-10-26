@@ -1,0 +1,96 @@
+{
+  "no": "S116",
+  "prompt": {
+    "zh-CN": "做一支约 50 秒的横版（16:9）产品宣传片，产品是一个虚构品牌的 AI 陪伴毛绒玩偶：会聊天、讲睡前故事、陪孩子练英语、记得生日和小事，孩子难过时会安慰、再提醒去抱抱爸爸妈妈。开头用孩子睡前对玩偶说悄悄话、玩偶眼睛亮起来回答当钩子；中间三四个使用场景；再用代码画的家长端手机界面讲清能设时长、能看聊天记录、记录加密保存；最后是产品英雄镜头（材质、尺寸、续航、外套可拆洗）和口号标版。品牌名和外形自己原创，不要像任何现有 IP，参数合理不夸大，并在画面上写明是虚构演示。画风温暖、有绘本感，底图可以生成，玩偶说话时眼睛跟着字一下下亮。旁白用温柔的女声，玩偶台词换一个可爱的声音；配乐原创，温暖的钢琴和钟琴，难过之后有一处情绪抬升，音效用代码合成。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a roughly 50-second 16:9 promo for an AI companion plush toy from a made-up brand: it chats, tells bedtime stories, practices English with kids, remembers birthdays and little things, and comforts a sad child, then suggests a hug from Mom or Dad. Open with a child whispering to the toy at bedtime and its eyes lighting up as it answers; then three or four everyday uses; then a code-drawn parent phone screen (daily time limit, chat history, encrypted storage); end with a product hero shot (fabric, size, battery life, washable outer coat) and a tagline card. Invent the name and look yourself — nothing like an existing character — keep the specs plausible and label it on screen as a fictional demo. Warm picture-book style with generated background art; the toy's eyes pulse with each word it says. A gentle female narrator, a different cute voice for the toy, an original warm piano-and-glockenspiel score that lifts after the sad moment, and code-synthesized sound effects. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "做一支大約 50 秒的橫版（16:9）產品宣傳片，產品是虛構品牌的 AI 陪伴絨毛玩偶：會聊天、講睡前故事、陪孩子練英語、記得生日和小事，孩子難過時會安慰，再提醒他去抱抱爸爸媽媽。開頭用孩子睡前對玩偶說悄悄話、玩偶眼睛亮起來回答當鉤子；中間三四個使用情境；再用程式碼畫的家長端手機介面講清楚能設定時長、能查看聊天紀錄、紀錄加密保存；最後是產品主視覺鏡頭（材質、尺寸、續航、外套可拆洗）和標語片尾。品牌名稱和外型自己原創，不要像任何現有 IP，參數合理不誇大，並在畫面上註明是虛構示範。畫風溫暖、有繪本感，底圖可以生成，玩偶說話時眼睛跟著字一下下亮。旁白用溫柔的女聲，玩偶台詞換一個可愛的聲音；配樂原創，溫暖的鋼琴和鐘琴，難過之後有一處情緒抬升，音效用程式碼合成。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "架空ブランドの AI コンパニオンぬいぐるみの、約 50 秒の横長（16:9）プロモーション動画を作ってください。おしゃべりする、寝る前のお話をする、英語の練習相手になる、誕生日や小さな出来事を覚えている、子どもが落ち込んだときは慰めて「パパやママにぎゅっとしてもらおう」と促す、という製品です。冒頭は、寝る前の子どもがぬいぐるみにひそひそ話しかけ、ぬいぐるみの目が光って答えるシーンでつかみます。続いて 3〜4 つの使用シーン、コードで描いた保護者向けスマホ画面（1 日の利用時間の設定、会話履歴の確認、履歴の暗号化保存）、最後に製品のヒーローショット（素材、サイズ、バッテリー持ち、外側の服は外して洗える）とキャッチコピーで締めます。ブランド名と見た目はオリジナルで、既存のキャラクターに似せないこと。仕様は誇張せず現実的にし、画面上に架空のデモであることを明記してください。温かい絵本風のタッチで、背景画像は生成してかまいません。ぬいぐるみが話すときは一語ごとに目が光るように。ナレーションはやさしい女性の声、ぬいぐるみのセリフは別のかわいい声にしてください。BGM はオリジナルで、温かいピアノとグロッケンシュピール、悲しい場面のあとに気持ちが盛り上がるところを入れ、効果音はコードで合成してください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "가상 브랜드의 AI 애착 봉제 인형을 소개하는 약 50초짜리 가로형(16:9) 제품 홍보 영상을 만들어 주세요. 대화를 나누고, 잠자리 동화를 들려주고, 아이와 영어 연습을 하고, 생일과 작은 일들을 기억하고, 아이가 속상할 때는 달래 준 뒤 엄마 아빠에게 안겨 보라고 권하는 인형이에요. 오프닝은 잠들기 전 아이가 인형에게 귓속말을 하자 인형의 눈이 반짝 켜지며 대답하는 장면으로 시선을 끌어 주세요. 이어서 사용 장면 서너 가지, 코드로 그린 보호자용 휴대폰 화면(하루 사용 시간 설정, 대화 기록 확인, 기록 암호화 저장), 마지막으로 제품 히어로 컷(소재, 크기, 배터리 사용 시간, 분리 세탁 가능한 겉옷)과 슬로건 엔딩으로 마무리해 주세요. 브랜드 이름과 생김새는 직접 창작하되 기존 캐릭터와 닮지 않게 하고, 사양은 과장 없이 그럴듯하게, 화면에 가상 데모라고 적어 주세요. 따뜻한 그림책 느낌으로, 배경 그림은 생성해도 돼요. 인형이 말할 때는 글자마다 눈이 반짝이게 해 주세요. 내레이션은 부드러운 여성 목소리, 인형 대사는 다른 귀여운 목소리로 하고, 음악은 따뜻한 피아노와 글로켄슈필로 직접 만들되 슬픈 장면 뒤에 감정이 고조되는 지점을 넣고, 효과음은 코드로 합성해 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un promo horizontal (16:9) de unos 50 segundos de un peluche de compañía con IA de una marca inventada: conversa, cuenta cuentos para dormir, practica inglés con los niños, recuerda cumpleaños y pequeños detalles y consuela a un niño triste antes de sugerirle un abrazo de mamá o papá. Empieza con una niña que le susurra al peluche antes de dormir y sus ojos se iluminan al responder; luego tres o cuatro usos cotidianos; después una pantalla de móvil para padres dibujada con código (límite diario, historial de conversaciones, guardado cifrado); y cierra con un plano protagonista del producto (tejido, tamaño, autonomía, funda lavable) y el eslogan. Inventa el nombre y el aspecto, sin parecerse a ningún personaje existente, con especificaciones verosímiles, e indica en pantalla que es una demo ficticia. Estilo cálido de libro ilustrado con fondos generados; los ojos del peluche brillan con cada palabra. Narradora de voz suave, otra voz tierna para el peluche, música original de piano y glockenspiel que crece tras la escena triste y efectos sintetizados con código. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Erstelle einen etwa 50 Sekunden langen 16:9-Spot für ein KI-Kuscheltier einer erfundenen Marke: Es plaudert, erzählt Gutenachtgeschichten, übt mit Kindern Englisch, merkt sich Geburtstage und kleine Erlebnisse und tröstet ein trauriges Kind, bevor es eine Umarmung von Mama oder Papa vorschlägt. Steig ein mit einem Kind, das dem Kuscheltier abends etwas zuflüstert, worauf dessen Augen aufleuchten; dann drei oder vier Alltagsszenen; danach ein mit Code gezeichneter Eltern-Bildschirm (Tageslimit, Gesprächsverlauf, verschlüsselte Speicherung); zum Schluss eine Produkt-Hero-Einstellung (Stoff, Größe, Akkulaufzeit, waschbarer Überzug) und der Slogan. Name und Aussehen selbst erfinden, ohne Ähnlichkeit mit bestehenden Figuren, Daten realistisch halten und im Bild als fiktive Demo kennzeichnen. Warmer Bilderbuchstil mit erzeugten Hintergründen; die Augen leuchten bei jedem gesprochenen Wort. Eine sanfte Sprecherin, eine andere, niedliche Stimme fürs Kuscheltier, eigene Musik mit warmem Klavier und Glockenspiel, die nach der traurigen Szene aufblüht, und mit Code synthetisierte Effekte. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez un spot 16:9 d'environ 50 secondes pour une peluche compagnon à IA d'une marque inventée : elle discute, raconte des histoires du soir, fait pratiquer l'anglais, se souvient des anniversaires et des petits événements, et console un enfant triste avant de lui proposer un câlin de maman ou papa. Ouvrez sur un enfant qui chuchote à la peluche au coucher et ses yeux qui s'allument quand elle répond ; puis trois ou quatre usages du quotidien ; puis un écran de téléphone parent dessiné en code (limite quotidienne, historique des conversations, stockage chiffré) ; et terminez sur un plan héros du produit (tissu, taille, autonomie, housse lavable) et le slogan. Inventez nom et apparence, sans rappeler un personnage existant, avec des caractéristiques plausibles, et indiquez à l'écran que c'est une démo fictive. Style chaleureux de livre illustré avec des fonds générés ; les yeux brillent à chaque mot. Une narratrice à la voix douce, une autre voix, mignonne, pour la peluche, une musique originale piano et glockenspiel qui s'élève après la scène triste, et des effets synthétisés en code. Montrez-moi d'abord l'aperçu en direct, puis exportez le MP4 seulement s'il me convient.",
+    "pt-BR": "Faça um promo horizontal (16:9) de cerca de 50 segundos de uma pelúcia de companhia com IA de uma marca inventada: ela conversa, conta histórias para dormir, pratica inglês com as crianças, lembra de aniversários e pequenos acontecimentos e consola a criança triste antes de sugerir um abraço da mamãe ou do papai. Abra com uma criança sussurrando para a pelúcia na hora de dormir e os olhos dela acendendo ao responder; depois três ou quatro usos do dia a dia; em seguida uma tela de celular para os pais desenhada em código (limite diário, histórico de conversas, armazenamento criptografado); e feche com um plano de destaque do produto (tecido, tamanho, bateria, capa lavável) e o slogan. Crie o nome e a aparência, sem lembrar nenhum personagem existente, com especificações plausíveis, e indique na tela que é uma demonstração fictícia. Estilo acolhedor de livro ilustrado com fundos gerados; os olhos brilham a cada palavra. Uma narradora de voz suave, outra voz fofa para a pelúcia, trilha original de piano e glockenspiel que cresce depois da cena triste e efeitos sintetizados em código. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 3.8 Flash TTS · Leda",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 2.5 Pro TTS · Laomedeia",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Huhu Lullaby",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the bar, could you make a few popular American stories for me? You're in charge of planning and directing all the music and narration. I've sent you the Gemini key; you can use it for narration and make a few American story templates — the quality has to be high. For the China region, make a few stories best suited to children under 10. Also make a few product promo videos, for example some products that became popular in China in 2026. Then make 3 videos that Opus 5.5 is best at right now. And find the 5 most popular videos in this style on GitHub, try editing and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "旁白和玩偶台词是云端 Gemini TTS 生成（旁白 Gemini 3.8 Flash TTS 音色 Leda，玩偶 Gemini 2.5 Pro TTS 音色 Laomedeia），随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。底图由 Gemini 3 Pro Image 生成并已内联在幕代码里。原片云端费用约 US$2.7。",
+    "en": "The narration and the toy's lines were generated in the cloud with Gemini TTS (narrator: Gemini 3.8 Flash TTS, voice Leda; toy: Gemini 2.5 Pro TTS, voice Laomedeia) and ship pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. The background art was generated with Gemini 3 Pro Image and is already embedded in the scene code. The original cost about US$2.7 in cloud fees.",
+    "zh-Hant": "旁白和玩偶台詞是雲端 Gemini TTS 生成（旁白 Gemini 3.8 Flash TTS 音色 Leda，玩偶 Gemini 2.5 Pro TTS 音色 Laomedeia），隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。底圖由 Gemini 3 Pro Image 生成並已內嵌在幕程式碼裡。原片雲端費用約 US$2.7。",
+    "ja": "ナレーションとぬいぐるみのセリフはクラウドの Gemini TTS で生成し（ナレーションは Gemini 3.8 Flash TTS の音声 Leda、ぬいぐるみは Gemini 2.5 Pro TTS の音声 Laomedeia）、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。背景画像は Gemini 3 Pro Image で生成し、シーンコードに埋め込み済みです。元の動画のクラウド費用は約 US$2.7 でした。",
+    "ko": "내레이션과 인형 대사는 클라우드 Gemini TTS로 만들었고(내레이션 Gemini 3.8 Flash TTS 음성 Leda, 인형 Gemini 2.5 Pro TTS 음성 Laomedeia) 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 배경 그림은 Gemini 3 Pro Image로 생성해 장면 코드에 이미 넣어 두었습니다. 원본 제작의 클라우드 비용은 약 US$2.7였습니다.",
+    "es": "La narración y las frases del peluche se generaron en la nube con Gemini TTS (narradora: Gemini 3.8 Flash TTS, voz Leda; peluche: Gemini 2.5 Pro TTS, voz Laomedeia) y vienen pregeneradas, así que reproducirlas no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. Las imágenes de fondo se generaron con Gemini 3 Pro Image y ya van incrustadas en el código de las escenas. El original costó unos US$2,7 en la nube.",
+    "de": "Sprechertext und die Sätze des Kuscheltiers entstanden in der Cloud mit Gemini TTS (Sprecherin: Gemini 3.8 Flash TTS, Stimme Leda; Kuscheltier: Gemini 2.5 Pro TTS, Stimme Laomedeia) und liegen vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Die Hintergrundbilder wurden mit Gemini 3 Pro Image erzeugt und sind bereits in den Szenencode eingebettet. Das Original kostete rund US$2,70 an Cloud-Gebühren.",
+    "fr": "La narration et les répliques de la peluche ont été générées dans le cloud avec Gemini TTS (narratrice : Gemini 3.8 Flash TTS, voix Leda ; peluche : Gemini 2.5 Pro TTS, voix Laomedeia) et sont fournies pré-générées : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. Les images de fond ont été générées avec Gemini 3 Pro Image et sont déjà intégrées au code des scènes. L'original a coûté environ 2,7 US$ de cloud.",
+    "pt-BR": "A narração e as falas da pelúcia foram geradas na nuvem com o Gemini TTS (narradora: Gemini 3.8 Flash TTS, voz Leda; pelúcia: Gemini 2.5 Pro TTS, voz Laomedeia) e vêm pré-geradas, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. As imagens de fundo foram geradas com o Gemini 3 Pro Image e já estão embutidas no código das cenas. O original custou cerca de US$2,7 em nuvem."
+  }
+}

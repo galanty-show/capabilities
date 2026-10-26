@@ -1,0 +1,41 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 50,
+  "maxDurationSeconds": 70,
+  "narration": true,
+  "voice": "Iapetus",
+  "speechRate": 235,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -7,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#070d1f",
+    "text": "#eef3ff",
+    "accent": "#f2c27b",
+    "muted": "#8fa3c8"
+  },
+  "musicFile": "library:original-mianxiao-dawn",
+  "sentencePauses": {
+    "s-7110460e2ef0cc4a-1": 0.9
+  }
+}

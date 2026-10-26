@@ -1,0 +1,95 @@
+{
+  "no": "S109",
+  "prompt": {
+    "zh-CN": "把 Washington Irving 1820 年的公版小说《The Legend of Sleepy Hollow》讲成一支两分钟左右的英文横版（16:9）故事短片：1790 年哈德逊河谷，迷信又贪吃的瘦高教书先生 Ichabod Crane 追求富家女 Katrina，情敌 Brom Bones 爱恶作剧；秋收聚会上听了无头骑士的鬼故事，深夜独自骑老马回家，被无头骑士追到教堂边的桥，一个燃烧的南瓜迎面砸来，第二天只剩帽子和摔碎的南瓜。像营火边讲故事那样讲，惊悚但不血腥、适合全家；旁白自己写现代英文复述，最多引一句原文。画面电影感、画风和人物前后一致，用代码做月光、流雾、落叶、烛火、奔马视差和越切越快的追逐，南瓜爆裂的闪白和碎片卡在 pumpkin 这个词上。用低沉的云端英文男声，配乐原创（暗调民谣、追逐加速、南瓜处骤停）。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Turn Washington Irving’s public-domain 1820 tale “The Legend of Sleepy Hollow” into a two-minute English story short, 16:9: in the Hudson Valley of 1790 the lanky, superstitious, always-hungry schoolmaster Ichabod Crane courts Katrina while the prankster Brom Bones wants her too; after ghost stories at the autumn party he rides home alone at midnight, the Headless Horseman chases him to the church bridge and hurls a blazing pumpkin, and next morning only his hat and a shattered pumpkin remain. Tell it like a campfire storyteller: spooky but never gory, fine for families; write a modern retelling and quote at most one line of the original. Keep it cinematic with consistent art and characters, and draw moonlight, drifting fog, leaves, candle flicker, galloping parallax and ever-faster chase cuts in code, with the flash and pumpkin shards landing on the word “pumpkin”. Use a deep cloud English voice and an original score that speeds up for the chase and stops dead at the pumpkin. Show me a live preview first; export the MP4 only once I’m happy.",
+    "zh-Hant": "把 Washington Irving 1820 年的公版小說《The Legend of Sleepy Hollow》講成一支約兩分鐘的英文橫版（16:9）故事短片：1790 年哈德遜河谷，迷信又貪吃的瘦高教書先生 Ichabod Crane 追求富家女 Katrina，情敵 Brom Bones 愛惡作劇；秋收聚會上聽了無頭騎士的鬼故事，深夜獨自騎老馬回家，被無頭騎士追到教堂邊的橋，一顆燃燒的南瓜迎面砸來，第二天只剩帽子和摔碎的南瓜。像營火邊講故事那樣講，驚悚但不血腥、適合全家；旁白自己寫現代英文重述，最多引一句原文。畫面有電影感、畫風和人物前後一致，用程式碼做月光、流霧、落葉、燭火、奔馬視差和越切越快的追逐，南瓜爆裂的閃白和碎片對準 pumpkin 這個字。用低沉的雲端英文男聲，配樂原創（暗調民謠、追逐加速、南瓜處驟停）。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "ワシントン・アーヴィングのパブリックドメイン小説『スリーピー・ホロウの伝説』（1820 年）を、約 2 分の英語・横長（16:9）のショートストーリーにしてください。1790 年のハドソン川流域、迷信深く食いしん坊の痩せた教師イカボッド・クレーンが富農の娘カトリーナに言い寄り、いたずら好きのブロム・ボーンズも彼女を狙います。秋の集まりで首なし騎士の怪談を聞いた夜、老馬で一人帰るイカボッドは首なし騎士に教会そばの橋まで追われ、燃えるカボチャを投げつけられ、翌朝には帽子と砕けたカボチャだけが残ります。焚き火の語り手のように、怖いけれど残酷ではなく家族で楽しめるように。ナレーションは現代英語の語り直しで、原文の引用は一行まで。画風と人物を統一した映画的な画面で、月明かり、流れる霧、落ち葉、ろうそくの揺らぎ、疾走する馬の視差、どんどん速くなる追跡のカットをコードで描き、白い閃光とカボチャの破片を「pumpkin」の語に合わせてください。低く深いクラウドの英語音声と、追跡で加速しカボチャで急停止するオリジナル BGM を使ってください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "워싱턴 어빙의 퍼블릭 도메인 소설 『슬리피 할로우의 전설』(1820)을 약 2분 길이의 영어 가로형(16:9) 스토리 단편으로 만들어 주세요. 1790년 허드슨 강 계곡, 미신을 믿고 늘 배고픈 깡마른 교사 이카보드 크레인이 부잣집 딸 카트리나에게 구애하고 장난꾸러기 브롬 본즈도 그녀를 노립니다. 가을 잔치에서 머리 없는 기사 괴담을 들은 밤, 늙은 말을 타고 혼자 돌아가던 이카보드는 머리 없는 기사에게 교회 옆 다리까지 쫓기고 불타는 호박을 맞으며, 다음 날 아침엔 모자와 깨진 호박만 남습니다. 모닥불 앞 이야기꾼처럼, 으스스하지만 잔인하지 않게 온 가족이 볼 수 있게 해 주세요. 내레이션은 현대 영어 각색으로, 원문 인용은 한 줄까지만. 화풍과 인물이 일관된 영화 같은 화면에 달빛, 흐르는 안개, 낙엽, 촛불, 달리는 말의 시차 효과, 점점 빨라지는 추격 컷을 코드로 그리고, 흰 섬광과 호박 파편이 ‘pumpkin’이라는 단어에 맞게 해 주세요. 낮고 깊은 클라우드 영어 음성과, 추격에서 빨라지고 호박에서 뚝 멈추는 오리지널 음악을 써 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 MP4로 내보내 주세요.",
+    "es": "Convierte el relato de dominio público de Washington Irving «La leyenda de Sleepy Hollow» (1820) en un corto en inglés de dos minutos, 16:9: en el valle del Hudson de 1790, el maestro Ichabod Crane, larguirucho, supersticioso y siempre hambriento, corteja a Katrina mientras el bromista Brom Bones también la quiere; tras los cuentos de fantasmas de la fiesta de otoño vuelve solo a medianoche, el Jinete sin Cabeza lo persigue hasta el puente de la iglesia y le lanza una calabaza en llamas, y a la mañana solo quedan su sombrero y una calabaza rota. Cuéntalo como junto a una fogata: inquietante pero nunca sangriento, apto para familias; narración moderna escrita por ti y como mucho una línea citada. Estilo de cine con arte y personajes coherentes, y luz de luna, niebla, hojas, velas, paralaje del galope y cortes cada vez más rápidos dibujados en código, con el destello y los pedazos de calabaza en la palabra «pumpkin». Voz grave en inglés en la nube y música original que acelera en la persecución y se corta en seco con la calabaza. Primero una vista previa en vivo; exporta el MP4 solo cuando me guste.",
+    "de": "Mach aus Washington Irvings gemeinfreier Erzählung „Die Legende von Sleepy Hollow“ (1820) einen zweiminütigen englischen Story-Kurzfilm im Querformat (16:9): Im Hudson-Tal 1790 wirbt der lange, abergläubische, ewig hungrige Lehrer Ichabod Crane um Katrina, während der Spaßvogel Brom Bones sie auch will; nach Gespenstergeschichten beim Herbstfest reitet er um Mitternacht allein heim, der kopflose Reiter jagt ihn bis zur Kirchbrücke und schleudert einen brennenden Kürbis, und am Morgen bleiben nur Hut und zerschmetterter Kürbis. Erzähl es wie am Lagerfeuer: gruselig, nie blutig, familientauglich; eigener moderner Sprechertext, höchstens eine Zeile Originalzitat. Filmisch, mit einheitlichem Stil und gleichen Figuren; Mondlicht, Nebel, Laub, Kerzen, Galopp-Parallaxe und immer schnellere Schnitte im Code gezeichnet, Blitz und Kürbisscherben genau auf „pumpkin“. Tiefe englische Cloud-Stimme und eigene Musik, die in der Jagd schneller wird und beim Kürbis abrupt endet. Zeig mir zuerst die Live-Vorschau; exportiere die MP4 erst, wenn ich zufrieden bin.",
+    "fr": "Faites du conte de Washington Irving tombé dans le domaine public « La Légende de Sleepy Hollow » (1820) un court métrage en anglais de deux minutes, 16:9 : dans la vallée de l’Hudson en 1790, l’instituteur Ichabod Crane, long, superstitieux et toujours affamé, courtise Katrina tandis que le farceur Brom Bones la veut aussi ; après les histoires de fantômes de la fête d’automne, il rentre seul à minuit, le Cavalier sans tête le poursuit jusqu’au pont de l’église et lui lance une citrouille enflammée, et au matin il ne reste que son chapeau et une citrouille écrasée. Racontez-le comme au coin du feu : inquiétant mais jamais sanglant, pour toute la famille ; narration moderne écrite par vous, au plus une ligne citée. Rendu de cinéma, style et personnages cohérents ; lune, brume, feuilles, bougies, parallaxe du galop et coupes de plus en plus rapides dessinés en code, l’éclair et les éclats de citrouille sur le mot « pumpkin ». Voix grave en anglais dans le cloud et musique originale qui accélère pendant la poursuite et s’arrête net sur la citrouille. D’abord un aperçu en direct ; n’exportez le MP4 que si cela me plaît.",
+    "pt-BR": "Transforme o conto de domínio público de Washington Irving “The Legend of Sleepy Hollow” (1820) num curta em inglês de dois minutos, 16:9: no vale do Hudson em 1790, o professor Ichabod Crane, magricela, supersticioso e sempre faminto, corteja Katrina enquanto o brincalhão Brom Bones também a quer; depois das histórias de fantasmas da festa de outono ele volta sozinho à meia-noite, o Cavaleiro sem Cabeça o persegue até a ponte da igreja e arremessa uma abóbora em chamas, e de manhã só restam o chapéu e uma abóbora despedaçada. Conte como ao redor da fogueira: assustador, nunca sangrento, bom para a família; narração moderna escrita por você, no máximo uma linha citada. Cara de cinema, arte e personagens consistentes; luar, névoa, folhas, velas, paralaxe do galope e cortes cada vez mais rápidos desenhados em código, com o clarão e os pedaços de abóbora na palavra “pumpkin”. Voz grave em inglês na nuvem e trilha original que acelera na perseguição e para de repente na abóbora. Primeiro uma prévia ao vivo; só exporte o MP4 quando eu gostar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "Gemini 3 Pro Image",
+      "model": "gemini-3-pro-image",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini TTS",
+      "model": "Gemini 2.5 Pro TTS · Charon",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Gemini 3.5 Flash",
+      "model": "gemini-3.5-flash",
+      "where": "cloud"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Sleepy Hollow",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "按长安的荔枝的标准能不能帮我做几个美国比较火的故事，音乐配音你全部负责策划导演，Gemini key 我发过你，可以用它配音做几个美国故事模板，质量要高哦；中国区的模板可以做几个 10 岁以下小朋友最适合的故事；再做几个产品介绍的宣传片，比如中国 2026 年新火的一些产品；还有再做 3 个目前市场上 Opus 5.5 最适合做的视频；再从 GitHub 上找 5 个最火的这种风格的视频试着修改播放做成我们的模板。",
+      "en": "Using The Lychees of Chang'an as the bar, could you make a few popular American stories? You plan and direct all the music and narration; I've sent you the Gemini key, so you can use it for the voices and make a few American story templates, and the quality needs to be high. For the China region, make a few stories best suited to children under 10; also make a few product promos, for example products that became popular in China in 2026; then make 3 videos of the kind Opus 5.5 is best at right now; and find the 5 most popular videos of this style on GitHub, try modifying and playing them, and turn them into our templates."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "英文旁白由云端 Gemini 2.5 Pro TTS（音色 Charon）生成，随包是预先生成的旁白，播放不需要 key；原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。画面文字用系统衬线字体（macOS 上是 Baskerville），其他系统回退 Georgia。原片云端费用约 US$4。",
+    "en": "The English narration was generated in the cloud with Gemini 2.5 Pro TTS (voice Charon) and ships pregenerated, so playback needs no key. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback. On-screen text uses the system serif font (Baskerville on macOS) and falls back to Georgia elsewhere. The original cost about US$4 in cloud fees.",
+    "zh-Hant": "英文旁白由雲端 Gemini 2.5 Pro TTS（音色 Charon）生成，隨包是預先生成的旁白，播放不需要 key；原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。畫面文字用系統襯線字體（macOS 上是 Baskerville），其他系統回退 Georgia。原片雲端費用約 US$4。",
+    "ja": "英語ナレーションはクラウドの Gemini 2.5 Pro TTS（音声 Charon）で生成し、事前生成済みで同梱しているため再生にキーは不要です。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。画面の文字はシステムのセリフ体（macOS では Baskerville）で、ほかの環境では Georgia になります。元の動画のクラウド費用は約 US$4 でした。",
+    "ko": "영어 내레이션은 클라우드 Gemini 2.5 Pro TTS(음성 Charon)로 만들었고 미리 생성해 함께 제공하므로 재생에는 키가 필요 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다. 화면 글자는 시스템 세리프 글꼴(macOS에서는 Baskerville)을 쓰고 다른 환경에서는 Georgia로 대체됩니다. 원본 제작의 클라우드 비용은 약 US$4였습니다.",
+    "es": "La narración en inglés se generó en la nube con Gemini 2.5 Pro TTS (voz Charon) y viene pregenerada, así que reproducirla no necesita clave. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema. El texto en pantalla usa la fuente serif del sistema (Baskerville en macOS) y en otros sistemas pasa a Georgia. El original costó unos US$4 en la nube.",
+    "de": "Die englische Sprachspur entstand in der Cloud mit Gemini 2.5 Pro TTS (Stimme Charon) und liegt vorab erzeugt bei, zum Abspielen braucht es keinen Schlüssel. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen. Der Text im Bild nutzt die Serifenschrift des Systems (Baskerville unter macOS), anderswo Georgia. Das Original kostete rund US$4 an Cloud-Gebühren.",
+    "fr": "La narration anglaise a été générée dans le cloud avec Gemini 2.5 Pro TTS (voix Charon) et est fournie pré-générée : la lecture ne demande aucune clé. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système. Le texte à l’écran utilise la police à empattements du système (Baskerville sur macOS), ailleurs Georgia. L’original a coûté environ 4 US$ de cloud.",
+    "pt-BR": "A narração em inglês foi gerada na nuvem com o Gemini 2.5 Pro TTS (voz Charon) e vem pré-gerada, então tocar não exige chave. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema. O texto na tela usa a fonte serifada do sistema (Baskerville no macOS) e, em outros sistemas, Georgia. O original custou cerca de US$4 em nuvem."
+  }
+}

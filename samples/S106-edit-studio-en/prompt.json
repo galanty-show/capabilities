@@ -1,0 +1,62 @@
+{
+  "no": "S106",
+  "prompt": {
+    "zh-CN": "给文影做一支约 58 秒的横版（16:9）英文卡点宣传片，标题“Fix a word. Play on.”，屏上界面和文字都用英文，不要旁白。只讲三件事，各落在一个音乐段落上：样片库悬停即播、即时播放、暂停定位改一个词后从同一秒接着播，中间穿插素材管理，最后收在导出与回顾。界面全部用代码画，按乐曲段落剪，配一段原创合成配乐，Drop 处画面爆发。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a 58-second 16:9 landscape English beat-cut promo for Galanty called “Fix a word. Play on.”, with no voiceover and every interface and caption in English. Cover three things, each on its own section of the music: hover to play in the sample library, live preview, and locating a moment, fixing one word and playing on from the same second — with asset tracking as an interlude and export plus a recap to close. Draw the interface in code, cut to the song's sections, and use an original synth track whose drop makes the picture burst open. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "幫文影做一支約 58 秒的橫版（16:9）英文卡點宣傳片，標題是「Fix a word. Play on.」，螢幕上的介面和文字都用英文，不要旁白。只講三件事，各落在一個音樂段落上：樣片庫滑鼠移上去就播放、即時播放、暫停定位改一個詞後從同一秒接著播，中間穿插素材管理，最後收在匯出與回顧。介面全部用程式碼畫，按樂曲段落剪輯，配一段原創合成器配樂，Drop 處畫面爆發。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "Galanty のために、約58秒の横長（16:9）の英語版ビート同期プロモーション動画を作ってください。タイトルは「Fix a word. Play on.」で、画面上のインターフェースも文字もすべて英語にし、ナレーションは入れません。伝えるのは、サンプルライブラリでマウスを乗せると再生、ライブプレビュー、一時停止して位置を決め単語を1つ直したら同じ秒から再生を続ける、の3つだけで、それぞれを音楽の1セクションに乗せます。間に素材管理を挟み、最後は書き出しと振り返りで締めてください。インターフェースはコードで描いて曲のセクションに合わせて編集し、オリジナルのシンセ曲を使ってドロップで画面が一気に弾けるようにしてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "Galanty를 위한 약 58초 길이의 가로형(16:9) 영어 비트 컷 홍보 영상을 만들어 주세요. 제목은 “Fix a word. Play on.”이고, 내레이션 없이 모든 인터페이스와 화면 글자를 영어로 해 주세요. 세 가지를 다루고 각각 음악의 한 구간에 맞추는데, 샘플 라이브러리에서 마우스를 올리면 재생, 실시간 미리보기, 그리고 한 순간을 찾아 단어 하나를 고친 뒤 같은 초부터 이어서 재생하는 것이에요. 중간에는 에셋 관리를 간주처럼 넣고, 마지막은 내보내기와 돌아보기로 마무리해 주세요. 인터페이스는 코드로 그리고, 곡의 구간에 맞춰 편집하며, 드롭에서 화면이 터지듯 폭발하는 오리지널 신스 음악을 써 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo promocional en inglés de unos 58 segundos en formato horizontal 16:9, con cortes al ritmo de la música, para Galanty, titulado «Fix a word. Play on.», sin narración y con toda la interfaz y los textos en inglés. Cuenta tres cosas, cada una en su propia sección de la música: pasar el cursor para reproducir en la biblioteca de ejemplos, la vista previa en vivo, y localizar un momento, corregir una palabra y seguir reproduciendo desde el mismo segundo, con el seguimiento de recursos como interludio y la exportación más un repaso para cerrar. Dibuja la interfaz con código, monta según las secciones de la canción y usa una pista original de sintetizadores cuyo drop haga estallar la imagen. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach ein etwa 58 Sekunden langes englischsprachiges, auf den Beat geschnittenes Promo-Video im Querformat (16:9) für Galanty mit dem Titel „Fix a word. Play on.“, ohne Sprechertext und mit allen Oberflächen und Texten auf Englisch. Zeig drei Dinge, jedes auf einem eigenen Abschnitt der Musik: in der Beispielbibliothek zum Abspielen mit der Maus darüberfahren, die Live-Vorschau, und eine Stelle ansteuern, ein Wort korrigieren und ab derselben Sekunde weiterspielen – mit der Medienverwaltung als Zwischenspiel und Export plus Rückblick zum Abschluss. Zeichne die Oberfläche in Code, schneide nach den Abschnitten des Songs und nimm einen eigenen Synth-Track, dessen Drop das Bild explodieren lässt. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Créez une vidéo promo en anglais d'environ 58 secondes au format paysage (16:9), montée sur le rythme, pour Galanty, intitulée « Fix a word. Play on. », sans voix off, avec toutes les interfaces et tous les textes en anglais. Montrez trois choses, chacune sur sa propre section musicale : survoler pour lancer la lecture dans la bibliothèque d'exemples, l'aperçu en direct, et se placer sur un instant, corriger un mot et reprendre à la même seconde – avec le suivi des ressources en interlude, puis l'export et un récapitulatif pour conclure. Dessinez l'interface en code, montez selon les sections du morceau, et utilisez une piste synthé originale dont le drop fait exploser l'image. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um vídeo promocional em inglês de cerca de 58 segundos na horizontal (16:9) para o Galanty, com cortes na batida, chamado “Fix a word. Play on.”, sem narração e com toda a interface e as legendas em inglês. Mostre três coisas, cada uma numa seção própria da música: passar o mouse para tocar na biblioteca de exemplos, a prévia ao vivo, e localizar um momento, corrigir uma palavra e continuar tocando a partir do mesmo segundo — com o controle de recursos como interlúdio e, para fechar, a exportação e uma recapitulação. Desenhe a interface em código, corte seguindo as seções da música e use uma trilha sintetizada original cujo drop faz a imagem explodir. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy/scipy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Play On",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "帮我重新做一个宣传片：我们现在的重点是预览、修改和管理视频素材，不用宣传 agent 生成视频的能力。发挥你的营销和设计能力，做得最酷，背景音乐和节奏你自己来选。",
+      "en": "Make me a new promo. Our focus now is previewing, editing and managing video assets, not promoting the agent's ability to generate videos. Use your marketing and design skills to make it as cool as possible, and choose the background music and pacing yourself."
+    },
+    {
+      "zh-CN": "这一版效果不理想：不要用截图和录屏的原画面，复制对应的代码就能做出同样的界面；参考我们 Claude Code 宣传片的做法，看看它用的什么音乐。",
+      "en": "This version doesn't work. Don't use screenshots or screen recordings: copying the matching code can draw the same interface. Follow how our Claude Code promo was made, and check what music it used."
+    },
+    {
+      "zh-CN": "第 3 段即时预览的示例作品太简单（比如“种一棵树”），换一个画面更有质感的作品。",
+      "en": "The example piece in section 3 (live preview) is too simple, like \"plant a tree\". Swap in a piece with richer visuals."
+    },
+    {
+      "zh-CN": "这一版不错。片尾改一下，要有 App Store 图标；中文版搜索“文影”，英文版搜索“talkframe”。",
+      "en": "This version is good. Change the ending so it shows the App Store icon; the Chinese version searches for \"文影\" and the English one for \"talkframe\"."
+    }
+  ]
+}

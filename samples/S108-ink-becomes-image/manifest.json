@@ -1,0 +1,220 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S108",
+  "title": "落笔成影",
+  "titles": {
+    "zh": "落笔成影",
+    "en": "Ink Becomes Image"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "文影介绍",
+  "templates": [
+    "T23"
+  ],
+  "modules": [
+    "ink-open",
+    "ink-poem-painting",
+    "ink-edit",
+    "ink-finale"
+  ],
+  "page": "https://galanty.cn/samples/#S108",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "db2d47984816988fcffc02ece3910a40307b11153043b5c780d4f404a334f45a",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创；诗句公有领域（李白、柳宗元、杜甫、王维）",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创；诗句公有领域（李白、柳宗元、杜甫、王维）（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-luobi",
+    "selection": "library:original-luobi",
+    "title": "Luobi",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Luobi — Galanty, original code-synthesized score (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S108/music/synth.py",
+    "modifications": "Synthesized by templates/samples/ink-promo/music/synth.py (numpy/scipy additive and subtractive synthesis: guzheng, pipa, dizi, xiao, taiko, tanggu, gong, woodblock, bells, water drop, brush swish; 48 kHz WAV), instrumental version without the narration mix, then encoded to 48 kbps MP3, 48 kHz stereo (library size budget); no samples, no third-party audio, no AI-generated audio. Timed to sample S108 (96 BPM grid of its narration); other films will not hit its accents.",
+    "file": "music/luobi.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S108",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "poem_reader",
+      "speechRate": 220,
+      "model": "custom-command",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 Qwen3-TTS CustomVoice，Apache-2.0；音色 poem_reader）",
+      "en": "pregenerated locally with Qwen3-TTS (model Qwen3-TTS CustomVoice, Apache-2.0; voice poem_reader)",
+      "sentences": 13,
+      "durationSeconds": 40.479209,
+      "files": 14
+    },
+    {
+      "seedId": "S108-en",
+      "language": "en",
+      "engine": "mlx-qwen",
+      "voice": "english_storyteller",
+      "speechRate": 230,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 english_storyteller）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice english_storyteller)",
+      "sentences": 17,
+      "durationSeconds": 45.631126,
+      "files": 18
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6454,
+      "sha256": "5c2a2604765810a2c61638a1ec4812299c6c306a99dd54db5139829bce03e9fe",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 3576,
+      "sha256": "98692af4fde3861c85709d8892a6feb0b7080fbf458dea6ac5f2d3648613808e",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5217,
+      "sha256": "1ae5191e9b7d69fc3bf7a280c98a491e224b9f8b1fce681b47a55ace3c23d208",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 1015,
+      "sha256": "9cb6747aaba04580006200832217de3d87a7ede220ff22ae65148bd0150ef763",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 1614,
+      "sha256": "f05999587af116ba95745460bcc003bd819fc983c95d539864d3d04a229bb7aa",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 5377,
+      "sha256": "472cad390cbff7c2ae2d566f91ef2a5b97c6303d7e425dc6a862b6c03e6a050f",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 568,
+      "sha256": "5b8f33e62dc49431ddd22ba7dfdb1e388c75c7d6158b470ef26480c5f43592a6",
+      "license": "sample-content"
+    },
+    {
+      "path": "ink-open.tsx",
+      "bytes": 29071,
+      "sha256": "2e91cf533146ac2130d9e89487aff13830929d64c81aa6b0fe5f51200539ac39",
+      "license": "MIT"
+    },
+    {
+      "path": "ink-poem-painting.tsx",
+      "bytes": 43548,
+      "sha256": "c731c760db293ca334d72b9df4a2ebe9842a23b19f606b11c92fec761e2d6ba7",
+      "license": "MIT"
+    },
+    {
+      "path": "ink-edit.tsx",
+      "bytes": 39754,
+      "sha256": "636086d8291d6b839f22dd5857feabc2fb10118a606270c95af862f7be90a62a",
+      "license": "MIT"
+    },
+    {
+      "path": "ink-finale.tsx",
+      "bytes": 30223,
+      "sha256": "7f8e189ce2c20fd36b452f9bd9f41cd9595a86364806add768e844a95de4a256",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 20278,
+      "sha256": "c8ff7f52d3f3605da48eceebf04f1aa4aaef017a1116273964d3f7d3bcf4d2d2",
+      "license": "sample-content"
+    },
+    {
+      "path": "production/music/synth.py",
+      "bytes": 25165,
+      "sha256": "73c6aeecfb903161d4f47b517af3325f512354da0ca358ecd0431f72bf0016bd",
+      "license": "MIT"
+    },
+    {
+      "path": "production/music/timeline.json",
+      "bytes": 2154,
+      "sha256": "e397a5a74bade154c4f1208082286bae40f235d0fa8a76c837bbf8caea64bb99",
+      "license": "MIT"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 5458,
+      "sha256": "4ae8013da4693c36d409ffaf6abef22c12517b621499707293fbda93bcf80aa4",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2311,
+      "sha256": "67879068f5cc278ba740df18019e9f140776a10a98d32997c2aa0b1eaded0be2",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 9514,
+      "sha256": "7ea732e1ee064916f69f7b16d230fb4a786dc06d4d320d14f75a747f3931e6fb",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1917,
+      "sha256": "b8a3f8a41a603c77d96a2f407a2f7318d10ee15408432499ba098ce2d3cd9d25",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S108.zip",
+    "bytes": 950260,
+    "sha256": "e608f9e3f5a1c19281f7a8fbd3b03515e89617e6b2b0321c48deda7f80961605",
+    "format": "galanty-source-pack",
+    "contentDigest": "db2d47984816988fcffc02ece3910a40307b11153043b5c780d4f404a334f45a"
+  },
+  "inlineMedia": []
+}

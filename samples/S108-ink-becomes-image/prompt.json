@@ -1,0 +1,137 @@
+{
+  "no": "S108",
+  "prompt": {
+    "zh-CN": "给文影做一支约 70 秒的横版（16:9）水墨宣传片：墨滴落在宣纸上，毛笔写出片名；再选四首唐诗，每首先一句介绍，诗句随朗读一字一字落在纸上，念完化成一幅水墨画；然后演示点一下画上的“明月”改成“落日”，画面跟着变；最后墨爆、钤印，打出“落笔成影”。用沉稳的诗词朗读配音，配乐原创，用五声音阶，按朗读的时间排拍点，说话时让位。先即时播放给我看，满意了再导出 MP4。",
+    "en": "Make a 70-second 16:9 landscape ink-wash promo for Galanty: a drop of ink lands on rice paper and a brush writes the title; then take four Tang poems, open each with one line of introduction, let the poem's lines appear on the paper character by character as they're read aloud, and when the reading ends, let the words turn into an ink painting. Then show a quick edit — click “bright moon” in the painting, change it to “setting sun,” and the picture follows. End with an ink burst, a red seal and the line “Ink becomes image.” Use a calm, poetry-reading voice and an original pentatonic score timed to the reading that steps back while the voice speaks. Show me a live preview first, and export the MP4 only once I'm happy.",
+    "zh-Hant": "幫文影做一支約 70 秒的橫版（16:9）水墨宣傳片：墨滴落在宣紙上，毛筆寫出片名；再選四首唐詩，每首先一句介紹，詩句隨著朗讀一字一字落在紙上，念完化成一幅水墨畫；接著示範點一下畫上的「明月」改成「落日」，畫面跟著變；最後墨爆、鈐印，打出「落筆成影」。用沉穩的詩詞朗讀配音，配樂原創、用五聲音階，依照朗讀的時間安排節拍，說話時讓位。先即時播放給我看，滿意了再匯出 MP4。",
+    "ja": "Galanty の水墨プロモーション動画を、横長（16:9）で約70秒で作ってください。墨のしずくが和紙に落ち、筆でタイトルを書きます。続いて唐詩を4首選び、それぞれ一言の紹介のあと、朗読に合わせて詩句が1文字ずつ紙に書かれ、読み終わると水墨画に変わります。次に、画中の「明月」をクリックして「落日」に変えると絵も変わる、という編集を見せてください。最後は墨がはじけて落款を押し、「落筆成影」で締めます。落ち着いた詩の朗読の声を使い、BGM は五音音階のオリジナルで、朗読のタイミングに合わせて拍を置き、声の間は控えめにしてください。まずライブプレビューで見せて、気に入ったら MP4 に書き出してください。",
+    "ko": "Galanty의 수묵 홍보 영상을 가로형(16:9) 약 70초로 만들어 주세요. 먹물 한 방울이 화선지에 떨어지고 붓이 제목을 써요. 이어서 당시(唐詩) 네 수를 골라, 각각 한 줄 소개 뒤에 낭독에 맞춰 시구가 한 글자씩 종이에 써지고, 낭독이 끝나면 수묵화로 바뀌게 해 주세요. 그다음 그림 속 ‘밝은 달’을 클릭해 ‘지는 해’로 바꾸면 그림도 따라 바뀌는 편집을 보여 주세요. 마지막은 먹이 터지며 낙관이 찍히고 ‘붓 끝에서 영상이 된다(落筆成影)’로 마무리해요. 차분한 시 낭송 목소리를 쓰고, 음악은 5음 음계의 오리지널로 낭독 타이밍에 맞춰 박을 놓고 목소리가 나올 때는 물러나게 해 주세요. 먼저 실시간 미리보기로 보여 주고, 마음에 들면 그때 MP4로 내보내 주세요.",
+    "es": "Haz un vídeo promocional de tinta china para Galanty, en horizontal 16:9 y de unos 70 segundos: una gota de tinta cae sobre papel de arroz y un pincel escribe el título; luego elige cuatro poemas Tang, abre cada uno con una frase de presentación, haz que los versos aparezcan en el papel carácter a carácter mientras se recitan y que, al terminar la lectura, se conviertan en una pintura a tinta. Después muestra una edición rápida: haz clic en «luna brillante» dentro de la pintura, cámbiala por «sol poniente» y la imagen cambia con ella. Cierra con un estallido de tinta, un sello rojo y la frase «La tinta se hace imagen». Usa una voz serena de recitado poético y una banda sonora original pentatónica, sincronizada con la lectura, que se retire mientras habla la voz. Primero muéstramelo en vista previa en vivo y exporta el MP4 solo cuando me guste.",
+    "de": "Mach für Galanty einen Tusche-Werbefilm im Querformat (16:9), etwa 70 Sekunden lang: Ein Tuschetropfen fällt auf Reispapier, ein Pinsel schreibt den Titel. Dann nimm vier Tang-Gedichte, leite jedes mit einem Satz ein, lass die Verse beim Vorlesen Zeichen für Zeichen aufs Papier fließen und nach dem Vortrag zu einem Tuschebild werden. Zeig anschließend eine schnelle Änderung: Klick im Bild auf „heller Mond“, mach daraus „sinkende Sonne“, und das Bild folgt. Zum Schluss ein Tuscheausbruch, ein rotes Siegel und der Satz „Tusche wird Bild“. Nutze eine ruhige Gedichtvortrags-Stimme und eigene pentatonische Musik, deren Schläge auf den Vortrag gelegt sind und die zurücktritt, während die Stimme spricht. Zeig mir zuerst die Live-Vorschau und exportiere die MP4-Datei erst, wenn ich zufrieden bin.",
+    "fr": "Réalisez pour Galanty un film promotionnel à l'encre de Chine au format paysage (16:9), d'environ 70 secondes : une goutte d'encre tombe sur du papier de riz et un pinceau écrit le titre ; prenez ensuite quatre poèmes Tang, introduisez chacun par une phrase, faites apparaître les vers sur le papier caractère par caractère au fil de la lecture, puis transformez-les en peinture à l'encre une fois la lecture terminée. Montrez ensuite une modification rapide : cliquez sur « lune claire » dans la peinture, remplacez-la par « soleil couchant », et l'image suit. Terminez par une éclaboussure d'encre, un sceau rouge et la phrase « L'encre devient image ». Utilisez une voix posée de récitation poétique et une musique originale pentatonique, calée sur la lecture, qui s'efface quand la voix parle. Montrez-moi d'abord l'aperçu en direct, et n'exportez le MP4 que lorsque le résultat me convient.",
+    "pt-BR": "Faça um vídeo promocional em pintura a nanquim para o Galanty, na horizontal (16:9), com cerca de 70 segundos: uma gota de tinta cai no papel de arroz e um pincel escreve o título; depois escolha quatro poemas Tang, abra cada um com uma frase de apresentação, faça os versos surgirem no papel caractere por caractere enquanto são recitados e, quando a leitura terminar, transforme-os numa pintura a nanquim. Em seguida, mostre uma edição rápida: clique em “lua clara” na pintura, troque por “sol poente” e a imagem acompanha. Termine com uma explosão de tinta, um selo vermelho e a frase “A tinta vira imagem”. Use uma voz serena de declamação e uma trilha original pentatônica, marcada pelo tempo da leitura, que recua enquanto a voz fala. Primeiro me mostre uma prévia ao vivo e só exporte o MP4 quando eu gostar do resultado."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "visuals",
+      "tool": "macOS fonts · Xingkai SC, Weibei SC",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit · Uncle_Fu",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-TTS 0.6B",
+      "model": "Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit · Aiden",
+      "where": "local"
+    },
+    {
+      "step": "voice",
+      "tool": "Qwen3-ForcedAligner 0.6B",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "numpy/scipy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Luobi",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "现在再给我出一个宣传片吧，30 秒之内就行，音乐你来自己创作都行，就是中国古典的水墨风格。文影，毛笔字，再写一个文影，然后旁边有一些中国著名的诗词也好，然后瞬间转换成画面，然后修改。水墨画风格，意韵悠长，山水意境。能不能做这样的视频？你可以试试。千万别忘了炫酷，因为我们是宣传片。",
+      "en": "Now make me another promo, 30 seconds or less; you can compose the music yourself. The style is classical Chinese ink wash: 文影 (Galanty) in brush calligraphy, write 文影 once more, with some famous Chinese poems beside it that instantly turn into paintings, then an edit. Ink-painting style, a lingering mood, mountain-and-water scenery. Can you make a video like that? Give it a try. And don't forget to make it cool, because it's a promo."
+    },
+    {
+      "zh-CN": "这个视频不错，内容可以更丰富一点，多几个诗词的介绍，可以加适合的配音朗读一下，但是音乐也需要节奏跟着改哦。",
+      "en": "This video is good. Make it richer: introduce a few more poems and add a fitting voice reading them, and make the music's rhythm change along with it."
+    }
+  ],
+  "requirements": {
+    "zh-CN": "毛笔字和印章用 macOS 自带的行楷（Xingkai SC）和魏碑（Weibei SC），其他系统回退楷体，字形与笔顺不再贴合。旁白是随包的本机 Qwen3-TTS 朗读（音色 Uncle_Fu，诗词朗诵语气）；改句后复核停顿与卡点；Qwen 需直装版另装，商店版不可用。原句复用种子，改句须同音色来源并按句缓存。兼容服务或 Agent 云工具先估费、获同意；选声阶梯见 galanty://guide/craft、galanty://environment，不回退系统语音。",
+    "en": "The brush lettering and seals use the macOS fonts Xingkai SC and Weibei SC; other systems fall back to Kaiti, so glyphs and stroke order no longer line up. The narration is a bundled local Qwen3-TTS reading (voice Uncle_Fu with a poetry-recital style); Recheck pauses and cues after edits. Qwen needs separate installation in the direct edition; it is unavailable in the store edition. Reuse seed lines; edits need the same voice source and per-line cache. Estimate cloud cost and obtain consent. Follow galanty://guide/craft and galanty://environment; no system-voice fallback.",
+    "zh-Hant": "毛筆字和印章使用 macOS 內建的行楷（Xingkai SC）和魏碑（Weibei SC），其他系統改用楷體，字形與筆順不再貼合。旁白是隨包的本機 Qwen3-TTS 朗讀（音色 Uncle_Fu，詩詞朗誦語氣）；改句後複核停頓與卡點；Qwen 需直裝版另裝，商店版不可用。原句重用種子，改句須同音色來源並逐句快取。相容服務或 Agent 雲端工具先估費、獲同意；選聲階梯見 galanty://guide/craft、galanty://environment，不退回系統語音。",
+    "ja": "筆文字と印章は macOS 標準の Xingkai SC（行楷）と Weibei SC（魏碑）を使っています。ほかの OS では楷書体に置き換わり、字形と筆順が合わなくなります。ナレーションは同梱のローカル Qwen3-TTS による朗読（音声 Uncle_Fu、詩の朗誦調）です。変更後は間とキューを再確認。Qwen は直接配布版で別途導入し、ストア版にはありません。元の文は種子を再利用し、変更文は同じ声の生成元で文ごとにキャッシュ。クラウドは費用見積もりと同意が先です。galanty://guide/craft と galanty://environment に従い、システム音声には戻しません。",
+    "ko": "붓글씨와 인장은 macOS 기본 Xingkai SC(행해)와 Weibei SC(위비) 글꼴을 씁니다. 다른 시스템에서는 해서체로 대체되어 글자 모양과 획순이 맞지 않습니다. 내레이션은 함께 제공되는 로컬 Qwen3-TTS 낭독(음성 Uncle_Fu, 시 낭송 어조)입니다. 수정 후 쉼과 큐를 확인하세요. Qwen은 직접 배포판에 별도 설치하며 스토어판에는 없습니다. 원문은 시드를 재사용하고 수정문은 같은 목소리로 문장별 캐시합니다. 클라우드는 비용 추산과 동의가 먼저입니다. galanty://guide/craft 및 galanty://environment를 따르며 시스템 음성으로 대체하지 않습니다.",
+    "es": "La caligrafía y los sellos usan las fuentes de macOS Xingkai SC y Weibei SC; otros sistemas las sustituyen por Kaiti y los trazos dejan de coincidir. La narración es una lectura local de Qwen3-TTS incluida (voz Uncle_Fu con estilo de recitado de poesía); Revisa pausas y marcas tras editar. Qwen se instala aparte en la edición directa y no está en la tienda. Reutiliza frases intactas; edita con la misma voz y caché por frase. Estima el coste de nube y pide consentimiento. Sigue galanty://guide/craft y galanty://environment; no uses voces del sistema.",
+    "de": "Pinselschrift und Siegel nutzen die macOS-Schriften Xingkai SC und Weibei SC; andere Systeme greifen auf Kaiti zurück, Zeichenform und Strichfolge passen dann nicht mehr. Die Sprachspur ist eine mitgelieferte lokale Qwen3-TTS-Lesung (Stimme Uncle_Fu im Rezitationsstil); Nach Änderungen Pausen und Cues prüfen. Qwen braucht eine separate Installation in der Direktversion und fehlt im Store. Seed-Sätze wiederverwenden; Änderungen mit derselben Stimmquelle je Satz cachen. Cloud-Kosten vorher schätzen und Zustimmung einholen. Siehe galanty://guide/craft und galanty://environment; keine Systemstimmen.",
+    "fr": "La calligraphie et les sceaux utilisent les polices macOS Xingkai SC et Weibei SC ; d'autres systèmes les remplacent par Kaiti, et les tracés ne correspondent plus. La narration est une lecture Qwen3-TTS locale fournie (voix Uncle_Fu, ton de récitation poétique) ; Vérifiez pauses et repères après modification. Qwen s’installe séparément dans l’édition directe et manque dans l’édition boutique. Réutilisez les phrases intactes ; modifiez avec la même source vocale et un cache par phrase. Estimez le coût cloud et obtenez le consentement. Voir galanty://guide/craft et galanty://environment ; pas de voix système.",
+    "pt-BR": "A caligrafia e os selos usam as fontes do macOS Xingkai SC e Weibei SC; outros sistemas as trocam por Kaiti e os traços deixam de bater. A narração é uma leitura local do Qwen3-TTS incluída (voz Uncle_Fu, em tom de recital de poesia); Reveja pausas e marcações após editar. Qwen exige instalação separada na edição direta e não está na edição da loja. Reutilize frases intactas; edite com a mesma fonte de voz e cache por frase. Estime o custo da nuvem e peça consentimento. Siga galanty://guide/craft e galanty://environment; sem vozes do sistema."
+  },
+  "lessons": {
+    "zh-CN": [
+      {
+        "id": "recompose-for-reading",
+        "when": "从纯视觉或音乐作品扩展为朗读片时",
+        "request": "用户先说“这个视频不错”，随后要求内容更丰富、加入朗读并让音乐跟着调整。",
+        "problem": "新增朗读会改变节奏，直接沿用原曲和停留无法保证声画成立。",
+        "change": "按实配朗读重排画面、落字、停留和配乐，让它们读同一时序。",
+        "principle": "内容与声音改变后重新编排，保留有效视觉，不机械延长原片。",
+        "cost": "需要朗读、排时和配乐调整；原制作依赖字体与声音条件，替代后需核对。",
+        "counterexample": "不是所有作品都应快切；诗意作品可以长停留，也不强制毛笔、水墨或固定小节。",
+        "verification": "“不错”只对应当时首版，不自动验收后续朗读版；记录支持制作过程，完整试听另验。"
+      },
+      {
+        "id": "voice-source-and-sentence-cache",
+        "when": "复用诗词朗读种子或更换语种时",
+        "request": "当前复刻建议，非当时原话：保留声音品质并按实际授权使用配音。",
+        "problem": "种子只是已有录音；无可用同音色来源时，改句不能靠种子生成，混换声音也会破坏一致性。",
+        "change": "种子不生成新句；先确认 Uncle_Fu 等同音色来源可用，再按句重配，复核朗读、停顿和音乐。",
+        "principle": "系统语音（macOS say / System voice）许可仅限个人非商业，只作草稿试听，不默认、不交付。依次查原声种子、已配置兼容服务或 Agent 的 Gemini TTS/ElevenLabs、本机神经语音；直装版 Qwen/Kokoro 另装，商店无 Qwen。全无则字幕与有许可配乐，告知改善方式，不回系统。完整策略见 galanty://guide/craft、galanty://environment。",
+        "cost": "先给免费可用方案；云端会收到旁白，先估费并获用户同意，沿用已有授权。空预算不授权收费，编译免费不代表云端免费。",
+        "counterexample": "用户可选不同表现；选了声音后不能擅自混音色，系统试听不构成交付授权。",
+        "verification": "当前选声建议；保留本片历史工具与费用记录，本次未新增合成或完整试听，不把历史验收当新句验收。"
+      }
+    ],
+    "en": [
+      {
+        "id": "recompose-for-reading",
+        "when": "Adding spoken poetry to a visual or music-led work.",
+        "request": "The user first said 这个视频不错 (this video is good), then requested richer content, reading and music adjusted with it.",
+        "problem": "Added speech changes pacing; retaining the original music and holds cannot guarantee a working audiovisual sequence.",
+        "change": "Recompose images, lettering, holds and music around measured reading timing.",
+        "principle": "Rearrange when content or sound changes, while preserving effective visuals.",
+        "cost": "Reading, timing and music editing add effort. Font and voice substitutions need checking.",
+        "counterexample": "Poetry may benefit from long holds; fast cuts, ink effects and fixed bars are not requirements.",
+        "verification": "The positive quote applied only to the earlier version, not automatic approval of the later reading version; full listening is a separate check."
+      },
+      {
+        "id": "voice-source-and-sentence-cache",
+        "when": "Reusing poetry-reading seeds or changing language.",
+        "request": "Current reproduction advice, not a historical quote: preserve voice quality within actual authorization.",
+        "problem": "Seeds are existing recordings, not generators. Edited lines need a matching source; mixing replacement voices can break consistency.",
+        "change": "Seeds cannot generate new lines. Confirm a matching source such as Uncle_Fu before per-line synthesis, then recheck delivery, holds and music.",
+        "principle": "System voices (macOS say / System voice) are licensed only for personal non-commercial use: draft auditions, never defaults or delivery. Prefer seeds, then a configured compatible service or Agent Gemini TTS/ElevenLabs, then local neural voices. Qwen/Kokoro require separate direct-edition installation; store has no Qwen. Otherwise use subtitles and licensed music, explain upgrades and never fall back to system voices. See galanty://guide/craft and galanty://environment.",
+        "cost": "Offer available free options first. Cloud services receive narration; estimate cost and obtain consent, reusing existing authorization. An empty budget authorizes no charges; free compilation is not free cloud speech.",
+        "counterexample": "Users can choose another treatment. Do not mix voices silently or treat a system-voice audition as delivery authorization.",
+        "verification": "Current guidance only. Historical tools and costs remain unchanged; no new synthesis or full listening was performed here, and old approval does not approve new lines."
+      }
+    ]
+  }
+}

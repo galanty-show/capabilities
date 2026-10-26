@@ -1,0 +1,381 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S110",
+  "title": "The Gift of the Magi",
+  "titles": {
+    "en": "The Gift of the Magi",
+    "zh": "麦琪的礼物"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "gm-coins",
+    "gm-title",
+    "gm-flat",
+    "gm-treasures",
+    "gm-sale",
+    "gm-search",
+    "gm-wait",
+    "gm-door",
+    "gm-combs",
+    "gm-reveal",
+    "gm-embrace",
+    "gm-magi"
+  ],
+  "page": "https://galanty.cn/samples/#S110",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "3c11211784c5156386d364086de4ba74ac26624d502421864eda0c0ebd77aae0",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创复述：旁白为自写英文复述（原著 O. Henry《The Gift of the Magi》1905，公有领域，短引原句亦为公版）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创复述：旁白为自写英文复述（原著 O. Henry《The Gift of the Magi》1905，公有领域，短引原句亦为公版）；底图、配乐为 AI 原创生成，音效代码合成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-gift-of-the-magi",
+    "selection": "library:original-gift-of-the-magi",
+    "title": "The Gift of the Magi",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "The Gift of the Magi — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S110/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (piano, strings, music box); re-arranged into six sections by tools/production/gift-magi-20261013/music_build.py (0.8 s equal-power crossfades, a full rest before the twist, 4.5 dB pre-duck under narration, 240 Hz dip, 138 NumPy-synthesized SFX: coins, scissors, door bells, clock strike, ticks, footsteps, paper, sparkles, snow-night air; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S110; other films will not hit its accents.",
+    "file": "music/gift-of-the-magi.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S110",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Sulafat",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Sulafat），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Sulafat); playback stays offline",
+      "sentences": 44,
+      "durationSeconds": 97.642544,
+      "files": 45
+    },
+    {
+      "seedId": "S110-zh",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Sulafat",
+      "speechRate": 270,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Sulafat），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Sulafat); playback stays offline",
+      "sentences": 44,
+      "durationSeconds": 97.55927,
+      "files": 45
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6449,
+      "sha256": "e8eff0758dded47350ec305f62b192afb29e455a2887d72fedf39ae5d1ea50fe",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4510,
+      "sha256": "1a58daf39ce1a426381720ee9b625511f08bde0d76d52e1711bd99b8d4322333",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5520,
+      "sha256": "fb26b91a1706ff653115798c95ef5aac4bbe9f360b089c50e8c7f5665cccfda3",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 965,
+      "sha256": "2d466d6e90489605afdcfef8e4424942c1ba72db4f5e0bb4f42da5daec951b8d",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 3823,
+      "sha256": "0ca7111ba0482e764e344be3840dcf8f8dada96aee29a5819fa8d8158e9731b8",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/storyboard.json",
+      "bytes": 7598,
+      "sha256": "438a16fd7cc307bb25f416c3195221b17df9da492362acf4ea8afab54c1d836a",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/settings.json",
+      "bytes": 968,
+      "sha256": "d2935adb5d3b15456a36e4636994b24be92bbda6054745b06e387fffc999ed9b",
+      "license": "sample-content"
+    },
+    {
+      "path": "gm-coins.tsx",
+      "bytes": 32478,
+      "sha256": "25d8cf9d557571fe1e9a942901eb74a53fcba6f2d51fe219798e7c9f097e6138",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-title.tsx",
+      "bytes": 15477,
+      "sha256": "cd88e0b93884ef17b61b41b7e042d25fd8f83594e6969c5a9892ba70c13e8652",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-flat.tsx",
+      "bytes": 15554,
+      "sha256": "842002d495db3a46bde7c212f28ff0c9ef183507b8520a028f63ee994181748b",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-treasures.tsx",
+      "bytes": 37293,
+      "sha256": "f2ef00c62a9958362a6052f5d53b64878b565fd2cecdae8b9d4e5be4bac98149",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-sale.tsx",
+      "bytes": 40597,
+      "sha256": "9c38b93921540c3c3fdee2e4f5981590e484e67331c6f34b34c813147880cd45",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-search.tsx",
+      "bytes": 33947,
+      "sha256": "6fcce61ae2c065355ce1230cafc1bf3c5b185b29b64c7d8af3c087bbfbbabd5d",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-wait.tsx",
+      "bytes": 21605,
+      "sha256": "939a2c8193ea70c795f99464cebd243ad13d3e7312bb03f2983b38343b7b9a58",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-door.tsx",
+      "bytes": 14961,
+      "sha256": "18f285c64f570400858fb590982d287c71088718c74d60ae77b619384af8f18c",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-combs.tsx",
+      "bytes": 19363,
+      "sha256": "26ce363149a3f759afb483a25f09ecfd026259b129bbf3723664d370ee148676",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-reveal.tsx",
+      "bytes": 26987,
+      "sha256": "b1fc984f90b0d3452f5f726fa2850c8b7e337598669689c417f691df69a725fe",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-embrace.tsx",
+      "bytes": 11893,
+      "sha256": "16b2a82f19d0e570ae9f51eac2a938326676a42c4d95e64c866913a39849f2ab",
+      "license": "MIT"
+    },
+    {
+      "path": "gm-magi.tsx",
+      "bytes": 18304,
+      "sha256": "8a3a2adc2ae0fc0a14cd9d1ea3dfca4dbd8dbfa3c341de540e19d62e3370d57b",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 20131,
+      "sha256": "abd0ade61628ac82c95ce91d0e8f55603d698331f9363320d9022eb6f6e71f25",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 17072,
+      "sha256": "31f3279e81c6ba1a7e5728b3fce195ea7ea95063d7c22f265a29888aebe6da2e",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 6552,
+      "sha256": "92fddcf7a4dd7567f719048bb9c889d60695aaadfae68fd2802a9e330fc5a675",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2639,
+      "sha256": "8884736a4c436935225d29061f1072391960ef027857afc246581fac73748e65",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 13883,
+      "sha256": "95f90822c664cbd6efc54a20ed02fee910ed8d72e71da4be698312b9001e5a86",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1936,
+      "sha256": "f847dcd9394768fb47c8c92b58970177bb4fdcee4174f7bfbc214fe7481b44be",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S110.zip",
+    "bytes": 2710697,
+    "sha256": "6bb489f6e2c14e8f8df1b284447313fa1499a587c3bc1c3d4ef4c8d8116d507b",
+    "format": "galanty-source-pack",
+    "contentDigest": "3c11211784c5156386d364086de4ba74ac26624d502421864eda0c0ebd77aae0"
+  },
+  "inlineMedia": [
+    {
+      "source": "gm-coins.tsx",
+      "reference": "release-assets/c481dd61eb5974d2d7a90bc31eef53c82238a0637d30739192831bc1100d642a.webp",
+      "mime": "image/webp",
+      "bytes": 41034,
+      "sha256": "c481dd61eb5974d2d7a90bc31eef53c82238a0637d30739192831bc1100d642a"
+    },
+    {
+      "source": "gm-title.tsx",
+      "reference": "release-assets/0c4fad2f74a310bdcf79bff14728fcee85d5dd7f51ac726174175097ea99cfe9.webp",
+      "mime": "image/webp",
+      "bytes": 53720,
+      "sha256": "0c4fad2f74a310bdcf79bff14728fcee85d5dd7f51ac726174175097ea99cfe9"
+    },
+    {
+      "source": "gm-flat.tsx",
+      "reference": "release-assets/807af7bcfe591585a28d467fd128fbc8580c7f7a179bd0502f0e9b7731cf1963.webp",
+      "mime": "image/webp",
+      "bytes": 48938,
+      "sha256": "807af7bcfe591585a28d467fd128fbc8580c7f7a179bd0502f0e9b7731cf1963"
+    },
+    {
+      "source": "gm-treasures.tsx",
+      "reference": "release-assets/dcc9ea59df9d4d6e039eb799ec13f3f5a4fa106ddf7f2df5ee2afc0230366d91.webp",
+      "mime": "image/webp",
+      "bytes": 50180,
+      "sha256": "dcc9ea59df9d4d6e039eb799ec13f3f5a4fa106ddf7f2df5ee2afc0230366d91"
+    },
+    {
+      "source": "gm-treasures.tsx",
+      "reference": "release-assets/70e2735835531a842313e63c8be87a42d8030a532bf24db3ef63f6969d84f697.webp",
+      "mime": "image/webp",
+      "bytes": 66154,
+      "sha256": "70e2735835531a842313e63c8be87a42d8030a532bf24db3ef63f6969d84f697"
+    },
+    {
+      "source": "gm-sale.tsx",
+      "reference": "release-assets/20bd470f8a3c3b8f0f9c29b928ce7b8dff73b34cc706fa73d2ecabe80785a646.webp",
+      "mime": "image/webp",
+      "bytes": 41150,
+      "sha256": "20bd470f8a3c3b8f0f9c29b928ce7b8dff73b34cc706fa73d2ecabe80785a646"
+    },
+    {
+      "source": "gm-search.tsx",
+      "reference": "release-assets/1b5c22eaa7432401794b8156846257f96f68e7b4a1ae1ebc28b2409b115bb5cb.webp",
+      "mime": "image/webp",
+      "bytes": 56664,
+      "sha256": "1b5c22eaa7432401794b8156846257f96f68e7b4a1ae1ebc28b2409b115bb5cb"
+    },
+    {
+      "source": "gm-search.tsx",
+      "reference": "release-assets/38fac18bf9cb05988d0af58ad81295b77904d4aa56bb929902ac2f079bc8518f.webp",
+      "mime": "image/webp",
+      "bytes": 52318,
+      "sha256": "38fac18bf9cb05988d0af58ad81295b77904d4aa56bb929902ac2f079bc8518f"
+    },
+    {
+      "source": "gm-wait.tsx",
+      "reference": "release-assets/be9227bee62ecd8ffe07e4da53b61dcf8103b23b34e0556cad2fecc989734c68.webp",
+      "mime": "image/webp",
+      "bytes": 25832,
+      "sha256": "be9227bee62ecd8ffe07e4da53b61dcf8103b23b34e0556cad2fecc989734c68"
+    },
+    {
+      "source": "gm-door.tsx",
+      "reference": "release-assets/7f8854317768900cd3d8ff33bc4a641624b023f8f42a64697cedc9b13b1270f5.webp",
+      "mime": "image/webp",
+      "bytes": 42020,
+      "sha256": "7f8854317768900cd3d8ff33bc4a641624b023f8f42a64697cedc9b13b1270f5"
+    },
+    {
+      "source": "gm-combs.tsx",
+      "reference": "release-assets/a404a1729d34619daf35bda7ceed1fadc9f9a856e569029c02343a27ff2069ad.webp",
+      "mime": "image/webp",
+      "bytes": 53776,
+      "sha256": "a404a1729d34619daf35bda7ceed1fadc9f9a856e569029c02343a27ff2069ad"
+    },
+    {
+      "source": "gm-reveal.tsx",
+      "reference": "release-assets/8fdfce28aa5f8e1bf36ccb55fd23d429b4b6b69a31ee70629aa3b6ac5c2c81f9.webp",
+      "mime": "image/webp",
+      "bytes": 61440,
+      "sha256": "8fdfce28aa5f8e1bf36ccb55fd23d429b4b6b69a31ee70629aa3b6ac5c2c81f9"
+    },
+    {
+      "source": "gm-reveal.tsx",
+      "reference": "release-assets/41353256c33a6aa2dc82ae320bce00cc2c5bb286428fc3578c80af7ef51af85b.webp",
+      "mime": "image/webp",
+      "bytes": 45144,
+      "sha256": "41353256c33a6aa2dc82ae320bce00cc2c5bb286428fc3578c80af7ef51af85b"
+    },
+    {
+      "source": "gm-embrace.tsx",
+      "reference": "release-assets/a6182f447d6c1e9888c3c9282f67e9f420d10cb2f61a6fd2b7d7f09639be5007.webp",
+      "mime": "image/webp",
+      "bytes": 38582,
+      "sha256": "a6182f447d6c1e9888c3c9282f67e9f420d10cb2f61a6fd2b7d7f09639be5007"
+    },
+    {
+      "source": "gm-magi.tsx",
+      "reference": "release-assets/26fe43992e790874eea26ef75a330375d5b34e6f0b683dd351ee03f15bd6ed65.webp",
+      "mime": "image/webp",
+      "bytes": 47862,
+      "sha256": "26fe43992e790874eea26ef75a330375d5b34e6f0b683dd351ee03f15bd6ed65"
+    },
+    {
+      "source": "gm-magi.tsx",
+      "reference": "release-assets/d3e64ef23306580a082dff1d17e851ee2e1a13970b44c8f37d0f78a28ad1f2c0.webp",
+      "mime": "image/webp",
+      "bytes": 31558,
+      "sha256": "d3e64ef23306580a082dff1d17e851ee2e1a13970b44c8f37d0f78a28ad1f2c0"
+    }
+  ]
+}

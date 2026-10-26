@@ -1,0 +1,262 @@
+{
+  "contractVersion": 3,
+  "title": "The Legend of Sleepy Hollow",
+  "sourceTitle": "Washington Irving, “The Legend of Sleepy Hollow” (1820), retold",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "Hoofbeats",
+      "narration": "Listen... hoofbeats, on a midnight road. A rider in the fog. And he has no head.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-road",
+          "props": {
+            "mode": "open"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "The Legend of Sleepy Hollow",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.5
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-title",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "hollow",
+      "title": "Sleepy Hollow, 1790",
+      "narration": "Sleepy Hollow, New York, 1790. A drowsy valley, where folk swore the very air was bewitched.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-hollow",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ichabod",
+      "title": "Ichabod Crane",
+      "narration": "Its schoolmaster was Ichabod Crane. Lanky as a runaway scarecrow. Always hungry. And he believed every ghost story.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-ichabod",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "katrina",
+      "title": "Katrina Van Tassel",
+      "narration": "He had his eye on Katrina Van Tassel, the rich farmer's daughter. Well... on her, and her father's pantry.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-katrina",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brom",
+      "title": "Brom Bones",
+      "narration": "But Brom Bones wanted her too. And Brom meant to send Ichabod packing.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-brom",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "party",
+      "title": "Ghost stories",
+      "narration": "At the autumn party came ghost stories. Of a soldier whose head was shot away, who rides each night to find it.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-party",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "ride",
+      "title": "Riding home",
+      "narration": "Ichabod rode home alone on old Gunpowder. The woods went quiet.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-ride",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "shadow",
+      "title": "A shadow",
+      "narration": "Then, beside him, a huge dark rider. The moon broke through. He had no head.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-shadow",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "chase",
+      "title": "The chase",
+      "narration": "Ichabod kicked, and Gunpowder ran. Faster, faster, and the saddle slipped. Ahead, the bridge by the church. “If I can but reach that bridge, I am safe.”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-chase",
+          "props": {
+            "mode": "chase"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "throw",
+      "title": "The pumpkin",
+      "narration": "He crossed, and looked back. The rider rose in his stirrups, and hurled his head. A blazing pumpkin!",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-chase",
+          "props": {
+            "mode": "throw"
+          }
+        }
+      },
+      "hold": 1.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "morning",
+      "title": "Next morning",
+      "narration": "At dawn, they found his hat by the bridge. Beside it, a shattered pumpkin. Ichabod was never seen again.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-morning",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "ending",
+      "title": "Brom laughs",
+      "narration": "Soon after, Brom Bones married Katrina. Whenever the tale was told, he laughed. Especially at the part about the pumpkin.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-wedding",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "hook",
+      "title": "Listen",
+      "narration": "Ghost, or prank? Ride the Hollow at midnight, and listen.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-road",
+          "props": {
+            "mode": "hook"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "credit",
+      "title": "Change the night",
+      "narration": "Drawn in code with Galanty. Change a setting, change the night.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-credit",
+          "props": {}
+        }
+      },
+      "hold": 2.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

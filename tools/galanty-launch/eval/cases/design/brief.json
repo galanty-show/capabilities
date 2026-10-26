@@ -1,0 +1,34 @@
+{
+  "productName": "Mosaic Board",
+  "tagline": "DEMO / Shape the idea",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Place a frame",
+      "detail": "Arrange a canvas frame",
+      "command": "New frame",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Name the color",
+      "detail": "Save a palette swatch",
+      "command": "Save swatch",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Share a view",
+      "detail": "Export the canvas image",
+      "command": "Export image",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#ffb6cf"
+  },
+  "musicStyle": "electronic",
+  "seed": 2106,
+  "durationSeconds": 24,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

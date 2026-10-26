@@ -1,0 +1,43 @@
+{
+  "no": "S041",
+  "title": "山径晨声",
+  "titles": {
+    "zh": "山径晨声",
+    "en": "Morning Sounds on the Mountain Path"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "诗词文化",
+  "templates": [
+    "T01"
+  ],
+  "modules": [
+    "morning-verse",
+    "verse-journey",
+    "title-statement"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "music": {
+    "id": "generated-calm-current-64",
+    "selection": "library:generated-calm-current-64",
+    "title": "Calm Current 64",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 64 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120401",
+    "modifications": null,
+    "file": "music/generated-calm-current-64.mp3",
+    "bundled": true
+  },
+  "page": "https://galanty.cn/samples/#S041"
+}

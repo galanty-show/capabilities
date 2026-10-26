@@ -1,0 +1,80 @@
+{
+  "contractVersion": 3,
+  "title": "江灯四景",
+  "sourceTitle": "原创诗文；不是古籍引文，也不涉及真实作者。",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 64
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "暮渡",
+      "narration": "晚云收尽小桥东，芦影摇波入浅风。谁把一灯安水上，照来归燕两三声。",
+      "sourceQuote": "晚云收尽小桥东，芦影摇波入浅风。谁把一灯安水上，照来归燕两三声。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "暮渡",
+            "kicker": "原创诗文"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "月岸",
+      "narration": "月从远岸慢慢生，石径无人草自青。溪水不言山已静，半窗灯火候归程。",
+      "sourceQuote": "月从远岸慢慢生，石径无人草自青。溪水不言山已静，半窗灯火候归程。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "月岸",
+            "kicker": "原创诗文"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "夜读",
+      "narration": "翻开旧页闻松雨，落笔新词见远汀。若问今宵何处暖，一杯清茶一盏明。",
+      "sourceQuote": "翻开旧页闻松雨，落笔新词见远汀。若问今宵何处暖，一杯清茶一盏明。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "夜读",
+            "kicker": "原创诗文"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "晨归",
+      "narration": "晓雾开渡口，灯影照归人。未完心上句，写入一轮春。",
+      "sourceQuote": "晓雾开渡口，灯影照归人。未完心上句，写入一轮春。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "晨归",
+            "kicker": "原创诗文"
+          }
+        }
+      }
+    }
+  ]
+}

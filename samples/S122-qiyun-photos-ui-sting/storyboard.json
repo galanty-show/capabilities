@@ -1,0 +1,162 @@
+{
+  "contractVersion": 3,
+  "title": "栖云相册 · UI 开场动效",
+  "subtitle": "改编自 HyperFrames 官方发布片模板 01-ui-sting（Apache-2.0）",
+  "sourceTitle": "栖云相册（虚构产品）UI 开场动效 · 创作说明",
+  "scenes": [
+    {
+      "id": "lockup",
+      "title": "A · 标志弹入",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-lockup",
+          "props": {
+            "f0": 0
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.1663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "signin",
+      "title": "B · 登录卡",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-signin",
+          "props": {
+            "f0": 35
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.233
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "email",
+      "title": "C · 输入账号",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-email",
+          "props": {
+            "f0": 72
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.3663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "count",
+      "title": "D · 一个关键数字",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-count",
+          "props": {
+            "f0": 113
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.3663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "nav",
+      "title": "E · 导航与高亮",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-nav",
+          "props": {
+            "f0": 154
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "create",
+      "title": "F · 新建一下",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-create",
+          "props": {
+            "f0": 209
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.1663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "endcard",
+      "title": "G · 尾卡",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "qy-endcard",
+          "props": {
+            "f0": 304
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.1997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

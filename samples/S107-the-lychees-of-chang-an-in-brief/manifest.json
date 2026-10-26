@@ -1,0 +1,416 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S107",
+  "title": "长安的荔枝 · 两分钟讲完",
+  "titles": {
+    "zh": "长安的荔枝 · 两分钟讲完",
+    "en": "The Lychees of Chang'an, in Brief"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "lc-poem",
+    "lc-title",
+    "lc-changan",
+    "lc-edict",
+    "lc-decay",
+    "lc-map",
+    "lc-south",
+    "lc-trials",
+    "lc-relay",
+    "lc-arrive",
+    "lc-cost",
+    "lc-truth",
+    "lc-war",
+    "lc-credit"
+  ],
+  "page": "https://galanty.cn/samples/#S107",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "1745e36605b41be1ceca5ff2902447c8d7adefe0bb85775325baa4e0c4fcc92e",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创故事导读：旁白为自写概述（原著马伯庸《长安的荔枝》），诗句公有领域；底图、配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创故事导读：旁白为自写概述（原著马伯庸《长安的荔枝》），诗句公有领域；底图、配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-changan-lychee",
+    "selection": "library:original-changan-lychee",
+    "title": "Chang'an Lychee",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Chang'an Lychee — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S107/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt; edited by tools/production/lychee-20261007/music_build.py (re-timed, one 4-bar loop, 230 Hz dip, NumPy-synthesized SFX and rain/wind/fire beds, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S107; other films will not hit its accents.",
+    "file": "music/changan-lychee.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S107",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Orus",
+      "speechRate": 240,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Orus），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Orus); playback stays offline",
+      "sentences": 20,
+      "durationSeconds": 96.79119,
+      "files": 21
+    },
+    {
+      "seedId": "S107-en",
+      "language": "en",
+      "engine": "mlx-qwen",
+      "voice": "english_storyteller",
+      "speechRate": 245,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 english_storyteller）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice english_storyteller)",
+      "sentences": 51,
+      "durationSeconds": 115.036084,
+      "files": 52
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6478,
+      "sha256": "185d14b4095789ebabbd99f2f6d76e5cb0c6d512c5cb510cd63ed08a2bf82fbc",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4329,
+      "sha256": "5635eb707ca8d48ec0368ef746bf9e44a78b5171607de0fb555f52b0367fd408",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 6675,
+      "sha256": "43df5ce333d581dc4865d0b36f5c5449926797e070f30891938397149b5db102",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 774,
+      "sha256": "fb237704e0cd0f144aaae5cc18231a8735a1ecbd06fabf30fb9ed504a2cfde3e",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 927,
+      "sha256": "b9a4ebdd695ba6f3001233906ba6cde2fa894b0b0a3d03e08c18de03080c7805",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 13668,
+      "sha256": "b73c0888bd7b8496d022d38d73ebaa01d86034d78277082d30f2e8e0e8f901c8",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 561,
+      "sha256": "50b3a6e08ccb5f89a64b8e5be4b496b6ae7c8e38973abe794070f287f5059e31",
+      "license": "sample-content"
+    },
+    {
+      "path": "lc-poem.tsx",
+      "bytes": 107330,
+      "sha256": "4f7110f4cc7745fb56f6e80adc3eb5fe841e5a4a8d5b4c0c687d901ed4f0d14b",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-title.tsx",
+      "bytes": 79803,
+      "sha256": "bc6e1c804b4057a61e86a60f0eaf12ee7b2a1637c27b196ef25b51e9ec64a007",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-changan.tsx",
+      "bytes": 135552,
+      "sha256": "529a1f714b20e8c8f87828107c62aba23bbfd83bdf8497fa3a0ea4f3a5b89056",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-edict.tsx",
+      "bytes": 111293,
+      "sha256": "5cc4c87dd5aba26fb073214488f2e2e351784e9485e9c16cd1298a154aa17614",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-decay.tsx",
+      "bytes": 101206,
+      "sha256": "037e92895776224549a17df46e1cbfb7ac1a1567d9b5fd4c1d643ee40f68a07e",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-map.tsx",
+      "bytes": 159409,
+      "sha256": "3db17b61bac0f82ee37d433a7a121505ef6b7048f4069c48139b5f75372be52f",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-south.tsx",
+      "bytes": 82169,
+      "sha256": "14286f6866bb6de4c1d581f9feb6fc6fecd1e47908917675b319163b81062c30",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-trials.tsx",
+      "bytes": 104458,
+      "sha256": "d16c51320551d87592c0211e906e882fffea38c0dab197d27b193c54dbc77c5f",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-relay.tsx",
+      "bytes": 84162,
+      "sha256": "a158d761b712870e8d3c89307620d78f79d555f3c577c364f09b0f58b5b67262",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-arrive.tsx",
+      "bytes": 87489,
+      "sha256": "480a093c6c48f065d02d1a9f92710258417df16d9b906f2ce43e3593c49c6208",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-cost.tsx",
+      "bytes": 130894,
+      "sha256": "0092a303264d1e2a5abbd820dd96d054ed6a3b74a3e81b7af78cc748c87e6bdd",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-truth.tsx",
+      "bytes": 100820,
+      "sha256": "a1a53b4813c8c9726ce01dfa53571ed0441aa306fb800a14d348a29e2e896301",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-war.tsx",
+      "bytes": 137586,
+      "sha256": "a270f78f077b7dc8ac3dc9a3e62ee2b495eed76b66e126cac35d52fcc24c872b",
+      "license": "MIT"
+    },
+    {
+      "path": "lc-credit.tsx",
+      "bytes": 144773,
+      "sha256": "4c0af51396210eca4eb22d37fae608f29a4d696c052fc9c1ee801f687e4acf00",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 21882,
+      "sha256": "c46e600b8c396b93976aea9b5a99f092bdb75ca4fb5f14bf32fb633298019d33",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 13873,
+      "sha256": "d6ef71f259c451593694e5d8a7e3aeebb1866c8432cbace51c7e170b0a003758",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 4121,
+      "sha256": "9b1b749048e9cc185e8bb83b0418139ed040bef28aaff01b4498b992ee78f865",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2346,
+      "sha256": "e4db982e3eb437cf155720ce599672d53e989bb9d366da0554046e2144eeb5db",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 11305,
+      "sha256": "2af27e8d488fe774b444063177087c6439a9a363d82437749b3c4d6f61cb43c2",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1977,
+      "sha256": "a425a16965d7753899203234c45a5c51db1110205d2e95a23e8dcffb3dc3ca5a",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S107.zip",
+    "bytes": 5176724,
+    "sha256": "ad63a5355926bae59e10ffccfc0aad5ac8f0ab43e13dfaea383be05756657c45",
+    "format": "galanty-source-pack",
+    "contentDigest": "1745e36605b41be1ceca5ff2902447c8d7adefe0bb85775325baa4e0c4fcc92e"
+  },
+  "inlineMedia": [
+    {
+      "source": "lc-poem.tsx",
+      "reference": "release-assets/e27d0ed2ba1fcb9f4eab176df363ff25c29109b8c41a076adb5ba08929ab1761.webp",
+      "mime": "image/webp",
+      "bytes": 120140,
+      "sha256": "e27d0ed2ba1fcb9f4eab176df363ff25c29109b8c41a076adb5ba08929ab1761"
+    },
+    {
+      "source": "lc-title.tsx",
+      "reference": "release-assets/05488b28d768eb284f625fddad29f21bd32fcb12aebaffc2804e049259dd7050.webp",
+      "mime": "image/webp",
+      "bytes": 62966,
+      "sha256": "05488b28d768eb284f625fddad29f21bd32fcb12aebaffc2804e049259dd7050"
+    },
+    {
+      "source": "lc-changan.tsx",
+      "reference": "release-assets/44ef5e5c3a1e8ab64d65f140b8a880e1ca758cb0fe9c55058504993dc4aee128.webp",
+      "mime": "image/webp",
+      "bytes": 87536,
+      "sha256": "44ef5e5c3a1e8ab64d65f140b8a880e1ca758cb0fe9c55058504993dc4aee128"
+    },
+    {
+      "source": "lc-changan.tsx",
+      "reference": "release-assets/de2bd5a51b4d5e62b3ddd84377fbbe93f9a04e9d25e0c08b8b89c35f2b168e5c.webp",
+      "mime": "image/webp",
+      "bytes": 87526,
+      "sha256": "de2bd5a51b4d5e62b3ddd84377fbbe93f9a04e9d25e0c08b8b89c35f2b168e5c"
+    },
+    {
+      "source": "lc-edict.tsx",
+      "reference": "release-assets/de2bd5a51b4d5e62b3ddd84377fbbe93f9a04e9d25e0c08b8b89c35f2b168e5c.webp",
+      "mime": "image/webp",
+      "bytes": 87526,
+      "sha256": "de2bd5a51b4d5e62b3ddd84377fbbe93f9a04e9d25e0c08b8b89c35f2b168e5c"
+    },
+    {
+      "source": "lc-decay.tsx",
+      "reference": "release-assets/05488b28d768eb284f625fddad29f21bd32fcb12aebaffc2804e049259dd7050.webp",
+      "mime": "image/webp",
+      "bytes": 62966,
+      "sha256": "05488b28d768eb284f625fddad29f21bd32fcb12aebaffc2804e049259dd7050"
+    },
+    {
+      "source": "lc-map.tsx",
+      "reference": "release-assets/3d179dc4e763cbe2f70fceffef142715ecce471662d167fcfb0e74c0c928c423.webp",
+      "mime": "image/webp",
+      "bytes": 408368,
+      "sha256": "3d179dc4e763cbe2f70fceffef142715ecce471662d167fcfb0e74c0c928c423"
+    },
+    {
+      "source": "lc-south.tsx",
+      "reference": "release-assets/1e7f15da3493b49f308b6c976da80de58ddb8ec7cc97fa2a9f3bec71f819a3a5.webp",
+      "mime": "image/webp",
+      "bytes": 326978,
+      "sha256": "1e7f15da3493b49f308b6c976da80de58ddb8ec7cc97fa2a9f3bec71f819a3a5"
+    },
+    {
+      "source": "lc-trials.tsx",
+      "reference": "release-assets/4aeffacc50753fd2cac15679c69ca264ba8bdb4c7959b6dbdc4c1e4d6b29eadb.webp",
+      "mime": "image/webp",
+      "bytes": 227384,
+      "sha256": "4aeffacc50753fd2cac15679c69ca264ba8bdb4c7959b6dbdc4c1e4d6b29eadb"
+    },
+    {
+      "source": "lc-relay.tsx",
+      "reference": "release-assets/bfb2ad1796fd3a967d338e0727f2084ee0543d480a9547611a0a1f53cabf5a48.webp",
+      "mime": "image/webp",
+      "bytes": 121514,
+      "sha256": "bfb2ad1796fd3a967d338e0727f2084ee0543d480a9547611a0a1f53cabf5a48"
+    },
+    {
+      "source": "lc-relay.tsx",
+      "reference": "release-assets/80cf3e28cb7553f63cecdbf37e53a8803090ab409f713195976c29db707c1669.webp",
+      "mime": "image/webp",
+      "bytes": 113922,
+      "sha256": "80cf3e28cb7553f63cecdbf37e53a8803090ab409f713195976c29db707c1669"
+    },
+    {
+      "source": "lc-arrive.tsx",
+      "reference": "release-assets/df0a00eae9f214860713cfad4394b59746540036dde00dd5cc0b0a2bb64672e9.webp",
+      "mime": "image/webp",
+      "bytes": 122734,
+      "sha256": "df0a00eae9f214860713cfad4394b59746540036dde00dd5cc0b0a2bb64672e9"
+    },
+    {
+      "source": "lc-arrive.tsx",
+      "reference": "release-assets/e26e382541734700495676dedafb444a9143adab1ded1015ca02dfb65cb6716b.webp",
+      "mime": "image/webp",
+      "bytes": 53172,
+      "sha256": "e26e382541734700495676dedafb444a9143adab1ded1015ca02dfb65cb6716b"
+    },
+    {
+      "source": "lc-cost.tsx",
+      "reference": "release-assets/65e5a5ec134d92cacf44a776eb1815c653bb98150597e66ed05965877705cf61.webp",
+      "mime": "image/webp",
+      "bytes": 119826,
+      "sha256": "65e5a5ec134d92cacf44a776eb1815c653bb98150597e66ed05965877705cf61"
+    },
+    {
+      "source": "lc-cost.tsx",
+      "reference": "release-assets/d3b358d362718f02b8c9beaed2aed8853d181d56bdb77b931ee9b4c65d8f6085.webp",
+      "mime": "image/webp",
+      "bytes": 140050,
+      "sha256": "d3b358d362718f02b8c9beaed2aed8853d181d56bdb77b931ee9b4c65d8f6085"
+    },
+    {
+      "source": "lc-truth.tsx",
+      "reference": "release-assets/a7a010341068b1e2b3b4000a366b82c7859f1f18f34166739a688871a0eebc02.webp",
+      "mime": "image/webp",
+      "bytes": 148572,
+      "sha256": "a7a010341068b1e2b3b4000a366b82c7859f1f18f34166739a688871a0eebc02"
+    },
+    {
+      "source": "lc-war.tsx",
+      "reference": "release-assets/44ef5e5c3a1e8ab64d65f140b8a880e1ca758cb0fe9c55058504993dc4aee128.webp",
+      "mime": "image/webp",
+      "bytes": 87536,
+      "sha256": "44ef5e5c3a1e8ab64d65f140b8a880e1ca758cb0fe9c55058504993dc4aee128"
+    },
+    {
+      "source": "lc-war.tsx",
+      "reference": "release-assets/6c861cd98f470fa6ece65878badd586c7889653c2c2bb2a587dae7b74e2741b6.webp",
+      "mime": "image/webp",
+      "bytes": 117452,
+      "sha256": "6c861cd98f470fa6ece65878badd586c7889653c2c2bb2a587dae7b74e2741b6"
+    },
+    {
+      "source": "lc-credit.tsx",
+      "reference": "release-assets/bfb2ad1796fd3a967d338e0727f2084ee0543d480a9547611a0a1f53cabf5a48.webp",
+      "mime": "image/webp",
+      "bytes": 121514,
+      "sha256": "bfb2ad1796fd3a967d338e0727f2084ee0543d480a9547611a0a1f53cabf5a48"
+    }
+  ]
+}

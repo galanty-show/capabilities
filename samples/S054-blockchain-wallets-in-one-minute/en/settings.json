@@ -1,0 +1,37 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 80,
+  "maxDurationSeconds": 180,
+  "narration": true,
+  "voice": "Iapetus",
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "env",
+        "PROD_WORKS=works/i18n-S054-20261014",
+        "python3",
+        "tools/production/gemini-kit/gemini_tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "plain"
+      ],
+      "input": "arg",
+      "timeoutMs": 240000
+    }
+  },
+  "speechRate": 235,
+  "concurrency": 3,
+  "musicFile": "",
+  "brandOutro": "made-with",
+  "theme": {
+    "background": "#101820",
+    "accent": "#C9F65A",
+    "text": "#F5F4EC",
+    "muted": "#9BA8AD"
+  }
+}

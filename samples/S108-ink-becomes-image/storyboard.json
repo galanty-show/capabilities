@@ -1,0 +1,199 @@
+{
+  "contractVersion": 3,
+  "title": "落笔成影",
+  "subtitle": "水墨宣传片 · 四首唐诗 · 本机朗读 · 原创配乐《落笔》96 BPM",
+  "sourceTitle": "水墨宣传片创作说明（原创）",
+  "scenes": [
+    {
+      "id": "drop",
+      "title": "墨滴落纸",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-open",
+          "props": {
+            "part": "drop"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.1
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "title",
+      "title": "落笔写“文影”",
+      "narration": "以文入画。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-open",
+          "props": {
+            "part": "title"
+          }
+        }
+      },
+      "hold": 2.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p1",
+      "title": "李白《黄鹤楼送孟浩然之广陵》",
+      "narration": "李白在黄鹤楼，送别孟浩然。孤帆远影碧空尽，唯见长江天际流。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "孤帆远影碧空尽，唯见长江天际流",
+            "title": "黄鹤楼送孟浩然之广陵",
+            "author": "李白",
+            "painting": "river",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.259,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p2",
+      "title": "柳宗元《江雪》",
+      "narration": "柳宗元贬居永州，写下一江寒雪。孤舟蓑笠翁，独钓寒江雪。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "孤舟蓑笠翁，独钓寒江雪",
+            "title": "江雪",
+            "author": "柳宗元",
+            "painting": "snow",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.913,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p3",
+      "title": "杜甫《绝句》",
+      "narration": "杜甫在成都草堂，望见满眼春色。两个黄鹂鸣翠柳，一行白鹭上青天。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "两个黄鹂鸣翠柳，一行白鹭上青天",
+            "title": "绝句",
+            "author": "杜甫",
+            "painting": "willow",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 2.927,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "p4",
+      "title": "王维《山居秋暝》",
+      "narration": "王维隐居山中，写秋夜清景。明月松间照，清泉石上流。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-poem-painting",
+          "props": {
+            "poem": "明月松间照，清泉石上流",
+            "title": "山居秋暝",
+            "author": "王维",
+            "painting": "moon",
+            "signature": "文影"
+          }
+        }
+      },
+      "hold": 3.946,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 1.25,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "edit",
+      "title": "点选明月，改成落日",
+      "narration": "想换一种意境？点一下，改一个词。明月，便成了落日。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-edit",
+          "props": {
+            "poem": "明月松间照，清泉石上流",
+            "author": "王维",
+            "word": "明月",
+            "editTo": "落日",
+            "cardTitle": "点哪 · 改哪",
+            "selectedLabel": "选中：画中{word}",
+            "appliedLabel": "已改：{word}",
+            "hint": "改一处，其余不动",
+            "applyLabel": "↵ 应用",
+            "doneLabel": "✓ 已改"
+          }
+        }
+      },
+      "hold": 0.01,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4,
+        "overlap": "trim"
+      }
+    },
+    {
+      "id": "finale",
+      "title": "墨爆：落笔成影",
+      "narration": "文影，落笔成影。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "ink-finale",
+          "props": {
+            "text": "文影",
+            "seal": "文影",
+            "tagline": "落笔成影",
+            "latin": "GALANTY"
+          }
+        }
+      },
+      "hold": 2.615,
+      "transition": {
+        "kind": "cut",
+        "duration": 0,
+        "overlap": "trim"
+      }
+    }
+  ]
+}

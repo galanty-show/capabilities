@@ -1,0 +1,12 @@
+{
+  "name": "galanty-capabilities",
+  "interface": {"displayName": "Talkframe Capabilities"},
+  "plugins": [
+    {
+      "name": "galanty-launch",
+      "source": {"source": "local", "path": "./plugins/galanty-launch"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_USE"},
+      "category": "Productivity"
+    }
+  ]
+}

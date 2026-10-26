@@ -1,0 +1,40 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "targetSeconds": 120,
+  "maxDurationSeconds": 180,
+  "language": "en",
+  "narration": true,
+  "voice": "Charon",
+  "speechRate": 258,
+  "sentenceGapSeconds": 0.1,
+  "tts": {
+    "engine": "custom-command",
+    "fallback": false,
+    "customCommand": {
+      "command": [
+        "python3",
+        "tools/production/sleepy-hollow-20261013/tts.py",
+        "{text}",
+        "{out}",
+        "{voice}",
+        "tale"
+      ],
+      "input": "arg",
+      "timeoutMs": 600000
+    }
+  },
+  "brandOutro": "made-with",
+  "musicVolume": 0.5,
+  "musicDuckDb": -9,
+  "captionStyle": "clean",
+  "concurrency": 3,
+  "theme": {
+    "background": "#07090d",
+    "text": "#efe6d2",
+    "accent": "#e8862a",
+    "muted": "#9aa3ad"
+  },
+  "musicFile": "library:original-sleepy-hollow"
+}

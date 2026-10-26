@@ -1,0 +1,112 @@
+{
+  "contractVersion": 3,
+  "title": "桥边书屋模拟周报",
+  "sourceTitle": "完全模拟的数据周报；书屋、统计与数字均为虚构，不代表真实业务。",
+  "music": {
+    "mood": "calm",
+    "energy": "flat",
+    "tempo": 100
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "结论与口径",
+      "narration": "模拟书屋本周借出84本。统计周一到周日完成登记的借阅。",
+      "sourceQuote": "模拟书屋本周借出84本。统计周一到周日完成登记的借阅。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "本周借出 84 本",
+            "metrics": [
+              {
+                "label": "完成登记借阅",
+                "value": 84,
+                "unit": "本"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "三个维度",
+      "narration": "同表三个维度：到访60人，借书42人，归还79本。",
+      "sourceQuote": "同表三个维度：到访60人，借书42人，归还79本。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "三项模拟指标",
+            "metrics": [
+              {
+                "label": "到访",
+                "value": 60,
+                "unit": "人"
+              },
+              {
+                "label": "借书人",
+                "value": 42,
+                "unit": "人"
+              },
+              {
+                "label": "归还",
+                "value": 79,
+                "unit": "本"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "异常与解释",
+      "narration": "周三借出22本，为本周最多。是否因为活动，这张表无法确认。",
+      "sourceQuote": "周三借出22本，为本周最多。是否因为活动，这张表无法确认。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "周三是借阅峰值",
+            "metrics": [
+              {
+                "label": "周三借出",
+                "value": 22,
+                "unit": "本"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "限制和下一步",
+      "narration": "这只是单周模拟数据。下周保持口径，观察峰值是否重现。",
+      "sourceQuote": "这只是单周模拟数据。下周保持口径，观察峰值是否重现。",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "three-points",
+          "props": {
+            "heading": "下一周看什么",
+            "points": [
+              "保持相同口径",
+              "补足更多周次",
+              "观察峰值重现"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

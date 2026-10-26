@@ -1,0 +1,126 @@
+{
+  "contractVersion": 3,
+  "title": "Reading Corner Weekly (Fictional)",
+  "sourceTitle": "Original fictional sample text",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "A week at the reading corner",
+      "narration": "This is a fictional reading corner report. The window runs Monday to Sunday. Each visit counts once, not unique people. We’ll look at this week, then last week.",
+      "sourceQuote": "This is a fictional reading corner report. The window runs Monday to Sunday. Each visit counts once, not unique people. We’ll look at this week, then last week.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "Fictional data · Mon–Sun",
+            "title": "The Reading Corner Week",
+            "subtitle": "Same yardstick, week to week"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Three weekly metrics",
+      "narration": "This week saw 84 visits, against 72 before. Loans rose to 31 books, up from 28. Event attendance hit 24, up from 20. Units differ, so compare each on its own.",
+      "sourceQuote": "This week saw 84 visits, against 72 before. Loans rose to 31 books, up from 28. Event attendance hit 24, up from 20. Units differ, so compare each on its own.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "metrics-cards",
+          "props": {
+            "heading": "This week vs. last week",
+            "metrics": [
+              {
+                "label": "Visits",
+                "value": 84,
+                "unit": " visits",
+                "compareTo": 72,
+                "comparisonLabel": "Last week"
+              },
+              {
+                "label": "Books lent",
+                "value": 31,
+                "unit": " books",
+                "compareTo": 28,
+                "comparisonLabel": "Last week"
+              },
+              {
+                "label": "Event attendance",
+                "value": 24,
+                "unit": " people",
+                "compareTo": 20,
+                "comparisonLabel": "Last week"
+              }
+            ],
+            "currentLabel": "This week",
+            "note": "Fictional demo data · same items and units, vs. last week"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Visits across seven days",
+      "narration": "Daily visits range from 8 to 17 and total 84. The weekend rise here says nothing about why.",
+      "sourceQuote": "Daily visits range from 8 to 17 and total 84. The weekend rise here says nothing about why.",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "week-bars",
+          "props": {
+            "heading": "84 visits in seven days",
+            "days": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thu",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "values": [
+              8,
+              10,
+              9,
+              12,
+              13,
+              15,
+              17
+            ],
+            "unit": "visits",
+            "dayPrefix": "",
+            "caption": "Fictional data · visits per day",
+            "weekendNote": "Higher weekends: demo pattern only"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Keep the same measures",
+      "narration": "Next week, the same method shows if it lasts.",
+      "sourceQuote": "Next week, the same method shows if it lasts.",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "Next step",
+            "title": "Keep Recording",
+            "subtitle": "Then judge whether the change lasts"
+          }
+        }
+      }
+    }
+  ]
+}

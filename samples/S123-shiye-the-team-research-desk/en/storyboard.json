@@ -1,0 +1,949 @@
+{
+  "contractVersion": 3,
+  "title": "Shiye · The Team Research Desk",
+  "subtitle": "Adapted from video-shotcraft “Ink Press” (Apache-2.0) · a 36-second promo, no voiceover",
+  "sourceTitle": "Notes on adapting video-shotcraft Ink Press",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "Opening: wordmark → hero card",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-open",
+          "props": {
+            "f0": 0,
+            "wordmark": "Shiye",
+            "kicker": "TEAM RESEARCH DESK",
+            "noteLine1": "One card,",
+            "noteLine2": "one project.",
+            "caption": "Ten live projects · four researchers",
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers"
+            },
+            "projects": [
+              {
+                "title": "Self-healing CI triage",
+                "desc": "Routes failed builds by root cause to the right repair agent. Less digging through logs.",
+                "owner": "Xu",
+                "client": "Internal Platform",
+                "field": "Agents & Dev Tools",
+                "tags": "Agents · CI",
+                "age": "2 days ago"
+              },
+              {
+                "title": "Screenshot retrieval agent",
+                "desc": "Looks at the screenshot, then searches the docs, so answers land on the exact spot in the UI.",
+                "owner": "Tang",
+                "client": "Not provided",
+                "field": "Agents & Dev Tools",
+                "tags": "Multimodal · Retrieval",
+                "age": "4 days ago"
+              },
+              {
+                "title": "On-device continual tuning",
+                "desc": "Can a small phone model keep learning locally without forgetting what it already knows?",
+                "owner": "Lin",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "On-device · Continual",
+                "age": "1 week ago"
+              },
+              {
+                "title": "Confidence-routed cascade",
+                "desc": "The small model hands off only when it's unsure. Inference costs drop; accuracy holds.",
+                "owner": "Zhou",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "Routing · Cascades",
+                "age": "4 days ago"
+              },
+              {
+                "title": "Tabular model probes",
+                "desc": "What has a tabular foundation model really learned, and which features can we trust?",
+                "owner": "Xu",
+                "client": "Data Team",
+                "field": "Efficient Models",
+                "tags": "Tabular · Interpretability",
+                "age": "6 days ago"
+              },
+              {
+                "title": "Sensor drift early warning",
+                "desc": "Flags sensor calibration drift before it turns into a failure.",
+                "owner": "Lin",
+                "client": "Line B",
+                "field": "Perception & Sensing",
+                "tags": "Time-series · Alerts",
+                "age": "3 days ago"
+              },
+              {
+                "title": "Dialect-robust ASR",
+                "desc": "Teaching speech recognition to understand accented Mandarin and several regional dialects.",
+                "owner": "Tang",
+                "client": "Support Center",
+                "field": "Perception & Sensing",
+                "tags": "Speech · Dialects",
+                "age": "1 day ago"
+              },
+              {
+                "title": "Warehouse re-ID robustness",
+                "desc": "New angle, new lighting, same box. It still knows the item.",
+                "owner": "Zhou",
+                "client": "Warehouse Team",
+                "field": "Perception & Sensing",
+                "tags": "Vision · Re-ID",
+                "age": "5 days ago"
+              },
+              {
+                "title": "Automated research loop",
+                "desc": "Hypothesize, run the experiment, write it up, and keep the loop turning on its own.",
+                "owner": "Zhou",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Loops · Experiments",
+                "age": "Today"
+              },
+              {
+                "title": "Long-horizon coding arena",
+                "desc": "Give coding agents tasks that take hours, and see which one makes it to the end.",
+                "owner": "Xu",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Evals · Coding",
+                "age": "2 days ago"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card1",
+      "title": "Card 1: All in one place",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 220,
+            "text": "All your team's research, in *one* *place.*"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "deck",
+      "title": "Deal: stack → grid → search",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-deck",
+          "props": {
+            "f0": 275,
+            "query": "research loop",
+            "caption1": "New work flows in all week",
+            "caption2": "Search · Filter · Open",
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers"
+            },
+            "projects": [
+              {
+                "title": "Self-healing CI triage",
+                "desc": "Routes failed builds by root cause to the right repair agent. Less digging through logs.",
+                "owner": "Xu",
+                "client": "Internal Platform",
+                "field": "Agents & Dev Tools",
+                "tags": "Agents · CI",
+                "age": "2 days ago"
+              },
+              {
+                "title": "Screenshot retrieval agent",
+                "desc": "Looks at the screenshot, then searches the docs, so answers land on the exact spot in the UI.",
+                "owner": "Tang",
+                "client": "Not provided",
+                "field": "Agents & Dev Tools",
+                "tags": "Multimodal · Retrieval",
+                "age": "4 days ago"
+              },
+              {
+                "title": "On-device continual tuning",
+                "desc": "Can a small phone model keep learning locally without forgetting what it already knows?",
+                "owner": "Lin",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "On-device · Continual",
+                "age": "1 week ago"
+              },
+              {
+                "title": "Confidence-routed cascade",
+                "desc": "The small model hands off only when it's unsure. Inference costs drop; accuracy holds.",
+                "owner": "Zhou",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "Routing · Cascades",
+                "age": "4 days ago"
+              },
+              {
+                "title": "Tabular model probes",
+                "desc": "What has a tabular foundation model really learned, and which features can we trust?",
+                "owner": "Xu",
+                "client": "Data Team",
+                "field": "Efficient Models",
+                "tags": "Tabular · Interpretability",
+                "age": "6 days ago"
+              },
+              {
+                "title": "Sensor drift early warning",
+                "desc": "Flags sensor calibration drift before it turns into a failure.",
+                "owner": "Lin",
+                "client": "Line B",
+                "field": "Perception & Sensing",
+                "tags": "Time-series · Alerts",
+                "age": "3 days ago"
+              },
+              {
+                "title": "Dialect-robust ASR",
+                "desc": "Teaching speech recognition to understand accented Mandarin and several regional dialects.",
+                "owner": "Tang",
+                "client": "Support Center",
+                "field": "Perception & Sensing",
+                "tags": "Speech · Dialects",
+                "age": "1 day ago"
+              },
+              {
+                "title": "Warehouse re-ID robustness",
+                "desc": "New angle, new lighting, same box. It still knows the item.",
+                "owner": "Zhou",
+                "client": "Warehouse Team",
+                "field": "Perception & Sensing",
+                "tags": "Vision · Re-ID",
+                "age": "5 days ago"
+              },
+              {
+                "title": "Automated research loop",
+                "desc": "Hypothesize, run the experiment, write it up, and keep the loop turning on its own.",
+                "owner": "Zhou",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Loops · Experiments",
+                "age": "Today"
+              },
+              {
+                "title": "Long-horizon coding arena",
+                "desc": "Give coding agents tasks that take hours, and see which one makes it to the end.",
+                "owner": "Xu",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Evals · Coding",
+                "age": "2 days ago"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 6.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "detail",
+      "title": "Detail: question rows drop in",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-detail",
+          "props": {
+            "f0": 465,
+            "project": "Automated Research Loop",
+            "questions": "Can an agent find a better learning-rate schedule on its own?\nCan failed experiments write their own post-mortems?\nDoes the same hypothesis hold on a new dataset?\nWhich small changes are most worth testing first?\nHow many full loops can we run in one night?",
+            "caption": "Every question, traced to its experiments",
+            "field": "Research Infrastructure",
+            "summary": "Propose a hypothesis, run the experiment, write it up, and go again. Every research question links to its experiment logs and related papers.",
+            "facts": [
+              {
+                "k": "Owner",
+                "v": "Zhou"
+              },
+              {
+                "k": "Client",
+                "v": "Research Infra"
+              },
+              {
+                "k": "Stage",
+                "v": "Loop 3"
+              },
+              {
+                "k": "Updated",
+                "v": "Today 08:40"
+              }
+            ],
+            "tabs": [
+              "Questions 5",
+              "Experiments 12",
+              "Papers 1",
+              "Briefs 3"
+            ],
+            "columns": [
+              "ID",
+              "QUESTION",
+              "STATUS",
+              "EXPERIMENTS",
+              "OWNER"
+            ],
+            "status": [
+              "In progress",
+              "Done",
+              "Not started"
+            ],
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers"
+            }
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.333
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card2",
+      "title": "Card 2: Paper radar",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 565,
+            "text": "A paper *radar* that picks your morning reads.",
+            "sub": "picked · 31 fetched today",
+            "subDigits": "5"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "radar",
+      "title": "Paper radar: the count settles",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-radar",
+          "props": {
+            "f0": 620,
+            "title": "Daily Paper Radar",
+            "subtitle": "Papers worth reading, picked for the team every morning",
+            "caption": "Daily paper radar",
+            "papers": [
+              {
+                "title": "Confidence routing: when should a small model defer?",
+                "org": "Qinglan University · Efficient Inference",
+                "summary": "Sentence-level confidence decides when to escalate: 40% lower inference cost at the same quality.",
+                "tags": "Inference · Cascades",
+                "project": "Confidence-routed cascade",
+                "note": "The project is comparing token- and sentence-level thresholds. This paper is a ready-made baseline.",
+                "score": 63
+              },
+              {
+                "title": "Low-resource adaptation for dialect speech",
+                "org": "Xiling Acoustics Lab",
+                "summary": "Style-transfer synthesis augments dialect audio, cutting error rates on low-resource dialects by 18% on average.",
+                "tags": "Speech · Augmentation",
+                "project": "Dialect-robust ASR",
+                "note": "The project is measuring augmentation gains. Compare its pipeline and eval splits side by side.",
+                "score": 51
+              },
+              {
+                "title": "Feature probes for tabular foundation models",
+                "org": "Beixi University · Data Intelligence",
+                "summary": "Layer-by-layer linear probes show which features in tabular foundation models are truly stable.",
+                "tags": "Tabular · Interpretability",
+                "project": "Tabular model probes",
+                "note": "Same question as the project. The probe setup carries straight over to the data team's three tables.",
+                "score": 87
+              },
+              {
+                "title": "Memory and backtracking in long-horizon coding",
+                "org": "Songjian Institute · Software Intelligence",
+                "summary": "Three memory frameworks on week-long coding tasks: hierarchical summaries hold up best.",
+                "tags": "Agents · Coding",
+                "project": "Long-horizon coding arena",
+                "note": "The arena is testing memory frameworks in week two. Use this to reset experiment priorities.",
+                "score": 44
+              },
+              {
+                "title": "Early signals of sensor drift",
+                "org": "Yanhui University · Sensing & Control",
+                "summary": "A tiny time-series model predicts calibration drift and alerts 3× earlier than rolling statistics.",
+                "tags": "Time-series · Alerts",
+                "project": "Sensor drift early warning",
+                "note": "Same alerting problem. Reuse its lead-time evaluation protocol in the current experiments.",
+                "score": 72
+              }
+            ],
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers",
+              "preprint": "Preprint",
+              "source": "Source ↗",
+              "keyPoint": "Key point",
+              "related": "Related project",
+              "hits": "{date} · {n} matches",
+              "fetchedLine": "{n} fetched today · auto-summarized · generated 06:30",
+              "allLoaded": "That's everything",
+              "fetchedPre": "",
+              "fetchedPost": "fetched today",
+              "pickedPre": "",
+              "pickedPost": "picked"
+            }
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.4997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cardWbr",
+      "title": "Card 3: Wired to the brief",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 725,
+            "text": "Every project *feeds* the weekly brief."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.6663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brief",
+      "title": "Weekly brief writes itself",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-brief",
+          "props": {
+            "f0": 775,
+            "kicker": "Research Brief · 2026-W28",
+            "title": "Week 28 · Research Brief",
+            "authors": "Co-edited by Zhou · Lin · Xu · Tang",
+            "date": "Jul 10",
+            "headings": [
+              "This week",
+              "Risks",
+              "Next week"
+            ],
+            "progress": [
+              {
+                "who": "Zhou",
+                "text": "Confidence routing: calibrated thresholds lifted small-model coverage [[62% → 71%]], quality flat."
+              },
+              {
+                "who": "Lin",
+                "text": "Drift alerts converged on held-out line data, firing [[3.1× earlier]] than baseline."
+              },
+              {
+                "who": "Xu",
+                "text": "Loop round 47: its proposed LR schedule beat manual sweeps by 1.8 points."
+              },
+              {
+                "who": "Tang",
+                "text": "Dialect speech: synthetic augmentation cut low-resource error rates 12%."
+              }
+            ],
+            "risks": [
+              {
+                "who": "Lin",
+                "text": "The July calibration batch has gaps. A re-collection is requested, due next Wednesday."
+              },
+              {
+                "who": "Zhou",
+                "text": "On-device tuning started forgetting in round 3. Its own project?"
+              },
+              {
+                "who": "",
+                "text": "The eval set has drifted from live traffic. Don't generalize this week's findings yet."
+              }
+            ],
+            "plans": [
+              {
+                "who": "Xu",
+                "text": "Trace the proposer's failure cases and write them into the experiment notes."
+              },
+              {
+                "who": "Tang",
+                "text": "Finalize eval set v2 and archive the result cards for all 13 experiments."
+              },
+              {
+                "who": "Zhou",
+                "text": "Canary the cascade router and watch misroutes for a week."
+              },
+              {
+                "who": "Lin",
+                "text": "Wire drift alerts into the feedback loop; set thresholds with the line team."
+              }
+            ],
+            "pastWeeks": [
+              {
+                "week": "Week 27",
+                "date": "Jul 3",
+                "title": "Drift alerts pass held-out set"
+              },
+              {
+                "week": "Week 26",
+                "date": "Jun 26",
+                "title": "First cascade-routing eval"
+              },
+              {
+                "week": "Week 25",
+                "date": "Jun 19",
+                "title": "Dialect augmentation locked"
+              },
+              {
+                "week": "Week 24",
+                "date": "Jun 12",
+                "title": "Coding set grows to 40 tasks"
+              },
+              {
+                "week": "Week 23",
+                "date": "Jun 5",
+                "title": "Research loop's first full lap"
+              },
+              {
+                "week": "Week 22",
+                "date": "May 29",
+                "title": "On-device tuning kicks off"
+              }
+            ],
+            "comments": [
+              {
+                "quote": "62% → 71%",
+                "who": "Tang",
+                "text": "Matches the week 26 result. Let's report them together."
+              },
+              {
+                "quote": "3.1× earlier",
+                "who": "Xu",
+                "text": "That lead time clears the bar for a project. Bring the failure cases to review."
+              }
+            ],
+            "caption": "Four people, one brief",
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers",
+              "synced": "● Synced",
+              "editing": "4 editing",
+              "heading": "Heading 1 ▾",
+              "export": "Export ▾",
+              "searchBody": "Search briefs",
+              "thisWeek": "This week",
+              "justNow": "Just now",
+              "comments": "Comments · {n}",
+              "replyHint": "Reply…",
+              "reply": "Reply",
+              "whoSep": ": "
+            }
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.6663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "card3",
+      "title": "Card 4: On the same page",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-card",
+          "props": {
+            "f0": 885,
+            "text": "The whole team, on the *same* *page.*"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 1.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "outro",
+      "title": "End card: letterpress wordmark",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gh-ink-outro",
+          "props": {
+            "f0": 940,
+            "wordmark": "Shiye",
+            "tagline": "Team research desk · All on one page",
+            "query": "research loop",
+            "papers": [
+              {
+                "title": "Confidence routing: when should a small model defer?",
+                "tags": "Cascades · Routing · Inference cost"
+              },
+              {
+                "title": "Memory and backtracking in long-horizon coding",
+                "tags": "Agents · Evals · Coding"
+              }
+            ],
+            "radarLabel": "TODAY'S RADAR · PICKED",
+            "linked": "2 linked projects",
+            "briefTitle": "Week 28 · Research Brief",
+            "ui": {
+              "logo": "S",
+              "brand": "Shiye",
+              "nav": [
+                "Projects",
+                "Paper Radar",
+                "Briefs"
+              ],
+              "demo": "Demo data",
+              "live": "Live sync",
+              "members": [
+                "Zhou",
+                "Lin",
+                "Xu",
+                "Tang"
+              ],
+              "search": "Search projects, owners, clients, or tags",
+              "filter": "Filter",
+              "all": "All projects",
+              "stats": "10 active · 4 researchers",
+              "count": "{n} projects",
+              "sections": [
+                "Agents & Dev Tools",
+                "Efficient Models",
+                "Perception & Sensing",
+                "Research Infrastructure"
+              ],
+              "owner": "Owner",
+              "client": "Client",
+              "questions": "Questions",
+              "experiments": "Experiments",
+              "papers": "Papers"
+            },
+            "projects": [
+              {
+                "title": "Self-healing CI triage",
+                "desc": "Routes failed builds by root cause to the right repair agent. Less digging through logs.",
+                "owner": "Xu",
+                "client": "Internal Platform",
+                "field": "Agents & Dev Tools",
+                "tags": "Agents · CI",
+                "age": "2 days ago"
+              },
+              {
+                "title": "Screenshot retrieval agent",
+                "desc": "Looks at the screenshot, then searches the docs, so answers land on the exact spot in the UI.",
+                "owner": "Tang",
+                "client": "Not provided",
+                "field": "Agents & Dev Tools",
+                "tags": "Multimodal · Retrieval",
+                "age": "4 days ago"
+              },
+              {
+                "title": "On-device continual tuning",
+                "desc": "Can a small phone model keep learning locally without forgetting what it already knows?",
+                "owner": "Lin",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "On-device · Continual",
+                "age": "1 week ago"
+              },
+              {
+                "title": "Confidence-routed cascade",
+                "desc": "The small model hands off only when it's unsure. Inference costs drop; accuracy holds.",
+                "owner": "Zhou",
+                "client": "Not provided",
+                "field": "Efficient Models",
+                "tags": "Routing · Cascades",
+                "age": "4 days ago"
+              },
+              {
+                "title": "Tabular model probes",
+                "desc": "What has a tabular foundation model really learned, and which features can we trust?",
+                "owner": "Xu",
+                "client": "Data Team",
+                "field": "Efficient Models",
+                "tags": "Tabular · Interpretability",
+                "age": "6 days ago"
+              },
+              {
+                "title": "Sensor drift early warning",
+                "desc": "Flags sensor calibration drift before it turns into a failure.",
+                "owner": "Lin",
+                "client": "Line B",
+                "field": "Perception & Sensing",
+                "tags": "Time-series · Alerts",
+                "age": "3 days ago"
+              },
+              {
+                "title": "Dialect-robust ASR",
+                "desc": "Teaching speech recognition to understand accented Mandarin and several regional dialects.",
+                "owner": "Tang",
+                "client": "Support Center",
+                "field": "Perception & Sensing",
+                "tags": "Speech · Dialects",
+                "age": "1 day ago"
+              },
+              {
+                "title": "Warehouse re-ID robustness",
+                "desc": "New angle, new lighting, same box. It still knows the item.",
+                "owner": "Zhou",
+                "client": "Warehouse Team",
+                "field": "Perception & Sensing",
+                "tags": "Vision · Re-ID",
+                "age": "5 days ago"
+              },
+              {
+                "title": "Automated research loop",
+                "desc": "Hypothesize, run the experiment, write it up, and keep the loop turning on its own.",
+                "owner": "Zhou",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Loops · Experiments",
+                "age": "Today"
+              },
+              {
+                "title": "Long-horizon coding arena",
+                "desc": "Give coding agents tasks that take hours, and see which one makes it to the end.",
+                "owner": "Xu",
+                "client": "Research Infra",
+                "field": "Research Infrastructure",
+                "tags": "Evals · Coding",
+                "age": "2 days ago"
+              }
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 4.833
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

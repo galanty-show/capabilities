@@ -1,0 +1,205 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S120",
+  "title": "How Your Map Finds the Fastest Way Home",
+  "titles": {
+    "en": "How Your Map Finds the Fastest Way Home",
+    "zh": "导航怎么找到回家最快的路"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "route-city",
+    "route-scale",
+    "route-steps"
+  ],
+  "page": "https://galanty.cn/samples/#S120",
+  "version": {
+    "commit": "c35b35803de5697c6e4373823eb359264cafadf6",
+    "contentDigest": "fde26d12182f193e3cee36a29e3a5c991e624aa0a75f603abb8a8e3400269f45",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创科普讲解：英文旁白自写，事实出处见 source.md；画面全部代码绘制，城市为程序生成的虚构地图；配乐为 AI 原创生成",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创科普讲解：英文旁白自写，事实出处见 source.md；画面全部代码绘制，城市为程序生成的虚构地图；配乐为 AI 原创生成（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "original-fastest-way-home",
+    "selection": "library:original-fastest-way-home",
+    "title": "Fastest Way Home",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Fastest Way Home — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S120/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from an original timeline prompt (take c of three, measured about 110 BPM); edited by tools/production/code-route-20261013/music_build.py (aligned 0.2 s so the title impact lands on the title card, dips at 250 Hz and 2.6 kHz for the narration, 158 NumPy-synthesized sound effects placed by the same cue() timing as the scene code: batched visit ticks, chimes, crash, reroute chime; no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S120; other films will not hit its accents.",
+    "file": "music/fastest-way-home.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S120",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Puck",
+      "speechRate": 248,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Puck），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Puck); playback stays offline",
+      "sentences": 45,
+      "durationSeconds": 98.610964,
+      "files": 46
+    },
+    {
+      "seedId": "S120-zh",
+      "language": "zh",
+      "engine": "custom-command",
+      "voice": "Puck",
+      "speechRate": 265,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Puck），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Puck); playback stays offline",
+      "sentences": 45,
+      "durationSeconds": 96.551815,
+      "files": 46
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6443,
+      "sha256": "af76500d34190b0eda87b89e304891179d264ca3ca68fea89e0ce97bb9578ef3",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 4112,
+      "sha256": "4e18bc2c2a30e1b64cd3e99897b34a9c69f712e7294146d917b3ed48d5b91d83",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 5619,
+      "sha256": "43e51a3223bec6a727cea51769a7de169cd08876ce2d4e815211841013ba5e84",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 860,
+      "sha256": "bdb589545d97ab09414afb9fa155c783052fc702292e52bd728337444e53b1b2",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 4331,
+      "sha256": "6883408aec441e83f404a75c490a7d263586c954e190d83c6c28f92b87df1b3c",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/storyboard.json",
+      "bytes": 9841,
+      "sha256": "8ee9d5c95fe5b13a15e01b0227ffb1fd66e6fbf88b34b9fad7ad9684a81598e9",
+      "license": "sample-content"
+    },
+    {
+      "path": "zh/settings.json",
+      "bytes": 865,
+      "sha256": "3e093b679a876f27363bb251cb4d66f1bb632e5436609c856fd484f8c3a4428c",
+      "license": "sample-content"
+    },
+    {
+      "path": "route-city.tsx",
+      "bytes": 53912,
+      "sha256": "8dcfd271c714ac3e92cf6ec1fa7980ec9b2071a0c5dcb3554059f75495d40e2c",
+      "license": "MIT"
+    },
+    {
+      "path": "route-scale.tsx",
+      "bytes": 41100,
+      "sha256": "581c9b4c5aa8860970cdf02e8dbe36ae08045306ed25e6b4a1db8a42402f7e08",
+      "license": "MIT"
+    },
+    {
+      "path": "route-steps.tsx",
+      "bytes": 41825,
+      "sha256": "d2e1bf6fdb9bd47f1c66aeba608e2e5fea20b2cd0dd3fedeb5f1801a70ebf03a",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 19518,
+      "sha256": "79159a34a2963c0569c1a9fdeef2d898b85ff2e31f01fe417d7f2c363c8dd4cf",
+      "license": "sample-content"
+    },
+    {
+      "path": "media-sources.json",
+      "bytes": 411,
+      "sha256": "4d09ce3a7b8fd3afd107159f033c44651a9df67420286beeef8b3bc57035bd74",
+      "license": "sample-content"
+    },
+    {
+      "path": "NOTES.md",
+      "bytes": 7006,
+      "sha256": "f3ac041ab7b0aed5c5d9872b3f5b8bc81b94531066bdbff58bb1af8ade7dd440",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 2589,
+      "sha256": "fe36fd217c4007c8dc887b89e9001c09f4f81b47cfd21a5bd829dfcdd3fb97c5",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 15462,
+      "sha256": "534fb5a3548782a6678b62c106198b61c9817c050314acc4281c84c411feffa0",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1993,
+      "sha256": "4a6f0a1d39a6eef0dd10e2917376e1ebf70fb90fcdf67bceda89f199fa4755fb",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S120.zip",
+    "bytes": 1859247,
+    "sha256": "8e84ac2dcb8b112787e7cea7505f4540e77ce792c348d05f2ae65e53a23610c7",
+    "format": "galanty-source-pack",
+    "contentDigest": "fde26d12182f193e3cee36a29e3a5c991e624aa0a75f603abb8a8e3400269f45"
+  },
+  "inlineMedia": []
+}

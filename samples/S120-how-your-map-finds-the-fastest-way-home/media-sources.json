@@ -1,0 +1,7 @@
+{
+ "version": 1,
+ "sample": "S120",
+ "note": "纯代码样片：画面全部由 scenes/*.tsx 用 SVG 与 Canvas 2D 实时绘制，没有任何图片、视频或字体文件；城市与大陆路网由固定种子程序生成（虚构地图，不是任何真实城市）。配乐见随包曲库 original-fastest-way-home，旁白种子见 templates/samples/narration/S120/。",
+ "files": [],
+ "storage": "none"
+}

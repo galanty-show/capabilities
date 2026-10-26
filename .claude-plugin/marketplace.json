@@ -1,0 +1,8 @@
+{
+  "name": "galanty-capabilities",
+  "description": "Galanty creative workflows",
+  "owner": {"name": "Talkframe", "url": "https://github.com/galanty-show"},
+  "plugins": [
+    {"name": "galanty-launch", "source": "./plugins/galanty-launch", "description": "Sourced, beat-driven product launch films with timestamped preview revisions."}
+  ]
+}

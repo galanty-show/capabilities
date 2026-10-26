@@ -1,0 +1,109 @@
+{
+  "verifiedAt": "2026-10-21",
+  "environment": {
+    "claude": "2.1.283",
+    "codex": "0.160.1",
+    "node": "25.6.1",
+    "isolation": [
+      "HOME",
+      "CLAUDE_CONFIG_DIR",
+      "CODEX_HOME",
+      "XDG_CONFIG_HOME",
+      "XDG_CACHE_HOME",
+      "npm cache",
+      "DVS_DATA",
+      "DVS_WORKSPACE"
+    ]
+  },
+  "package": {
+    "name": "@galanty/cli",
+    "version": "0.1.0",
+    "filename": "galanty-cli-0.1.0.tgz",
+    "bytes": 21350855,
+    "sha256": "03062de199045098f6c23c465092f78f8d7c932bfff99c99571c7159865e5ed2",
+    "staging": "Runtime built into a temporary package copy; npm pack --ignore-scripts ran on that copy. Source checkout remained read-only.",
+    "installation": "npm install --no-audit --no-fund file:<tarball>"
+  },
+  "claude": {
+    "commands": [
+      "claude plugin validate <checkout>",
+      "claude plugin validate <checkout>/plugins/galanty-launch",
+      "claude plugin marketplace add <checkout>",
+      "claude plugin install galanty-launch",
+      "claude plugin details galanty-launch",
+      "claude mcp list"
+    ],
+    "exitCodes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "inventory": "1 skill, 1 MCP server (galanty)",
+    "connection": "plugin:galanty-launch:galanty: npx -y @galanty/cli mcp - Connected"
+  },
+  "stdio": {
+    "client": "@modelcontextprotocol/sdk Client + StdioClientTransport",
+    "command": "npx",
+    "args": [
+      "-y",
+      "file:<tarball>",
+      "mcp"
+    ],
+    "result": "passed",
+    "tools": [
+      "list_templates",
+      "fork_template",
+      "get_scene_runtime",
+      "preview_scene",
+      "import_storyboard",
+      "make_video",
+      "import_asset",
+      "import_music",
+      "search_icons",
+      "estimate_duration",
+      "get_job",
+      "review_render",
+      "wait_job",
+      "cancel_job",
+      "report_gap"
+    ],
+    "toolCount": 15,
+    "resourceCount": 31,
+    "promptCount": 1,
+    "notes": [
+      "This npm version treated a bare absolute tarball path as an executable; the successful run used a file: package specifier.",
+      "The tarball run used separate data/workspace directories from the installed-package host check."
+    ]
+  },
+  "codex": {
+    "command": "codex login status",
+    "exitCode": 1,
+    "output": "Not logged in",
+    "validation": "Manifest and marketplace structure only; no install, host MCP loading or model invocation verified.",
+    "submissionLimitation": "Public local stdio MCP submission requires an allowlisted organization; Desktop only."
+  },
+  "checks": {
+    "skillSync": "passed; canonical and bundled skill byte-identical",
+    "distributionTests": "5 passed, 0 failed",
+    "officialSchemas": "plugin.json and mcp.json valid against Agent Plugins 1.0.0 schemas",
+    "addedLinesPrivacyScan": "No forbidden terms, private paths or coordination terminology added."
+  },
+  "cleanup": {
+    "appLaunched": false,
+    "visibleWindowOpened": false,
+    "ownedDaemonPidsStopped": [
+      96413,
+      52597
+    ],
+    "npmPublished": false,
+    "pushed": false
+  },
+  "unverified": [
+    "Codex MCP host loading and model invocation",
+    "Observed App foreground/seek or browser playback",
+    "npm and remote plugin publication"
+  ]
+}

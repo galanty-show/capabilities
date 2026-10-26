@@ -1,0 +1,45 @@
+{
+  "no": "S124",
+  "prompt": {
+    "zh-CN": "做一支约 33 秒的横版迭代回顾讲解片：标题、本周三件事、手机界面演示、三个数字滚动、深色致谢，界面全部用代码画，按配乐小节切换，不要旁白。先即时播放给我看。",
+    "en": "Make a 33-second landscape sprint-review explainer: title, three things done this week, a phone UI demo, three counting numbers and dark credits, all drawn in code and cut on the music's bars, no voiceover. Show me a live preview first.",
+    "zh-Hant": "做一支約 33 秒的橫版迭代回顧講解片：標題、本週三件事、手機介面示範、三個數字滾動、深色致謝，介面全用程式碼畫，按配樂小節切換，不要旁白。先即時播放給我看。",
+    "ja": "約33秒・横長のスプリントレビュー解説動画を作って。タイトル、今週の3項目、スマホ画面のデモ、3つの数字カウント、ダークなクレジットをコードで描き、曲の小節で切り替え、ナレーションなし。まずライブ再生で見せて。",
+    "ko": "약 33초 가로형 스프린트 회고 설명 영상을 만들어 줘. 제목, 이번 주 세 가지, 휴대폰 화면 데모, 숫자 세 개 카운트, 어두운 크레딧을 코드로 그리고 음악 마디에 맞춰 전환, 내레이션 없이. 먼저 실시간 재생으로 보여 줘.",
+    "es": "Haz un video explicativo horizontal de unos 33 s de revisión de sprint: título, tres logros de la semana, demo de una app móvil, tres cifras que cuentan y créditos oscuros, todo en código y cortado a los compases, sin locución. Muéstrame primero la vista previa en vivo.",
+    "de": "Erstelle ein etwa 33 Sekunden langes Sprint-Review-Erklärvideo im Querformat: Titel, drei Punkte der Woche, Handy-Demo, drei hochzählende Zahlen und dunkler Abspann, alles in Code, auf die Takte geschnitten, ohne Sprecher. Zeig mir zuerst die Live-Vorschau.",
+    "fr": "Réalise une vidéo explicative horizontale d'environ 33 s de revue de sprint : titre, trois points de la semaine, démo d'appli mobile, trois chiffres qui défilent et générique sombre, tout en code, coupé sur les mesures, sans voix off. Montre-moi d'abord l'aperçu en direct.",
+    "pt-BR": "Faça um vídeo explicativo horizontal de cerca de 33 s de revisão de sprint: título, três entregas da semana, demo de app no celular, três números contando e créditos escuros, tudo em código e cortado nos compassos, sem narração. Mostre primeiro a prévia ao vivo."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Minimal Electronic 100",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "从 GitHub 上找 5 个最火的这种风格的视频，试着修改、播放，做成我们的模板。",
+      "en": "Find the five most popular videos of this kind on GitHub, try editing and playing them, and turn them into our templates."
+    }
+  ]
+}

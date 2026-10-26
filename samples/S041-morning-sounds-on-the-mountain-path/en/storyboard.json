@@ -1,0 +1,111 @@
+{
+  "contractVersion": 3,
+  "title": "Morning Sounds on the Mountain Path",
+  "sourceTitle": "Original fictional sample text",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Mountain path and distant bells",
+      "narration": "A five-character poem, written for this film. Thin mist opens the mountain path. Slow bells drift past the far shore. Pause at the bell as the misty path appears.",
+      "sourceQuote": "A five-character poem, written for this film. Thin mist opens the mountain path. Slow bells drift past the far shore. Pause at the bell as the misty path appears.",
+      "hold": 2.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "morning-verse",
+          "props": {
+            "kicker": "AN ORIGINAL FIVE-CHARACTER POEM",
+            "title": "Morning Sounds on the Mountain Path",
+            "lines": [
+              "薄雾开山径",
+              "疏钟过远汀"
+            ],
+            "lineSentenceIndices": [
+              1,
+              2
+            ],
+            "art": "mountain",
+            "translations": [
+              "Thin mist opens the mountain path,",
+              "slow bells drift past the far shore."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Stream light and homing birds",
+      "narration": "Stream light sways the bamboo shade. Homing birds vanish into blue cloud. Our gaze lifts from the water to the sky. The birds fly off, but the blue stays behind.",
+      "sourceQuote": "Stream light sways the bamboo shade. Homing birds vanish into blue cloud. Our gaze lifts from the water to the sky. The birds fly off, but the blue stays behind.",
+      "hold": 2.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "morning-verse",
+          "props": {
+            "kicker": "AN ORIGINAL FIVE-CHARACTER POEM",
+            "title": "Morning Sounds on the Mountain Path",
+            "lines": [
+              "溪光摇竹影",
+              "归鸟入云青"
+            ],
+            "lineSentenceIndices": [
+              0,
+              1
+            ],
+            "art": "stream",
+            "translations": [
+              "Stream light sways the bamboo shade,",
+              "homing birds vanish into blue cloud."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Follow the senses",
+      "narration": "The poem has no people, only morning senses. We see the path, then hear the far bell. We look down at the stream, then up at birds.",
+      "sourceQuote": "The poem has no people, only morning senses. We see the path, then hear the far bell. We look down at the stream, then up at birds.",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "verse-journey",
+          "props": {
+            "heading": "From mountain path to far sky",
+            "stages": [
+              "Mountain path",
+              "Bells",
+              "Stream light",
+              "Homing birds"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Leave a breath of space",
+      "narration": "Hold a silence, then look back up the path. It gives no answer, only sends the dawn afar.",
+      "sourceQuote": "Hold a silence, then look back up the path. It gives no answer, only sends the dawn afar.",
+      "hold": 2.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "title-statement",
+          "props": {
+            "kicker": "Read, then pause",
+            "title": "Send the Morning Far",
+            "subtitle": "Leave space, and let the poem linger"
+          }
+        }
+      }
+    }
+  ]
+}

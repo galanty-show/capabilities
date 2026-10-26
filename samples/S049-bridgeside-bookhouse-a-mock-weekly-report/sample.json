@@ -1,0 +1,29 @@
+{
+  "no": "S049",
+  "title": "桥边书屋模拟周报",
+  "titles": {
+    "zh": "桥边书屋模拟周报",
+    "en": "Bridgeside Bookhouse: A Mock Weekly Report"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "数据报告",
+  "templates": [
+    "T02",
+    "T07"
+  ],
+  "modules": [
+    "metrics-cards",
+    "three-points"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "page": "https://galanty.cn/samples/#S049"
+}

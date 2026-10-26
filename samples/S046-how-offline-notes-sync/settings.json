@@ -1,0 +1,26 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "targetSeconds": 45,
+  "maxDurationSeconds": 60,
+  "narration": true,
+  "voice": "Tingting",
+  "tts": {
+    "engine": "system"
+  },
+  "speechRate": 220,
+  "concurrency": 2,
+  "musicFile": "",
+  "musicVolume": 0.18,
+  "brandOutro": "off",
+  "presenter": false,
+  "visualStyle": "motion",
+  "theme": {
+    "background": "#101B28",
+    "accent": "#7AC8D5",
+    "text": "#F2F6F7",
+    "muted": "#A2B4C0"
+  },
+  "genre": "explainer.techProject"
+}

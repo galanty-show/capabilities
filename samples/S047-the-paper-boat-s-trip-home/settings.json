@@ -1,0 +1,26 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "targetSeconds": 45,
+  "maxDurationSeconds": 60,
+  "narration": true,
+  "voice": "Tingting",
+  "tts": {
+    "engine": "system"
+  },
+  "speechRate": 220,
+  "concurrency": 2,
+  "musicFile": "",
+  "musicVolume": 0.18,
+  "brandOutro": "off",
+  "presenter": false,
+  "visualStyle": "story",
+  "theme": {
+    "background": "#1C2B39",
+    "accent": "#F7BF77",
+    "text": "#FFF6E8",
+    "muted": "#A7B9C5"
+  },
+  "genre": "fable.readAlong"
+}

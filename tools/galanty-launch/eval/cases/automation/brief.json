@@ -1,0 +1,34 @@
+{
+  "productName": "Relay Flow",
+  "tagline": "DEMO / Connect steps",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Start a flow",
+      "detail": "Choose a demo trigger",
+      "command": "New flow",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Link a step",
+      "detail": "Connect an example action",
+      "command": "Add action",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Review a run",
+      "detail": "Read the sample event log",
+      "command": "Open run",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#8fe1d0"
+  },
+  "musicStyle": "lofi",
+  "seed": 2110,
+  "durationSeconds": 30,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

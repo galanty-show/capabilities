@@ -1,0 +1,112 @@
+{
+  "contractVersion": 3,
+  "title": "Let Your Agent Write the Scene",
+  "sourceTitle": "Original promo: let your Agent write the scene",
+  "scenes": [
+    {
+      "id": "idea",
+      "title": "The Scene in Your Head",
+      "narration": "Picture a sentence falling into water, rising back out of the ripples. But no template has that scene. Does it have to stay in your head?",
+      "sourceQuote": "Picture a sentence falling into water, rising back out of the ripples. But no template has that scene. Does it have to stay in your head?",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "talkframe-ripple",
+          "props": {
+            "mode": "idea",
+            "ideaTitle": "The scene in your head",
+            "ideaLabel": "Scene description",
+            "ideaLine1": "A sentence falls into water,",
+            "ideaLine2": "and rises from the ripples."
+          }
+        }
+      }
+    },
+    {
+      "id": "handoff",
+      "title": "Write the Scene Down",
+      "narration": "Write down the scene in Galanty. Then hand it to your Agent. It turns your words into animation. Text, ripples and timing land as you meant.",
+      "sourceQuote": "Write down the scene in Galanty. Then hand it to your Agent. It turns your words into animation. Text, ripples and timing land as you meant.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "talkframe-ripple",
+          "props": {
+            "mode": "handoff",
+            "handoffTitle": "Write the scene down",
+            "handoffLabel": "Your idea",
+            "handoffLine1": "A sentence falls into water,",
+            "handoffLine2": "and ripples spread.",
+            "previewLabel": "This scene is taking shape",
+            "rippleText": "Let ideas ripple"
+          }
+        }
+      }
+    },
+    {
+      "id": "ripple",
+      "title": "From a Sentence to a Scene",
+      "narration": "Watch: the words land first. Rings push out from their center, and sparks drift along the ripples. One sentence becomes a scene you can see.",
+      "sourceQuote": "Watch: the words land first. Rings push out from their center, and sparks drift along the ripples. One sentence becomes a scene you can see.",
+      "hold": 1.2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "talkframe-ripple",
+          "props": {
+            "mode": "ripple",
+            "rippleTitle": "From one sentence to one scene",
+            "rippleText": "Let ideas ripple"
+          }
+        }
+      }
+    },
+    {
+      "id": "revise",
+      "title": "Tune the Feel",
+      "narration": "Now ask for warm gold and a slower pace. Your Agent rewrites the scene for you. The new version grows from your first idea.",
+      "sourceQuote": "Now ask for warm gold and a slower pace. Your Agent rewrites the scene for you. The new version grows from your first idea.",
+      "hold": 0.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "talkframe-ripple",
+          "props": {
+            "mode": "revise",
+            "reviseTitle": "Keep revising until it feels like yours",
+            "reviseLabel": "Same scene · two moods",
+            "draftLabel": "Cool · first draft",
+            "revisionLabel": "Warm gold · slower",
+            "rippleText": "Let ideas ripple"
+          }
+        }
+      }
+    },
+    {
+      "id": "finish",
+      "title": "From Idea to Finished Film",
+      "narration": "Add voice and captions in the storyboard. Render the film right on your own machine. Next time an idea strikes, open Galanty and let your Agent write it.",
+      "sourceQuote": "Add voice and captions in the storyboard. Render the film right on your own machine. Next time an idea strikes, open Galanty and let your Agent write it.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "talkframe-ripple",
+          "props": {
+            "mode": "finish",
+            "finalTitle": "Bring the idea into your film",
+            "finalTagline": "Galanty · Let your Agent write the scene",
+            "rippleText": "Let ideas ripple"
+          }
+        }
+      }
+    }
+  ]
+}

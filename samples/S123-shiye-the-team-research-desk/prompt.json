@@ -1,0 +1,56 @@
+{
+  "no": "S123",
+  "prompt": {
+    "zh-CN": "做一支约 36 秒的横版纸墨风产品宣传片，介绍一个团队研究台：字标压印开场、项目卡飞入网格、搜索打开详情、论文雷达和周报，界面全部用代码画，不要旁白。先即时播放给我看，满意再导出。",
+    "en": "Make a 36-second landscape paper-and-ink product promo for a team research desk: a stamped wordmark, project cards dealt into a grid, search into a detail page, a paper radar and a weekly brief, all UI drawn in code, no voiceover. Preview live first; export once I'm happy.",
+    "zh-Hant": "做一支約 36 秒的橫版紙墨風產品宣傳片，介紹一個團隊研究台：字標壓印開場、專案卡飛入網格、搜尋開啟詳情、論文雷達與週報，介面全用程式碼畫，不要旁白。先即時播放，滿意再匯出。",
+    "ja": "チーム研究ツールを紹介する約36秒・横長の紙とインク調プロモを作って。ロゴの刻印、カードの整列、検索と詳細、論文レーダーと週報をすべてコードで描き、ナレーションなし。まずライブ再生で確認し、納得したら書き出して。",
+    "ko": "팀 연구 도구를 소개하는 약 36초 가로형 종이·잉크 스타일 홍보 영상을 만들어 줘. 로고 각인, 카드가 그리드로 날아드는 장면, 검색과 상세, 논문 레이더와 주간 보고를 모두 코드로 그리고 내레이션은 없이. 먼저 실시간 재생으로 보고 마음에 들면 내보내 줘.",
+    "es": "Haz un promo horizontal de unos 36 s en estilo papel y tinta para un espacio de investigación en equipo: logotipo estampado, tarjetas que vuelan a una cuadrícula, búsqueda y detalle, radar de artículos e informe semanal, todo dibujado con código y sin locución. Primero vista previa en vivo; exporta cuando me guste.",
+    "de": "Erstelle einen etwa 36 Sekunden langen Querformat-Promo im Papier-und-Tinte-Stil für einen Team-Forschungsarbeitsplatz: gestempeltes Logo, Karten fliegen ins Raster, Suche und Detailseite, Paper-Radar und Wochenbericht – alles in Code gezeichnet, ohne Sprecher. Erst live ansehen, dann exportieren.",
+    "fr": "Réalise une promo horizontale d'environ 36 s, style papier et encre, pour un bureau de recherche d'équipe : logo estampé, cartes qui se posent en grille, recherche et page détail, radar d'articles et rapport hebdo, tout dessiné en code, sans voix off. Aperçu en direct d'abord, export ensuite.",
+    "pt-BR": "Faça um promo horizontal de cerca de 36 s, estilo papel e tinta, para uma mesa de pesquisa em equipe: logo carimbado, cartões voando para a grade, busca e detalhe, radar de artigos e relatório semanal, tudo desenhado em código, sem narração. Primeiro prévia ao vivo; exporte quando eu aprovar."
+  },
+  "tools": [
+    {
+      "step": "storyboard",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "code",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "Google Lyria 3 Pro",
+      "model": "lyria-3-pro-preview",
+      "where": "cloud"
+    },
+    {
+      "step": "music",
+      "tool": "numpy",
+      "where": "local"
+    },
+    {
+      "step": "music",
+      "tool": "Galanty music library · Ink Press Morning",
+      "where": "local"
+    },
+    {
+      "step": "edit",
+      "tool": "Claude Code",
+      "model": "Claude Opus 5.5",
+      "where": "cloud"
+    }
+  ],
+  "rounds": [
+    {
+      "zh-CN": "从 GitHub 上找 5 个最火的这种风格的视频，试着修改、播放，做成我们的模板。",
+      "en": "Find the five most popular videos of this kind on GitHub, try editing and playing them, and turn them into our templates."
+    }
+  ]
+}

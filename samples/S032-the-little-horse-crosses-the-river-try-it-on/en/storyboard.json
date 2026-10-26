@@ -1,0 +1,208 @@
+{
+  "contractVersion": 3,
+  "title": "The Little Horse Crosses the River: Try It On",
+  "subtitle": "别人的建议，要用自己的尺寸验证",
+  "sourceTitle": "An original fable: the little horse picks a raincoat",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Three raincoats. Which one fits?",
+      "narration": "Little Horse needs a raincoat for the river. Small, medium, or large: which one fits him?",
+      "sourceQuote": "Little Horse needs a raincoat for the river. Small, medium, or large: which one fits him?",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "size-story",
+          "props": {
+            "stage": 1,
+            "eyebrow": "One raincoat · three sizes",
+            "headline": "Who decides if it fits?",
+            "descriptions": [
+              "Every body has its own answer.",
+              "Honest advice may still not fit.",
+              "Skip the tag. See how it fits.",
+              "Measure first, then try it on.",
+              "A good fit lets you move freely."
+            ],
+            "footerTitle": "Little Horse",
+            "choiceLabel": "S?   M?   L?",
+            "animalLabels": [
+              "Squirrel: small",
+              "Ox: large"
+            ],
+            "adviceLabel": "Two answers, two body sizes",
+            "fitLabels": [
+              "S · shoulders show",
+              "L · sleeves cover hooves"
+            ],
+            "measureLabel": "Measure shoulders and chest first",
+            "fittedLabel": "M fits",
+            "ownSizeLabel": "My own size"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Advice comes in different sizes",
+      "narration": "Squirrel says small, and Big Ox says large. Both mean well, but judge by their own size.",
+      "sourceQuote": "Squirrel says small, and Big Ox says large. Both mean well, but judge by their own size.",
+      "hold": 1.3,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "size-story",
+          "props": {
+            "stage": 2,
+            "eyebrow": "Two friends · two answers",
+            "headline": "Their advice, their size",
+            "descriptions": [
+              "Every body has its own answer.",
+              "Honest advice may still not fit.",
+              "Skip the tag. See how it fits.",
+              "Measure first, then try it on.",
+              "A good fit lets you move freely."
+            ],
+            "footerTitle": "Little Horse",
+            "choiceLabel": "S?   M?   L?",
+            "animalLabels": [
+              "Squirrel: small",
+              "Ox: large"
+            ],
+            "adviceLabel": "Two answers, two body sizes",
+            "fitLabels": [
+              "S · shoulders show",
+              "L · sleeves cover hooves"
+            ],
+            "measureLabel": "Measure shoulders and chest first",
+            "fittedLabel": "M fits",
+            "ownSizeLabel": "My own size"
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Small is tight, large is loose",
+      "narration": "First he tries small: the sleeves ride up. Then large: it drags at his hooves and flaps.",
+      "sourceQuote": "First he tries small: the sleeves ride up. Then large: it drags at his hooves and flaps.",
+      "hold": 1.6,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "size-story",
+          "props": {
+            "stage": 3,
+            "eyebrow": "Trying them on",
+            "headline": "Small too tight, large too loose",
+            "descriptions": [
+              "Every body has its own answer.",
+              "Honest advice may still not fit.",
+              "Skip the tag. See how it fits.",
+              "Measure first, then try it on.",
+              "A good fit lets you move freely."
+            ],
+            "footerTitle": "Little Horse",
+            "choiceLabel": "S?   M?   L?",
+            "animalLabels": [
+              "Squirrel: small",
+              "Ox: large"
+            ],
+            "adviceLabel": "Two answers, two body sizes",
+            "fitLabels": [
+              "S · shoulders show",
+              "L · sleeves cover hooves"
+            ],
+            "measureLabel": "Measure shoulders and chest first",
+            "fittedLabel": "M fits",
+            "ownSizeLabel": "My own size"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "His own size picks medium",
+      "narration": "He measures himself against the size chart. Medium buttons up, and the sleeves sit right.",
+      "sourceQuote": "He measures himself against the size chart. Medium buttons up, and the sleeves sit right.",
+      "hold": 1.5,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "size-story",
+          "props": {
+            "stage": 4,
+            "eyebrow": "Measure · then try on",
+            "headline": "Let your own size answer",
+            "descriptions": [
+              "Every body has its own answer.",
+              "Honest advice may still not fit.",
+              "Skip the tag. See how it fits.",
+              "Measure first, then try it on.",
+              "A good fit lets you move freely."
+            ],
+            "footerTitle": "Little Horse",
+            "choiceLabel": "S?   M?   L?",
+            "animalLabels": [
+              "Squirrel: small",
+              "Ox: large"
+            ],
+            "adviceLabel": "Two answers, two body sizes",
+            "fitLabels": [
+              "S · shoulders show",
+              "L · sleeves cover hooves"
+            ],
+            "measureLabel": "Measure shoulders and chest first",
+            "fittedLabel": "M fits",
+            "ownSizeLabel": "My own size"
+          }
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "title": "Wear your own size",
+      "narration": "In a coat that fits, he crosses the bridge. Listen to advice, then try it on yourself.",
+      "sourceQuote": "In a coat that fits, he crosses the bridge. Listen to advice, then try it on yourself.",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "size-story",
+          "props": {
+            "stage": 5,
+            "eyebrow": "Across the river",
+            "headline": "Listen, then try it yourself",
+            "descriptions": [
+              "Every body has its own answer.",
+              "Honest advice may still not fit.",
+              "Skip the tag. See how it fits.",
+              "Measure first, then try it on.",
+              "A good fit lets you move freely."
+            ],
+            "footerTitle": "Little Horse",
+            "choiceLabel": "S?   M?   L?",
+            "animalLabels": [
+              "Squirrel: small",
+              "Ox: large"
+            ],
+            "adviceLabel": "Two answers, two body sizes",
+            "fitLabels": [
+              "S · shoulders show",
+              "L · sleeves cover hooves"
+            ],
+            "measureLabel": "Measure shoulders and chest first",
+            "fittedLabel": "M fits",
+            "ownSizeLabel": "My own size"
+          }
+        }
+      }
+    }
+  ]
+}

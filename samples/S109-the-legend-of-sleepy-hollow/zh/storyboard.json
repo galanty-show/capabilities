@@ -1,0 +1,342 @@
+{
+  "contractVersion": 3,
+  "title": "沉睡谷传奇",
+  "sourceTitle": "华盛顿·欧文《沉睡谷传奇》（1820），重新讲述",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "马蹄声",
+      "narration": "你听……午夜的大路上，传来了马蹄声。浓雾里，有个骑马的人。他，没有脑袋。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-road",
+          "props": {
+            "mode": "open",
+            "riderCue": "骑马",
+            "headCue": "没有脑袋"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 1.3
+    },
+    {
+      "id": "title",
+      "title": "沉睡谷传奇",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.5
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-title",
+          "props": {
+            "kicker": "华盛顿·欧文",
+            "title": "沉睡谷传奇",
+            "subtitle": "据 1820 年原著重新讲述"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "hollow",
+      "title": "沉睡谷，1790 年",
+      "narration": "1790年，在纽约，有个地方叫沉睡谷。一道昏昏欲睡的山谷。人们都说，这儿连空气都中了邪。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-hollow",
+          "props": {
+            "date": "纽约 · 1790 年",
+            "dateCue": "1790",
+            "place": "沉睡谷",
+            "placeCue": "沉睡谷",
+            "magicCue": "中了邪"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "ichabod",
+      "title": "伊卡博德·克兰",
+      "narration": "谷里的教书先生，名叫伊卡博德·克兰。又瘦又长，像个逃跑的稻草人。肚子永远填不饱。什么鬼故事，他都信。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-ichabod",
+          "props": {
+            "name": "伊卡博德·克兰",
+            "role": "乡村教书先生",
+            "nameCue": "伊卡博德",
+            "tags": [
+              {
+                "label": "瘦得像竹竿",
+                "cue": "稻草人"
+              },
+              {
+                "label": "永远吃不饱",
+                "cue": "填不饱"
+              },
+              {
+                "label": "鬼故事全都信",
+                "cue": "鬼故事"
+              }
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      },
+      "hold": 0.63
+    },
+    {
+      "id": "katrina",
+      "title": "卡特琳娜·范·塔塞尔",
+      "narration": "他看上了卡特琳娜·范·塔塞尔。富农家的千金。不对……是看上了她，和她爹的粮仓。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-katrina",
+          "props": {
+            "name": "卡特琳娜·范·塔塞尔",
+            "role": "富农巴尔图斯·范·塔塞尔的独生女",
+            "nameCue": "卡特琳娜",
+            "turnCue": "不对",
+            "pantryCue": "粮仓"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brom",
+      "title": "布罗姆·博恩斯",
+      "narration": "可偏偏，布罗姆·博恩斯也想娶她。他铁了心，要把伊卡博德赶走。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-brom",
+          "props": {
+            "name": "布罗姆·博恩斯",
+            "role": "情敌 · 骑手 · 捣蛋鬼",
+            "nameCue": "布罗姆",
+            "prankCue": "伊卡博德",
+            "packCue": "赶走",
+            "victim": "伊卡博德"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "party",
+      "title": "鬼故事",
+      "narration": "秋天的宴会上，有人讲起鬼故事。有个士兵，脑袋被炮弹轰掉了。他夜夜骑马，出来找头。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-party",
+          "props": {
+            "storyCue": "鬼故事",
+            "soldierCue": "士兵",
+            "shotCue": "炮弹",
+            "rideCue": "骑马"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "ride",
+      "title": "独自回家",
+      "narration": "伊卡博德骑着老马“火药”，独自往家走。林子里，忽然没了声响。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-ride",
+          "props": {
+            "quietCue": "没了声响"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "shadow",
+      "title": "一个黑影",
+      "narration": "就在这时，他身边冒出一个高大的黑骑士。月亮钻出了云层。那骑士，没有脑袋。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-shadow",
+          "props": {
+            "shadowCue": "黑骑士",
+            "moonCue": "月亮",
+            "headCue": "没有脑袋"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "chase",
+      "title": "追逐",
+      "narration": "伊卡博德一夹马肚，“火药”撒腿就跑。快，再快，马鞍却松了。前面，就是教堂边的桥。“过了那座桥，我就安全了！”",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-chase",
+          "props": {
+            "mode": "chase",
+            "fasterCue": "快",
+            "saddleCue": "马鞍",
+            "bridgeCue": "桥"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "throw",
+      "title": "南瓜",
+      "narration": "他冲过桥，回头一看。那骑士在马镫上直起身子。把自己的脑袋，狠狠扔了过来。一颗燃烧的南瓜！",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-chase",
+          "props": {
+            "mode": "throw",
+            "backCue": "回头",
+            "riseCue": "直起",
+            "hurlCue": "扔",
+            "pumpkinCue": "南瓜"
+          }
+        }
+      },
+      "hold": 1.2,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "morning",
+      "title": "第二天早上",
+      "narration": "天亮后，桥边只找到他的帽子。旁边，一颗摔烂的南瓜。从此，再没人见过伊卡博德。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-morning",
+          "props": {
+            "hatCue": "帽子",
+            "pumpkinCue": "南瓜",
+            "goneCue": "再没人"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      },
+      "hold": 0.67
+    },
+    {
+      "id": "ending",
+      "title": "布罗姆在笑",
+      "narration": "没过多久，布罗姆娶了卡特琳娜。每回有人讲起这桩事，他就哈哈大笑。尤其是讲到南瓜那一段。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-wedding",
+          "props": {
+            "laughCue": "大笑",
+            "pumpkinCue": "南瓜"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      },
+      "hold": 1.37
+    },
+    {
+      "id": "hook",
+      "title": "你听",
+      "narration": "是鬼，还是恶作剧？半夜骑马走一趟沉睡谷，竖起耳朵听听吧。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-road",
+          "props": {
+            "mode": "hook",
+            "listenCue": "听听"
+          }
+        }
+      },
+      "hold": 0.63,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "credit",
+      "title": "换一种夜色",
+      "narration": "这一夜，是文影用代码画出来的。改一个设定，就换一种夜色。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "sh-credit",
+          "props": {
+            "changeCue": "设定",
+            "cycleCue": "夜色",
+            "title": "沉睡谷传奇",
+            "brand": "文影",
+            "line1": "据华盛顿·欧文 1820 年的小说重新讲述",
+            "line2": "代码实时绘制 · Gemini 配音 · Lyria 配乐"
+          }
+        }
+      },
+      "hold": 2.63,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

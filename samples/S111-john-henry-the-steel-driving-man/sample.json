@@ -1,0 +1,50 @@
+{
+  "no": "S111",
+  "title": "John Henry, the Steel-Driving Man",
+  "titles": {
+    "en": "John Henry, the Steel-Driving Man",
+    "zh": "约翰·亨利：打钢钎的汉子"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "jh-hook",
+    "jh-title",
+    "jh-born",
+    "jh-west",
+    "jh-crew",
+    "jh-mountain",
+    "jh-drill",
+    "jh-reply",
+    "jh-race",
+    "jh-fall",
+    "jh-legacy"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "原创复述：美国民间传说 John Henry，英文旁白自写，只化用两句传统民歌说法（公有领域）；底图、配乐为 AI 原创生成，音效代码合成",
+    "verified": true
+  },
+  "music": {
+    "id": "original-john-henry",
+    "selection": "library:original-john-henry",
+    "title": "Steel-Driving Man",
+    "author": "Galanty",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Steel-Driving Man — Galanty, original score generated with Lyria 3 Pro and edited with code-synthesized hammer, steam-drill and heartbeat sound design (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S111/README.md",
+    "modifications": "Generated with Google Lyria 3 Pro (lyria-3-pro-preview) from original timeline prompts (a 92 BPM work-song blues take and a harmonica coda take); edited by tools/production/john-henry-20261013/music_build.py (groove entrance moved onto the title hit, the reply muffled, eight race bars time-stretched bar by bar from 92 to about 128 BPM with pitch kept, a hard stop into silence, the coda placed on the end card, 230 Hz dip, NumPy-synthesized hammer, steam-drill, blast, heartbeat and whistle effects, no third-party samples), then encoded to 48 kbps MP3, 48 kHz stereo (library size budget). Timed to sample S111; other films will not hit its accents.",
+    "file": "music/john-henry.mp3",
+    "bundled": true
+  },
+  "note": "英文旁白为预先生成的 Gemini 2.5 Pro TTS 云端配音（音色 Algenib，随包旁白种子，播放不联网）；改旁白文字后新句需要本机配音整片重配。底图（AI 生成，麻胶版画风）以 data URI 内联在幕代码里，样片版缩到 1024–1280 宽，比导出成片略软。配乐 Steel-Driving Man（CC0，随包曲库 library:original-john-henry）按本片逐词时间剪辑：锤击、钻机与心跳音效和画面读同一张节拍表（各幕 props.beats），比赛段逐小节加速、定格处骤停；改旁白、改停留或换曲后拍点不再对齐。比赛、比分、定格三幕共用模块 jh-race（mode 参数）。比赛数字 14 / 9 英尺是传说里的说法，画面有角注。片名与刻字用 macOS 自带 Superclarendon、DIN Condensed，其他系统回退 Rockwell / Georgia。正文约 120 秒，导出时接约 4.9 秒品牌片尾",
+  "page": "https://galanty.cn/samples/#S111"
+}

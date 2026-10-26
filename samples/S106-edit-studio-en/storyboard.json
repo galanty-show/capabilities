@@ -1,0 +1,169 @@
+{
+  "contractVersion": 3,
+  "title": "Fix a word. Play on.",
+  "subtitle": "124 BPM beat-cut promo · original score \"Play On\"",
+  "sourceTitle": "Galanty promo creative notes (original)",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "Render again?",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-open",
+          "props": {
+            "bar0": 0,
+            "f0": 0
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.8663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "library",
+      "title": "Hover to play",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-library",
+          "props": {
+            "bar0": 2,
+            "f0": 116
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "live",
+      "title": "Live Preview",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-live",
+          "props": {
+            "bar0": 6,
+            "f0": 348
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 15.4997
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "assets",
+      "title": "Asset tracking",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-assets",
+          "props": {
+            "bar0": 14,
+            "f0": 813
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "edit",
+      "title": "Locate, fix a word",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-edit",
+          "props": {
+            "bar0": 18,
+            "f0": 1045
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Same moment",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-resume",
+          "props": {
+            "bar0": 22,
+            "f0": 1277
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "deliver",
+      "title": "Export & recap",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tf-deliver",
+          "props": {
+            "bar0": 26,
+            "f0": 1510
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

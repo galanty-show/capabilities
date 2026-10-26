@@ -1,0 +1,166 @@
+{
+  "contractVersion": 3,
+  "title": "眠晓智能床垫 · 一夜到天亮",
+  "sourceTitle": "虚构品牌智能床垫宣传片（品类卖点见 source.md）",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "凌晨三点",
+      "narration": "凌晨三点，又醒了。翻来覆去，睡眠像一条忽高忽低的线。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-hook",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brand",
+      "title": "交给眠晓",
+      "narration": "这一夜，交给眠晓智能床垫。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-brand",
+          "props": {}
+        }
+      },
+      "hold": 0.7,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "stages",
+      "title": "睡眠分期",
+      "narration": "床垫里的传感器，无感记录心率和呼吸。浅睡、深睡、快速眼动，一段一段画出来。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-stages",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "pressure",
+      "title": "压力分布",
+      "narration": "一翻身，压力分布跟着变。肩膀、腰、臀分区自适应，托住每一段曲线。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-bed",
+          "props": {
+            "mode": "pressure"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "snore",
+      "title": "鼾声抬头",
+      "narration": "一有鼾声，床头缓缓抬起，呼吸顺了，鼾声也轻了。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-snore",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "temp",
+      "title": "左右温区",
+      "narration": "她怕冷，他怕热，左右分区控温，各睡各的舒服。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-bed",
+          "props": {
+            "mode": "temp"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "report",
+      "title": "睡眠报告",
+      "narration": "天亮了。睁开眼，报告已经写好：睡眠得分，八十七。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-report",
+          "props": {}
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "hero",
+      "title": "睡得深，醒得亮",
+      "narration": "眠晓智能床垫。睡得深，醒得亮。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-finale",
+          "props": {
+            "mode": "hero"
+          }
+        }
+      },
+      "hold": 0.6,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "endcard",
+      "title": "标版",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 2.8
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "mx-finale",
+          "props": {
+            "mode": "end"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

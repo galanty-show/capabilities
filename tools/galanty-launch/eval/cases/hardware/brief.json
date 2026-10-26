@@ -1,0 +1,34 @@
+{
+  "productName": "Luma Dial",
+  "tagline": "DEMO / Make room",
+  "installCommand": "DEMO / EXPLORE THE PROTOTYPE",
+  "sellingPoints": [
+    {
+      "text": "Turn to tune",
+      "detail": "Adjust the demo lamp",
+      "command": "Turn dial",
+      "source": "eval-source.md#claim-1"
+    },
+    {
+      "text": "Touch to pause",
+      "detail": "Pause the demo timer",
+      "command": "Touch dial",
+      "source": "eval-source.md#claim-2"
+    },
+    {
+      "text": "Desk ready",
+      "detail": "Place beside a keyboard",
+      "command": "Set on desk",
+      "source": "eval-source.md#claim-3"
+    }
+  ],
+  "palette": {
+    "background": "#111218",
+    "foreground": "#fff5e6",
+    "accent": "#ffb6cf"
+  },
+  "musicStyle": "electronic",
+  "seed": 2103,
+  "durationSeconds": 24,
+  "demoLabel": "DEMO / FICTIONAL PRODUCT"
+}

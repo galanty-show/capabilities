@@ -1,0 +1,206 @@
+{
+  "contractVersion": 3,
+  "title": "The Gift of the Magi",
+  "sourceTitle": "O. Henry, \"The Gift of the Magi\" (1905), retold",
+  "scenes": [
+    {
+      "id": "coins",
+      "title": "A Dollar Eighty-Seven",
+      "narration": "One dollar and eighty-seven cents. That was all she had in the world. Della counted it three times. And tomorrow would be Christmas.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-coins",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "The Gift of the Magi",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.0
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-title",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "flat",
+      "title": "Eight Dollars a Week",
+      "narration": "A tiny New York flat, eight dollars a week. Jim and Della had almost nothing. Just two treasures.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-flat",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "treasures",
+      "title": "Two Treasures",
+      "narration": "One was Jim's gold watch, his grandfather's. The other was Della's hair. Let down, it rippled below her knees.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-treasures",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "sale",
+      "title": "Hair Goods of All Kinds",
+      "narration": "On went her old brown jacket. On went her old brown hat. Madame Sofronie: Hair Goods of All Kinds. \"Twenty dollars,\" said Madame. \"Give it to me quick,\" said Della.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-sale",
+          "props": {}
+        }
+      },
+      "hold": 0.3,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "search",
+      "title": "The Platinum Chain",
+      "narration": "For two hours, she ransacked the stores. Then she found it: a platinum fob chain. It cost twenty-one dollars. She ran home with eighty-seven cents.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-search",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "wait",
+      "title": "Seven O'Clock",
+      "narration": "She curled what was left. She looked like a truant schoolboy. At seven, she heard Jim on the stairs. \"Please God, let him think I'm still pretty.\"",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-wait",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "door",
+      "title": "The Door",
+      "narration": "The door opened. Jim stopped, and stared at her. It wasn't anger. It wasn't surprise. It was a look she could not read.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-door",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "combs",
+      "title": "The Combs",
+      "narration": "\"I sold my hair to buy you a present.\" \"My hair grows awfully fast, Jim.\" His gift was the jeweled combs she adored. And now, her hair was gone.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-combs",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "reveal",
+      "title": "I Sold the Watch",
+      "narration": "\"Isn't it a dandy, Jim?\" \"Give me your watch, I want to see it on.\" Jim tumbled down on the couch, and smiled. \"Dell,\" he said. \"I sold the watch to buy your combs.\"",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-reveal",
+          "props": {}
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "embrace",
+      "title": "Two Foolish Children",
+      "narration": "They held each other, laughing and crying. Two foolish children in a tiny flat. Each gave away their greatest treasure. For the other.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-embrace",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.6
+      }
+    },
+    {
+      "id": "magi",
+      "title": "They Are the Magi",
+      "narration": "The magi brought the first Christmas gifts. Of all who give gifts, these two were wisest. They are the magi.",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "gm-magi",
+          "props": {}
+        }
+      },
+      "hold": 1.7,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    }
+  ]
+}

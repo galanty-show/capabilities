@@ -1,0 +1,367 @@
+{
+  "verifiedAt": "2026-10-21T04:50:22.384Z",
+  "scope": "Isolated local installation and npm tarball creation; no App launch, Agent inference, login, push or npm publication.",
+  "versions": {
+    "node": "25.6.1",
+    "npm": "11.9.0",
+    "claude": "2.1.283",
+    "codex": "0.160.1"
+  },
+  "localInstallation": {
+    "passed": true,
+    "methods": 3,
+    "installedSkillsPerMethod": 1,
+    "installedSkillCopiesMatch": true,
+    "sourceReport": ".lane-data/distribution/2026-10-21T04-28-11-554Z/report.json",
+    "commands": [
+      {
+        "label": "skills-remote-list",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "skills",
+          "add",
+          "galanty-show/capabilities",
+          "--list"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:11.564Z",
+        "finishedAt": "2026-10-21T04:28:23.955Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "skills-local-list",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "skills",
+          "add",
+          "$REPO/",
+          "--list"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:23.955Z",
+        "finishedAt": "2026-10-21T04:28:31.092Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "skills-local-install",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "skills",
+          "add",
+          "$REPO/",
+          "--skill",
+          "galanty-launch",
+          "--agent",
+          "claude-code",
+          "--global",
+          "--yes",
+          "--copy"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:31.093Z",
+        "finishedAt": "2026-10-21T04:28:32.697Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-validate-marketplace",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "validate",
+          "$REPO/"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:32.697Z",
+        "finishedAt": "2026-10-21T04:28:33.211Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-validate-plugin",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "validate",
+          "$REPO/plugins/galanty-launch"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.211Z",
+        "finishedAt": "2026-10-21T04:28:33.327Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-marketplace-add",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "marketplace",
+          "add",
+          "$REPO/"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.328Z",
+        "finishedAt": "2026-10-21T04:28:33.476Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-install",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "install",
+          "galanty-launch@galanty-capabilities"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.476Z",
+        "finishedAt": "2026-10-21T04:28:33.632Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-list",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "list"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.633Z",
+        "finishedAt": "2026-10-21T04:28:33.763Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "claude-details",
+        "command": "claude",
+        "args": [
+          "plugin",
+          "details",
+          "galanty-launch"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.764Z",
+        "finishedAt": "2026-10-21T04:28:33.894Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "codex-marketplace-add",
+        "command": "codex",
+        "args": [
+          "plugin",
+          "marketplace",
+          "add",
+          "$REPO/",
+          "--json"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.895Z",
+        "finishedAt": "2026-10-21T04:28:33.924Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "codex-install",
+        "command": "codex",
+        "args": [
+          "plugin",
+          "add",
+          "galanty-launch@galanty-capabilities",
+          "--json"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.924Z",
+        "finishedAt": "2026-10-21T04:28:33.953Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "codex-list",
+        "command": "codex",
+        "args": [
+          "plugin",
+          "list",
+          "--json"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-28-11-554Z",
+        "startedAt": "2026-10-21T04:28:33.954Z",
+        "finishedAt": "2026-10-21T04:28:33.979Z",
+        "code": 0,
+        "timedOut": false
+      }
+    ]
+  },
+  "remote": {
+    "skillsFound": 6,
+    "galantyLaunchListed": false,
+    "status": "BLOCKED: remote repository does not include galanty-launch; branch was not pushed."
+  },
+  "creator": {
+    "passed": true,
+    "sourceReport": ".lane-data/distribution/2026-10-21T04-50-04-088Z/report.json",
+    "elapsedSeconds": 18.295,
+    "files": 101,
+    "compressedBytes": 2330599,
+    "unpackedBytes": 2749437,
+    "sha1": "21b2a828e3b8bd10ff2c208292eeae0f186ad35a",
+    "sha256": "1fcdc464b56c6ef34f5071a496393dcae1e68beb9560b116c20946a51c187233",
+    "integrity": "sha512-ovlMwW0TihjkC3j0zWPkL5WegUPkUiJGhERTRzNJF+Nf1x7D6u9GcJubBKGonR2kdULMLq1hatykaw6P7ab+8w==",
+    "commands": [
+      {
+        "label": "tarball-manifest",
+        "command": "tar",
+        "args": [
+          "-tzf",
+          "$REPO/.lane-data/distribution/packages/create-galanty-launch-0.1.0.tgz"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z",
+        "startedAt": "2026-10-21T04:50:04.099Z",
+        "finishedAt": "2026-10-21T04:50:04.108Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "creator-npx",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "--package",
+          "$REPO/.lane-data/distribution/packages/create-galanty-launch-0.1.0.tgz",
+          "create-galanty-launch",
+          "fresh-launch"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z",
+        "startedAt": "2026-10-21T04:50:04.109Z",
+        "finishedAt": "2026-10-21T04:50:06.102Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "starter-npm-ci",
+        "command": "npm",
+        "args": [
+          "ci",
+          "--no-audit",
+          "--no-fund"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z/fresh-launch",
+        "startedAt": "2026-10-21T04:50:06.102Z",
+        "finishedAt": "2026-10-21T04:50:15.941Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "starter-plan",
+        "command": "npm",
+        "args": [
+          "run",
+          "plan"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z/fresh-launch",
+        "startedAt": "2026-10-21T04:50:15.941Z",
+        "finishedAt": "2026-10-21T04:50:19.351Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "starter-typecheck",
+        "command": "npm",
+        "args": [
+          "run",
+          "typecheck"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z/fresh-launch",
+        "startedAt": "2026-10-21T04:50:19.351Z",
+        "finishedAt": "2026-10-21T04:50:20.661Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "starter-preview-dry-run",
+        "command": "npm",
+        "args": [
+          "run",
+          "preview",
+          "--",
+          "--at",
+          "12.5",
+          "--dry-run"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z/fresh-launch",
+        "startedAt": "2026-10-21T04:50:20.662Z",
+        "finishedAt": "2026-10-21T04:50:20.932Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "starter-agent-skill-resolution",
+        "command": "node",
+        "args": [
+          "--input-type=module",
+          "-e",
+          "import {resolveAgentSkill} from \"./scripts/agent-runner.mjs\"; import assert from \"node:assert/strict\"; import path from \"node:path\"; assert.equal(await resolveAgentSkill(), path.join(process.cwd(), \".agents/skills/galanty-launch\")); console.log(\"Standalone skill resolved inside created project.\");"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z/fresh-launch",
+        "startedAt": "2026-10-21T04:50:20.932Z",
+        "finishedAt": "2026-10-21T04:50:20.998Z",
+        "code": 0,
+        "timedOut": false
+      },
+      {
+        "label": "creator-refuse-existing",
+        "command": "npx",
+        "args": [
+          "--yes",
+          "--package",
+          "$REPO/.lane-data/distribution/packages/create-galanty-launch-0.1.0.tgz",
+          "create-galanty-launch",
+          "fresh-launch"
+        ],
+        "cwd": "$REPO/.lane-data/distribution/2026-10-21T04-50-04-088Z",
+        "startedAt": "2026-10-21T04:50:20.998Z",
+        "finishedAt": "2026-10-21T04:50:22.384Z",
+        "code": 1,
+        "timedOut": false
+      }
+    ],
+    "packedBoundariesVerified": true
+  },
+  "targetedTests": {
+    "passed": 9,
+    "commands": [
+      "node --test docs/distribution/*.test.mjs",
+      "npm test --prefix tools/galanty-launch/create"
+    ],
+    "covers": [
+      "canonical skill copy and contained links",
+      "marketplace paths and licenses",
+      "standalone Agent skill resolution",
+      "existing directory/file/symlink refusal",
+      "unsafe project names",
+      "missing template",
+      "npm symlink CLI entry"
+    ]
+  },
+  "gaps": [
+    "Remote galanty-launch installation blocked until separately authorized publication",
+    "npm registry package not published",
+    "Actual Agent production needs service login and separate verification",
+    "Observed App opening, seeking and playback not tested; preview dry-run only"
+  ],
+  "sources": [
+    "https://skills.sh/docs/cli",
+    "https://code.claude.com/docs/en/plugins",
+    "https://code.claude.com/docs/en/plugin-marketplaces",
+    "https://learn.chatgpt.com/docs/build-skills",
+    "https://developers.openai.com/plugins/build/plugins",
+    "https://github.com/remotion-dev/remotion/blob/v4.0.523/LICENSE.md"
+  ]
+}

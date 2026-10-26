@@ -1,0 +1,167 @@
+{
+  "contractVersion": 3,
+  "title": "Projectile Motion: Which Angle Flies Farthest?",
+  "subtitle": "同速、同高、无空气阻力",
+  "sourceTitle": "An original lesson: three launch angles",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Change only the angle",
+      "narration": "Same height, same speed, three launch angles. At 30, 45 or 60 degrees, which goes farthest?",
+      "sourceQuote": "Same height, same speed, three launch angles. At 30, 45 or 60 degrees, which goes farthest?",
+      "hold": 1.3,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "projectile",
+          "props": {
+            "stage": 1,
+            "eyebrow": "A fair flight",
+            "headline": "Only the angle changes",
+            "descriptions": [
+              "30°, 45°, 60°.",
+              "Fix every condition before comparing.",
+              "The angle changes height and flight time.",
+              "Let the landing marks speak.",
+              "Same conditions: 45° goes farthest."
+            ],
+            "footerTitle": "Projectile Motion",
+            "variableNote": "One variable"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Lock the conditions first",
+      "narration": "Each ball leaves at 10 meters per second. Gravity is 10 meters per second squared. Air drag is ignored, and the ground is level.",
+      "sourceQuote": "Each ball leaves at 10 meters per second. Gravity is 10 meters per second squared. Air drag is ignored, and the ground is level.",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "projectile",
+          "props": {
+            "stage": 2,
+            "eyebrow": "Lock the conditions first",
+            "headline": "Same speed · height · no drag",
+            "descriptions": [
+              "30°, 45°, 60°.",
+              "Fix every condition before comparing.",
+              "The angle changes height and flight time.",
+              "Let the landing marks speak.",
+              "Same conditions: 45° goes farthest."
+            ],
+            "footerTitle": "Projectile Motion",
+            "conditions": [
+              {
+                "label": "Launch speed",
+                "value": "10 m/s"
+              },
+              {
+                "label": "Gravity",
+                "value": "10 m/s²"
+              },
+              {
+                "label": "Height",
+                "value": "Start = landing"
+              },
+              {
+                "label": "Air drag",
+                "value": "Ignored"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Three paths in flight",
+      "narration": "At 30 degrees it stays low, at 60 it climbs. Airtimes differ, but both land in one spot.",
+      "sourceQuote": "At 30 degrees it stays low, at 60 it climbs. Airtimes differ, but both land in one spot.",
+      "hold": 1.6,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "projectile",
+          "props": {
+            "stage": 3,
+            "eyebrow": "The flight paths",
+            "headline": "Low and high, same landing",
+            "descriptions": [
+              "30°, 45°, 60°.",
+              "Fix every condition before comparing.",
+              "The angle changes height and flight time.",
+              "Let the landing marks speak.",
+              "Same conditions: 45° goes farthest."
+            ],
+            "footerTitle": "Projectile Motion",
+            "landingLabel": "30° / 60°: same landing",
+            "clockNote": "One shared physics clock"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "45 degrees lands farther",
+      "narration": "The 45-degree path lands farther. It covers 10 meters horizontally. The other two reach about 8.66 meters.",
+      "sourceQuote": "The 45-degree path lands farther. It covers 10 meters horizontally. The other two reach about 8.66 meters.",
+      "hold": 1.6,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "projectile",
+          "props": {
+            "stage": 4,
+            "eyebrow": "Watch the landing",
+            "headline": "45° reaches 10 m",
+            "descriptions": [
+              "30°, 45°, 60°.",
+              "Fix every condition before comparing.",
+              "The angle changes height and flight time.",
+              "Let the landing marks speak.",
+              "Same conditions: 45° goes farthest."
+            ],
+            "footerTitle": "Projectile Motion"
+          }
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "title": "Why 45 degrees wins",
+      "narration": "Range follows the sine of twice the angle. As 30 and 60 sum to 90, their ranges match. In this setup, 45 degrees goes farthest.",
+      "sourceQuote": "Range follows the sine of twice the angle. As 30 and 60 sum to 90, their ranges match. In this setup, 45 degrees goes farthest.",
+      "hold": 1.8,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "projectile",
+          "props": {
+            "stage": 5,
+            "eyebrow": "Behind the answer",
+            "headline": "Double the angle, then take the sine",
+            "descriptions": [
+              "30°, 45°, 60°.",
+              "Fix every condition before comparing.",
+              "The angle changes height and flight time.",
+              "Let the landing marks speak.",
+              "Same conditions: 45° goes farthest."
+            ],
+            "footerTitle": "Projectile Motion",
+            "rangeFormula": "Range R = v₀² sin(2θ) / g",
+            "equalRangeLabel": "Same value · same range",
+            "maximumFormula": "45° → sin 90° = 1 → max"
+          }
+        }
+      }
+    }
+  ]
+}

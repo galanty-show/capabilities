@@ -1,0 +1,48 @@
+{
+  "no": "S127",
+  "title": "狼来了 · 第三声",
+  "titles": {
+    "zh": "狼来了 · 第三声",
+    "en": "The Boy Who Cried Wolf: The Third Cry"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "经典故事",
+  "templates": [],
+  "modules": [
+    "wc-night",
+    "wc-day",
+    "wc-cry1",
+    "wc-hill",
+    "wc-cry2",
+    "wc-dusk",
+    "wc-cry3",
+    "wc-village",
+    "wc-dawn"
+  ],
+  "license": {
+    "code": "MIT",
+    "content": "伊索寓言公共领域故事原创改写；AI 原创画作、Veo 动画、Gemini 配音与 Lyria 配乐；Ma Shan Zheng 字形 SIL OFL 1.1",
+    "verified": true
+  },
+  "music": {
+    "id": "original-wolf-third-cry",
+    "selection": "library:original-wolf-third-cry",
+    "title": "The Third Cry",
+    "author": "Galanty production",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Original Lyria score arranged locally with synthesized effects for S127; made available under CC0 by the creator.",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://samples/S127/README.md",
+    "modifications": null,
+    "file": "music/wolf-third-cry.mp3",
+    "bundled": true
+  },
+  "note": "中英双语，采用既有多角色云端配音种子，播放不联网。20张手绘底图和3段既有Veo动画随幕内联（动画压缩为960宽24fps）；配乐含按原时间表剪好的音效，改旁白或节奏后需复核。审片MP4不是正式应用导出；正常速度全片观看与人耳试听仍待验。",
+  "page": "https://galanty.cn/samples/#S127"
+}

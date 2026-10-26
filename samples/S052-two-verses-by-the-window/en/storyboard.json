@@ -1,0 +1,45 @@
+{
+  "contractVersion": 3,
+  "title": "Two Verses by the Window",
+  "sourceTitle": "Original short poems",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Evening Window",
+      "narration": "The hills grow deep within the window. A breeze arrives, and one leaf drifts.",
+      "sourceQuote": "The hills grow deep within the window. A breeze arrives, and one leaf drifts.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Evening Window",
+            "kicker": "Original poem",
+            "preset": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "title": "Night Road",
+      "narration": "Lamplight shows the long road home. The moon walks bright beside the traveler.",
+      "sourceQuote": "Lamplight shows the long road home. The moon walks bright beside the traveler.",
+      "hold": 1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "typography-stage",
+          "props": {
+            "title": "Night Road",
+            "kicker": "Original poem",
+            "preset": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "contractVersion": 3,
+  "title": "Tinglan · Launch Film",
+  "subtitle": "Adapted from the launch-film examples in HyperFrames' animation skill (Apache-2.0)",
+  "sourceTitle": "Tinglan (fictional product) launch film · making-of notes",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "Hook: the number bursts",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-hook",
+          "props": {
+            "f0": 0,
+            "value": 90,
+            "unit": "%",
+            "caption": "of meeting notes go unread."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.8663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "problem",
+      "title": "Problem: post-meeting chaos",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-problem",
+          "props": {
+            "f0": 116,
+            "chatTitle": "Weekly sync (37)",
+            "chatLines": [
+              "@all Who's sending notes?",
+              "Was it A or B?",
+              "Missed it. What's the call?",
+              "Recording's up. Go listen."
+            ],
+            "chatBadge": "99+",
+            "recordTitle": "Sync recording",
+            "recordTime": "02:14:07",
+            "docTitle": "Meeting notes (draft)",
+            "docMissing": [
+              "Decision: TBD…",
+              "Owner: ?"
+            ],
+            "recordNote": "2 h 14 min still unheard",
+            "centerLabel": "You",
+            "bubbles": [
+              "Who owns it?",
+              "Due when?",
+              "What did we decide?",
+              "Nobody heard the tape",
+              "To-dos in 17 chats",
+              "Nothing written down",
+              "Who said what?",
+              "Same meeting again"
+            ]
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "concept",
+      "title": "Concept: audio to to-dos",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-concept",
+          "props": {
+            "f0": 348,
+            "lead": "Tinglan turns talk into",
+            "accent": "to-dos",
+            "typed": "Audio → notes → to-dos."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "workflow",
+      "title": "Workflow: one tap to send",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-workflow",
+          "props": {
+            "f0": 581,
+            "headlineA": "Tinglan sees it",
+            "headlineAccent": "through",
+            "headlineB": "with you.",
+            "sectionLabels": [
+              "Decisions",
+              "To-dos"
+            ],
+            "syncState": [
+              "Syncing…",
+              "Synced"
+            ],
+            "steps": [
+              "Write notes",
+              "Assign to-dos",
+              "Sync calendar"
+            ],
+            "windowTitle": "Weekly sync notes · Oct 13",
+            "decisions": [
+              "Homepage redesign goes with Plan B",
+              "Design review by next Wednesday"
+            ],
+            "todos": [
+              "Lin Xia: Finalize the interaction spec",
+              "Zhou Ke: API integration",
+              "Amu: Book the review"
+            ],
+            "nextMeeting": "Next sync: Mon, Oct 20 · 10:00",
+            "button": "Confirm & send",
+            "done": "Sent"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "metric",
+      "title": "Metric: three minutes",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-metric",
+          "props": {
+            "f0": 813,
+            "badge": "Tinglan",
+            "cardTitle": "Weekly sync notes are ready",
+            "cardTime": "● Just now",
+            "cardRows": [
+              "Decisions",
+              "To-dos",
+              "Risks"
+            ],
+            "cardPeople": [
+              "@Lin Xia",
+              "@Zhou Ke",
+              "@Amu"
+            ],
+            "metric": "3 min",
+            "metricNote": "from wrap-up to notes in hand",
+            "lineA": "Meeting ends. Notes arrive.",
+            "accents": [
+              "ends",
+              "arrive"
+            ],
+            "lineB": "To-dos assigned, too."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cta",
+      "title": "CTA: press to try",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-cta",
+          "props": {
+            "f0": 1045,
+            "hero": "Tinglan",
+            "heroSub": "You run the meeting. We take the notes.",
+            "cta": "Try Tinglan free"
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.733
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "brand",
+      "title": "Brand: just use Tinglan",
+      "narration": "",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "tl-brand",
+          "props": {
+            "f0": 1277,
+            "lead": "Just use",
+            "brand": "Tinglan",
+            "slogan": "Meeting over. Notes done.",
+            "note": "Tinglan is a fictional product made for this sample."
+          }
+        }
+      },
+      "duration": {
+        "mode": "fixed",
+        "seconds": 7.7663
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    }
+  ]
+}

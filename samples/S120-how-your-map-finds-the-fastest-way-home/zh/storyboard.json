@@ -1,0 +1,299 @@
+{
+  "contractVersion": 3,
+  "title": "导航怎么找到回家最快的路",
+  "sourceTitle": "Dijkstra（1959）、A*（1968）与收缩层次（2008），在一座代码生成的城市里讲清楚",
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "你点了“回家”",
+      "narration": "你输入“家”，点一下“出发”。一眨眼，路线就出来了。所有回家的路里，最快的那条。它是怎么知道的？",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "hook",
+            "search": "家",
+            "you": "你",
+            "home": "家",
+            "eta": "{t} · 最快路线",
+            "etaMinutes": "{n} 分钟",
+            "tapCue": "出发",
+            "routeCue": "一眨眼",
+            "ghostCue": "所有"
+          }
+        }
+      },
+      "hold": 0,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "片名",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "title",
+            "title1": "导航怎么找到",
+            "title2": "回家最快的路",
+            "subtitle": "Dijkstra · A* · 外加一点堵车"
+          }
+        }
+      },
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "graph",
+      "title": "城市就是一张图",
+      "narration": "在计算机眼里，城市就是一张图。路口是节点。街道是边。每条边都有权重，就是开过去要几秒。从一角走到对角，一共有九千三百多万条路线。真实的城市，多达上亿亿条。一条条去查，根本查不完。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "graph",
+            "you": "你",
+            "home": "家",
+            "nodesText": "路口 = 节点",
+            "edgesText": "街道 = 边",
+            "weightText": "权重 = 行驶秒数",
+            "fastText": "大道：快",
+            "slowText": "小街：慢",
+            "routesNote": "从一角到对角、不走回头路的路线数",
+            "bigNote": "30 × 30 个街区的网格城市",
+            "checking": "逐条检查中……",
+            "nodesCue": "节点",
+            "edgesCue": "边",
+            "weightCue": "权重",
+            "cornerCue": "从一角",
+            "realCue": "真实",
+            "hopelessCue": "查不完"
+          }
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "cafe",
+      "title": "阿姆斯特丹，1956",
+      "narration": "1956年，在阿姆斯特丹。艾兹格·迪杰斯特拉坐下来喝咖啡。大约二十分钟后，他想出来了。没用纸，也没用笔。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-steps",
+          "props": {
+            "mode": "cafe",
+            "place": "阿姆斯特丹",
+            "from": "鹿特丹",
+            "to": "格罗宁根",
+            "question": "从{from}到{to}，最短的路怎么走？",
+            "minutes": "约 20 分钟",
+            "published": "1959 年发表 · Numerische Mathematik 1, 269–271",
+            "sitsCue": "坐下",
+            "coffeeCue": "咖啡",
+            "minutesCue": "二十分钟",
+            "pencilCue": "没用纸"
+          }
+        }
+      },
+      "hold": 0.2,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "steps",
+      "title": "最近的先走",
+      "narration": "他的诀窍是：起点记作零。其他点，先都记作无穷大。在还没去过的点里，挑最近的那个。再看看从它出发的每条路。发现更短的走法，就记下来。如此反复，永远先走最近的。去过的点，距离就定了。路只会添时间，绕路不可能更快。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-steps",
+          "props": {
+            "mode": "steps",
+            "queue": "优先队列",
+            "next": "← 下一个",
+            "unit": "路的权重以分钟计",
+            "final": "已确定",
+            "zeroCue": "零",
+            "infinityCue": "无穷",
+            "visitCue": "还没去过",
+            "roadsCue": "每条路",
+            "shorterCue": "更短",
+            "writeCue": "记下",
+            "repeatCue": "反复",
+            "finalCue": "定了",
+            "detourCue": "绕路"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "ripple",
+      "title": "Dijkstra 的水波",
+      "narration": "放到整座城市，它像水波一样扩散。一碰到家，就结束了。这就是最快的路线，保证没错。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "ripple",
+            "you": "你",
+            "home": "家",
+            "settled": "个路口已确定",
+            "queue": "优先队列",
+            "next": "← 下一个",
+            "proven": "最快 · {t}",
+            "homeCue": "碰到",
+            "provenCue": "保证"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "astar",
+      "title": "A* 有方向感",
+      "narration": "可这圈水波，大半都跑错了方向。1968年的A星算法，加上了方向感。它还会估计离家还剩多少时间。按直线距离、用最高车速来算。迪杰斯特拉算法查了280个路口。A星只查了83个，找到的是同一条路。只有一条规矩：估出来的时间，不能比实际长。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "astar",
+            "you": "你",
+            "home": "家",
+            "wrong": "方向不对",
+            "wrongCue": "跑错",
+            "guess": "估计：{t}",
+            "guessRule": "直线距离 ÷ 最高车速",
+            "checked": "查了 {n} 个",
+            "same": "同一路线 · {t}",
+            "less": "{x} 倍效率",
+            "rule": "估计 ≤ 实际用时  →  仍是最快路线",
+            "splitCue": "A星",
+            "guessCue": "估计",
+            "speedCue": "直线",
+            "sameCue": "同一条",
+            "ruleCue": "规矩"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "traffic",
+      "title": "堵车改了权重",
+      "narration": "这时，中央大道出了车祸。一个街区，现在要开两分多钟。再搜一次，你就绕过去了。这就是导航在悄悄帮你改道。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-city",
+          "props": {
+            "mode": "traffic",
+            "you": "你",
+            "home": "家",
+            "street": "中央大道",
+            "crash": "车祸",
+            "stay": "原路：{t}",
+            "reroute": "新路线：{t}",
+            "saves": "省 {t}",
+            "crashCue": "车祸",
+            "blockCue": "街区",
+            "againCue": "再搜",
+            "rerouteCue": "改道"
+          }
+        }
+      },
+      "hold": 0.47,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    },
+    {
+      "id": "scale",
+      "title": "放大到整个大陆",
+      "narration": "真实的地图，有几千万个路口。所以导航引擎会提前做好功课。预先算好捷径。这叫“收缩层次”。横跨欧洲的一条路线，不到一毫秒。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "scale",
+            "nodesNote": "西欧路网的路口数",
+            "shortcuts": "收缩层次（Contraction Hierarchies）",
+            "shortcutsNote": "预先算好的捷径 · Geisberger 等，2008",
+            "queryNote": "横跨西欧的一次查询",
+            "schematic": "捷径弧线为示意",
+            "millionsCue": "几千万",
+            "shortcutCue": "捷径",
+            "chCue": "收缩",
+            "queryCue": "欧洲",
+            "msCue": "毫秒"
+          }
+        }
+      },
+      "hold": 1.87,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "credit",
+      "title": "最近的先走",
+      "narration": "下次导航帮你改道，想想那圈水波。你刚才看到的每一帧，都是代码。每一次搜索，都真的跑过。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "route-scale",
+          "props": {
+            "mode": "credit",
+            "tagline": "最近的先走。始于 1956。",
+            "stats": "{nodes} 个路口 · {edges} 条路 · 种子 {seed}",
+            "runs": "Dijkstra 查了 {d} 个 · A* 查了 {a} 个 · 同一条 {t} 路线",
+            "codeCue": "代码",
+            "ranCue": "跑过"
+          }
+        }
+      },
+      "hold": 2.07,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

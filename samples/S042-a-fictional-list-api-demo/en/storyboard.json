@@ -1,0 +1,122 @@
+{
+  "contractVersion": 3,
+  "title": "A Fictional List API Demo",
+  "sourceTitle": "Original fictional sample text",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Data flow of the list API",
+      "narration": "This list API demo is entirely fictional. Request out, reply in, then the list updates. The arrows only show the flow of data.",
+      "sourceQuote": "This list API demo is entirely fictional. Request out, reply in, then the list updates. The arrows only show the flow of data.",
+      "hold": 1.1,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "relation-map",
+          "props": {
+            "heading": "From form to screen",
+            "mode": "sequence",
+            "nodes": [
+              {
+                "label": "Local form",
+                "glyph": "record"
+              },
+              {
+                "label": "Demo API",
+                "glyph": "network"
+              },
+              {
+                "label": "List view",
+                "glyph": "play"
+              }
+            ],
+            "halo": false
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "title": "Four steps",
+      "narration": "Enter a name and quantity, then send it. When the reply arrives, check status and ID. If both check out, add the item to the list.",
+      "sourceQuote": "Enter a name and quantity, then send it. When the reply arrives, check status and ID. If both check out, add the item to the list.",
+      "hold": 1.4,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "process-steps",
+          "props": {
+            "heading": "Update only after the reply",
+            "steps": [
+              "Fill fields",
+              "Send request",
+              "Check reply",
+              "Update view"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "title": "Request and reply",
+      "narration": "The sample request: paper lamp, quantity 2. The sample reply returns success and ID 7. The fields match up, and no network is used.",
+      "sourceQuote": "The sample request: paper lamp, quantity 2. The sample reply returns success and ID 7. The fields match up, and no network is used.",
+      "hold": 1.6,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "api-packets",
+          "props": {
+            "mode": "exchange",
+            "heading": "How the fields travel",
+            "request": {
+              "name": "Paper lamp",
+              "quantity": 2
+            },
+            "response": {
+              "status": "success",
+              "id": 7
+            },
+            "fieldsNote": "Fictional fields · local demo",
+            "requestLabel": "ADD REQUEST",
+            "responseLabel": "SAMPLE REPLY",
+            "requestKeys": [
+              "Name",
+              "Quantity"
+            ],
+            "responseKeys": [
+              "Status",
+              "ID"
+            ],
+            "networkNote": "No network accessed"
+          }
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "title": "Success and timeout",
+      "narration": "Timeouts stay pending, with a hint to retry. This demo explains the flow, not a live API.",
+      "sourceQuote": "Timeouts stay pending, with a hint to retry. This demo explains the flow, not a live API.",
+      "hold": 2,
+      "component": {
+        "id": "scene.code",
+        "version": 1,
+        "params": {
+          "module": "api-packets",
+          "props": {
+            "mode": "outcome",
+            "heading": "Update only on a result",
+            "success": "Success + ID: add to list",
+            "timeout": "Timeout: stays pending",
+            "outcomeNote": "Fictional flow · not a live API"
+          }
+        }
+      }
+    }
+  ]
+}

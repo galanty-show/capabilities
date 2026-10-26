@@ -1,0 +1,275 @@
+{
+  "contractVersion": 3,
+  "title": "长安的荔枝 · 两分钟讲完",
+  "sourceTitle": "马伯庸《长安的荔枝》故事导读",
+  "scenes": [
+    {
+      "id": "poem",
+      "title": "一骑红尘",
+      "narration": "一骑红尘妃子笑，无人知是荔枝来。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-poem",
+          "props": {}
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "title",
+      "title": "长安的荔枝",
+      "narration": "",
+      "duration": {
+        "mode": "fixed",
+        "seconds": 3.2
+      },
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-title",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "changan",
+      "title": "九品小吏",
+      "narration": "天宝十四年，长安城里，上林署小吏李善德，九品，老实，会算账，刚借钱买了房。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-changan",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "edict",
+      "title": "荔枝使",
+      "narration": "一纸任命砸到了他头上：荔枝使。贵妃寿辰之前，要把岭南的鲜荔枝，送进长安。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-edict",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "decay",
+      "title": "一日色变",
+      "narration": "可荔枝一离枝，一日色变，二日香变，三日味变。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-decay",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "distance",
+      "title": "五千余里",
+      "narration": "岭南到长安，五千余里，快马也要跑上十几天。三天对十几天，这不是差事，是一道死刑。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-map",
+          "props": {
+            "mode": "distance"
+          }
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.35
+      }
+    },
+    {
+      "id": "south",
+      "title": "南下岭南",
+      "narration": "他没认命，揣上算筹，连夜南下岭南。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-south",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "trials",
+      "title": "一次又一次",
+      "narration": "整筐快马送，三天就烂，加了冰，冰先化了。连枝砍下，封进陶瓮，泡进水里，一次，又一次。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-trials",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "plan",
+      "title": "拆开五千里",
+      "narration": "他把五千里拆开来算：水路接陆路，驿站接驿站，换马，换人，不换荔枝。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-map",
+          "props": {
+            "mode": "plan"
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "relay",
+      "title": "换马换人",
+      "narration": "烈日烤着驿道，暴雨冲垮山路，山雾吞掉方向，黑夜只剩火把。马跑死了就换马，人累倒了就换人。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-relay",
+          "props": {
+            "weathers": [
+              "sun",
+              "rain",
+              "fog",
+              "night"
+            ]
+          }
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "arrive",
+      "title": "妃子笑",
+      "narration": "荔枝进了长安城，剥开还是鲜的，贵妃一笑。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-arrive",
+          "props": {}
+        }
+      },
+      "hold": 0.5,
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "cost",
+      "title": "无人知",
+      "narration": "可这一笑值多少：跑死的马，累倒的驿卒，被砍掉的荔枝树，被耽误的农时。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-cost",
+          "props": {}
+        }
+      },
+      "hold": 0.4,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "truth",
+      "title": "说真话",
+      "narration": "李善德算清了每一笔账，也看清了这笔账是谁在付。他说了真话，没有升官，被贬去了岭南。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-truth",
+          "props": {}
+        }
+      },
+      "transition": {
+        "kind": "cut",
+        "duration": 0
+      }
+    },
+    {
+      "id": "war",
+      "title": "渔阳鼙鼓",
+      "narration": "这一年冬天，渔阳鼙鼓动地来。一颗荔枝跑过的五千里，照见了一个盛世的裂缝。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-war",
+          "props": {}
+        }
+      },
+      "hold": 0.8,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "credit",
+      "title": "改一个词换一场天气",
+      "narration": "这支短片，由文影制作：画面用代码实时生成，改一个词，就换一场天气。",
+      "component": {
+        "id": "scene.code",
+        "params": {
+          "module": "lc-credit",
+          "props": {
+            "weathers": [
+              "sun",
+              "rain",
+              "fog",
+              "night"
+            ]
+          }
+        }
+      },
+      "hold": 1.0,
+      "transition": {
+        "kind": "crossfade",
+        "duration": 0.4
+      }
+    }
+  ]
+}

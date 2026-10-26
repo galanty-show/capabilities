@@ -1,0 +1,179 @@
+{
+  "format": "galanty-git-source-mirror",
+  "formatVersion": 1,
+  "kind": "sample",
+  "no": "S031",
+  "title": "一分钟认识区块链钱包",
+  "titles": {
+    "zh": "一分钟认识区块链钱包",
+    "en": "Blockchain Wallets in One Minute"
+  },
+  "language": "zh",
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "ratio": "16:9",
+  "category": "科普讲解",
+  "templates": [],
+  "modules": [
+    "wallet-stage"
+  ],
+  "page": "https://galanty.cn/samples/#S031",
+  "version": {
+    "commit": "347580bcd7ddfd1042a0a199da6167dd36e059ca",
+    "contentDigest": "63f956cb0d2f45e5716ca82d662aec199ace9cba6eea4ad9f3e9d952e673cf2f",
+    "generator": "tools/site/sample-packs.mjs",
+    "index": "templates/samples/index.json"
+  },
+  "license": {
+    "code": "MIT",
+    "content": "原创",
+    "verified": true
+  },
+  "licenses": {
+    "sample-content": "样片内容许可：原创（文影已核实可公开发布）",
+    "MIT": "代码与说明文档：MIT（见 LICENSE）",
+    "CC0-1.0": "CC0 1.0 公有领域贡献",
+    "CC-BY-4.0": "CC BY 4.0，转发或改编需署名（见 CREDITS.md）"
+  },
+  "music": {
+    "id": "generated-calm-current-78",
+    "selection": "library:generated-calm-current-78",
+    "title": "Calm Current 78",
+    "author": "Galanty Generated Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Calm Current 78 — Galanty Generated Audio (CC0 1.0)",
+    "attributionRequired": false,
+    "sourceUrl": "talkframe://music-generator/ambient-v1?seed=120402",
+    "modifications": null,
+    "file": "music/generated-calm-current-78.mp3",
+    "bundled": true
+  },
+  "narration": [
+    {
+      "seedId": "S031",
+      "language": "zh",
+      "engine": "mlx-qwen",
+      "voice": "energetic_narrator",
+      "speechRate": 235,
+      "model": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "origin": "qwen3-tts",
+      "zh": "本机 Qwen3-TTS 预先生成（模型 mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit，Apache-2.0；音色 energetic_narrator）",
+      "en": "pregenerated locally with Qwen3-TTS (model mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit, Apache-2.0; voice energetic_narrator)",
+      "sentences": 18,
+      "durationSeconds": 56.315043,
+      "files": 19
+    },
+    {
+      "seedId": "S031-en",
+      "language": "en",
+      "engine": "custom-command",
+      "voice": "Kore",
+      "speechRate": 235,
+      "model": "custom-command",
+      "origin": "cloud",
+      "zh": "云端配音预先生成（custom-command (pregenerated cloud voice)；音色 Kore），播放不联网",
+      "en": "pregenerated with a cloud voice (custom-command (pregenerated cloud voice); voice Kore); playback stays offline",
+      "sentences": 18,
+      "durationSeconds": 47.995211,
+      "files": 19
+    }
+  ],
+  "excluded": [],
+  "files": [
+    {
+      "path": "HOW-TO-USE.md",
+      "bytes": 6490,
+      "sha256": "d3fac7430cb019450d48dbd9c1bc5a430485b405ce163849f58308123cf18fae",
+      "license": "MIT"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2619,
+      "sha256": "d80179b0bba2a98055f13b4b59278ea824d5c170fcf5049cc95914d8a47d2d60",
+      "license": "MIT"
+    },
+    {
+      "path": "storyboard.json",
+      "bytes": 4206,
+      "sha256": "bff3ea9536e0ac9b180a71a3fe08ae16711524bfe92ac4eb38fa057f868c087b",
+      "license": "sample-content"
+    },
+    {
+      "path": "settings.json",
+      "bytes": 448,
+      "sha256": "962b04d8123acd49c2af32ddece9ee4abd46a8d028e3ffa5d6483375988b0c8e",
+      "license": "sample-content"
+    },
+    {
+      "path": "source.md",
+      "bytes": 821,
+      "sha256": "2f10a29298a2c5e8484d71eed88569b26792ad118fb9d9bf767056b3500c1c29",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/storyboard.json",
+      "bytes": 6140,
+      "sha256": "fbef36432a3562a0b8976c83dcebd0d5133092da6e10280ba6df89b29b1a6a79",
+      "license": "sample-content"
+    },
+    {
+      "path": "en/settings.json",
+      "bytes": 785,
+      "sha256": "8679bec7b9ce91adc39cab4500829d0ad8850f008cea84e471cae7a3885d513b",
+      "license": "sample-content"
+    },
+    {
+      "path": "wallet-stage.tsx",
+      "bytes": 12108,
+      "sha256": "9586658d4f1464472e494c177b52b18f11eecce6921d98b07f87a54e2ccb265f",
+      "license": "MIT"
+    },
+    {
+      "path": "prompt.json",
+      "bytes": 8430,
+      "sha256": "38eeae23008744a6da61970407e00f3bb4483f35a0224e34f04dded21dc5c7bf",
+      "license": "sample-content"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "54657fb9acb012d2097e3ba15012a48293a76e0d76e7abdf2b6443b458557939",
+      "license": "MIT"
+    },
+    {
+      "path": "types/talkframe-scene.d.ts",
+      "bytes": 16029,
+      "sha256": "de3d2c8915d484000be3b8319ab7bf744c03524584f8e83b382a01dee1a94fee",
+      "license": "MIT"
+    },
+    {
+      "path": "sample.json",
+      "bytes": 1032,
+      "sha256": "38703813c47a3774aa32074665ca738a023d96622de32ddf7431b5ac0caa2355",
+      "license": "sample-content"
+    },
+    {
+      "path": "MAKING.md",
+      "bytes": 9557,
+      "sha256": "98a01ade98510f1b6ccd87e7f7048cd9b2f32e962c13069b82383473bacf33ba",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1968,
+      "sha256": "cc92a864ba196134187091e20e4a39388bde77794e13b9e0c1b8801224fcfd0f",
+      "license": "MIT"
+    }
+  ],
+  "release": {
+    "url": "https://github.com/galanty-show/capabilities/releases/download/samples-2026.10.21/S031.zip",
+    "bytes": 1259571,
+    "sha256": "c5046b1ea3f4e651a33df529c0d2b8198234647d1ce6006c711db951b82fbada",
+    "format": "galanty-source-pack",
+    "contentDigest": "63f956cb0d2f45e5716ca82d662aec199ace9cba6eea4ad9f3e9d952e673cf2f"
+  },
+  "inlineMedia": []
+}
